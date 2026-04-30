@@ -1,6 +1,6 @@
 {
   "date": "2026-04-29",
-  "generated_at": "2026-04-30T01:37:05.557Z",
+  "generated_at": "2026-04-30T02:45:23.501Z",
   "fetch_summary": {
     "companies_total": 91,
     "companies_ok": 91,
@@ -8,13 +8,14 @@
     "failures": []
   },
   "counts": {
-    "new": 0,
-    "ongoing": 292,
+    "new_today": 350,
+    "ongoing": 0,
+    "closed_today": 0,
     "closed": 0,
-    "excluded_new": 0,
+    "excluded_new": 35,
     "excluded_total": 35
   },
-  "kept": [
+  "postings": [
     {
       "id": "greenhouse:anthropic:5181852008",
       "company": "Anthropic",
@@ -54,7 +55,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:anthropic:4985920008",
@@ -85,7 +88,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:anthropic:5127559008",
@@ -116,7 +121,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:anthropic:5153773008",
@@ -152,7 +159,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:anthropic:5114845008",
@@ -184,7 +193,9 @@
       "realism_score": 0.5,
       "priority_score": 0.5,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:2f8a9267-6fdf-4067-b162-d219b844268c",
@@ -217,7 +228,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:11ef39d5-d230-414b-9f3e-a0624efa5b11",
@@ -249,7 +262,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:e72077d7-2aca-4752-a0f6-1ff9ffe13fdf",
@@ -281,7 +296,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:58a04a52-68d8-478c-a32f-7ce6125cb7c0",
@@ -312,7 +329,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:4a9ce666-e362-4f76-8089-8af255d48398",
@@ -344,7 +363,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:44bfed8b-dd34-40c9-a807-67637b9d4335",
@@ -377,7 +398,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:fc38c6bf-5330-435c-99b6-1bcf1f5829a8",
@@ -408,7 +431,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:d2bcf864-78b7-4117-bd7a-971970f0e5a8",
@@ -438,7 +463,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:454dfbeb-69f5-4ee2-9f8f-963359400ad9",
@@ -470,7 +497,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:0dc614c9-4eec-475f-b215-5480fe41317a",
@@ -502,7 +531,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:7ffa2a14-fa9c-46cb-a30a-1f7a35ae904a",
@@ -535,7 +566,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:fbc7ebaf-3a26-406d-9ff6-f166f3e246a2",
@@ -568,7 +601,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:fca0f787-f3c5-4528-bb20-803dba07501a",
@@ -601,7 +636,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:d23c6966-e702-4088-860b-0f529745e03c",
@@ -637,7 +674,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:openai:4bc87eda-1f99-41bf-a651-54bb39582530",
@@ -669,7 +708,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:reddit:7746311",
@@ -708,7 +749,9 @@
       "realism_score": 0.3,
       "priority_score": 1.5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:reddit:7735760",
@@ -744,7 +787,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:reddit:7746309",
@@ -779,7 +824,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:reddit:7803856",
@@ -815,7 +862,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:reddit:7868511",
@@ -848,7 +897,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7630636",
@@ -884,7 +935,9 @@
       "realism_score": 0.7,
       "priority_score": 2.0999999999999996,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:6482797",
@@ -917,7 +970,9 @@
       "realism_score": 0.7,
       "priority_score": 0.7,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7494948",
@@ -953,7 +1008,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7683967",
@@ -994,7 +1051,9 @@
       "realism_score": 0.3,
       "priority_score": 1.2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7818535",
@@ -1032,7 +1091,9 @@
       "realism_score": 0.3,
       "priority_score": 0.8999999999999999,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7572846",
@@ -1067,7 +1128,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:6972495",
@@ -1101,7 +1164,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7527881",
@@ -1135,7 +1200,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7572197",
@@ -1170,7 +1237,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7770916",
@@ -1205,7 +1274,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7684630",
@@ -1240,7 +1311,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7782542",
@@ -1282,7 +1355,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7368194",
@@ -1318,7 +1393,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7718015",
@@ -1352,7 +1429,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pinterest:7684618",
@@ -1387,7 +1466,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7597066",
@@ -1420,7 +1501,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7597064",
@@ -1453,7 +1536,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7744298",
@@ -1486,7 +1571,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7744296",
@@ -1519,7 +1606,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7769924",
@@ -1554,7 +1643,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7769926",
@@ -1589,7 +1680,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7838736",
@@ -1621,7 +1714,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:instacart:7838738",
@@ -1653,7 +1748,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:spotify:f38133ce-c2d7-4473-ab69-6bdcb1703297",
@@ -1685,7 +1782,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:spotify:a4a933ce-ab44-4a13-b8ca-8575c97ea40a",
@@ -1713,7 +1812,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:spotify:3fc02e30-de5b-44e7-9a32-6db0de9cc06d",
@@ -1744,7 +1845,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:spotify:01afc9d0-ca8d-494f-a0c9-e95dc7c9e555",
@@ -1776,7 +1879,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:airbnb:7724793",
@@ -1809,7 +1914,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:airbnb:7775427",
@@ -1845,7 +1952,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:airbnb:7827238",
@@ -1882,7 +1991,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:airbnb:7144534",
@@ -1918,7 +2029,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:airbnb:7651661",
@@ -1954,7 +2067,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:airbnb:6153760",
@@ -1989,7 +2104,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8492202002",
@@ -2028,7 +2145,9 @@
       "realism_score": 0.3,
       "priority_score": 1.5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8514395002",
@@ -2063,7 +2182,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8430067002",
@@ -2099,7 +2220,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8430532002",
@@ -2135,7 +2258,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8451643002",
@@ -2174,7 +2299,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7655023",
@@ -2206,7 +2333,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7561053",
@@ -2243,7 +2372,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7721834",
@@ -2276,7 +2407,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7561551",
@@ -2309,7 +2442,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7768979",
@@ -2343,7 +2478,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7392697",
@@ -2376,7 +2513,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7486955",
@@ -2410,7 +2549,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7651697",
@@ -2444,7 +2585,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7176530",
@@ -2476,7 +2619,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7580706",
@@ -2508,7 +2653,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:6651889",
@@ -2542,7 +2689,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7440429",
@@ -2576,7 +2725,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7397265",
@@ -2610,7 +2761,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:6683456",
@@ -2642,7 +2795,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7812856",
@@ -2674,7 +2829,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7819059",
@@ -2706,7 +2863,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7550590",
@@ -2738,7 +2897,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7809169",
@@ -2777,7 +2938,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7809093",
@@ -2816,7 +2979,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7809163",
@@ -2855,7 +3020,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7809165",
@@ -2894,7 +3061,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7743800",
@@ -2928,7 +3097,9 @@
       "realism_score": 0.7,
       "priority_score": 2.0999999999999996,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7677396",
@@ -2964,7 +3135,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7804012",
@@ -3000,91 +3173,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
-    },
-    {
-      "id": "greenhouse:roku:7689705",
-      "company": "Roku",
-      "tier": 2,
-      "ats": "greenhouse",
-      "title": "Senior Director, Product Management, Video Ad Platform",
-      "location_raw": "San Jose, California",
-      "locations": [
-        "San Jose, California"
-      ],
-      "metro": "other",
-      "mode": "fully_onsite",
-      "level": "senior_director",
-      "salary_min_base": 382600,
-      "salary_max_base": 536250,
-      "posted_date": "2026-03-06T19:18:08-05:00",
-      "apply_url": "https://www.weareroku.com/jobs/7689705?gh_jid=7689705",
-      "ads_score": 5,
-      "consumer_score": 1,
-      "ads_keywords": [
-        "programmatic",
-        "ad tech",
-        "publisher",
-        "advertiser",
-        "monetization",
-        "auction",
-        "bid",
-        "supply",
-        "demand",
-        "platform",
-        "marketplace"
-      ],
-      "consumer_keywords": [
-        "consumer"
-      ],
-      "base_fit": 5,
-      "fit_score": 5,
-      "realism_score": 0.3,
-      "priority_score": 1.5,
-      "recommended_resume": "ads",
-      "status": "ongoing"
-    },
-    {
-      "id": "greenhouse:roku:7689770",
-      "company": "Roku",
-      "tier": 2,
-      "ats": "greenhouse",
-      "title": "Senior Director, Product Management, Video Ad Platform",
-      "location_raw": "Santa Monica, California",
-      "locations": [
-        "Santa Monica, California"
-      ],
-      "metro": "la",
-      "mode": "fully_onsite",
-      "level": "senior_director",
-      "salary_min_base": 382600,
-      "salary_max_base": 536250,
-      "posted_date": "2026-03-06T19:18:57-05:00",
-      "apply_url": "https://www.weareroku.com/jobs/7689770?gh_jid=7689770",
-      "ads_score": 5,
-      "consumer_score": 1,
-      "ads_keywords": [
-        "programmatic",
-        "ad tech",
-        "publisher",
-        "advertiser",
-        "monetization",
-        "auction",
-        "bid",
-        "supply",
-        "demand",
-        "platform",
-        "marketplace"
-      ],
-      "consumer_keywords": [
-        "consumer"
-      ],
-      "base_fit": 5,
-      "fit_score": 5,
-      "realism_score": 0.3,
-      "priority_score": 1.5,
-      "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7689772",
@@ -3126,7 +3217,9 @@
       "realism_score": 0.3,
       "priority_score": 1.5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7689773",
@@ -3168,7 +3261,9 @@
       "realism_score": 0.3,
       "priority_score": 1.5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7689774",
@@ -3210,7 +3305,97 @@
       "realism_score": 0.3,
       "priority_score": 1.5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    {
+      "id": "greenhouse:roku:7689705",
+      "company": "Roku",
+      "tier": 2,
+      "ats": "greenhouse",
+      "title": "Senior Director, Product Management, Video Ad Platform",
+      "location_raw": "San Jose, California",
+      "locations": [
+        "San Jose, California"
+      ],
+      "metro": "other",
+      "mode": "fully_onsite",
+      "level": "senior_director",
+      "salary_min_base": 382600,
+      "salary_max_base": 536250,
+      "posted_date": "2026-03-06T19:18:08-05:00",
+      "apply_url": "https://www.weareroku.com/jobs/7689705?gh_jid=7689705",
+      "ads_score": 5,
+      "consumer_score": 1,
+      "ads_keywords": [
+        "programmatic",
+        "ad tech",
+        "publisher",
+        "advertiser",
+        "monetization",
+        "auction",
+        "bid",
+        "supply",
+        "demand",
+        "platform",
+        "marketplace"
+      ],
+      "consumer_keywords": [
+        "consumer"
+      ],
+      "base_fit": 5,
+      "fit_score": 5,
+      "realism_score": 0.3,
+      "priority_score": 1.5,
+      "recommended_resume": "ads",
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    {
+      "id": "greenhouse:roku:7689770",
+      "company": "Roku",
+      "tier": 2,
+      "ats": "greenhouse",
+      "title": "Senior Director, Product Management, Video Ad Platform",
+      "location_raw": "Santa Monica, California",
+      "locations": [
+        "Santa Monica, California"
+      ],
+      "metro": "la",
+      "mode": "fully_onsite",
+      "level": "senior_director",
+      "salary_min_base": 382600,
+      "salary_max_base": 536250,
+      "posted_date": "2026-03-06T19:18:57-05:00",
+      "apply_url": "https://www.weareroku.com/jobs/7689770?gh_jid=7689770",
+      "ads_score": 5,
+      "consumer_score": 1,
+      "ads_keywords": [
+        "programmatic",
+        "ad tech",
+        "publisher",
+        "advertiser",
+        "monetization",
+        "auction",
+        "bid",
+        "supply",
+        "demand",
+        "platform",
+        "marketplace"
+      ],
+      "consumer_keywords": [
+        "consumer"
+      ],
+      "base_fit": 5,
+      "fit_score": 5,
+      "realism_score": 0.3,
+      "priority_score": 1.5,
+      "recommended_resume": "ads",
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7687190",
@@ -3251,7 +3436,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7393070",
@@ -3289,7 +3476,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7773057",
@@ -3324,7 +3513,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7663977",
@@ -3365,7 +3556,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7298573",
@@ -3405,7 +3598,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7842976",
@@ -3440,7 +3635,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7843808",
@@ -3475,7 +3672,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:coinbase:7736964",
@@ -3514,7 +3713,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:coinbase:7762279",
@@ -3548,7 +3749,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:coinbase:7789404",
@@ -3583,7 +3786,9 @@
       "realism_score": 0.3,
       "priority_score": 0.8999999999999999,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:coinbase:7404427",
@@ -3619,7 +3824,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7536920",
@@ -3654,7 +3861,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7747728",
@@ -3685,7 +3894,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7707158",
@@ -3718,7 +3929,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7125765",
@@ -3751,7 +3964,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7587151",
@@ -3786,7 +4001,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7821803",
@@ -3821,7 +4038,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7812801",
@@ -3854,7 +4073,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:robinhood:7489427",
@@ -3885,7 +4106,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7622734003",
@@ -3921,7 +4144,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7601069003",
@@ -3955,7 +4180,9 @@
       "realism_score": 0.3,
       "priority_score": 0.8999999999999999,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7601071003",
@@ -3989,7 +4216,9 @@
       "realism_score": 0.3,
       "priority_score": 0.8999999999999999,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7518841003",
@@ -4022,7 +4251,9 @@
       "realism_score": 0.3,
       "priority_score": 0.6,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7518839003",
@@ -4055,7 +4286,9 @@
       "realism_score": 0.3,
       "priority_score": 0.6,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7620527003",
@@ -4088,7 +4321,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7620529003",
@@ -4121,7 +4356,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7605852003",
@@ -4153,7 +4390,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7605850003",
@@ -4185,7 +4424,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7666127003",
@@ -4218,7 +4459,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7615046003",
@@ -4251,7 +4494,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7615044003",
@@ -4284,7 +4529,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7684279003",
@@ -4317,7 +4564,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7684281003",
@@ -4350,7 +4599,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7565884",
@@ -4380,7 +4631,9 @@
       "realism_score": 0.7,
       "priority_score": 0.7,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7435334",
@@ -4408,7 +4661,9 @@
       "realism_score": 0.7,
       "priority_score": 0,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7851194",
@@ -4440,7 +4695,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7837829",
@@ -4473,7 +4730,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7619420",
@@ -4507,7 +4766,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7818178",
@@ -4539,7 +4800,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7821526",
@@ -4571,7 +4834,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7171180",
@@ -4604,7 +4869,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twilio:7593382",
@@ -4636,7 +4903,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:figma:5830640004",
@@ -4669,7 +4938,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:figma:5819866004",
@@ -4703,7 +4974,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:figma:5651744004",
@@ -4738,7 +5011,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:notion:35785e61-c4c3-44ec-a401-6741d89dd16a",
@@ -4770,7 +5045,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8530395002",
@@ -4802,7 +5079,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8400738002",
@@ -4836,7 +5115,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8377539002",
@@ -4866,7 +5147,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:7833425002",
@@ -4896,7 +5179,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8455943002",
@@ -4928,7 +5213,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8409034002",
@@ -4963,7 +5250,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8393330002",
@@ -4996,7 +5285,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8230258002",
@@ -5029,7 +5320,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8474673002",
@@ -5064,7 +5357,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8471742002",
@@ -5095,7 +5390,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:duolingo:8471736002",
@@ -5126,7 +5423,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:discord:8422556002",
@@ -5158,7 +5457,9 @@
       "realism_score": 0.7,
       "priority_score": 0.7,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7701911",
@@ -5192,7 +5493,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7758770",
@@ -5226,7 +5529,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7748281",
@@ -5259,7 +5564,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7839534",
@@ -5294,7 +5601,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7819841",
@@ -5327,7 +5636,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7809292",
@@ -5362,7 +5673,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7808950",
@@ -5398,7 +5711,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7697593",
@@ -5431,7 +5746,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7683598",
@@ -5466,7 +5783,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7816527",
@@ -5500,7 +5819,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7732683",
@@ -5534,7 +5855,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roblox:7379374",
@@ -5566,7 +5889,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:thetradedesk:5071040007",
@@ -5600,7 +5925,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:thetradedesk:5117931007",
@@ -5638,7 +5965,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:thetradedesk:4839695007",
@@ -5677,7 +6006,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:thetradedesk:4833571007",
@@ -5719,7 +6050,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:thetradedesk:5067851007",
@@ -5757,7 +6090,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:doubleverify:8499968002",
@@ -5791,7 +6126,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:doubleverify:8505033002",
@@ -5821,7 +6158,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:doubleverify:8418850002",
@@ -5857,7 +6196,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:5159565008",
@@ -5899,7 +6240,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:4757270008",
@@ -5937,7 +6280,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:4757303008",
@@ -5975,7 +6320,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:5148771008",
@@ -6017,7 +6364,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:5148544008",
@@ -6059,7 +6408,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:5148551008",
@@ -6101,7 +6452,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:pubmatic:4861161008",
@@ -6144,7 +6497,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:innovid:8470647002",
@@ -6180,7 +6535,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:nexxen:488cc3ab-be9f-4c3d-96d7-7fb49ad65acf",
@@ -6223,7 +6580,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:nexxen:e07b56a4-03a2-45a0-8d63-c5def02de3c7",
@@ -6263,7 +6622,9 @@
       "realism_score": 0.8,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:nexxen:a2785ba2-2ea1-4511-b758-0402abeef7e9",
@@ -6304,7 +6665,9 @@
       "realism_score": 0.8,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:nexxen:b0152907-2b4f-495a-9c04-abc53a68c16e",
@@ -6345,7 +6708,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zetaglobal:5586527004",
@@ -6382,7 +6747,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zetaglobal:5838023004",
@@ -6420,7 +6787,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zetaglobal:5972630004",
@@ -6454,7 +6823,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zetaglobal:5972919004",
@@ -6493,7 +6864,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zetaglobal:5642042004",
@@ -6527,7 +6900,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zetaglobal:5819830004",
@@ -6562,7 +6937,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:verve:8527433002",
@@ -6600,7 +6977,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:verve:8492386002",
@@ -6637,7 +7016,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8449763002",
@@ -6674,7 +7055,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8445507002",
@@ -6711,7 +7094,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8440985002",
@@ -6746,7 +7131,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8440979002",
@@ -6781,7 +7168,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8440982002",
@@ -6816,7 +7205,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8439712002",
@@ -6851,7 +7242,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8482269002",
@@ -6886,7 +7279,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8480047002",
@@ -6921,7 +7316,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8482268002",
@@ -6956,7 +7353,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8482270002",
@@ -6991,7 +7390,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:twitch:8327905002",
@@ -7028,7 +7429,9 @@
       "realism_score": 0.5,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stackadapt:4226701009",
@@ -7065,7 +7468,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stackadapt:4114355009",
@@ -7104,7 +7509,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:ispottv:4668510005",
@@ -7139,7 +7546,9 @@
       "realism_score": 0.5,
       "priority_score": 1.5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:tripadvisor:7597713",
@@ -7175,7 +7584,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:tripadvisor:7758337",
@@ -7211,7 +7622,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:nextdoor:7714434",
@@ -7248,7 +7661,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:raptive:04a92f8f-6ee6-4474-ad7d-1fad20aba012",
@@ -7283,7 +7698,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:043d6a58-87a1-4e3c-bf47-4dc351b94cf4",
@@ -7319,7 +7736,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:1dc97d9e-565e-4079-9fba-40fab14a3602",
@@ -7349,7 +7768,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:8a976851-9bef-4b07-8d36-567fa9540aef",
@@ -7379,7 +7800,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:b932d73f-49f3-4367-8fa7-a22f760e55a3",
@@ -7416,7 +7839,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:598e1f7d-b802-4de2-99ac-90eb2bc33315",
@@ -7448,7 +7873,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:aa511ea8-96e3-42ba-b28f-5e222170bcee",
@@ -7479,7 +7906,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:cdbf6ccb-2078-4499-b0a6-af8a04754eee",
@@ -7511,7 +7940,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:63abf041-c7ba-4bd6-840c-1a4ac7925dee",
@@ -7545,7 +7976,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:16bc54a6-83ab-4802-8a65-d88fbb7ebe03",
@@ -7577,7 +8010,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:8fe61c73-0daf-4432-a47d-44714c1ef764",
@@ -7610,7 +8045,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:3c656963-876a-458d-bca6-916a42a24c1a",
@@ -7645,7 +8082,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:8673866c-f624-4b58-b171-752cf003630e",
@@ -7679,7 +8118,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:e4777627-ff8f-4257-8612-3a016bb58592",
@@ -7707,7 +8148,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:9ac5e638-85f6-4308-bcd5-7dfe0a30a79b",
@@ -7738,7 +8181,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:6c9b3c71-85ba-47db-bce5-44fd9fa95d03",
@@ -7772,7 +8217,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:bc1a6878-8de9-48c2-a791-95b2f8f27261",
@@ -7804,7 +8251,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:c03bf199-9faa-48a4-809d-095c72b06000",
@@ -7837,7 +8286,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:2cef7831-6ed3-4663-aec4-57f79f08c95a",
@@ -7872,7 +8323,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:768efd34-3854-4c9b-9686-2a128ab35405",
@@ -7903,7 +8356,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:8c6b0350-e920-47a5-a575-b018a280bbb9",
@@ -7934,7 +8389,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:d680e788-14d3-43f6-8ce8-5df486ca32d0",
@@ -7965,7 +8422,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:fed8d2c4-9c82-43ad-a168-434146c759ff",
@@ -7996,7 +8455,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:2b5a9f9c-7cd5-4579-b7c2-69d09e0214c8",
@@ -8036,7 +8497,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:e48aaf8c-24cd-4733-aa5b-752773467bfa",
@@ -8066,7 +8529,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:0359ebb4-7cbd-4641-a6d1-1127823e2fd5",
@@ -8097,7 +8562,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:69fd6a56-0050-44f7-9ed2-2c3a7320908d",
@@ -8134,7 +8601,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:60deb376-51b5-46c6-9e17-55377a5ef34e",
@@ -8165,7 +8634,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:f25e190e-0508-4707-b575-fcaed358dc13",
@@ -8198,7 +8669,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:4c0ac8bb-55bf-4fb0-b7d7-36d69f55e6c8",
@@ -8232,7 +8705,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:d5cc437c-2397-4c1a-9d12-3a2bf64d98ea",
@@ -8268,7 +8743,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:24fe6a0b-6209-4ee0-b622-49c18636d99c",
@@ -8298,7 +8775,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:b9306620-a110-46b5-b4c4-7363e1d03a8d",
@@ -8329,7 +8808,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:2a989030-6d14-4924-88c1-d878911e26fa",
@@ -8360,7 +8841,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:110ba167-4efd-43b7-85d2-3ff719a28b0f",
@@ -8391,7 +8874,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:86b305e5-84fe-47ab-bc5c-b79a74a63194",
@@ -8424,7 +8909,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:a8122632-cc3b-4a1a-bd78-4b4b9466cb38",
@@ -8459,7 +8946,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:d9d2740b-8869-462d-85df-21c1941bc13d",
@@ -8500,7 +8989,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:fe2e2971-e2c0-43fd-9ab1-187571776a5d",
@@ -8535,7 +9026,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:2a7f1fad-05ff-4260-af36-556d1d694775",
@@ -8571,7 +9064,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:1d1b300d-254b-48c4-958f-99c6b907f295",
@@ -8608,7 +9103,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:cohere:5806a521-8584-4bbe-b60a-49031b919251",
@@ -8642,7 +9139,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:mistral:ca22a1ac-c87e-4463-914a-6753ca79318c",
@@ -8678,7 +9177,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4609736005",
@@ -8706,7 +9207,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4673051005",
@@ -8739,7 +9242,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4644742005",
@@ -8769,7 +9274,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4670064005",
@@ -8803,7 +9310,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4675842005",
@@ -8841,7 +9350,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4687591005",
@@ -8874,7 +9385,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4612403005",
@@ -8909,7 +9422,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scaleai:4683446005",
@@ -8939,7 +9454,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8200462002",
@@ -8971,7 +9488,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8200284002",
@@ -9003,7 +9522,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8136071002",
@@ -9034,7 +9555,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8136204002",
@@ -9065,7 +9588,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7680573002",
@@ -9099,7 +9624,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8235785002",
@@ -9133,7 +9660,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8326513002",
@@ -9166,7 +9695,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8326570002",
@@ -9199,7 +9730,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:6322654002",
@@ -9229,7 +9762,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7863522002",
@@ -9261,7 +9796,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7863365002",
@@ -9293,7 +9830,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7929994002",
@@ -9326,7 +9865,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7924423002",
@@ -9359,7 +9900,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8387085002",
@@ -9391,7 +9934,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8519396002",
@@ -9423,7 +9968,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8298108002",
@@ -9455,7 +10002,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8524422002",
@@ -9490,7 +10039,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8524420002",
@@ -9525,7 +10076,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8519350002",
@@ -9557,7 +10110,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8420609002",
@@ -9592,7 +10147,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8427940002",
@@ -9627,7 +10184,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8041821002",
@@ -9661,7 +10220,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8040989002",
@@ -9695,7 +10256,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7110509002",
@@ -9728,7 +10291,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7110499002",
@@ -9761,7 +10326,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8427954002",
@@ -9795,7 +10362,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:8420607002",
@@ -9829,7 +10398,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:databricks:7882009002",
@@ -9861,7 +10432,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:f8ebbc32-0de0-4893-8c41-277131cd9806",
@@ -9897,7 +10470,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:535ce4ac-9e1f-4068-97c3-eb43a92bfebf",
@@ -9930,7 +10505,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:d0102931-6ca7-4e53-ad5e-5f1e242b1e1d",
@@ -9967,7 +10544,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:04271939-420b-45d6-8234-6c13663138a3",
@@ -9999,7 +10578,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:3f8a210b-9003-489a-91c8-e3f0abeee1fc",
@@ -10031,7 +10612,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:0631cc64-5300-4294-8dc8-1a051b00565c",
@@ -10064,7 +10647,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:3861127d-444b-4352-a490-c1bd6aa74715",
@@ -10095,7 +10680,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:1a256781-b5b6-44e7-b138-253d16031605",
@@ -10129,7 +10716,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:30604dd0-8980-4e18-bc15-53e9ef14e50f",
@@ -10164,7 +10753,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:2c4b3726-7738-4f94-b81f-9a1dfb24143e",
@@ -10199,7 +10790,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:90d6434a-0753-4974-a651-e34908740568",
@@ -10229,7 +10822,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:4a5057a2-9cbd-4450-aa37-f230bdf89bfd",
@@ -10262,7 +10857,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:e1012c21-c4bc-4c98-9d03-0c8fe3c1727c",
@@ -10294,7 +10891,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:amplitude:8457963002",
@@ -10328,7 +10927,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:mixpanel:7779504",
@@ -10362,7 +10963,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:appsflyer:8458281002",
@@ -10397,7 +11000,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:braze:7821455",
@@ -10432,7 +11037,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:braze:7838105",
@@ -10467,7 +11074,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:braze:7838108",
@@ -10502,7 +11111,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:braze:7838111",
@@ -10537,7 +11148,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:iterable:7501109",
@@ -10572,7 +11185,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:iterable:7441013",
@@ -10613,7 +11228,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:iterable:7851532",
@@ -10655,7 +11272,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:customerio:7775708",
@@ -10688,7 +11307,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:hightouch:5970143004",
@@ -10724,7 +11345,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:hightouch:5834919004",
@@ -10762,7 +11385,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:offerup:7786623",
@@ -10796,7 +11421,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:8d2ae093-d978-458f-a625-34d9a220165d",
@@ -10833,7 +11460,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:8dffa3af-e347-4483-ae73-7769289b7358",
@@ -10868,7 +11497,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:b6f4c5ca-8682-43af-9556-409cb3e1f949",
@@ -10903,7 +11534,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:34379814-57e6-4e3c-8cb9-08b2c47a0630",
@@ -10939,7 +11572,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:12d7bd40-96f4-4441-ac2f-68db71bb49ba",
@@ -10978,7 +11613,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:785be295-393c-4157-b8d2-cc45100ae566",
@@ -11020,7 +11657,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:6c1b99c7-06d9-497e-9861-91a72bcd5f25",
@@ -11059,7 +11698,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:patreon:09394a78-d733-4ffc-97a8-dad353d01865",
@@ -11096,7 +11737,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:patreon:a70b39a6-9410-4b36-b841-ccb5ef842eb2",
@@ -11131,7 +11774,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zocdoc:7699428",
@@ -11171,7 +11816,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:zocdoc:7405773",
@@ -11206,7 +11853,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:hs:7834380",
@@ -11241,7 +11890,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:hs:7594957",
@@ -11283,7 +11934,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:runway:6dc52fd2-0ec0-4d93-9c67-23ebe95c2c4b",
@@ -11316,7 +11969,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:typeface:4987335007",
@@ -11352,7 +12007,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:gleanwork:4659407005",
@@ -11387,7 +12044,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:gleanwork:4651950005",
@@ -11422,7 +12081,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:gleanwork:4659409005",
@@ -11457,7 +12118,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:moveworks:8194533002",
@@ -11490,7 +12153,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5017121008",
@@ -11525,7 +12190,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5105376008",
@@ -11555,7 +12222,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:4982485008",
@@ -11589,7 +12258,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5123355008",
@@ -11624,7 +12295,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5116884008",
@@ -11659,7 +12332,9 @@
       "realism_score": 1,
       "priority_score": 4,
       "recommended_resume": "aipm",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5039429008",
@@ -11695,7 +12370,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:4981697008",
@@ -11730,7 +12407,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "ads",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5142186008",
@@ -11762,7 +12441,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5151654008",
@@ -11798,7 +12479,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:5200034008",
@@ -11836,7 +12519,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:scopely:4989284008",
@@ -11873,7 +12558,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:51501b58-5dd4-43e7-bd4b-aa310502d67e",
@@ -11909,7 +12596,9 @@
       "realism_score": 1,
       "priority_score": 5,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:de5a1789-e8c1-4f45-814a-6d1d110d5fb3",
@@ -11937,7 +12626,9 @@
       "realism_score": 0.9,
       "priority_score": 0,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:66a3e6a9-4e76-4b94-a375-34e0c52efa8c",
@@ -11968,7 +12659,9 @@
       "realism_score": 1,
       "priority_score": 2,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:c79d226f-eb60-438c-9d45-b251dbc9d232",
@@ -12002,7 +12695,9 @@
       "realism_score": 1,
       "priority_score": 3,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:72dff6bd-cdc1-4937-b547-827005e3d8df",
@@ -12030,7 +12725,9 @@
       "realism_score": 1,
       "priority_score": 0,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:janestreet:7090529002",
@@ -12060,7 +12757,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:janestreet:8388726002",
@@ -12090,7 +12789,9 @@
       "realism_score": 1,
       "priority_score": 1,
       "recommended_resume": "general",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     }
   ],
   "excluded": [
@@ -12125,7 +12826,9 @@
       "priority_score": 0.8999999999999999,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $220k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8490440002",
@@ -12165,7 +12868,9 @@
       "priority_score": 1.5,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $260k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8513755002",
@@ -12202,7 +12907,9 @@
       "priority_score": 0.8999999999999999,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $220k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8525086002",
@@ -12238,7 +12945,9 @@
       "priority_score": 3,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $160k below NYC floor of $180k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8514382002",
@@ -12275,7 +12984,9 @@
       "priority_score": 3,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $160k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8514397002",
@@ -12310,7 +13021,9 @@
       "priority_score": 2,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $185k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:lyft:8461144002",
@@ -12344,7 +13057,9 @@
       "priority_score": 2,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $220k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:stripe:7812346",
@@ -12378,7 +13093,9 @@
       "priority_score": 2,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $220k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7809151",
@@ -12418,7 +13135,9 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $200k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7803818",
@@ -12455,7 +13174,9 @@
       "priority_score": 4,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $170k below NYC floor of $180k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:roku:7719579",
@@ -12492,7 +13213,9 @@
       "priority_score": 3,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $217k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:affirm:7622736003",
@@ -12529,7 +13252,9 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $175k below REMOTE floor of $180k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:notion:8b82e596-e828-45db-94d5-b76acc89e749",
@@ -12561,7 +13286,9 @@
       "priority_score": 1,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $190k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:discord:8490274002",
@@ -12599,7 +13326,9 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $221k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:discord:8502993002",
@@ -12635,7 +13364,9 @@
       "priority_score": 4,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $279k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:videoamp:8465234002",
@@ -12670,7 +13401,9 @@
       "priority_score": 3,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $170k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:perplexity:9904db61-b8ca-4207-8f93-88ab6f0cd3fd",
@@ -12701,7 +13434,9 @@
       "priority_score": 1,
       "recommended_resume": "aipm",
       "exclusion_reason": "Max base $270k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:e39a441a-07e4-4ea3-a687-b483007deb94",
@@ -12735,7 +13470,9 @@
       "priority_score": 1,
       "recommended_resume": "aipm",
       "exclusion_reason": "Max base $230k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:8426afd8-9764-4ca1-8579-5f8fca5a8e2f",
@@ -12768,7 +13505,9 @@
       "priority_score": 2,
       "recommended_resume": "aipm",
       "exclusion_reason": "Max base $230k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:snowflake:1e66256e-aa85-4eba-9312-fbcccffc1f52",
@@ -12803,7 +13542,9 @@
       "priority_score": 2,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $265k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:5d9528c0-a3e0-4dda-8ea4-0eec3c758f50",
@@ -12842,7 +13583,9 @@
       "priority_score": 3,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $275k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "ashby:whatnot:e31bb298-c6a7-4f35-a4ef-962708a49792",
@@ -12882,7 +13625,9 @@
       "priority_score": 3,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $275k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:typeface:5103496007",
@@ -12916,7 +13661,9 @@
       "priority_score": 2,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $210k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:typeface:4685808007",
@@ -12951,7 +13698,9 @@
       "priority_score": 3,
       "recommended_resume": "ads",
       "exclusion_reason": "Max base $209k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:typeface:5103549007",
@@ -12985,7 +13734,9 @@
       "priority_score": 2,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $245k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:typeface:5070187007",
@@ -13018,7 +13769,9 @@
       "priority_score": 1,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $245k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:typeface:5103539007",
@@ -13049,7 +13802,9 @@
       "priority_score": 1,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $230k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:gleanwork:4007711005",
@@ -13084,7 +13839,9 @@
       "priority_score": 3,
       "recommended_resume": "aipm",
       "exclusion_reason": "Max base $240k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:gleanwork:4525297005",
@@ -13119,7 +13876,9 @@
       "priority_score": 3,
       "recommended_resume": "aipm",
       "exclusion_reason": "Max base $240k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "greenhouse:gleanwork:4525518005",
@@ -13154,7 +13913,9 @@
       "priority_score": 3,
       "recommended_resume": "aipm",
       "exclusion_reason": "Max base $240k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:9c1fe259-d11c-4a36-95fe-755afe37d931",
@@ -13185,7 +13946,9 @@
       "priority_score": 1,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $225k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:ba759685-3ef7-4fc8-8b93-b1c177b19abd",
@@ -13222,7 +13985,9 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $160k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:b8fb46ba-0a2f-4284-be5c-e20f1b6b2f51",
@@ -13259,7 +14024,9 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $190k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:fec246a0-6774-47fa-8016-ac998a45b9c1",
@@ -13291,7 +14058,9 @@
       "priority_score": 2,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $200k below LA floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     },
     {
       "id": "lever:matchgroup:2c04c0a7-6fd4-412a-95f0-a65a3422c1b6",
@@ -13325,8 +14094,9 @@
       "priority_score": 2,
       "recommended_resume": "general",
       "exclusion_reason": "Max base $240k below SF floor of $280k",
-      "status": "ongoing"
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
     }
-  ],
-  "closed_today": []
+  ]
 }

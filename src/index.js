@@ -95,16 +95,24 @@ async function main() {
   const { kept, excluded, dropped } = scoreAll(parsed, config);
   log(`scored — kept=${kept.length} excluded=${excluded.length} dropped: pm_gate=${dropped.pm_gate} location=${dropped.location} exclude_title=${dropped.exclude_title}`);
 
-  // 4. Diff (operates on individual postings — state.json + snapshot store
-  // raw IDs for fidelity; dedupe happens later for display only).
+  // 4. Diff (Phase 1.4: postings carry first_seen_date; status reflects current
+  // state across runs — "active" / "closed_today" / "closed").
   const d = diff({ kept, excluded }, STATE_PATH, DATA_DIR, date);
-  const dedKept     = dedupePostings(d.kept);
-  const dedExcluded = dedupePostings(d.excluded);
-  const dedClosed   = dedupePostings(d.closed_today);
-  const newKept       = dedKept.filter(p => p.status === 'new');
-  const ongoingKept   = dedKept.filter(p => p.status === 'ongoing');
-  const newExcluded   = dedExcluded.filter(p => p.status === 'new');
-  log(`diff — new=${newKept.length} ongoing=${ongoingKept.length} closed=${dedClosed.length} (prev=${d.prev_count}, today=${d.today_count}; raw kept=${d.kept.length}, deduped=${dedKept.length})`);
+
+  // Today's "new" = first_seen_date == today AND currently active.
+  const newKeptRaw         = d.kept.filter(p => p.status === 'active' && p.first_seen_date === date);
+  const ongoingKeptRaw     = d.kept.filter(p => p.status === 'active' && p.first_seen_date !== date);
+  const closedTodayKeptRaw = d.kept.filter(p => p.status === 'closed_today');
+  const closedKeptRaw      = d.kept.filter(p => p.status === 'closed');
+  const newExcludedRaw     = d.excluded.filter(p => p.status === 'active' && p.first_seen_date === date);
+
+  const newKept         = dedupePostings(newKeptRaw);
+  const ongoingKept     = dedupePostings(ongoingKeptRaw);
+  const closedTodayKept = dedupePostings(closedTodayKeptRaw);
+  const closedKept      = dedupePostings(closedKeptRaw);
+  const newExcluded     = dedupePostings(newExcludedRaw);
+
+  log(`diff — new=${newKept.length} ongoing=${ongoingKept.length} closed_today=${closedTodayKept.length} closed=${closedKept.length} (prev=${d.prev_count} → today=${d.today_total_count}; new_raw=${newKeptRaw.length})`);
 
   // 5. Write snapshot + state. Drop the full job description from persisted
   // artifacts — descriptions are needed during scoring but bloat the daily
@@ -125,20 +133,20 @@ async function main() {
       failures: failures.map(f => ({ company: f.company.name, error: f.error })),
     },
     counts: {
-      new: newKept.length,
-      ongoing: ongoingKept.length,
-      closed: d.closed_today.length,
-      excluded_new: newExcluded.length,
-      excluded_total: d.excluded.length,
+      new_today:        newKeptRaw.length,
+      ongoing:          ongoingKeptRaw.length,
+      closed_today:     closedTodayKeptRaw.length,
+      closed:           closedKeptRaw.length,
+      excluded_new:     newExcludedRaw.length,
+      excluded_total:   d.excluded.length,
     },
-    kept: d.kept.map(stripDescription),
+    postings: d.kept.map(stripDescription),
     excluded: d.excluded.map(stripDescription),
-    closed_today: d.closed_today.map(stripDescription),
   };
 
   if (!args.dryRunEmail) {
     writeSnapshot(DATA_DIR, date, snapshot);
-    writeState(STATE_PATH, date, d.today_ids);
+    writeState(STATE_PATH, date, d.state_map);
     log(`wrote data/${date}.json and data/state.json`);
     const feed = buildFeed(DATA_DIR, config.feed_retention_days || 30);
     writeFeed(PUBLIC_DIR, feed);
@@ -163,6 +171,8 @@ async function main() {
         salary_min_base: p.salary_min_base,
         salary_max_base: p.salary_max_base,
         recommended_resume: p.recommended_resume,
+        first_seen_date: p.first_seen_date,
+        status: p.status,
       })),
       top50: sortedNew.slice(0, 50).map(p => ({
         priority_score: p.priority_score,
@@ -188,20 +198,24 @@ async function main() {
     log('dry-run: wrote public/dry-run-report.json (verification dump)');
   }
 
-  // 7. Email (rendered against deduped views).
+  // 7. Email (rendered against deduped views — daily-signal semantics).
+  //    "new" = today's first_seen_date AND status=active.
+  //    closed_today section = postings whose status flipped today regardless
+  //    of first_seen_date.
+  //    excluded footer = excluded postings first seen today (active).
   const subject = buildSubject(newKept);
   const html = buildHtml({
     date,
     newKept: newKept.map(stripDescription),
-    closedToday: dedClosed.map(stripDescription),
-    excluded: dedExcluded.map(stripDescription),
+    closedToday: closedTodayKept.map(stripDescription),
+    excluded: newExcluded.map(stripDescription),
     feedUrl: config.feed_page_url,
     maxRolesInBody: config.email_max_roles_in_body,
   });
 
   // Preflight: surface the new-count and subject on stdout BEFORE sending
   // so the caller can verify it isn't a degenerate "0 new roles" send.
-  process.stdout.write(`preflight: new=${newKept.length} ongoing=${ongoingKept.length} closed=${d.closed_today.length} excluded_new=${newExcluded.length}\npreflight subject: ${subject}\n`);
+  process.stdout.write(`preflight: new=${newKept.length} ongoing=${ongoingKept.length} closed_today=${closedTodayKept.length} excluded_new=${newExcluded.length}\npreflight subject: ${subject}\n`);
   try {
     const result = await sendOrPreview({
       html, subject,
@@ -228,7 +242,8 @@ async function main() {
     date,
     new: newKept.length,
     ongoing: ongoingKept.length,
-    closed: d.closed_today.length,
+    closed_today: closedTodayKept.length,
+    closed: closedKept.length,
     excluded_new: newExcluded.length,
     fetch_failures: failures.length,
     subject,
