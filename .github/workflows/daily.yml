@@ -1,0 +1,45 @@
+name: daily-feed
+
+# 23:00 UTC = 7 PM EDT in summer / 6 PM EST in winter (DST drift acknowledged
+# in Phase 1 spec — acceptable for v1). workflow_dispatch stays enabled so
+# manual runs are still possible alongside the schedule.
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Run daily feed
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM:    ${{ secrets.RESEND_FROM }}
+          RESEND_TO:      ${{ secrets.RESEND_TO }}
+        run: node src/index.js
+
+      - name: Commit feed + snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ public/feed.json
+          if git diff --cached --quiet; then
+            echo "no changes to commit"
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "feed: ${DATE}"
+            git push
+          fi

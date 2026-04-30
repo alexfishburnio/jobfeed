@@ -1,0 +1,548 @@
+[
+  {
+    "name": "Anthropic",
+    "tier": 1,
+    "ats": "greenhouse",
+    "slug": "anthropic"
+  },
+  {
+    "name": "OpenAI",
+    "tier": 1,
+    "ats": "ashby",
+    "slug": "openai"
+  },
+  {
+    "name": "Reddit",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "reddit"
+  },
+  {
+    "name": "Pinterest",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "pinterest"
+  },
+  {
+    "name": "Instacart",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "instacart"
+  },
+  {
+    "name": "Spotify",
+    "tier": 2,
+    "ats": "lever",
+    "slug": "spotify"
+  },
+  {
+    "name": "Airbnb",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "airbnb"
+  },
+  {
+    "name": "Lyft",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "lyft"
+  },
+  {
+    "name": "Stripe",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "stripe"
+  },
+  {
+    "name": "Roku",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "roku"
+  },
+  {
+    "name": "Netflix",
+    "tier": 2,
+    "ats": "lever",
+    "slug": "netflix"
+  },
+  {
+    "name": "LinkedIn",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "linkedin"
+  },
+  {
+    "name": "Coinbase",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "coinbase"
+  },
+  {
+    "name": "Robinhood",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "robinhood"
+  },
+  {
+    "name": "Affirm",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "affirm"
+  },
+  {
+    "name": "Twilio",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "twilio"
+  },
+  {
+    "name": "HubSpot",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "hubspot"
+  },
+  {
+    "name": "Atlassian",
+    "tier": 2,
+    "ats": "lever",
+    "slug": "atlassian"
+  },
+  {
+    "name": "Figma",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "figma"
+  },
+  {
+    "name": "Notion",
+    "tier": 2,
+    "ats": "ashby",
+    "slug": "notion"
+  },
+  {
+    "name": "Duolingo",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "duolingo"
+  },
+  {
+    "name": "Discord",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "discord"
+  },
+  {
+    "name": "Roblox",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "roblox"
+  },
+  {
+    "name": "Epic Games",
+    "tier": 2,
+    "ats": "greenhouse",
+    "slug": "epicgames"
+  },
+  {
+    "name": "The Trade Desk",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "thetradedesk"
+  },
+  {
+    "name": "DoubleVerify",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "doubleverify"
+  },
+  {
+    "name": "PubMatic",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "pubmatic"
+  },
+  {
+    "name": "Taboola",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "taboola"
+  },
+  {
+    "name": "Innovid",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "innovid"
+  },
+  {
+    "name": "Nexxen",
+    "tier": 2.5,
+    "ats": "ashby",
+    "slug": "nexxen"
+  },
+  {
+    "name": "Zeta Global",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "zetaglobal"
+  },
+  {
+    "name": "Kargo",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "kargo"
+  },
+  {
+    "name": "GumGum",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "gumgum"
+  },
+  {
+    "name": "Yieldmo",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "yieldmo"
+  },
+  {
+    "name": "Verve",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "verve"
+  },
+  {
+    "name": "LG Ads",
+    "tier": 2.5,
+    "ats": "ashby",
+    "slug": "lgads"
+  },
+  {
+    "name": "Twitch",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "twitch"
+  },
+  {
+    "name": "StackAdapt",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "stackadapt"
+  },
+  {
+    "name": "iSpot.tv",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "ispottv"
+  },
+  {
+    "name": "VideoAmp",
+    "tier": 2.5,
+    "ats": "greenhouse",
+    "slug": "videoamp"
+  },
+  {
+    "name": "Tripadvisor",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "tripadvisor"
+  },
+  {
+    "name": "Nextdoor",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "nextdoor"
+  },
+  {
+    "name": "Raptive",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "raptive"
+  },
+  {
+    "name": "Foursquare",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "foursquare"
+  },
+  {
+    "name": "Nielsen",
+    "tier": 3,
+    "ats": "lever",
+    "slug": "nielsen"
+  },
+  {
+    "name": "Perplexity",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "perplexity"
+  },
+  {
+    "name": "Cohere",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "cohere"
+  },
+  {
+    "name": "Mistral",
+    "tier": 3,
+    "ats": "lever",
+    "slug": "mistral"
+  },
+  {
+    "name": "Scale AI",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "scaleai"
+  },
+  {
+    "name": "Databricks",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "databricks"
+  },
+  {
+    "name": "Snowflake",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "snowflake"
+  },
+  {
+    "name": "Amplitude",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "amplitude"
+  },
+  {
+    "name": "Mixpanel",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "mixpanel"
+  },
+  {
+    "name": "Branch",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "branch"
+  },
+  {
+    "name": "AppsFlyer",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "appsflyer"
+  },
+  {
+    "name": "Braze",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "braze"
+  },
+  {
+    "name": "Iterable",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "iterable"
+  },
+  {
+    "name": "Customer.io",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "customerio"
+  },
+  {
+    "name": "Hightouch",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "hightouch"
+  },
+  {
+    "name": "AppLovin",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "applovin"
+  },
+  {
+    "name": "Poshmark",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "poshmark"
+  },
+  {
+    "name": "Mercari",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "mercari"
+  },
+  {
+    "name": "OfferUp",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "offerup"
+  },
+  {
+    "name": "StockX",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "stockx"
+  },
+  {
+    "name": "Whatnot",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "whatnot"
+  },
+  {
+    "name": "Substack",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "substack"
+  },
+  {
+    "name": "Medium",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "medium"
+  },
+  {
+    "name": "Patreon",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "patreon"
+  },
+  {
+    "name": "Doximity",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "doximity"
+  },
+  {
+    "name": "Zocdoc",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "zocdoc"
+  },
+  {
+    "name": "Calm",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "calm"
+  },
+  {
+    "name": "Headspace",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "hs"
+  },
+  {
+    "name": "Capsule",
+    "tier": 3,
+    "ats": "ashby",
+    "slug": "capsule"
+  },
+  {
+    "name": "Collective Health",
+    "tier": 3,
+    "ats": "greenhouse",
+    "slug": "collectivehealth"
+  },
+  {
+    "name": "Screenverse",
+    "tier": 4,
+    "ats": "ashby",
+    "slug": "screenverse"
+  },
+  {
+    "name": "Place Exchange",
+    "tier": 4,
+    "ats": "ashby",
+    "slug": "place-exchange"
+  },
+  {
+    "name": "Hivestack",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "hivestack"
+  },
+  {
+    "name": "Broadsign",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "broadsign"
+  },
+  {
+    "name": "Runway",
+    "tier": 4,
+    "ats": "ashby",
+    "slug": "runway"
+  },
+  {
+    "name": "ElevenLabs",
+    "tier": 4,
+    "ats": "ashby",
+    "slug": "elevenlabs"
+  },
+  {
+    "name": "Contextual AI",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "contextualai"
+  },
+  {
+    "name": "Writer",
+    "tier": 4,
+    "ats": "ashby",
+    "slug": "writer"
+  },
+  {
+    "name": "Typeface",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "typeface"
+  },
+  {
+    "name": "Glean",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "gleanwork"
+  },
+  {
+    "name": "Moveworks",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "moveworks"
+  },
+  {
+    "name": "Forethought",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "forethought"
+  },
+  {
+    "name": "Kabam",
+    "tier": 4,
+    "ats": "lever",
+    "slug": "kabam"
+  },
+  {
+    "name": "Scopely",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "scopely"
+  },
+  {
+    "name": "Bumble",
+    "tier": 4,
+    "ats": "ashby",
+    "slug": "bumble"
+  },
+  {
+    "name": "Match Group",
+    "tier": 4,
+    "ats": "lever",
+    "slug": "matchgroup"
+  },
+  {
+    "name": "Jane Street",
+    "tier": 4,
+    "ats": "greenhouse",
+    "slug": "janestreet"
+  }
+]

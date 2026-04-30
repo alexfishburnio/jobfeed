@@ -1,0 +1,19 @@
+{
+  "name": "jobfeed",
+  "version": "0.1.0",
+  "description": "Phase 0 audit: probe target companies across Greenhouse / Lever / Ashby ATS APIs.",
+  "main": "audit.js",
+  "type": "commonjs",
+  "scripts": {
+    "audit": "node audit.js",
+    "daily": "node --env-file=.env src/index.js",
+    "test-email": "node --env-file=.env src/index.js --dry-run-email"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "resend": "^6.12.2"
+  }
+}

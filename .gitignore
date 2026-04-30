@@ -1,0 +1,11 @@
+.env
+node_modules/
+audit.log
+.DS_Store
+.claude/
+samples/
+daily.*.log
+public/email-preview.html
+public/dry-run-report.json
+
+daily.*.err

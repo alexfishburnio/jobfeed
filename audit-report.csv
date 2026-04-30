@@ -1,0 +1,192 @@
+﻿name,tier,ats_detected,slug_used,job_count,status,notes
+Google,1,unknown,,,❌ no ATS found,tried 1 variant(s): google
+Meta,1,unknown,,,❌ no ATS found,tried 1 variant(s): meta
+Amazon,1,unknown,,,❌ no ATS found,tried 1 variant(s): amazon
+Apple,1,unknown,,,❌ no ATS found,tried 1 variant(s): apple
+Microsoft,1,unknown,,,❌ no ATS found,tried 1 variant(s): microsoft
+Anthropic,1,greenhouse,anthropic,443,✅ active,
+OpenAI,1,ashby,openai,671,✅ active,
+Nvidia,1,unknown,,,❌ no ATS found,tried 1 variant(s): nvidia
+Uber,2,unknown,,,❌ no ATS found,tried 1 variant(s): uber
+Reddit,2,greenhouse,reddit,140,✅ active,
+Pinterest,2,greenhouse,pinterest,169,✅ active,
+Instacart,2,greenhouse,instacart,129,✅ active,
+Spotify,2,lever,spotify,190,✅ active,
+Snap,2,unknown,,,❌ no ATS found,tried 1 variant(s): snap
+DoorDash,2,unknown,,,❌ no ATS found,tried 1 variant(s): doordash
+Airbnb,2,greenhouse,airbnb,230,✅ active,
+Lyft,2,greenhouse,lyft,140,✅ active,
+Stripe,2,greenhouse,stripe,489,✅ active,
+Roku,2,greenhouse,roku,273,✅ active,
+Netflix,2,lever,netflix,0,⚠️ empty,
+LinkedIn,2,greenhouse,linkedin,53,✅ active,
+Salesforce,2,unknown,,,❌ no ATS found,tried 1 variant(s): salesforce
+Adobe,2,unknown,,,❌ no ATS found,tried 1 variant(s): adobe
+Coinbase,2,greenhouse,coinbase,110,✅ active,
+Robinhood,2,greenhouse,robinhood,144,✅ active,
+Affirm,2,greenhouse,affirm,165,✅ active,
+Shopify,2,unknown,,,❌ no ATS found,tried 1 variant(s): shopify
+Twilio,2,greenhouse,twilio,147,✅ active,
+HubSpot,2,greenhouse,hubspot,0,⚠️ empty,
+Atlassian,2,lever,atlassian,0,⚠️ empty,
+Figma,2,greenhouse,figma,157,✅ active,
+Notion,2,ashby,notion,142,✅ active,
+Canva,2,unknown,,,❌ no ATS found,tried 1 variant(s): canva
+Duolingo,2,greenhouse,duolingo,86,✅ active,
+Discord,2,greenhouse,discord,81,✅ active,
+Roblox,2,greenhouse,roblox,297,✅ active,
+Unity,2,unknown,,,❌ no ATS found,tried 1 variant(s): unity
+Epic Games,2,greenhouse,epicgames,80,✅ active,
+Walmart Connect,2,unknown,,,❌ no ATS found,"tried 3 variant(s): walmart, walmartconnect, walmart-connect"
+Target Roundel,2,unknown,,,❌ no ATS found,"tried 3 variant(s): target, targetroundel, target-roundel"
+Kroger Precision Marketing,2,unknown,,,❌ no ATS found,"tried 3 variant(s): kroger, krogerprecisionmarketing, kroger-precision-marketing"
+Albertsons Media Collective,2,unknown,,,❌ no ATS found,"tried 2 variant(s): albertsonsmediacollective, albertsons-media-collective"
+Best Buy Ads,2,unknown,,,❌ no ATS found,"tried 3 variant(s): bestbuy, bestbuyads, best-buy-ads"
+Wayfair,2,unknown,,,❌ no ATS found,tried 1 variant(s): wayfair
+Chase Media Solutions,2,unknown,,,❌ no ATS found,"tried 2 variant(s): chasemediasolutions, chase-media-solutions"
+The Trade Desk,2.5,greenhouse,thetradedesk,181,✅ active,
+LiveRamp,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): liveramp
+DoubleVerify,2.5,greenhouse,doubleverify,61,✅ active,
+Integral Ad Science,2.5,unknown,,,❌ no ATS found,"tried 2 variant(s): integraladscience, integral-ad-science"
+PubMatic,2.5,greenhouse,pubmatic,61,✅ active,
+Magnite,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): magnite
+Criteo,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): criteo
+Taboola,2.5,greenhouse,taboola,68,✅ active,
+Outbrain,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): outbrain
+Viant,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): viant
+Innovid,2.5,greenhouse,innovid,18,✅ active,
+Digital Turbine,2.5,unknown,,,❌ no ATS found,"tried 2 variant(s): digitalturbine, digital-turbine"
+Nexxen,2.5,ashby,nexxen,65,✅ active,
+Zeta Global,2.5,greenhouse,zetaglobal,157,✅ active,
+Kargo,2.5,greenhouse,kargo,11,✅ active,
+Sharethrough,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): sharethrough
+GumGum,2.5,greenhouse,gumgum,30,✅ active,
+Yieldmo,2.5,greenhouse,yieldmo,1,✅ active,
+Verve,2.5,greenhouse,verve,45,✅ active,
+Index Exchange,2.5,unknown,,,❌ no ATS found,"tried 2 variant(s): indexexchange, index-exchange"
+Perion,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): perion
+Disney Advertising,2.5,unknown,,,❌ no ATS found,"tried 2 variant(s): disneyadvertising, disney-advertising"
+NBCUniversal,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): nbcuniversal
+Warner Bros Discovery,2.5,unknown,,,❌ no ATS found,"tried 2 variant(s): warnerbrosdiscovery, warner-bros-discovery"
+Paramount,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): paramount
+Samsung Ads,2.5,unknown,,,❌ no ATS found,"tried 2 variant(s): samsungads, samsung-ads"
+Vizio,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): vizio
+LG Ads,2.5,ashby,lgads,17,✅ active,
+Twitch,2.5,greenhouse,twitch,66,✅ active,
+FreeWheel,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): freewheel
+ByteDance,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): bytedance
+Yahoo,2.5,unknown,,,❌ no ATS found,tried 1 variant(s): yahoo
+StackAdapt,2.5,greenhouse,stackadapt,119,✅ active,
+iSpot.tv,2.5,greenhouse,ispottv,19,✅ active,
+VideoAmp,2.5,greenhouse,videoamp,8,✅ active,
+Yelp,3,unknown,,,❌ no ATS found,tried 1 variant(s): yelp
+Tripadvisor,3,greenhouse,tripadvisor,81,✅ active,
+Nextdoor,3,greenhouse,nextdoor,29,✅ active,
+Mediavine,3,unknown,,,❌ no ATS found,tried 1 variant(s): mediavine
+Raptive,3,ashby,raptive,6,✅ active,
+Placer.ai,3,unknown,,,❌ no ATS found,"tried 3 variant(s): placer, placerai, placer-ai"
+Foursquare,3,ashby,foursquare,3,✅ active,
+Precisely,3,unknown,,,❌ no ATS found,tried 1 variant(s): precisely
+SafeGraph,3,unknown,,,❌ no ATS found,tried 1 variant(s): safegraph
+Semcasting,3,unknown,,,❌ no ATS found,tried 1 variant(s): semcasting
+Stirista,3,unknown,,,❌ no ATS found,tried 1 variant(s): stirista
+Lotame,3,unknown,,,❌ no ATS found,tried 1 variant(s): lotame
+Experian Marketing Services,3,unknown,,,❌ no ATS found,"tried 2 variant(s): experianmarketingservices, experian-marketing-services"
+TransUnion,3,unknown,,,❌ no ATS found,tried 1 variant(s): transunion
+Equifax,3,unknown,,,❌ no ATS found,tried 1 variant(s): equifax
+Nielsen,3,lever,nielsen,0,⚠️ empty,
+Comscore,3,unknown,,,❌ no ATS found,tried 1 variant(s): comscore
+Kantar,3,unknown,,,❌ no ATS found,tried 1 variant(s): kantar
+Circana,3,unknown,,,❌ no ATS found,tried 1 variant(s): circana
+Numerator,3,unknown,,,❌ no ATS found,tried 1 variant(s): numerator
+Perplexity,3,ashby,perplexity,71,✅ active,
+Cohere,3,ashby,cohere,122,✅ active,
+Mistral,3,lever,mistral,158,✅ active,slug_hint 'mistralai' did not match; matched on variant 'mistral'
+Scale AI,3,greenhouse,scaleai,171,✅ active,
+Weights & Biases,3,unknown,,,❌ no ATS found,"tried 3 variant(s): wandb, weightsbiases, weights-biases"
+Hugging Face,3,unknown,,,❌ no ATS found,"tried 2 variant(s): huggingface, hugging-face"
+Databricks,3,greenhouse,databricks,824,✅ active,
+Snowflake,3,ashby,snowflake,426,✅ active,
+Amplitude,3,greenhouse,amplitude,52,✅ active,
+Mixpanel,3,greenhouse,mixpanel,52,✅ active,
+Branch,3,greenhouse,branch,11,✅ active,
+AppsFlyer,3,greenhouse,appsflyer,58,✅ active,
+MoEngage,3,unknown,,,❌ no ATS found,tried 1 variant(s): moengage
+CleverTap,3,unknown,,,❌ no ATS found,tried 1 variant(s): clevertap
+Braze,3,greenhouse,braze,194,✅ active,
+Iterable,3,greenhouse,iterable,41,✅ active,
+Customer.io,3,greenhouse,customerio,18,✅ active,
+mParticle,3,unknown,,,❌ no ATS found,tried 1 variant(s): mparticle
+Tealium,3,unknown,,,❌ no ATS found,tried 1 variant(s): tealium
+ActionIQ,3,unknown,,,❌ no ATS found,tried 1 variant(s): actioniq
+Hightouch,3,greenhouse,hightouch,62,✅ active,
+AppLovin,3,greenhouse,applovin,30,✅ active,
+Etsy,3,unknown,,,❌ no ATS found,tried 1 variant(s): etsy
+Poshmark,3,greenhouse,poshmark,0,⚠️ empty,
+Mercari,3,greenhouse,mercari,3,✅ active,
+OfferUp,3,greenhouse,offerup,6,✅ active,
+StockX,3,greenhouse,stockx,23,✅ active,
+GOAT,3,unknown,,,❌ no ATS found,tried 1 variant(s): goat
+Reverb,3,unknown,,,❌ no ATS found,tried 1 variant(s): reverb
+Depop,3,unknown,,,❌ no ATS found,tried 1 variant(s): depop
+Vinted,3,unknown,,,❌ no ATS found,tried 1 variant(s): vinted
+Whatnot,3,ashby,whatnot,201,✅ active,
+Substack,3,ashby,substack,17,✅ active,
+Medium,3,greenhouse,medium,3,✅ active,
+Patreon,3,ashby,patreon,19,✅ active,
+Teachable,3,unknown,,,❌ no ATS found,tried 1 variant(s): teachable
+Kajabi,3,unknown,,,❌ no ATS found,tried 1 variant(s): kajabi
+Doximity,3,greenhouse,doximity,14,✅ active,
+Zocdoc,3,greenhouse,zocdoc,58,✅ active,
+Calm,3,greenhouse,calm,0,⚠️ empty,
+Headspace,3,unknown,,,❌ no ATS found,tried 1 variant(s): headspace
+Noom,3,unknown,,,❌ no ATS found,tried 1 variant(s): noom
+Hims & Hers,3,unknown,,,❌ no ATS found,"tried 2 variant(s): himshers, hims-hers"
+GoodRx,3,unknown,,,❌ no ATS found,tried 1 variant(s): goodrx
+Capsule,3,ashby,capsule,5,✅ active,
+Oscar Health,3,unknown,,,❌ no ATS found,"tried 2 variant(s): oscarhealth, oscar-health"
+Devoted Health,3,unknown,,,❌ no ATS found,"tried 2 variant(s): devotedhealth, devoted-health"
+Collective Health,3,greenhouse,collectivehealth,14,✅ active,
+Screenverse,4,ashby,screenverse,5,✅ active,
+Vistar Media,4,unknown,,,❌ no ATS found,"tried 2 variant(s): vistarmedia, vistar-media"
+Place Exchange,4,ashby,place-exchange,0,⚠️ empty,slug_hint 'placeexchange' did not match; matched on variant 'place-exchange'
+Hivestack,4,greenhouse,hivestack,3,✅ active,
+VIOOH,4,unknown,,,❌ no ATS found,tried 1 variant(s): viooh
+Broadsign,4,greenhouse,broadsign,6,✅ active,
+Lamar Digital,4,unknown,,,❌ no ATS found,"tried 2 variant(s): lamardigital, lamar-digital"
+Clear Channel Digital,4,unknown,,,❌ no ATS found,"tried 2 variant(s): clearchanneldigital, clear-channel-digital"
+Intersection,4,unknown,,,❌ no ATS found,tried 1 variant(s): intersection
+Captivate,4,unknown,,,❌ no ATS found,tried 1 variant(s): captivate
+Vertical Impression,4,unknown,,,❌ no ATS found,"tried 2 variant(s): verticalimpression, vertical-impression"
+Starlite Media,4,unknown,,,❌ no ATS found,"tried 2 variant(s): starlitemedia, starlite-media"
+Grocery TV,4,unknown,,,❌ no ATS found,"tried 2 variant(s): grocerytv, grocery-tv"
+Atmosphere TV,4,unknown,,,❌ no ATS found,"tried 2 variant(s): atmospheretv, atmosphere-tv"
+Loop TV,4,unknown,,,❌ no ATS found,"tried 2 variant(s): looptv, loop-tv"
+Freeosk,4,unknown,,,❌ no ATS found,tried 1 variant(s): freeosk
+Raydiant,4,unknown,,,❌ no ATS found,tried 1 variant(s): raydiant
+Mood Media,4,unknown,,,❌ no ATS found,"tried 2 variant(s): moodmedia, mood-media"
+Runway,4,ashby,runway,4,✅ active,slug_hint 'runwayml' did not match; matched on variant 'runway'
+Midjourney,4,unknown,,,❌ no ATS found,tried 1 variant(s): midjourney
+ElevenLabs,4,ashby,elevenlabs,131,✅ active,
+Contextual AI,4,greenhouse,contextualai,0,⚠️ empty,
+Writer,4,ashby,writer,49,✅ active,
+Jasper,4,unknown,,,❌ no ATS found,tried 1 variant(s): jasper
+Copy.ai,4,unknown,,,❌ no ATS found,"tried 2 variant(s): copyai, copy-ai"
+Typeface,4,greenhouse,typeface,28,✅ active,
+Glean,4,unknown,,,❌ no ATS found,tried 1 variant(s): glean
+Moveworks,4,greenhouse,moveworks,54,✅ active,
+Guru,4,unknown,,,❌ no ATS found,tried 1 variant(s): guru
+Leena AI,4,unknown,,,❌ no ATS found,"tried 2 variant(s): leenaai, leena-ai"
+Forethought,4,greenhouse,forethought,0,⚠️ empty,
+Zynga,4,unknown,,,❌ no ATS found,tried 1 variant(s): zynga
+King,4,unknown,,,❌ no ATS found,tried 1 variant(s): king
+Kabam,4,lever,kabam,21,✅ active,
+Scopely,4,greenhouse,scopely,174,✅ active,
+Grindr,4,unknown,,,❌ no ATS found,tried 1 variant(s): grindr
+Bumble,4,ashby,bumble,0,⚠️ empty,
+Hinge,4,unknown,,,❌ no ATS found,tried 1 variant(s): hinge
+Match Group,4,lever,matchgroup,89,✅ active,
+Jane Street,4,greenhouse,janestreet,216,✅ active,
+Citadel,4,unknown,,,❌ no ATS found,tried 1 variant(s): citadel
+Two Sigma,4,unknown,,,❌ no ATS found,"tried 2 variant(s): twosigma, two-sigma"
+Bloomberg,4,unknown,,,❌ no ATS found,tried 1 variant(s): bloomberg
