@@ -10,16 +10,26 @@ const { parsePosting } = require('./parser');
 const { scoreAll } = require('./scorer');
 const { diff, writeSnapshot, writeState } = require('./differ');
 const { buildFeed, writeFeed } = require('./exporter');
-const { buildSubject, buildHtml, sendOrPreview, sortPostings, pickTopByCompany } = require('./emailer');
+const {
+  buildSubject, buildHtml, sendOrPreview,
+  buildHealthSubject, buildHealthHtml, sendHealthAlertOrPreview,
+  sortPostings, pickTopByCompany,
+} = require('./emailer');
 const { dedupePostings } = require('./dedupe');
+const {
+  loadHealth, update: updateHealth, evaluateAlerts, alertCount, writeHealth,
+} = require('./health');
 
 const ROOT = path.join(__dirname, '..');
 const CONFIG_PATH    = path.join(ROOT, 'config.json');
 const COMPANIES_PATH = path.join(ROOT, 'companies.json');
 const DATA_DIR       = path.join(ROOT, 'data');
 const STATE_PATH     = path.join(DATA_DIR, 'state.json');
+const HEALTH_PATH    = path.join(DATA_DIR, 'health.json');
 const PUBLIC_DIR     = path.join(ROOT, 'public');
 const EMAIL_PREVIEW  = path.join(PUBLIC_DIR, 'email-preview.html');
+const HEALTH_PREVIEW = path.join(PUBLIC_DIR, 'health-alert-preview.html');
+const HEALTH_REPO_URL = 'https://github.com/alexfishburnio/jobfeed/blob/main/data/health.json';
 
 const REQUEST_DELAY_MS = 1500;
 
@@ -47,6 +57,7 @@ function parseArgs(argv) {
 async function fetchAll(companies) {
   const successes = [];
   const failures = [];
+  const runResults = [];  // for health module — { name, status, jobs, http_status?, error? }
   let first = true;
   for (const c of companies) {
     if (!first) await sleep(REQUEST_DELAY_MS);
@@ -54,13 +65,26 @@ async function fetchAll(companies) {
     try {
       const { jobs } = await fetchCompany(c);
       successes.push({ company: c, jobs });
+      runResults.push({
+        name: c.name,
+        status: jobs.length === 0 ? 'zero' : 'ok',
+        jobs: jobs.length,
+        http_status: 200,
+      });
       log(`  ✓ ${c.ats}/${c.slug} (${c.name}) — ${jobs.length}`);
     } catch (err) {
       failures.push({ company: c, error: err.message });
+      runResults.push({
+        name: c.name,
+        status: 'fail',
+        jobs: null,
+        http_status: err.status || null,
+        error: err.message,
+      });
       log(`  ✗ ${c.ats}/${c.slug} (${c.name}) — ${err.message}`);
     }
   }
-  return { successes, failures };
+  return { successes, failures, runResults };
 }
 
 async function main() {
@@ -78,7 +102,7 @@ async function main() {
 
   // 1. Fetch
   log('fetching...');
-  const { successes, failures } = await fetchAll(companies);
+  const { successes, failures, runResults } = await fetchAll(companies);
   log(`fetched ${successes.length}/${companies.length} ok, ${failures.length} failed`);
 
   // 2. Parse
@@ -237,7 +261,48 @@ async function main() {
     process.exitCode = 1;
   }
 
-  // 8. Final summary on stdout (separate from log on stderr)
+  // 8. Health tracking + alert email. Always runs (in dry-run mode the
+  //    preview is written to public/, no Resend call). Skipped entirely if
+  //    config.health_alerts.enabled is false.
+  let healthAlertCount = 0;
+  if ((config.health_alerts || {}).enabled !== false) {
+    try {
+      const existing = loadHealth(HEALTH_PATH);
+      const updatedHealth = updateHealth(existing, runResults, date);
+      if (!args.dryRunEmail) {
+        writeHealth(HEALTH_PATH, updatedHealth);
+        log(`wrote ${path.relative(ROOT, HEALTH_PATH)}`);
+      }
+      const alerts = evaluateAlerts(updatedHealth, companies, date, config);
+      healthAlertCount = alertCount(alerts);
+      log(`health: ${healthAlertCount} alert(s) — hard_failure=${alerts.hard_failure.length} suspicious_zero=${alerts.suspicious_zero.length} sustained_zero=${alerts.sustained_zero.length} recovery=${alerts.recovery.length}`);
+      if (healthAlertCount > 0) {
+        const subject = buildHealthSubject(alerts);
+        const html = buildHealthHtml(alerts, date, HEALTH_REPO_URL);
+        const result = await sendHealthAlertOrPreview({
+          html, subject,
+          dryRun: args.dryRunEmail,
+          previewPath: HEALTH_PREVIEW,
+          recipient: (config.health_alerts || {}).alert_recipient,
+        });
+        if (result.dryRun) {
+          log(`DRY RUN — health alert preview written to ${path.relative(ROOT, HEALTH_PREVIEW)}`);
+          log(`Health subject: ${subject}`);
+        } else if (result.error) {
+          log(`health alert send FAILED: ${JSON.stringify(result.error)}`);
+        } else {
+          log(`health alert sent — id=${result.id} from=${result.from} to=${result.to}`);
+          log(`Health subject: ${subject}`);
+        }
+      }
+    } catch (err) {
+      log(`health alert error: ${err.stack || err.message}`);
+    }
+  } else {
+    log('health: alerts disabled in config (health_alerts.enabled=false)');
+  }
+
+  // 9. Final summary on stdout (separate from log on stderr)
   process.stdout.write(JSON.stringify({
     date,
     new: newKept.length,
@@ -246,6 +311,7 @@ async function main() {
     closed: closedKept.length,
     excluded_new: newExcluded.length,
     fetch_failures: failures.length,
+    health_alerts: healthAlertCount,
     subject,
   }, null, 2) + '\n');
 }

@@ -8,5 +8,6 @@ daily.*.log
 recovery.*
 public/email-preview.html
 public/dry-run-report.json
+public/health-alert-preview.html
 
 daily.*.err

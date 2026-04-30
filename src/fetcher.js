@@ -22,7 +22,9 @@ async function fetchJson(url) {
     });
     if (!res.ok) {
       const txt = await res.text().catch(() => '');
-      throw new Error(`HTTP ${res.status} ${res.statusText} — ${txt.slice(0, 200)}`);
+      const err = new Error(`HTTP ${res.status} ${res.statusText} — ${txt.slice(0, 200)}`);
+      err.status = res.status;
+      throw err;
     }
     return await res.json();
   } finally {
@@ -48,7 +50,12 @@ async function fetchCompany(company) {
   } catch (err) {
     // Single retry on abort (slow large Ashby boards) or transient network errors.
     if (/aborted|fetch failed|ECONNRESET|ETIMEDOUT/i.test(err.message)) {
-      payload = await fetchJson(url);
+      try {
+        payload = await fetchJson(url);
+      } catch (retryErr) {
+        if (err.status && !retryErr.status) retryErr.status = err.status;
+        throw retryErr;
+      }
     } else {
       throw err;
     }

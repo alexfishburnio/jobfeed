@@ -333,4 +333,86 @@ async function sendOrPreview({ html, subject, dryRun, previewPath }) {
   return { dryRun: false, from, to, subject, id: r.data && r.data.id, error: r.error };
 }
 
-module.exports = { buildSubject, buildHtml, sendOrPreview, sortPostings, pickTopCompanyNames, pickTopByCompany, formatFit, formatLongDate, MODE_RANK };
+// --- Health-alert email -----------------------------------------------------
+
+function buildHealthSubject(alerts) {
+  const n = (alerts.hard_failure.length || 0)
+          + (alerts.suspicious_zero.length || 0)
+          + (alerts.sustained_zero.length || 0)
+          + (alerts.recovery.length || 0);
+  if (n === 0) return null;
+  return `Jobfeed health: ${n} company alert${n === 1 ? '' : 's'}`;
+}
+
+function buildHealthHtml(alerts, date, healthJsonUrl) {
+  const longDate = formatLongDate(date);
+
+  const li = (s) => `<li style="margin-bottom:6px;">${s}</li>`;
+  const section = (title, items, render) => {
+    if (!items.length) return '';
+    return `<h3 style="font-size:14px;margin:18px 0 6px;color:#202124;letter-spacing:0.04em;">${escapeHtml(title)} (${items.length})</h3><ul style="margin:0 0 0 20px;padding:0;font-size:13px;line-height:1.5;color:#202124;">${items.map(render).join('')}</ul>`;
+  };
+
+  const renderHardFailure = ({ company, entry }) => {
+    const code = entry.last_http_status ? `HTTP ${entry.last_http_status}` : 'fetch failed';
+    const last = (entry.last_nonzero_count != null && entry.last_nonzero_date)
+      ? `Last successful fetch: ${escapeHtml(entry.last_nonzero_date)} (${entry.last_nonzero_count} jobs).`
+      : `No successful fetch on record.`;
+    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — ${escapeHtml(code)}, slug may be invalid. ${last}`);
+  };
+  const renderSuspiciousZero = ({ company, entry }) => {
+    const had = (entry.last_nonzero_count != null && entry.last_nonzero_date)
+      ? `had ${entry.last_nonzero_count} on ${escapeHtml(entry.last_nonzero_date)}`
+      : `no nonzero history on record`;
+    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — 0 jobs today, ${had}. Possible slug or ATS change.`);
+  };
+  const renderSustainedZero = ({ company, entry }) => {
+    const last = (entry.last_nonzero_date)
+      ? `Last had jobs ${escapeHtml(entry.last_nonzero_date)} (${entry.last_nonzero_count} jobs).`
+      : ``;
+    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — 0 jobs for ${entry.consecutive_zero_days} consecutive days. ${last}`);
+  };
+  const renderRecovery = ({ company, entry, fail_streak }) => {
+    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — back online today with ${entry.last_job_count} jobs after ${fail_streak} day${fail_streak === 1 ? '' : 's'} of failure.`);
+  };
+
+  const sections = [
+    section('HARD FAILURE',    alerts.hard_failure,    renderHardFailure),
+    section('SUSPICIOUS ZERO', alerts.suspicious_zero, renderSuspiciousZero),
+    section('SUSTAINED ZERO',  alerts.sustained_zero,  renderSustainedZero),
+    section('RECOVERY',        alerts.recovery,        renderRecovery),
+  ].filter(Boolean).join('');
+
+  return `<!doctype html>
+<html><body style="margin:0;padding:0;background:#fafafa;">
+<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:24px;background:#fff;color:#202124;">
+  <div style="color:#5f6368;font-size:12px;margin-bottom:4px;">${escapeHtml(longDate)}</div>
+  <h1 style="font-size:20px;margin:0 0 4px;">Jobfeed health check</h1>
+  ${sections}
+  <div style="margin-top:24px;padding-top:14px;border-top:1px solid #ddd;color:#5f6368;font-size:12px;">
+    Investigate via: <a href="${escapeHtml(healthJsonUrl)}" style="color:#1a73e8;">data/health.json</a>
+  </div>
+</div></body></html>`;
+}
+
+async function sendHealthAlertOrPreview({ html, subject, dryRun, previewPath, recipient }) {
+  if (dryRun) {
+    fs.mkdirSync(path.dirname(previewPath), { recursive: true });
+    fs.writeFileSync(previewPath, html);
+    return { dryRun: true, previewPath, subject };
+  }
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) throw new Error('RESEND_API_KEY env var not set');
+  const from = process.env.RESEND_FROM || 'onboarding@resend.dev';
+  const to = recipient || process.env.RESEND_TO || 'alexfishburn@gmail.com';
+  const resend = new Resend(apiKey);
+  const r = await resend.emails.send({ from, to: [to], subject, html });
+  return { dryRun: false, from, to, subject, id: r.data && r.data.id, error: r.error };
+}
+
+module.exports = {
+  buildSubject, buildHtml, sendOrPreview,
+  buildHealthSubject, buildHealthHtml, sendHealthAlertOrPreview,
+  sortPostings, pickTopCompanyNames, pickTopByCompany,
+  formatFit, formatLongDate, MODE_RANK,
+};
