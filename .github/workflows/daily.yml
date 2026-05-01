@@ -5,7 +5,7 @@ name: daily-feed
 # manual runs are still possible alongside the schedule.
 on:
   schedule:
-    - cron: '0 23 * * *'
+    - cron: '17 23 * * *'
   workflow_dispatch: {}
 
 permissions:
