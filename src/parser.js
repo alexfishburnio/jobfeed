@@ -61,7 +61,51 @@ function pickPrimaryMetro(locations, metroAliases) {
 
 const RE_DAYCOUNT = /(\d+)\s*(?:\+|or\s*more)?\s*days?\s*(?:\/|per\s*)?\s*(?:week|wk|in\s*(?:the\s*)?office|onsite|on[- ]site|in[- ]person)/i;
 
+// Description-scan refinement (Phase 1.6). Patterns checked in priority
+// order. Each returns { mode, office_days } where office_days is the
+// integer if explicitly found, else null.
+const HYBRID_DAY_PATTERNS = [
+  { days: 5, mode: 'fully_onsite',
+    res: [/hybrid.{0,30}(?:5|five)\s*days/i, /(?:5|five)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
+  { days: 4, mode: 'hybrid_4_plus',
+    res: [/hybrid.{0,30}(?:4|four)\s*days/i, /(?:4|four)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
+  { days: 3, mode: 'hybrid_2_3',
+    res: [/hybrid.{0,30}(?:3|three)\s*days/i, /(?:3|three)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
+  { days: 2, mode: 'hybrid_2_3',
+    res: [/hybrid.{0,30}(?:2|two)\s*days/i, /(?:2|two)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
+];
+
+function refineModeFromDescription(currentMode, descriptionPlain) {
+  const desc = String(descriptionPlain || '').slice(0, 500);
+  if (!desc) return { mode: currentMode, office_days: null };
+
+  // 1. Fully-remote markers — strongest signal, override everything.
+  if (/\bfully\s+remote\b|\b100\s*%\s*remote\b|\bremote[- ]first\b/i.test(desc)) {
+    return { mode: 'fully_remote', office_days: null };
+  }
+
+  // 2-5. Day-count patterns (priority: 5 → 4 → 3 → 2).
+  for (const { days, mode, res } of HYBRID_DAY_PATTERNS) {
+    if (res.some(re => re.test(desc))) return { mode, office_days: days };
+  }
+
+  // 6. Generic "hybrid" with no day count — promote a misclassified
+  //    fully_onsite to hybrid_2_3 (treat ambiguous hybrid as 2-3 days).
+  if (/\bhybrid\b/i.test(desc)) {
+    if (currentMode === 'fully_onsite') return { mode: 'hybrid_2_3', office_days: null };
+    return { mode: currentMode, office_days: null };
+  }
+
+  return { mode: currentMode, office_days: null };
+}
+
+// Returns { mode, office_days }.
 function detectMode({ ats, raw, locations, locationRaw, descriptionPlain }) {
+  const baseMode = computeBaseMode({ ats, raw, locations, locationRaw, descriptionPlain });
+  return refineModeFromDescription(baseMode, descriptionPlain);
+}
+
+function computeBaseMode({ ats, raw, locations, locationRaw, descriptionPlain }) {
   const desc = (descriptionPlain || '').toLowerCase();
   const locText = (locationRaw || locations.join(' | ')).toLowerCase();
 
@@ -258,7 +302,7 @@ function parsePosting(rawJob, company, config) {
   const parser = PARSERS[company.ats];
   if (!parser) throw new Error(`no parser for ats '${company.ats}'`);
   const base = parser(rawJob, company);
-  const mode = detectMode({
+  const { mode, office_days } = detectMode({
     ats: company.ats,
     raw: rawJob,
     locations: base.locations,
@@ -276,6 +320,7 @@ function parsePosting(rawJob, company, config) {
     locations: base.locations,
     metro,
     mode,
+    office_days,
     level: detectLevel(base.title),
     salary_min_base: base.salary_min_base,
     salary_max_base: base.salary_max_base,

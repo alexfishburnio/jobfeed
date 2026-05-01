@@ -179,6 +179,10 @@
   "feed_page_url": "https://alexfishburn.io/jobs",
   "feed_retention_days": 30,
   "email_max_roles_in_body": 50,
+  "top_picks": {
+    "max_count": 5,
+    "min_fit_score": 2.5
+  },
   "health_alerts": {
     "enabled": true,
     "suspicious_zero_threshold": 10,

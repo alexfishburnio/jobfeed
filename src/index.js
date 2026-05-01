@@ -13,7 +13,7 @@ const { buildFeed, writeFeed } = require('./exporter');
 const {
   buildSubject, buildHtml, sendOrPreview,
   buildHealthSubject, buildHealthHtml, sendHealthAlertOrPreview,
-  sortPostings, pickTopByCompany,
+  sortPostings, pickTopByCompany, pickTopForBody,
 } = require('./emailer');
 const { dedupePostings } = require('./dedupe');
 const {
@@ -180,7 +180,12 @@ async function main() {
     // Verification dump for review — top postings with full scoring fields
     // (these are stripped from the email HTML, so we surface them here).
     const sortedNew = sortPostings(newKept);
-    const top5 = pickTopByCompany(sortedNew, 5);
+    const tpCfg = config.top_picks || {};
+    const top5 = pickTopForBody(
+      sortedNew,
+      Number.isFinite(tpCfg.max_count) ? tpCfg.max_count : 5,
+      Number.isFinite(tpCfg.min_fit_score) ? tpCfg.min_fit_score : 0,
+    );
     const dump = {
       counts: snapshot.counts,
       top5: top5.map(p => ({
@@ -235,6 +240,7 @@ async function main() {
     excluded: newExcluded.map(stripDescription),
     feedUrl: config.feed_page_url,
     maxRolesInBody: config.email_max_roles_in_body,
+    topPicks: config.top_picks,
   });
 
   // Preflight: surface the new-count and subject on stdout BEFORE sending

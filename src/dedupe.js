@@ -4,13 +4,12 @@
 // dedupe is a pure read-side transform.
 //
 // Merge rules:
-//   - Highest fit_score across the group becomes the base; other fields
-//     (recommended_resume, mode, ats, apply_url) are taken from the base.
+//   - Highest priority_score across the group becomes the base; other
+//     fields (recommended_resume, mode, ats, apply_url) are taken from base.
 //   - locations/metros: union, dedup, ordered by metro priority.
 //   - salary_min_base: min of all non-null mins
 //   - salary_max_base: max of all non-null maxes
-//   - status: 'new' if any sub-posting is new, else 'ongoing', else
-//     whatever the base says (preserves 'closed_today' for closed groups).
+//   - status: most-active wins (active > closed_today > closed)
 //   - grouped_count + grouped_ids surfaced for downstream display.
 
 const METRO_PRIORITY = [
@@ -23,10 +22,24 @@ function metroOrder(m) {
   return i >= 0 ? i : 999;
 }
 
+// Phase 1.6: normalize titles before grouping. Lowercase, strip parenthetical
+// content, collapse whitespace, strip trailing punctuation. Catches near-dups
+// like "Product Manager (Ad Tech)" / "Product Manager (Ad Tech, CTV)" /
+// "Product Manager (Ad Tech/CTV)" — they all collapse to "product manager".
+function normalizeTitleForDedup(title) {
+  if (!title) return '';
+  return String(title)
+    .toLowerCase()
+    .replace(/\([^)]*\)/g, '')
+    .replace(/\s+/g, ' ')
+    .replace(/[\s\-_,;:.]+$/, '')
+    .trim();
+}
+
 function dedupePostings(postings) {
   const groups = new Map();
   for (const p of postings) {
-    const key = `${p.company || ''}${p.title || ''}`;
+    const key = `${p.company || ''}|${normalizeTitleForDedup(p.title)}`;
     let g = groups.get(key);
     if (!g) { g = []; groups.set(key, g); }
     g.push(p);
@@ -41,9 +54,11 @@ function mergeGroup(group) {
     return { ...group[0], grouped_count: 1, grouped_ids: [group[0].id] };
   }
 
-  // Same (company, title) → identical realism, so sort by priority is
-  // equivalent to sort by fit. Use priority defensively.
-  const sorted = [...group].sort((a, b) => (b.priority_score ?? b.fit_score ?? 0) - (a.priority_score ?? a.fit_score ?? 0));
+  // Same (company, normalized title) → identical realism. Sort by priority
+  // (defensively, falls back to fit_score if priority is missing).
+  const sorted = [...group].sort(
+    (a, b) => (b.priority_score ?? b.fit_score ?? 0) - (a.priority_score ?? a.fit_score ?? 0)
+  );
   const base = sorted[0];
 
   const locations = [...new Set(group.flatMap(p => p.locations || []))];
@@ -53,10 +68,20 @@ function mergeGroup(group) {
   const mins = group.map(p => p.salary_min_base).filter(n => Number.isFinite(n));
   const maxs = group.map(p => p.salary_max_base).filter(n => Number.isFinite(n));
 
-  const anyNew     = group.some(p => p.status === 'new');
-  const anyOngoing = group.some(p => p.status === 'ongoing');
-  const anyClosed  = group.some(p => p.status === 'closed_today');
-  const status = anyNew ? 'new' : anyOngoing ? 'ongoing' : anyClosed ? 'closed_today' : (base.status || null);
+  // Status: most-active wins, so a single active listing in a group keeps
+  // the group on the page even if other listings closed.
+  const anyActive       = group.some(p => p.status === 'active');
+  const anyNew          = group.some(p => p.status === 'new');     // legacy alias
+  const anyOngoing      = group.some(p => p.status === 'ongoing'); // legacy alias
+  const anyClosedToday  = group.some(p => p.status === 'closed_today');
+  const anyClosed       = group.some(p => p.status === 'closed');
+  const status =
+    anyActive ? 'active' :
+    anyNew ? 'new' :
+    anyOngoing ? 'ongoing' :
+    anyClosedToday ? 'closed_today' :
+    anyClosed ? 'closed' :
+    (base.status || null);
 
   return {
     ...base,
@@ -70,4 +95,4 @@ function mergeGroup(group) {
   };
 }
 
-module.exports = { dedupePostings };
+module.exports = { dedupePostings, normalizeTitleForDedup };

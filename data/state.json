@@ -1296,22 +1296,22 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8200284002": {
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:databricks:8200462002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8136071002": {
+    "greenhouse:databricks:8200284002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
     "greenhouse:databricks:8136204002": {
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:databricks:8136071002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1326,12 +1326,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8326570002": {
+    "greenhouse:databricks:8326513002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8326513002": {
+    "greenhouse:databricks:8326570002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1341,12 +1341,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:7863522002": {
+    "greenhouse:databricks:7863365002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:7863365002": {
+    "greenhouse:databricks:7863522002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1391,17 +1391,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8420609002": {
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:databricks:8427940002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8040989002": {
+    "greenhouse:databricks:8420609002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1411,12 +1406,17 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:7110499002": {
+    "greenhouse:databricks:8040989002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
     "greenhouse:databricks:7110509002": {
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:databricks:7110499002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1938,42 +1938,42 @@
     },
     "greenhouse:lyft:8451643002": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "greenhouse:roku:7677396": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "greenhouse:roblox:7379374": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "greenhouse:thetradedesk:4839695007": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "greenhouse:tripadvisor:7597713": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "ashby:perplexity:63abf041-c7ba-4bd6-840c-1a4ac7925dee": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "ashby:snowflake:d0102931-6ca7-4e53-ad5e-5f1e242b1e1d": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     },
     "ashby:snowflake:0631cc64-5300-4294-8dc8-1a051b00565c": {
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-04-30"
     }
   }

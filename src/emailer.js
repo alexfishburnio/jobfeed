@@ -190,27 +190,55 @@ function resumeChip(tag) {
 
 function metroDisplay(p) {
   // Deduped groups carry `metros` (array). Singletons carry `metro` (single).
-  // Render alphabetical, with "Remote" forced to the end. "other" is hidden.
+  // Render alphabetical, with "Remote" forced to the end. Named US/CA metros
+  // are uppercased; international ("other") metros fall back to raw location
+  // strings. When the posting has no parsed location at all, returns null —
+  // the caller renders "Location not listed".
   const arr = (p.metros && p.metros.length) ? p.metros : (p.metro ? [p.metro] : []);
-  const labels = arr
-    .filter(m => m && m !== 'other')
-    .map(m => m === 'remote' ? 'Remote' : m.toUpperCase());
-  labels.sort((a, b) => {
-    const aR = a === 'Remote', bR = b === 'Remote';
-    if (aR && !bR) return 1;
-    if (!aR && bR) return -1;
-    return a.localeCompare(b);
-  });
-  return labels.join(', ');
+  const named = arr.filter(m => m && m !== 'other');
+
+  if (named.length) {
+    const labels = named.map(m => m === 'remote' ? 'Remote' : m.toUpperCase());
+    labels.sort((a, b) => {
+      const aR = a === 'Remote', bR = b === 'Remote';
+      if (aR && !bR) return 1;
+      if (!aR && bR) return -1;
+      return a.localeCompare(b);
+    });
+    return labels.join(', ');
+  }
+
+  // No US/CA metros — use raw location strings (e.g. "London, UK").
+  if (p.locations && p.locations.length) {
+    return [...new Set(p.locations)].join(', ');
+  }
+  return null;  // signal "no location info"
+}
+
+// Inline mode blurb for the meta line:
+//   - office_days >= 1 → "{N} days in office"
+//   - hybrid_2_3 / hybrid_4_plus without explicit day count → "Hybrid"
+//   - otherwise → '' (the mode pill above already conveys the category)
+function modeBlurb(p) {
+  if (Number.isFinite(p.office_days) && p.office_days >= 1) {
+    return `${p.office_days} day${p.office_days === 1 ? '' : 's'} in office`;
+  }
+  if ((p.mode === 'hybrid_2_3' || p.mode === 'hybrid_4_plus')
+      && (p.office_days == null)) {
+    return 'Hybrid';
+  }
+  return '';
+}
+
+function buildMetaSegments(p) {
+  const salary = formatSalary(p.salary_min_base, p.salary_max_base);
+  const metroLabel = metroDisplay(p) || 'Location not listed';
+  const blurb = modeBlurb(p);
+  return [metroLabel, blurb || null, salary].filter(Boolean).join(' · ');
 }
 
 function postingRow(p) {
-  const salary = formatSalary(p.salary_min_base, p.salary_max_base);
-  const metroLabel = metroDisplay(p);
-  // Salary is always rendered (formatSalary returns "Salary not listed"
-  // when both fields are null, per Phase 1.3 spec).
-  const meta = [metroLabel || null, salary]
-    .filter(Boolean).join(' · ');
+  const meta = buildMetaSegments(p);
   const isStretch = Number.isFinite(p.realism_score) && p.realism_score < 0.5;
   const stretchHint = isStretch
     ? ` <span style="color:#9aa0a6;font-size:12px;">· stretch</span>`
@@ -233,10 +261,7 @@ function postingRow(p) {
 // visual room for the headline picks. The "All new roles" body still uses
 // the dense single-line postingRow above.
 function postingRowTopFive(p) {
-  const salary = formatSalary(p.salary_min_base, p.salary_max_base);
-  const metroLabel = metroDisplay(p);
-  const meta = [metroLabel || null, salary]
-    .filter(Boolean).join(' · ');
+  const meta = buildMetaSegments(p);
   const isStretch = Number.isFinite(p.realism_score) && p.realism_score < 0.5;
   const stretchHint = isStretch
     ? ` <span style="color:#9aa0a6;font-size:12px;">· stretch</span>`
@@ -271,10 +296,37 @@ function closedRow(p) {
     </div>`;
 }
 
-function buildHtml({ date, newKept, closedToday, excluded, feedUrl, maxRolesInBody }) {
+// Phase 1.6: top picks for the email body. Two passes — first preferring
+// unique companies, second relaxing the unique constraint so we don't pad
+// with low-fit roles when fewer than max_count companies have eligible
+// (>= min_fit_score) roles. Empty slots are fine; padding is not.
+function pickTopForBody(sorted, max, minFitScore = 0) {
+  const eligible = sorted.filter(p => (p.fit_score || 0) >= minFitScore);
+  const seen = new Set();
+  const firstPass = [];
+  const dupes = [];
+  for (const p of eligible) {
+    if (seen.has(p.company)) { dupes.push(p); continue; }
+    seen.add(p.company);
+    firstPass.push(p);
+  }
+  const out = firstPass.slice(0, max);
+  if (out.length < max) {
+    for (const p of dupes) {
+      out.push(p);
+      if (out.length >= max) break;
+    }
+  }
+  return out;
+}
+
+function buildHtml({ date, newKept, closedToday, excluded, feedUrl, maxRolesInBody, topPicks }) {
   const sortedNew = sortPostings(newKept);
-  // Top picks: 5 unique companies, highest-priority role per company.
-  const top5 = pickTopByCompany(sortedNew, 5);
+  const max = (topPicks && Number.isFinite(topPicks.max_count)) ? topPicks.max_count : 5;
+  const minFit = (topPicks && Number.isFinite(topPicks.min_fit_score)) ? topPicks.min_fit_score : 0;
+  // Top picks honour fit_score floor; below-floor roles still appear in the
+  // "All new roles" section but never in top picks regardless of priority.
+  const top5 = pickTopForBody(sortedNew, max, minFit);
   const tierHtml = tierBreakdownHtml(sortedNew);
   const excludedNew = excluded.filter(p => p.status === 'new');
   const cap = Number.isFinite(maxRolesInBody) ? maxRolesInBody : sortedNew.length;
@@ -413,6 +465,6 @@ async function sendHealthAlertOrPreview({ html, subject, dryRun, previewPath, re
 module.exports = {
   buildSubject, buildHtml, sendOrPreview,
   buildHealthSubject, buildHealthHtml, sendHealthAlertOrPreview,
-  sortPostings, pickTopCompanyNames, pickTopByCompany,
+  sortPostings, pickTopCompanyNames, pickTopByCompany, pickTopForBody,
   formatFit, formatLongDate, MODE_RANK,
 };

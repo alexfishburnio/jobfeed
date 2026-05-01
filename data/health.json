@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-01T02:35:28.108Z",
+  "last_updated": "2026-05-01T03:07:31.194Z",
   "companies": {
     "Anthropic": {
       "last_success": "2026-04-30",
@@ -238,7 +238,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -376,7 +376,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -399,7 +399,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -1020,7 +1020,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -1131,18 +1131,18 @@
     "Databricks": {
       "last_success": "2026-04-30",
       "last_status": "ok",
-      "last_job_count": 821,
+      "last_job_count": 822,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 821,
+      "last_nonzero_count": 822,
       "last_nonzero_date": "2026-04-30",
       "history": [
         {
           "date": "2026-04-30",
           "status": "ok",
-          "jobs": 821
+          "jobs": 822
         },
         {
           "date": "2026-04-29",
@@ -1388,7 +1388,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -1618,7 +1618,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -1733,7 +1733,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -1848,7 +1848,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -1963,7 +1963,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
@@ -2032,7 +2032,7 @@
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 2,
+      "consecutive_zero_days": 3,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
