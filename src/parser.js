@@ -61,36 +61,84 @@ function pickPrimaryMetro(locations, metroAliases) {
 
 const RE_DAYCOUNT = /(\d+)\s*(?:\+|or\s*more)?\s*days?\s*(?:\/|per\s*)?\s*(?:week|wk|in\s*(?:the\s*)?office|onsite|on[- ]site|in[- ]person)/i;
 
-// Description-scan refinement (Phase 1.6). Patterns checked in priority
-// order. Each returns { mode, office_days } where office_days is the
-// integer if explicitly found, else null.
-const HYBRID_DAY_PATTERNS = [
-  { days: 5, mode: 'fully_onsite',
-    res: [/hybrid.{0,30}(?:5|five)\s*days/i, /(?:5|five)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
-  { days: 4, mode: 'hybrid_4_plus',
-    res: [/hybrid.{0,30}(?:4|four)\s*days/i, /(?:4|four)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
-  { days: 3, mode: 'hybrid_2_3',
-    res: [/hybrid.{0,30}(?:3|three)\s*days/i, /(?:3|three)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
-  { days: 2, mode: 'hybrid_2_3',
-    res: [/hybrid.{0,30}(?:2|two)\s*days/i, /(?:2|two)\s*days.{0,30}(?:in.{0,5}office|on.?site)/i] },
-];
+// Description-scan refinement (Phase 1.6.1). Scans the FULL description
+// (not just first 500 chars) — RTO policies are consistently in the late
+// boilerplate, not the opening pitch. Returns { mode, office_days }.
+//
+// Conflict resolution: when multiple day-count signals are present, the
+// FIRST-mentioned one wins (lowest character index). That maps to "default
+// policy beats exception clause" in JDs structured like Roku's: "Mon-Thu"
+// is the policy, "five days a week" is the exception for select roles.
+
+const DAY_NAMES_TO_NUM = { mon: 1, tue: 2, wed: 3, thu: 4, fri: 5 };
+const SPELL_TO_NUM     = { one: 1, two: 2, three: 3, four: 4, five: 5 };
+
+function digitOrSpell(s) {
+  if (!s) return null;
+  if (/^\d+$/.test(s)) return parseInt(s, 10);
+  return SPELL_TO_NUM[s.toLowerCase()] ?? null;
+}
+
+function dayNumFromName(name) {
+  if (!name) return null;
+  return DAY_NAMES_TO_NUM[name.toLowerCase().slice(0, 3)] ?? null;
+}
+
+// Regexes producing day-count candidates. Each yields { index, days } via
+// matchAll; we sort all candidates by index and take the first.
+const RE_DAY_RANGE = /\b(mon(?:day)?|tues?(?:day)?|wed(?:nesday)?|thu(?:r(?:s(?:day)?)?)?|fri(?:day)?)\s*(?:[-–—]|to|through|thru)\s*(mon(?:day)?|tues?(?:day)?|wed(?:nesday)?|thu(?:r(?:s(?:day)?)?)?|fri(?:day)?)/gi;
+const RE_PER_WEEK   = /\b(\d|one|two|three|four|five)\s*days?\s*(?:a|per|\/|each)\s*week/gi;
+const RE_DAYS_OFFICE_PREFIX = /\b(\d|one|two|three|four|five)\s*days?\s*(?:in[- ]+(?:the\s+)?office|on[- ]?site|in[- ]?person|in[- ]+office)/gi;
+const RE_OFFICE_DAYS_POSTFIX = /(?:in[- ]+(?:the\s+)?office|on[- ]?site|in[- ]?person|office\s+presence|onsite\s+presence)[^.\n]{0,40}\b(\d|one|two|three|four|five)\s*days?/gi;
+const RE_RTO_PREFIX = /(?:rto|return[- ]+to[- ]+office|office\s+presence|onsite\s+presence|in[- ]office\s+policy|in[- ]office\s+mandate)[^.\n]{0,60}\b(\d|one|two|three|four|five)\s*days?/gi;
+
+function collectOfficeDaysCandidates(desc) {
+  const out = [];
+  const push = (idx, days) => {
+    if (Number.isFinite(days) && days >= 1 && days <= 5) out.push({ index: idx, days });
+  };
+
+  for (const m of desc.matchAll(RE_DAY_RANGE)) {
+    const a = dayNumFromName(m[1]);
+    const b = dayNumFromName(m[2]);
+    if (a != null && b != null) push(m.index, Math.abs(b - a) + 1);
+  }
+  for (const m of desc.matchAll(RE_PER_WEEK))             push(m.index, digitOrSpell(m[1]));
+  for (const m of desc.matchAll(RE_DAYS_OFFICE_PREFIX))   push(m.index, digitOrSpell(m[1]));
+  for (const m of desc.matchAll(RE_OFFICE_DAYS_POSTFIX))  push(m.index, digitOrSpell(m[1]));
+  for (const m of desc.matchAll(RE_RTO_PREFIX))           push(m.index, digitOrSpell(m[1]));
+
+  return out;
+}
+
+function modeForDays(days, fallback) {
+  if (days >= 5) return 'fully_onsite';
+  if (days >= 4) return 'hybrid_4_plus';
+  if (days >= 2) return 'hybrid_2_3';
+  return fallback;  // 1 day a week → keep base mode (rare and ambiguous)
+}
 
 function refineModeFromDescription(currentMode, descriptionPlain) {
-  const desc = String(descriptionPlain || '').slice(0, 500);
+  const desc = String(descriptionPlain || '');
   if (!desc) return { mode: currentMode, office_days: null };
 
-  // 1. Fully-remote markers — strongest signal, override everything.
+  // 1. Day-count signals (most specific). First-mentioned wins so a
+  //    role's default policy ("Mon-Thu") beats its exception clause
+  //    ("five days a week or roles requiring...") that comes later.
+  const candidates = collectOfficeDaysCandidates(desc);
+  if (candidates.length) {
+    candidates.sort((a, b) => a.index - b.index);
+    const days = candidates[0].days;
+    return { mode: modeForDays(days, currentMode), office_days: days };
+  }
+
+  // 2. Fully-remote markers (only when no day-count signal above).
   if (/\bfully\s+remote\b|\b100\s*%\s*remote\b|\bremote[- ]first\b/i.test(desc)) {
     return { mode: 'fully_remote', office_days: null };
   }
 
-  // 2-5. Day-count patterns (priority: 5 → 4 → 3 → 2).
-  for (const { days, mode, res } of HYBRID_DAY_PATTERNS) {
-    if (res.some(re => re.test(desc))) return { mode, office_days: days };
-  }
-
-  // 6. Generic "hybrid" with no day count — promote a misclassified
-  //    fully_onsite to hybrid_2_3 (treat ambiguous hybrid as 2-3 days).
+  // 3. Generic "hybrid" with no day count — promote misclassified
+  //    fully_onsite to hybrid_2_3.
   if (/\bhybrid\b/i.test(desc)) {
     if (currentMode === 'fully_onsite') return { mode: 'hybrid_2_3', office_days: null };
     return { mode: currentMode, office_days: null };
