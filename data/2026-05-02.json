@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "generated_at": "2026-05-02T06:27:12.895Z",
+  "generated_at": "2026-05-03T02:33:13.729Z",
   "fetch_summary": {
     "companies_total": 91,
     "companies_ok": 91,
@@ -8,10 +8,10 @@
     "failures": []
   },
   "counts": {
-    "new_today": 5,
+    "new_today": 4,
     "ongoing": 342,
-    "closed_today": 8,
-    "closed": 8,
+    "closed_today": 1,
+    "closed": 16,
     "excluded_new": 1,
     "excluded_total": 38
   },
@@ -762,43 +762,6 @@
       "priority_score": 1,
       "recommended_resume": "aipm",
       "first_seen_date": "2026-04-30",
-      "status": "active",
-      "closed_date": null
-    },
-    {
-      "id": "ashby:openai:0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc",
-      "company": "OpenAI",
-      "tier": 1,
-      "ats": "ashby",
-      "title": "Product Manager, Financial Engineering",
-      "location_raw": "San Francisco",
-      "locations": [
-        "San Francisco"
-      ],
-      "metro": "sf",
-      "mode": "hybrid_2_3",
-      "office_days": 3,
-      "level": "mid_level",
-      "salary_min_base": 293000,
-      "salary_max_base": 325000,
-      "posted_date": "2026-05-01T21:51:32.978+00:00",
-      "apply_url": "https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc/application",
-      "ads_score": 1,
-      "consumer_score": 3,
-      "ads_keywords": [
-        "monetization"
-      ],
-      "consumer_keywords": [
-        "consumer",
-        "growth",
-        "user"
-      ],
-      "base_fit": 3,
-      "fit_score": 3,
-      "realism_score": 1,
-      "priority_score": 3,
-      "recommended_resume": "aipm",
-      "first_seen_date": "2026-05-02",
       "status": "active",
       "closed_date": null
     },
@@ -9647,40 +9610,6 @@
       "closed_date": null
     },
     {
-      "id": "greenhouse:databricks:8136071002",
-      "company": "Databricks",
-      "tier": 3,
-      "ats": "greenhouse",
-      "title": "Sr. Product Manager, Databricks AI",
-      "location_raw": "San Francisco, California",
-      "locations": [
-        "San Francisco, California"
-      ],
-      "metro": "sf",
-      "mode": "fully_onsite",
-      "office_days": null,
-      "level": "mid_level",
-      "salary_min_base": null,
-      "salary_max_base": null,
-      "posted_date": "2025-08-25T14:19:01-04:00",
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002",
-      "ads_score": 2,
-      "consumer_score": 0,
-      "ads_keywords": [
-        "demand",
-        "platform"
-      ],
-      "consumer_keywords": [],
-      "base_fit": 2,
-      "fit_score": 2,
-      "realism_score": 1,
-      "priority_score": 2,
-      "recommended_resume": "ads",
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
-    {
       "id": "greenhouse:databricks:8136204002",
       "company": "Databricks",
       "tier": 3,
@@ -9715,38 +9644,35 @@
       "closed_date": null
     },
     {
-      "id": "greenhouse:databricks:8235785002",
+      "id": "greenhouse:databricks:8136071002",
       "company": "Databricks",
       "tier": 3,
       "ats": "greenhouse",
-      "title": "Sr. Product Manager, Databricks Free Edition",
-      "location_raw": "Seattle, Washington",
+      "title": "Sr. Product Manager, Databricks AI",
+      "location_raw": "San Francisco, California",
       "locations": [
-        "Seattle, Washington"
+        "San Francisco, California"
       ],
-      "metro": "dc",
+      "metro": "sf",
       "mode": "fully_onsite",
       "office_days": null,
       "level": "mid_level",
       "salary_min_base": null,
       "salary_max_base": null,
-      "posted_date": "2025-10-31T12:57:29-04:00",
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8235785002",
-      "ads_score": 1,
-      "consumer_score": 3,
+      "posted_date": "2025-08-25T14:19:01-04:00",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002",
+      "ads_score": 2,
+      "consumer_score": 0,
       "ads_keywords": [
+        "demand",
         "platform"
       ],
-      "consumer_keywords": [
-        "engagement",
-        "onboarding",
-        "user"
-      ],
-      "base_fit": 3,
-      "fit_score": 3,
+      "consumer_keywords": [],
+      "base_fit": 2,
+      "fit_score": 2,
       "realism_score": 1,
-      "priority_score": 3,
-      "recommended_resume": "aipm",
+      "priority_score": 2,
+      "recommended_resume": "ads",
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -9769,6 +9695,43 @@
       "salary_max_base": null,
       "posted_date": "2024-10-11T14:53:30-04:00",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002",
+      "ads_score": 1,
+      "consumer_score": 3,
+      "ads_keywords": [
+        "platform"
+      ],
+      "consumer_keywords": [
+        "engagement",
+        "onboarding",
+        "user"
+      ],
+      "base_fit": 3,
+      "fit_score": 3,
+      "realism_score": 1,
+      "priority_score": 3,
+      "recommended_resume": "aipm",
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    {
+      "id": "greenhouse:databricks:8235785002",
+      "company": "Databricks",
+      "tier": 3,
+      "ats": "greenhouse",
+      "title": "Sr. Product Manager, Databricks Free Edition",
+      "location_raw": "Seattle, Washington",
+      "locations": [
+        "Seattle, Washington"
+      ],
+      "metro": "dc",
+      "mode": "fully_onsite",
+      "office_days": null,
+      "level": "mid_level",
+      "salary_min_base": null,
+      "salary_max_base": null,
+      "posted_date": "2025-10-31T12:57:29-04:00",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8235785002",
       "ads_score": 1,
       "consumer_score": 3,
       "ads_keywords": [
@@ -9894,41 +9857,6 @@
       "closed_date": null
     },
     {
-      "id": "greenhouse:databricks:7863365002",
-      "company": "Databricks",
-      "tier": 3,
-      "ats": "greenhouse",
-      "title": "Sr. Product Manager, Data Governance",
-      "location_raw": "San Francisco, California",
-      "locations": [
-        "San Francisco, California"
-      ],
-      "metro": "sf",
-      "mode": "fully_onsite",
-      "office_days": null,
-      "level": "mid_level",
-      "salary_min_base": null,
-      "salary_max_base": null,
-      "posted_date": "2025-02-13T23:21:53-05:00",
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002",
-      "ads_score": 1,
-      "consumer_score": 1,
-      "ads_keywords": [
-        "platform"
-      ],
-      "consumer_keywords": [
-        "user"
-      ],
-      "base_fit": 1,
-      "fit_score": 1,
-      "realism_score": 1,
-      "priority_score": 1,
-      "recommended_resume": "aipm",
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
-    {
       "id": "greenhouse:databricks:7863522002",
       "company": "Databricks",
       "tier": 3,
@@ -9964,36 +9892,35 @@
       "closed_date": null
     },
     {
-      "id": "greenhouse:databricks:7929994002",
+      "id": "greenhouse:databricks:7863365002",
       "company": "Databricks",
       "tier": 3,
       "ats": "greenhouse",
-      "title": "Sr. Product Manager, DBSQL",
-      "location_raw": "Seattle, Washington",
+      "title": "Sr. Product Manager, Data Governance",
+      "location_raw": "San Francisco, California",
       "locations": [
-        "Seattle, Washington"
+        "San Francisco, California"
       ],
-      "metro": "dc",
+      "metro": "sf",
       "mode": "fully_onsite",
       "office_days": null,
       "level": "mid_level",
       "salary_min_base": null,
       "salary_max_base": null,
-      "posted_date": "2025-03-26T14:02:12-04:00",
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7929994002",
+      "posted_date": "2025-02-13T23:21:53-05:00",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7863365002",
       "ads_score": 1,
-      "consumer_score": 2,
+      "consumer_score": 1,
       "ads_keywords": [
         "platform"
       ],
       "consumer_keywords": [
-        "growth",
         "user"
       ],
-      "base_fit": 2,
-      "fit_score": 2,
+      "base_fit": 1,
+      "fit_score": 1,
       "realism_score": 1,
-      "priority_score": 2,
+      "priority_score": 1,
       "recommended_resume": "aipm",
       "first_seen_date": "2026-04-29",
       "status": "active",
@@ -10017,6 +9944,42 @@
       "salary_max_base": null,
       "posted_date": "2025-03-26T14:02:13-04:00",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7924423002",
+      "ads_score": 1,
+      "consumer_score": 2,
+      "ads_keywords": [
+        "platform"
+      ],
+      "consumer_keywords": [
+        "growth",
+        "user"
+      ],
+      "base_fit": 2,
+      "fit_score": 2,
+      "realism_score": 1,
+      "priority_score": 2,
+      "recommended_resume": "aipm",
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    {
+      "id": "greenhouse:databricks:7929994002",
+      "company": "Databricks",
+      "tier": 3,
+      "ats": "greenhouse",
+      "title": "Sr. Product Manager, DBSQL",
+      "location_raw": "Seattle, Washington",
+      "locations": [
+        "Seattle, Washington"
+      ],
+      "metro": "dc",
+      "mode": "fully_onsite",
+      "office_days": null,
+      "level": "mid_level",
+      "salary_min_base": null,
+      "salary_max_base": null,
+      "posted_date": "2025-03-26T14:02:12-04:00",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7929994002",
       "ads_score": 1,
       "consumer_score": 2,
       "ads_keywords": [
@@ -10328,43 +10291,6 @@
       "closed_date": null
     },
     {
-      "id": "greenhouse:databricks:8040989002",
-      "company": "Databricks",
-      "tier": 3,
-      "ats": "greenhouse",
-      "title": "Staff Product Manager, Content Experience",
-      "location_raw": "San Francisco, California",
-      "locations": [
-        "San Francisco, California"
-      ],
-      "metro": "sf",
-      "mode": "fully_onsite",
-      "office_days": null,
-      "level": "principal_senior",
-      "salary_min_base": null,
-      "salary_max_base": null,
-      "posted_date": "2025-06-18T12:41:32-04:00",
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8040989002",
-      "ads_score": 1,
-      "consumer_score": 3,
-      "ads_keywords": [
-        "platform"
-      ],
-      "consumer_keywords": [
-        "engagement",
-        "onboarding",
-        "user"
-      ],
-      "base_fit": 3,
-      "fit_score": 3,
-      "realism_score": 1,
-      "priority_score": 3,
-      "recommended_resume": "aipm",
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
-    {
       "id": "greenhouse:databricks:8041821002",
       "company": "Databricks",
       "tier": 3,
@@ -10402,11 +10328,11 @@
       "closed_date": null
     },
     {
-      "id": "greenhouse:databricks:7110499002",
+      "id": "greenhouse:databricks:8040989002",
       "company": "Databricks",
       "tier": 3,
       "ats": "greenhouse",
-      "title": "Staff Product Manager, Security",
+      "title": "Staff Product Manager, Content Experience",
       "location_raw": "San Francisco, California",
       "locations": [
         "San Francisco, California"
@@ -10417,21 +10343,22 @@
       "level": "principal_senior",
       "salary_min_base": null,
       "salary_max_base": null,
-      "posted_date": "2024-02-06T17:37:40-05:00",
-      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110499002",
+      "posted_date": "2025-06-18T12:41:32-04:00",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8040989002",
       "ads_score": 1,
-      "consumer_score": 2,
+      "consumer_score": 3,
       "ads_keywords": [
         "platform"
       ],
       "consumer_keywords": [
-        "retention",
+        "engagement",
+        "onboarding",
         "user"
       ],
-      "base_fit": 2,
-      "fit_score": 2,
+      "base_fit": 3,
+      "fit_score": 3,
       "realism_score": 1,
-      "priority_score": 2,
+      "priority_score": 3,
       "recommended_resume": "aipm",
       "first_seen_date": "2026-04-29",
       "status": "active",
@@ -10455,6 +10382,42 @@
       "salary_max_base": null,
       "posted_date": "2024-02-06T17:37:41-05:00",
       "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110509002",
+      "ads_score": 1,
+      "consumer_score": 2,
+      "ads_keywords": [
+        "platform"
+      ],
+      "consumer_keywords": [
+        "retention",
+        "user"
+      ],
+      "base_fit": 2,
+      "fit_score": 2,
+      "realism_score": 1,
+      "priority_score": 2,
+      "recommended_resume": "aipm",
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    {
+      "id": "greenhouse:databricks:7110499002",
+      "company": "Databricks",
+      "tier": 3,
+      "ats": "greenhouse",
+      "title": "Staff Product Manager, Security",
+      "location_raw": "San Francisco, California",
+      "locations": [
+        "San Francisco, California"
+      ],
+      "metro": "sf",
+      "mode": "fully_onsite",
+      "office_days": null,
+      "level": "principal_senior",
+      "salary_min_base": null,
+      "salary_max_base": null,
+      "posted_date": "2024-02-06T17:37:40-05:00",
+      "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110499002",
       "ads_score": 1,
       "consumer_score": 2,
       "ads_keywords": [
@@ -12996,6 +12959,43 @@
       "closed_date": null
     },
     {
+      "id": "ashby:openai:0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc",
+      "company": "OpenAI",
+      "tier": 1,
+      "ats": "ashby",
+      "title": "Product Manager, Financial Engineering",
+      "location_raw": "San Francisco",
+      "locations": [
+        "San Francisco"
+      ],
+      "metro": "sf",
+      "mode": "hybrid_2_3",
+      "office_days": 3,
+      "level": "mid_level",
+      "salary_min_base": 293000,
+      "salary_max_base": 325000,
+      "posted_date": "2026-05-01T21:51:32.978+00:00",
+      "apply_url": "https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc/application",
+      "ads_score": 1,
+      "consumer_score": 3,
+      "ads_keywords": [
+        "monetization"
+      ],
+      "consumer_keywords": [
+        "consumer",
+        "growth",
+        "user"
+      ],
+      "base_fit": 3,
+      "fit_score": 3,
+      "realism_score": 1,
+      "priority_score": 3,
+      "recommended_resume": "aipm",
+      "first_seen_date": "2026-05-02",
+      "status": "closed_today",
+      "closed_date": "2026-05-02"
+    },
+    {
       "id": "greenhouse:roku:7809093",
       "company": "Roku",
       "tier": 2,
@@ -13034,7 +13034,7 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13076,7 +13076,7 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13118,7 +13118,7 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13160,7 +13160,7 @@
       "priority_score": 5,
       "recommended_resume": "general",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13195,7 +13195,7 @@
       "priority_score": 0.7,
       "recommended_resume": "general",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13232,7 +13232,7 @@
       "priority_score": 3,
       "recommended_resume": "ads",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13269,7 +13269,7 @@
       "priority_score": 3,
       "recommended_resume": "aipm",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -13313,7 +13313,7 @@
       "priority_score": 4,
       "recommended_resume": "aipm",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     {
@@ -15071,7 +15071,7 @@
       "recommended_resume": "general",
       "exclusion_reason": "Max base $200k below LA floor of $280k",
       "first_seen_date": "2026-04-29",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     }
   ]
