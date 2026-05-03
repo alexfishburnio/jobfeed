@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-02",
+  "date": "2026-05-03",
   "postings": {
     "greenhouse:anthropic:5181852008": {
       "first_seen_date": "2026-04-29",
@@ -351,12 +351,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7651697": {
+    "greenhouse:stripe:7486955": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7486955": {
+    "greenhouse:stripe:7651697": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1316,22 +1316,22 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:7863522002": {
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:databricks:7863365002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:7924423002": {
+    "greenhouse:databricks:7863522002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
     "greenhouse:databricks:7929994002": {
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:databricks:7924423002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1376,12 +1376,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8041821002": {
+    "greenhouse:databricks:8040989002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8040989002": {
+    "greenhouse:databricks:8041821002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1396,12 +1396,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8420607002": {
+    "greenhouse:databricks:8427954002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8427954002": {
+    "greenhouse:databricks:8420607002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1918,7 +1918,7 @@
     },
     "ashby:openai:0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc": {
       "first_seen_date": "2026-05-02",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-05-02"
     },
     "greenhouse:roku:7809093": {
