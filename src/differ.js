@@ -83,6 +83,15 @@ function diff({ kept, excluded }, statePath, dataDir, todayDate) {
   const todayIds = new Set();
   for (const p of [...kept, ...excluded]) todayIds.add(p.id);
 
+  // newly_discovered = postings whose ID was NOT in the previous state.
+  // Used by the orchestrator's idempotent-skip check: when state.date is
+  // already today AND newly_discovered === 0, the run is a no-op duplicate
+  // (the daily-feed primary already processed today's data).
+  let newlyDiscovered = 0;
+  for (const id of todayIds) {
+    if (!prevPostings[id]) newlyDiscovered++;
+  }
+
   const cutoff = daysBefore(todayDate, RETENTION_DAYS);
 
   // Tag today's active postings — carry first_seen_date forward when known,
@@ -157,6 +166,7 @@ function diff({ kept, excluded }, statePath, dataDir, todayDate) {
     prev_count: Object.keys(prevPostings).length,
     today_active_count: taggedKept.length + taggedExcluded.length,
     today_total_count: Object.keys(newStateMap).length,
+    newly_discovered: newlyDiscovered,
     counts: {
       active_kept: taggedKept.length,
       active_excluded: taggedExcluded.length,

@@ -1,11 +1,12 @@
-name: daily-feed
-
-# 23:00 UTC = 7 PM EDT in summer / 6 PM EST in winter (DST drift acknowledged
-# in Phase 1 spec — acceptable for v1). workflow_dispatch stays enabled so
-# manual runs are still possible alongside the schedule.
+name: daily-fallback
+# Redundancy for daily.yml. Fires 28 min after the main cron (23:45 UTC vs
+# 23:17 UTC). If main fired and committed, this run sees state.date==today
+# with no newly-discovered IDs and skips the email send (idempotent path
+# in src/index.js). If main was delayed/dropped, this run ships the digest
+# instead. Same workflow logic as daily.yml — only the schedule differs.
 on:
   schedule:
-    - cron: '17 23 * * *'
+    - cron: '45 23 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -24,7 +25,7 @@ jobs:
 
       - run: npm ci
 
-      - name: Run daily feed
+      - name: Run daily feed (fallback)
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           RESEND_FROM:    ${{ secrets.RESEND_FROM }}
@@ -38,9 +39,9 @@ jobs:
           git pull --rebase origin main
           git add data/ public/feed.json
           if git diff --cached --quiet; then
-            echo "no changes to commit"
+            echo "no changes to commit (likely a duplicate run after main succeeded)"
           else
             DATE=$(date -u +%Y-%m-%d)
-            git commit -m "feed: ${DATE}"
+            git commit -m "feed: ${DATE} (fallback)"
             git push
           fi

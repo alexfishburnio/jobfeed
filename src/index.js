@@ -123,6 +123,14 @@ async function main() {
   // state across runs — "active" / "closed_today" / "closed").
   const d = diff({ kept, excluded }, STATE_PATH, DATA_DIR, date);
 
+  // Phase 1.7 idempotent gate: when the daily-feed primary already ran
+  // today (state.date == today) and this run discovered no new IDs, this
+  // is the daily-fallback re-fire. Skip the email + health alert sends
+  // (they would be duplicates). Snapshot/state/feed writes are still
+  // performed — they're idempotent if data is unchanged.
+  const isDuplicateRun = d.prev_date === date && d.newly_discovered === 0;
+  log(`idempotent: prev_date=${d.prev_date} today=${date} newly_discovered=${d.newly_discovered} → ${isDuplicateRun ? 'SKIP email/alert' : 'normal send'}`);
+
   // Today's "new" = first_seen_date == today AND currently active.
   const newKeptRaw         = d.kept.filter(p => p.status === 'active' && p.first_seen_date === date);
   const ongoingKeptRaw     = d.kept.filter(p => p.status === 'active' && p.first_seen_date !== date);
@@ -245,26 +253,30 @@ async function main() {
 
   // Preflight: surface the new-count and subject on stdout BEFORE sending
   // so the caller can verify it isn't a degenerate "0 new roles" send.
-  process.stdout.write(`preflight: new=${newKept.length} ongoing=${ongoingKept.length} closed_today=${closedTodayKept.length} excluded_new=${newExcluded.length}\npreflight subject: ${subject}\n`);
-  try {
-    const result = await sendOrPreview({
-      html, subject,
-      dryRun: args.dryRunEmail,
-      previewPath: EMAIL_PREVIEW,
-    });
-    if (result.dryRun) {
-      log(`DRY RUN — preview written to ${path.relative(ROOT, EMAIL_PREVIEW)}`);
-      log(`Subject: ${subject}`);
-    } else if (result.error) {
-      log(`email send FAILED: ${JSON.stringify(result.error)}`);
+  process.stdout.write(`preflight: new=${newKept.length} ongoing=${ongoingKept.length} closed_today=${closedTodayKept.length} excluded_new=${newExcluded.length} duplicate_run=${isDuplicateRun}\npreflight subject: ${subject}\n`);
+  if (isDuplicateRun && !args.dryRunEmail) {
+    log('idempotent skip: state.date == today and 0 newly-discovered IDs — not sending digest email');
+  } else {
+    try {
+      const result = await sendOrPreview({
+        html, subject,
+        dryRun: args.dryRunEmail,
+        previewPath: EMAIL_PREVIEW,
+      });
+      if (result.dryRun) {
+        log(`DRY RUN — preview written to ${path.relative(ROOT, EMAIL_PREVIEW)}`);
+        log(`Subject: ${subject}`);
+      } else if (result.error) {
+        log(`email send FAILED: ${JSON.stringify(result.error)}`);
+        process.exitCode = 1;
+      } else {
+        log(`email sent — id=${result.id} from=${result.from} to=${result.to}`);
+        log(`Subject: ${subject}`);
+      }
+    } catch (err) {
+      log(`email send error: ${err.stack || err.message}`);
       process.exitCode = 1;
-    } else {
-      log(`email sent — id=${result.id} from=${result.from} to=${result.to}`);
-      log(`Subject: ${subject}`);
     }
-  } catch (err) {
-    log(`email send error: ${err.stack || err.message}`);
-    process.exitCode = 1;
   }
 
   // 8. Health tracking + alert email. Always runs (in dry-run mode the
@@ -282,7 +294,10 @@ async function main() {
       const alerts = evaluateAlerts(updatedHealth, companies, date, config);
       healthAlertCount = alertCount(alerts);
       log(`health: ${healthAlertCount} alert(s) — hard_failure=${alerts.hard_failure.length} suspicious_zero=${alerts.suspicious_zero.length} sustained_zero=${alerts.sustained_zero.length} recovery=${alerts.recovery.length}`);
-      if (healthAlertCount > 0) {
+      if (isDuplicateRun && !args.dryRunEmail && healthAlertCount > 0) {
+        log('idempotent skip: health alert already sent by primary run today');
+        healthAlertCount = 0;
+      } else if (healthAlertCount > 0) {
         const subject = buildHealthSubject(alerts);
         const html = buildHealthHtml(alerts, date, HEALTH_REPO_URL);
         const result = await sendHealthAlertOrPreview({
