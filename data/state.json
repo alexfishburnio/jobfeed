@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-09",
+  "date": "2026-05-10",
   "postings": {
     "greenhouse:anthropic:5181852008": {
       "first_seen_date": "2026-04-29",
@@ -117,11 +117,6 @@
       "closed_date": null
     },
     "ashby:openai:791d2486-1e95-483f-ab79-098b255d1a16": {
-      "first_seen_date": "2026-05-06",
-      "status": "active",
-      "closed_date": null
-    },
-    "ashby:openai:f659227e-e916-45fc-8726-6861f60979b6": {
       "first_seen_date": "2026-05-06",
       "status": "active",
       "closed_date": null
@@ -1915,6 +1910,11 @@
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
+    },
+    "ashby:openai:f659227e-e916-45fc-8726-6861f60979b6": {
+      "first_seen_date": "2026-05-06",
+      "status": "closed_today",
+      "closed_date": "2026-05-10"
     },
     "greenhouse:twitch:8419752002": {
       "first_seen_date": "2026-05-04",

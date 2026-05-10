@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T23:02:49.437Z",
+  "generated_at": "2026-05-10T23:03:26.676Z",
   "days": [
     {
       "date": "2026-04-29",
@@ -13811,8 +13811,8 @@
     {
       "date": "2026-05-06",
       "counts": {
-        "active": 6,
-        "closed_today": 0,
+        "active": 5,
+        "closed_today": 1,
         "closed": 0,
         "excluded": 0
       },
@@ -13856,51 +13856,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:openai:791d2486-1e95-483f-ab79-098b255d1a16"
-          ]
-        },
-        {
-          "id": "ashby:openai:f659227e-e916-45fc-8726-6861f60979b6",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Ads Product Manager",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 441000,
-          "salary_max_base": 515000,
-          "posted_date": "2026-05-06T16:42:26.169+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/f659227e-e916-45fc-8726-6861f60979b6/application",
-          "ads_score": 5,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "advertiser",
-            "monetization",
-            "auction",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "user"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-05-06",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:f659227e-e916-45fc-8726-6861f60979b6"
           ]
         },
         {
@@ -14077,6 +14032,51 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:snowflake:157bd8e6-7201-4d37-96ca-0b76a2bc1446"
+          ]
+        },
+        {
+          "id": "ashby:openai:f659227e-e916-45fc-8726-6861f60979b6",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Ads Product Manager",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 441000,
+          "salary_max_base": 515000,
+          "posted_date": "2026-05-06T16:42:26.169+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/f659227e-e916-45fc-8726-6861f60979b6/application",
+          "ads_score": 5,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "advertiser",
+            "monetization",
+            "auction",
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "user"
+          ],
+          "base_fit": 5,
+          "fit_score": 5,
+          "realism_score": 1,
+          "priority_score": 5,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-05-06",
+          "status": "closed_today",
+          "closed_date": "2026-05-10",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:f659227e-e916-45fc-8726-6861f60979b6"
           ]
         }
       ],
