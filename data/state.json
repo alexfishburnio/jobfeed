@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-23",
   "postings": {
     "greenhouse:anthropic:5181852008": {
       "first_seen_date": "2026-05-22",
@@ -241,6 +241,11 @@
       "status": "active",
       "closed_date": null
     },
+    "greenhouse:pinterest:7905508": {
+      "first_seen_date": "2026-05-23",
+      "status": "active",
+      "closed_date": null
+    },
     "greenhouse:pinterest:7684618": {
       "first_seen_date": "2026-04-29",
       "status": "active",
@@ -341,12 +346,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7943244": {
+    "greenhouse:stripe:7947422": {
       "first_seen_date": "2026-05-20",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7947422": {
+    "greenhouse:stripe:7943244": {
       "first_seen_date": "2026-05-20",
       "status": "active",
       "closed_date": null
@@ -366,12 +371,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7651697": {
+    "greenhouse:stripe:7486955": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7486955": {
+    "greenhouse:stripe:7651697": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -501,22 +506,22 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7298573": {
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:roku:7951996": {
       "first_seen_date": "2026-05-21",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7842976": {
+    "greenhouse:roku:7298573": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
     "greenhouse:roku:7843808": {
+      "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:roku:7842976": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1905,11 +1910,6 @@
       "first_seen_date": "2026-05-11",
       "status": "closed",
       "closed_date": "2026-05-21"
-    },
-    "greenhouse:zetaglobal:5586527004": {
-      "first_seen_date": "2026-05-08",
-      "status": "closed",
-      "closed_date": "2026-05-11"
     }
   }
 }
