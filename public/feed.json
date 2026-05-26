@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-25T23:02:45.424Z",
+  "generated_at": "2026-05-26T23:02:48.279Z",
   "days": [
     {
       "date": "2026-04-29",
       "counts": {
-        "active": 179,
+        "active": 177,
         "closed_today": 0,
         "closed": 0,
-        "excluded": 22
+        "excluded": 20
       },
       "postings": [
         {
@@ -1244,15 +1244,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:7597064",
+          "id": "greenhouse:instacart:7597066",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Principal Product Manager, Agentic Commerce",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1260,8 +1260,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-02-09T13:27:37-05:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=7597064",
+          "posted_date": "2026-02-09T13:28:48-05:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=7597066",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1284,20 +1284,20 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:7597064",
-            "greenhouse:instacart:7597066"
+            "greenhouse:instacart:7597066",
+            "greenhouse:instacart:7597064"
           ]
         },
         {
-          "id": "greenhouse:instacart:7769924",
+          "id": "greenhouse:instacart:7769926",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Fraud & Trust",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1305,8 +1305,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-03-31T19:44:03-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=7769924",
+          "posted_date": "2026-03-31T19:44:04-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=7769926",
           "ads_score": 3,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1331,51 +1331,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:7769924",
-            "greenhouse:instacart:7769926"
-          ]
-        },
-        {
-          "id": "greenhouse:airbnb:7651661",
-          "company": "Airbnb",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Trip Quality Merchandising and AI",
-          "location_raw": "San Francisco, CA",
-          "locations": [
-            "San Francisco, CA"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-02-25T17:19:28-05:00",
-          "apply_url": "https://careers.airbnb.com/positions/7651661?gh_jid=7651661",
-          "ads_score": 3,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "demand",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "engagement",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-04-29",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:airbnb:7651661"
+            "greenhouse:instacart:7769926",
+            "greenhouse:instacart:7769924"
           ]
         },
         {
@@ -2172,15 +2129,15 @@
           ]
         },
         {
-          "id": "greenhouse:roku:7843808",
+          "id": "greenhouse:roku:7842976",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Partner Manager",
-          "location_raw": "San Jose, California",
+          "location_raw": "Austin, Texas",
           "locations": [
-            "San Jose, California",
-            "Austin, Texas"
+            "Austin, Texas",
+            "San Jose, California"
           ],
           "metro": "other",
           "mode": "hybrid_4_plus",
@@ -2188,8 +2145,8 @@
           "level": "unknown",
           "salary_min_base": 176163,
           "salary_max_base": 228000,
-          "posted_date": "2026-04-23T16:12:57-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7843808?gh_jid=7843808",
+          "posted_date": "2026-04-22T19:39:50-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7842976?gh_jid=7842976",
           "ads_score": 3,
           "consumer_score": 2,
           "ads_keywords": [
@@ -2214,8 +2171,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:7843808",
-            "greenhouse:roku:7842976"
+            "greenhouse:roku:7842976",
+            "greenhouse:roku:7843808"
           ]
         },
         {
@@ -2459,15 +2416,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7620529003",
+          "id": "greenhouse:affirm:7620527003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Card Experience",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -2475,8 +2432,8 @@
           "level": "principal_senior",
           "salary_min_base": 150000,
           "salary_max_base": 240000,
-          "posted_date": "2026-02-11T13:08:54-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7620529003",
+          "posted_date": "2026-02-11T13:08:53-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7620527003",
           "ads_score": 0,
           "consumer_score": 4,
           "ads_keywords": [],
@@ -2499,20 +2456,20 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7620529003",
-            "greenhouse:affirm:7620527003"
+            "greenhouse:affirm:7620527003",
+            "greenhouse:affirm:7620529003"
           ]
         },
         {
-          "id": "greenhouse:affirm:7605852003",
+          "id": "greenhouse:affirm:7605850003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Financial Reporting",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -2520,8 +2477,8 @@
           "level": "principal_senior",
           "salary_min_base": 150000,
           "salary_max_base": 240000,
-          "posted_date": "2026-01-28T15:48:26-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7605852003",
+          "posted_date": "2026-01-28T15:48:25-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7605850003",
           "ads_score": 1,
           "consumer_score": 1,
           "ads_keywords": [
@@ -2543,8 +2500,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7605852003",
-            "greenhouse:affirm:7605850003"
+            "greenhouse:affirm:7605850003",
+            "greenhouse:affirm:7605852003"
           ]
         },
         {
@@ -2588,15 +2545,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7684281003",
+          "id": "greenhouse:affirm:7684279003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Security Engineer",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -2604,8 +2561,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-04-02T03:47:30-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7684281003",
+          "posted_date": "2026-04-02T03:47:29-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7684279003",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -2628,8 +2585,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7684281003",
-            "greenhouse:affirm:7684279003"
+            "greenhouse:affirm:7684279003",
+            "greenhouse:affirm:7684281003"
           ]
         },
         {
@@ -2952,24 +2909,24 @@
           ]
         },
         {
-          "id": "greenhouse:duolingo:7833425002",
+          "id": "greenhouse:duolingo:8377539002",
           "company": "Duolingo",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Learning",
-          "location_raw": "Pittsburgh, PA",
+          "location_raw": "New York, NY",
           "locations": [
-            "Pittsburgh, PA",
-            "New York, NY"
+            "New York, NY",
+            "Pittsburgh, PA"
           ],
-          "metro": "other",
+          "metro": "nyc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2025-01-27T18:21:54-05:00",
-          "apply_url": "https://careers.duolingo.com/jobs/7833425002?gh_jid=7833425002",
+          "posted_date": "2026-01-15T19:43:04-05:00",
+          "apply_url": "https://careers.duolingo.com/jobs/8377539002?gh_jid=8377539002",
           "ads_score": 0,
           "consumer_score": 1,
           "ads_keywords": [],
@@ -2990,8 +2947,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:duolingo:7833425002",
-            "greenhouse:duolingo:8377539002"
+            "greenhouse:duolingo:8377539002",
+            "greenhouse:duolingo:7833425002"
           ]
         },
         {
@@ -3799,15 +3756,15 @@
           ]
         },
         {
-          "id": "greenhouse:pubmatic:5148544008",
+          "id": "greenhouse:pubmatic:5148551008",
           "company": "PubMatic",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Director, Product Management - Mobile Monetization",
-          "location_raw": "Pune, IN",
+          "location_raw": "Gurugram, IN",
           "locations": [
-            "Pune, IN",
             "Gurugram, IN",
+            "Pune, IN",
             "New York, US",
             "Redwood City, US"
           ],
@@ -3817,8 +3774,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-03-10T02:44:22-04:00",
-          "apply_url": "https://pubmatic.com/job/?gh_jid=5148544008",
+          "posted_date": "2026-03-10T02:44:24-04:00",
+          "apply_url": "https://pubmatic.com/job/?gh_jid=5148551008",
           "ads_score": 5,
           "consumer_score": 4,
           "ads_keywords": [
@@ -3851,8 +3808,8 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:pubmatic:5148544008",
             "greenhouse:pubmatic:5148551008",
+            "greenhouse:pubmatic:5148544008",
             "greenhouse:pubmatic:4861161008"
           ]
         },
@@ -4050,9 +4007,9 @@
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Data Partnerships",
-          "location_raw": "New York, NY",
+          "location_raw": "New York, US",
           "locations": [
-            "New York, NY"
+            "New York, US"
           ],
           "metro": "nyc",
           "mode": "hybrid_2_3",
@@ -4097,9 +4054,9 @@
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Insights",
-          "location_raw": "New York, NY",
+          "location_raw": "New York, US",
           "locations": [
-            "New York, NY"
+            "New York, US"
           ],
           "metro": "nyc",
           "mode": "hybrid_2_3",
@@ -4139,24 +4096,24 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8449763002",
+          "id": "greenhouse:twitch:8445507002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Commerce",
-          "location_raw": "Seattle, WA",
+          "location_raw": "San Francisco, CA",
           "locations": [
-            "Seattle, WA",
-            "San Francisco, CA"
+            "San Francisco, CA",
+            "Seattle, WA"
           ],
-          "metro": "other",
+          "metro": "sf",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-03-04T16:13:29-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8449763002",
+          "posted_date": "2026-03-04T16:13:30-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8445507002",
           "ads_score": 2,
           "consumer_score": 5,
           "ads_keywords": [
@@ -4184,31 +4141,31 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:twitch:8449763002",
-            "greenhouse:twitch:8445507002"
+            "greenhouse:twitch:8445507002",
+            "greenhouse:twitch:8449763002"
           ]
         },
         {
-          "id": "greenhouse:twitch:8482268002",
+          "id": "greenhouse:twitch:8480047002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Mgr - Community",
-          "location_raw": "Seattle, WA",
+          "location_raw": "San Francisco, CA",
           "locations": [
-            "Seattle, WA",
             "San Francisco, CA",
-            "Los Angeles, CA",
-            "New York City"
+            "New York City",
+            "Seattle, WA",
+            "Los Angeles, CA"
           ],
-          "metro": "other",
+          "metro": "sf",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "unknown",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-03-26T18:54:46-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8482268002",
+          "posted_date": "2026-03-26T18:54:47-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8480047002",
           "ads_score": 1,
           "consumer_score": 4,
           "ads_keywords": [
@@ -4236,10 +4193,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8482268002",
             "greenhouse:twitch:8480047002",
-            "greenhouse:twitch:8482269002",
-            "greenhouse:twitch:8482270002"
+            "greenhouse:twitch:8482270002",
+            "greenhouse:twitch:8482268002",
+            "greenhouse:twitch:8482269002"
           ]
         },
         {
@@ -4284,50 +4241,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:twitch:8327905002"
-          ]
-        },
-        {
-          "id": "greenhouse:stackadapt:4226701009",
-          "company": "StackAdapt",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Product Manager, Audiences",
-          "location_raw": "Canada; United States",
-          "locations": [
-            "Canada",
-            "United States"
-          ],
-          "metro": "other",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-04-21T11:03:03-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/stackadapt/jobs/4226701009",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "DSP",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "engagement",
-            "onboarding"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-04-29",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stackadapt:4226701009"
           ]
         },
         {
@@ -4559,6 +4472,7 @@
             "London",
             "Serbia",
             "Remote (United States)",
+            "Seattle",
             "Washington D.C."
           ],
           "metro": "sf",
@@ -5480,24 +5394,24 @@
           ]
         },
         {
-          "id": "greenhouse:databricks:8200462002",
+          "id": "greenhouse:databricks:8200284002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, Compute Platform",
-          "location_raw": "San Francisco, California",
+          "location_raw": "Seattle, Washington",
           "locations": [
-            "San Francisco, California",
-            "Seattle, Washington"
+            "Seattle, Washington",
+            "San Francisco, California"
           ],
-          "metro": "sf",
+          "metro": "dc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2025-10-06T22:34:41-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200462002",
+          "posted_date": "2025-10-06T22:34:40-04:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200284002",
           "ads_score": 1,
           "consumer_score": 1,
           "ads_keywords": [
@@ -5520,29 +5434,29 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:8200462002",
-            "greenhouse:databricks:8200284002"
+            "greenhouse:databricks:8200284002",
+            "greenhouse:databricks:8200462002"
           ]
         },
         {
-          "id": "greenhouse:databricks:8136071002",
+          "id": "greenhouse:databricks:8136204002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, Databricks AI",
-          "location_raw": "San Francisco, California",
+          "location_raw": "Seattle, Washington",
           "locations": [
-            "San Francisco, California",
-            "Seattle, Washington"
+            "Seattle, Washington",
+            "San Francisco, California"
           ],
-          "metro": "sf",
+          "metro": "dc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2025-08-25T14:19:01-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136071002",
+          "posted_date": "2025-08-25T14:19:53-04:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8136204002",
           "ads_score": 2,
           "consumer_score": 0,
           "ads_keywords": [
@@ -5564,29 +5478,29 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:8136071002",
-            "greenhouse:databricks:8136204002"
+            "greenhouse:databricks:8136204002",
+            "greenhouse:databricks:8136071002"
           ]
         },
         {
-          "id": "greenhouse:databricks:7680573002",
+          "id": "greenhouse:databricks:8235785002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, Databricks Free Edition",
-          "location_raw": "San Francisco, California",
+          "location_raw": "Seattle, Washington",
           "locations": [
-            "San Francisco, California",
-            "Seattle, Washington"
+            "Seattle, Washington",
+            "San Francisco, California"
           ],
-          "metro": "sf",
+          "metro": "dc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2024-10-11T14:53:30-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7680573002",
+          "posted_date": "2025-10-31T12:57:29-04:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8235785002",
           "ads_score": 1,
           "consumer_score": 3,
           "ads_keywords": [
@@ -5611,29 +5525,29 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:7680573002",
-            "greenhouse:databricks:8235785002"
+            "greenhouse:databricks:8235785002",
+            "greenhouse:databricks:7680573002"
           ]
         },
         {
-          "id": "greenhouse:databricks:8326570002",
+          "id": "greenhouse:databricks:8326513002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, Databricks Repos",
-          "location_raw": "Seattle, Washington",
+          "location_raw": "San Francisco, California",
           "locations": [
-            "Seattle, Washington",
-            "San Francisco, California"
+            "San Francisco, California",
+            "Seattle, Washington"
           ],
-          "metro": "dc",
+          "metro": "sf",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2025-12-05T16:31:12-05:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326570002",
+          "posted_date": "2025-12-05T16:31:10-05:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8326513002",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -5657,8 +5571,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:8326570002",
-            "greenhouse:databricks:8326513002"
+            "greenhouse:databricks:8326513002",
+            "greenhouse:databricks:8326570002"
           ]
         },
         {
@@ -5744,24 +5658,24 @@
           ]
         },
         {
-          "id": "greenhouse:databricks:7924423002",
+          "id": "greenhouse:databricks:7929994002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, DBSQL",
-          "location_raw": "San Francisco, California",
+          "location_raw": "Seattle, Washington",
           "locations": [
-            "San Francisco, California",
-            "Seattle, Washington"
+            "Seattle, Washington",
+            "San Francisco, California"
           ],
-          "metro": "sf",
+          "metro": "dc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2025-03-26T14:02:13-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7924423002",
+          "posted_date": "2025-03-26T14:02:12-04:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7929994002",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -5785,8 +5699,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:7924423002",
-            "greenhouse:databricks:7929994002"
+            "greenhouse:databricks:7929994002",
+            "greenhouse:databricks:7924423002"
           ]
         },
         {
@@ -6004,24 +5918,24 @@
           ]
         },
         {
-          "id": "greenhouse:databricks:8041821002",
+          "id": "greenhouse:databricks:8040989002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Content Experience",
-          "location_raw": "Seattle, Washington",
+          "location_raw": "San Francisco, California",
           "locations": [
-            "Seattle, Washington",
-            "San Francisco, California"
+            "San Francisco, California",
+            "Seattle, Washington"
           ],
-          "metro": "dc",
+          "metro": "sf",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2025-06-18T12:41:33-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8041821002",
+          "posted_date": "2025-06-18T12:41:32-04:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8040989002",
           "ads_score": 1,
           "consumer_score": 3,
           "ads_keywords": [
@@ -6046,29 +5960,29 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:8041821002",
-            "greenhouse:databricks:8040989002"
+            "greenhouse:databricks:8040989002",
+            "greenhouse:databricks:8041821002"
           ]
         },
         {
-          "id": "greenhouse:databricks:7110499002",
+          "id": "greenhouse:databricks:7110509002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Security",
-          "location_raw": "San Francisco, California",
+          "location_raw": "Seattle, Washington",
           "locations": [
-            "San Francisco, California",
-            "Seattle, Washington"
+            "Seattle, Washington",
+            "San Francisco, California"
           ],
-          "metro": "sf",
+          "metro": "dc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2024-02-06T17:37:40-05:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110499002",
+          "posted_date": "2024-02-06T17:37:41-05:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7110509002",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -6092,8 +6006,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:7110499002",
-            "greenhouse:databricks:7110509002"
+            "greenhouse:databricks:7110509002",
+            "greenhouse:databricks:7110499002"
           ]
         },
         {
@@ -6510,26 +6424,26 @@
           ]
         },
         {
-          "id": "greenhouse:braze:7838111",
+          "id": "greenhouse:braze:7838105",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Senior Product Manager",
-          "location_raw": "San Francisco",
+          "location_raw": "Austin",
           "locations": [
-            "San Francisco",
-            "Chicago",
             "Austin",
-            "New York City"
+            "San Francisco",
+            "New York City",
+            "Chicago"
           ],
-          "metro": "sf",
+          "metro": "other",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-04-21T11:42:07-04:00",
-          "apply_url": "https://boards.greenhouse.io/braze/jobs/7838111?gh_jid=7838111",
+          "posted_date": "2026-04-21T11:42:05-04:00",
+          "apply_url": "https://boards.greenhouse.io/braze/jobs/7838105?gh_jid=7838105",
           "ads_score": 1,
           "consumer_score": 4,
           "ads_keywords": [
@@ -6556,10 +6470,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:braze:7838111",
-            "greenhouse:braze:7838108",
             "greenhouse:braze:7838105",
-            "greenhouse:braze:7821455"
+            "greenhouse:braze:7838111",
+            "greenhouse:braze:7821455",
+            "greenhouse:braze:7838108"
           ]
         },
         {
@@ -8464,89 +8378,6 @@
           "grouped_ids": [
             "greenhouse:gleanwork:4525518005"
           ]
-        },
-        {
-          "id": "lever:matchgroup:b8fb46ba-0a2f-4284-be5c-e20f1b6b2f51",
-          "company": "Match Group",
-          "tier": 4,
-          "ats": "lever",
-          "title": "Sr. Product Manager, Notifications",
-          "location_raw": "Los Angeles, California",
-          "locations": [
-            "Los Angeles, California"
-          ],
-          "metro": "la",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 170000,
-          "salary_max_base": 190000,
-          "posted_date": "2026-03-13T16:56:02.548Z",
-          "apply_url": "https://jobs.lever.co/matchgroup/b8fb46ba-0a2f-4284-be5c-e20f1b6b2f51/apply",
-          "ads_score": 1,
-          "consumer_score": 5,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "retention",
-            "engagement",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "general",
-          "exclusion_reason": "Max base $190k below LA floor of $280k",
-          "first_seen_date": "2026-04-29",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "lever:matchgroup:b8fb46ba-0a2f-4284-be5c-e20f1b6b2f51"
-          ]
-        },
-        {
-          "id": "lever:matchgroup:fec246a0-6774-47fa-8016-ac998a45b9c1",
-          "company": "Match Group",
-          "tier": 4,
-          "ats": "lever",
-          "title": "Sr. Product Manager, Recommendations",
-          "location_raw": "Los Angeles, California",
-          "locations": [
-            "Los Angeles, California"
-          ],
-          "metro": "la",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 170000,
-          "salary_max_base": 200000,
-          "posted_date": "2025-06-23T16:49:56.061Z",
-          "apply_url": "https://jobs.lever.co/matchgroup/fec246a0-6774-47fa-8016-ac998a45b9c1/apply",
-          "ads_score": 0,
-          "consumer_score": 2,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "exclusion_reason": "Max base $200k below LA floor of $280k",
-          "first_seen_date": "2026-04-29",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "lever:matchgroup:fec246a0-6774-47fa-8016-ac998a45b9c1"
-          ]
         }
       ]
     },
@@ -8573,8 +8404,8 @@
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
-          "salary_min_base": 180000,
-          "salary_max_base": 290000,
+          "salary_min_base": 250000,
+          "salary_max_base": 330000,
           "posted_date": "2026-04-30T22:02:04.828+00:00",
           "apply_url": "https://jobs.ashbyhq.com/openai/60d1420a-8aa3-4d87-847e-e7b73d9d9a0c/application",
           "ads_score": 0,
@@ -8597,24 +8428,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:7822355",
+          "id": "greenhouse:roku:7871135",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager – Data Collaboration & Measurement",
-          "location_raw": "New York, New York",
+          "location_raw": "San Jose, California",
           "locations": [
-            "New York, New York",
-            "San Jose, California"
+            "San Jose, California",
+            "New York, New York"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 125375,
           "salary_max_base": 261600,
-          "posted_date": "2026-04-30T11:29:59-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7822355?gh_jid=7822355",
+          "posted_date": "2026-04-30T11:30:00-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7871135?gh_jid=7871135",
           "ads_score": 4,
           "consumer_score": 2,
           "ads_keywords": [
@@ -8641,8 +8472,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:7822355",
-            "greenhouse:roku:7871135"
+            "greenhouse:roku:7871135",
+            "greenhouse:roku:7822355"
           ]
         },
         {
@@ -8921,25 +8752,25 @@
           ]
         },
         {
-          "id": "greenhouse:braze:7852178",
+          "id": "greenhouse:braze:7875177",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Lead Product Analyst",
-          "location_raw": "New York City",
+          "location_raw": "Chicago",
           "locations": [
+            "Chicago",
             "New York City",
-            "Austin",
-            "Chicago"
+            "Austin"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2026-05-01T15:13:18-04:00",
-          "apply_url": "https://boards.greenhouse.io/braze/jobs/7852178?gh_jid=7852178",
+          "apply_url": "https://boards.greenhouse.io/braze/jobs/7875177?gh_jid=7875177",
           "ads_score": 1,
           "consumer_score": 3,
           "ads_keywords": [
@@ -8964,9 +8795,9 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
+            "greenhouse:braze:7875177",
             "greenhouse:braze:7852178",
-            "greenhouse:braze:7875180",
-            "greenhouse:braze:7875177"
+            "greenhouse:braze:7875180"
           ]
         }
       ],
@@ -9574,8 +9405,8 @@
           "location_raw": "San Jose, California",
           "locations": [
             "San Jose, California",
-            "New York, New York",
-            "Santa Monica, California"
+            "Santa Monica, California",
+            "New York, New York"
           ],
           "metro": "other",
           "mode": "hybrid_4_plus",
@@ -9614,8 +9445,8 @@
           "grouped_count": 3,
           "grouped_ids": [
             "greenhouse:roku:7901533",
-            "greenhouse:roku:7899578",
-            "greenhouse:roku:7874930"
+            "greenhouse:roku:7874930",
+            "greenhouse:roku:7899578"
           ]
         },
         {
@@ -10376,7 +10207,7 @@
       "counts": {
         "active": 3,
         "closed_today": 0,
-        "closed": 1,
+        "closed": 0,
         "excluded": 0
       },
       "postings": [
@@ -10510,52 +10341,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:zocdoc:7909556"
-          ]
-        },
-        {
-          "id": "greenhouse:zetaglobal:5972919004",
-          "company": "Zeta Global",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager - Addressability",
-          "location_raw": "Remote - United States",
-          "locations": [
-            "Remote - United States"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": 180000,
-          "salary_max_base": 200000,
-          "posted_date": "2026-04-21T15:27:36-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/zetaglobal/jobs/5972919004",
-          "ads_score": 5,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "programmatic",
-            "DSP",
-            "ad tech",
-            "publisher",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "activation",
-            "onboarding",
-            "user"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-05-11",
-          "status": "closed",
-          "closed_date": "2026-05-21",
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:zetaglobal:5972919004"
           ]
         }
       ],
@@ -11878,25 +11663,25 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8546342002",
+          "id": "greenhouse:twitch:8551040002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Ads",
-          "location_raw": "San Francisco, CA",
+          "location_raw": "Seattle, WA",
           "locations": [
-            "San Francisco, CA",
             "Seattle, WA",
+            "San Francisco, CA",
             "Irvine, CA"
           ],
-          "metro": "sf",
+          "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2026-05-14T21:17:43-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8546342002",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8551040002",
           "ads_score": 2,
           "consumer_score": 0,
           "ads_keywords": [
@@ -11918,23 +11703,23 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:twitch:8546342002",
             "greenhouse:twitch:8551040002",
+            "greenhouse:twitch:8546342002",
             "greenhouse:twitch:8551041002"
           ]
         },
         {
-          "id": "greenhouse:twitch:8551034002",
+          "id": "greenhouse:twitch:8551033002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Community",
-          "location_raw": "Irvine, CA",
+          "location_raw": "Seattle, WA",
           "locations": [
-            "Irvine, CA",
             "Seattle, WA",
-            "San Francisco, CA",
-            "New York City"
+            "New York City",
+            "Irvine, CA",
+            "San Francisco, CA"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -11942,8 +11727,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-05-14T20:31:01-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8551034002",
+          "posted_date": "2026-05-14T20:30:51-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8551033002",
           "ads_score": 1,
           "consumer_score": 4,
           "ads_keywords": [
@@ -11970,10 +11755,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8551034002",
             "greenhouse:twitch:8551033002",
-            "greenhouse:twitch:8544719002",
-            "greenhouse:twitch:8551036002"
+            "greenhouse:twitch:8551036002",
+            "greenhouse:twitch:8551034002",
+            "greenhouse:twitch:8544719002"
           ]
         }
       ],
@@ -12386,15 +12171,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7694940003",
+          "id": "greenhouse:affirm:7694938003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Affirm Bank",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -12403,7 +12188,7 @@
           "salary_min_base": 178000,
           "salary_max_base": 275000,
           "posted_date": "2026-04-14T10:44:54-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7694940003",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7694938003",
           "ads_score": 3,
           "consumer_score": 3,
           "ads_keywords": [
@@ -12429,8 +12214,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7694940003",
-            "greenhouse:affirm:7694938003"
+            "greenhouse:affirm:7694938003",
+            "greenhouse:affirm:7694940003"
           ]
         },
         {
@@ -12568,15 +12353,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:7943244",
+          "id": "greenhouse:stripe:7947422",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Product Manager, Ecosystem Risk",
-          "location_raw": "Dublin",
+          "location_raw": "London",
           "locations": [
-            "Dublin",
-            "London"
+            "London",
+            "Dublin"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -12584,8 +12369,8 @@
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-05-20T14:40:31-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=7943244",
+          "posted_date": "2026-05-20T14:40:34-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=7947422",
           "ads_score": 1,
           "consumer_score": 3,
           "ads_keywords": [
@@ -12609,8 +12394,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:7943244",
-            "greenhouse:stripe:7947422"
+            "greenhouse:stripe:7947422",
+            "greenhouse:stripe:7943244"
           ]
         },
         {
@@ -13374,6 +13159,309 @@
         }
       ],
       "excluded": []
+    },
+    {
+      "date": "2026-05-26",
+      "counts": {
+        "active": 5,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 2
+      },
+      "postings": [
+        {
+          "id": "greenhouse:anthropic:5127559008",
+          "company": "Anthropic",
+          "tier": 1,
+          "ats": "greenhouse",
+          "title": "Product Manager, Consumer",
+          "location_raw": "San Francisco, CA | New York City, NY",
+          "locations": [
+            "San Francisco, CA",
+            "New York City, NY"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 305000,
+          "salary_max_base": 385000,
+          "posted_date": "2026-02-25T00:36:00-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5127559008",
+          "ads_score": 0,
+          "consumer_score": 3,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "consumer",
+            "B2C",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:anthropic:5127559008"
+          ]
+        },
+        {
+          "id": "greenhouse:stripe:7927089",
+          "company": "Stripe",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager, Terminal Device Expansion",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-26T17:30:35-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=7927089",
+          "ads_score": 1,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:stripe:7927089"
+          ]
+        },
+        {
+          "id": "greenhouse:robinhood:7947548",
+          "company": "Robinhood",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager, Brokerage",
+          "location_raw": "Menlo Park, CA; New York, NY",
+          "locations": [
+            "Menlo Park, CA",
+            "New York, NY"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-26T13:31:14-04:00",
+          "apply_url": "https://boards.greenhouse.io/robinhood/jobs/7947548?t=gh_src=&gh_jid=7947548",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:robinhood:7947548"
+          ]
+        },
+        {
+          "id": "greenhouse:figma:6002024004",
+          "company": "Figma",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Director, Product - Enterprise ",
+          "location_raw": "San Francisco, CA • New York, NY • United States",
+          "locations": [
+            "San Francisco, CA • New York, NY • United States"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "director",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-26T12:04:46-04:00",
+          "apply_url": "https://boards.greenhouse.io/figma/jobs/6002024004?gh_jid=6002024004",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "engagement",
+            "onboarding"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 0.7,
+          "priority_score": 1.4,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:figma:6002024004"
+          ]
+        },
+        {
+          "id": "greenhouse:thetradedesk:5147007007",
+          "company": "The Trade Desk",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Sr. Staff Product Manager, Revenue Products",
+          "location_raw": "Bellevue; New York; San Francisco; San Jose",
+          "locations": [
+            "Bellevue",
+            "New York",
+            "San Francisco",
+            "San Jose"
+          ],
+          "metro": "nyc",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-26T17:16:09-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5147007007",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "advertiser",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "mobile app",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:thetradedesk:5147007007"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "greenhouse:lyft:8318645002",
+          "company": "Lyft",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Group Product Manager, Core Rider",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "senior_director",
+          "salary_min_base": 176000,
+          "salary_max_base": 220000,
+          "posted_date": "2025-12-03T13:25:18-05:00",
+          "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8318645002?gh_jid=8318645002",
+          "ads_score": 0,
+          "consumer_score": 3,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "mobile app"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 0.3,
+          "priority_score": 0.8999999999999999,
+          "recommended_resume": "general",
+          "exclusion_reason": "Max base $220k below SF floor of $280k",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:lyft:8318645002"
+          ]
+        },
+        {
+          "id": "greenhouse:zetaglobal:5740911004",
+          "company": "Zeta Global",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Director, Product Management - Agentic App Suite",
+          "location_raw": "San Francisco, California, United States",
+          "locations": [
+            "San Francisco, California, United States"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "director",
+          "salary_min_base": 190000,
+          "salary_max_base": 210000,
+          "posted_date": "2025-12-23T16:32:05-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/zetaglobal/jobs/5740911004",
+          "ads_score": 1,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "activation",
+            "lifecycle"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "exclusion_reason": "Max base $210k below SF floor of $280k",
+          "first_seen_date": "2026-05-26",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:zetaglobal:5740911004"
+          ]
+        }
+      ]
     }
   ]
 }
