@@ -1,229 +1,6 @@
 {
-  "generated_at": "2026-06-03T23:02:37.994Z",
+  "generated_at": "2026-06-04T23:02:39.026Z",
   "days": [
-    {
-      "date": "2026-05-04",
-      "counts": {
-        "active": 5,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "ashby:openai:f6494cf8-efbc-4dbe-ae76-662088b4f32c",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Product Manager, Cyber Safety",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 293000,
-          "salary_max_base": 325000,
-          "posted_date": "2026-05-08T17:07:13.827+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/f6494cf8-efbc-4dbe-ae76-662088b4f32c/application",
-          "ads_score": 0,
-          "consumer_score": 3,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "growth",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-05-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:f6494cf8-efbc-4dbe-ae76-662088b4f32c"
-          ]
-        },
-        {
-          "id": "ashby:openai:0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Product Manager, Financial Engineering",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": 3,
-          "level": "mid_level",
-          "salary_min_base": 293000,
-          "salary_max_base": 325000,
-          "posted_date": "2026-05-04T16:56:31.623+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc/application",
-          "ads_score": 2,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "monetization",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-05-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc"
-          ]
-        },
-        {
-          "id": "ashby:openai:11a61b5b-3c1f-472f-93ec-4cb3e37e5ae8",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Product Manager, Families",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 293000,
-          "salary_max_base": 325000,
-          "posted_date": "2026-05-04T17:51:34.418+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/11a61b5b-3c1f-472f-93ec-4cb3e37e5ae8/application",
-          "ads_score": 1,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-05-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:11a61b5b-3c1f-472f-93ec-4cb3e37e5ae8"
-          ]
-        },
-        {
-          "id": "greenhouse:roku:7642909",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Account Foundations",
-          "location_raw": "San Jose, California",
-          "locations": [
-            "San Jose, California"
-          ],
-          "metro": "other",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "principal_senior",
-          "salary_min_base": 266000,
-          "salary_max_base": 387000,
-          "posted_date": "2026-02-20T16:49:12-05:00",
-          "apply_url": "https://www.weareroku.com/jobs/7642909?gh_jid=7642909",
-          "ads_score": 3,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "publisher",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "onboarding",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-05-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roku:7642909"
-          ]
-        },
-        {
-          "id": "greenhouse:affirm:7718659003",
-          "company": "Affirm",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Director of Product Management, Financial Platforms",
-          "location_raw": "Remote US",
-          "locations": [
-            "Remote US",
-            "Remote Canada"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "director",
-          "salary_min_base": 238000,
-          "salary_max_base": 360000,
-          "posted_date": "2026-05-04T12:58:24-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7718659003",
-          "ads_score": 2,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "lifecycle"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 0.7,
-          "priority_score": 1.4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-05-04",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:affirm:7718659003",
-            "greenhouse:affirm:7718661003"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-05-05",
       "counts": {
@@ -518,8 +295,8 @@
           "location_raw": "San Jose, California",
           "locations": [
             "San Jose, California",
-            "New York, New York",
-            "Santa Monica, California"
+            "Santa Monica, California",
+            "New York, New York"
           ],
           "metro": "other",
           "mode": "hybrid_4_plus",
@@ -558,8 +335,8 @@
           "grouped_count": 3,
           "grouped_ids": [
             "greenhouse:roku:7901533",
-            "greenhouse:roku:7899578",
-            "greenhouse:roku:7874930"
+            "greenhouse:roku:7874930",
+            "greenhouse:roku:7899578"
           ]
         },
         {
@@ -2727,14 +2504,13 @@
           "posted_date": "2026-05-15T10:52:17-04:00",
           "apply_url": "https://job-boards.greenhouse.io/innovid/jobs/8551720002",
           "ads_score": 2,
-          "consumer_score": 2,
+          "consumer_score": 1,
           "ads_keywords": [
             "ad tech",
             "platform"
           ],
           "consumer_keywords": [
-            "consumer",
-            "growth"
+            "consumer"
           ],
           "base_fit": 2,
           "fit_score": 2,
@@ -2980,7 +2756,7 @@
     {
       "date": "2026-05-19",
       "counts": {
-        "active": 5,
+        "active": 4,
         "closed_today": 0,
         "closed": 0,
         "excluded": 0
@@ -3073,15 +2849,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7694940003",
+          "id": "greenhouse:affirm:7694938003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Affirm Bank",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -3090,7 +2866,7 @@
           "salary_min_base": 181000,
           "salary_max_base": 290000,
           "posted_date": "2026-04-14T10:44:54-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7694940003",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7694938003",
           "ads_score": 3,
           "consumer_score": 3,
           "ads_keywords": [
@@ -3116,29 +2892,29 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7694940003",
-            "greenhouse:affirm:7694938003"
+            "greenhouse:affirm:7694938003",
+            "greenhouse:affirm:7694940003"
           ]
         },
         {
-          "id": "greenhouse:duolingo:8517138002",
+          "id": "greenhouse:duolingo:8517116002",
           "company": "Duolingo",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Recruiter",
-          "location_raw": "New York, NY",
+          "location_raw": "Pittsburgh, PA",
           "locations": [
-            "New York, NY",
-            "Pittsburgh, PA"
+            "Pittsburgh, PA",
+            "New York, NY"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "unknown",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-04-21T14:14:16-04:00",
-          "apply_url": "https://careers.duolingo.com/jobs/8517138002?gh_jid=8517138002",
+          "posted_date": "2026-04-21T14:14:15-04:00",
+          "apply_url": "https://careers.duolingo.com/jobs/8517116002?gh_jid=8517116002",
           "ads_score": 0,
           "consumer_score": 0,
           "ads_keywords": [],
@@ -3157,48 +2933,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:duolingo:8517138002",
-            "greenhouse:duolingo:8517116002"
-          ]
-        },
-        {
-          "id": "greenhouse:doubleverify:8545708002",
-          "company": "DoubleVerify",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Intern - Product Operations",
-          "location_raw": "NYC Global HQ",
-          "locations": [
-            "NYC Global HQ"
-          ],
-          "metro": "other",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "unknown",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-05-19T15:04:50-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/doubleverify/jobs/8545708002",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "lifecycle"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-05-19",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:doubleverify:8545708002"
+            "greenhouse:duolingo:8517116002",
+            "greenhouse:duolingo:8517138002"
           ]
         }
       ],
@@ -4913,15 +4649,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:7838736",
+          "id": "greenhouse:instacart:7838738",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, In-Store Integrations",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4929,8 +4665,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-04-24T19:32:07-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=7838736",
+          "posted_date": "2026-04-24T19:32:29-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=7838738",
           "ads_score": 1,
           "consumer_score": 1,
           "ads_keywords": [
@@ -4952,8 +4688,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:7838736",
-            "greenhouse:instacart:7838738"
+            "greenhouse:instacart:7838738",
+            "greenhouse:instacart:7838736"
           ]
         },
         {
@@ -5277,8 +5013,8 @@
       "date": "2026-06-02",
       "counts": {
         "active": 1,
-        "closed_today": 2,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 2,
         "excluded": 0
       },
       "postings": [
@@ -5359,7 +5095,7 @@
           "priority_score": 2,
           "recommended_resume": "ads",
           "first_seen_date": "2026-06-02",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-06-03",
           "metros": [
             "other"
@@ -5406,7 +5142,7 @@
           "priority_score": 5,
           "recommended_resume": "ads",
           "first_seen_date": "2026-06-02",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-06-03",
           "grouped_count": 1,
           "grouped_ids": [
@@ -5510,15 +5246,15 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:6013333004",
+          "id": "greenhouse:epicgames:6013462004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Product Management",
-          "location_raw": "Cary,North Carolina,United States",
+          "location_raw": "Vancouver,British Columbia,Canada",
           "locations": [
-            "Cary,North Carolina,United States",
             "Vancouver,British Columbia,Canada",
+            "Cary,North Carolina,United States",
             "BLANK,BLANK,Multiple Locations"
           ],
           "metro": "other",
@@ -5527,8 +5263,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-06-03T16:24:53-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/6013333004?gh_jid=6013333004",
+          "posted_date": "2026-06-03T16:24:55-04:00",
+          "apply_url": "https://epicgames.com/careers/jobs/6013462004?gh_jid=6013462004",
           "ads_score": 2,
           "consumer_score": 3,
           "ads_keywords": [
@@ -5553,8 +5289,8 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:epicgames:6013333004",
             "greenhouse:epicgames:6013462004",
+            "greenhouse:epicgames:6013333004",
             "greenhouse:epicgames:6013335004"
           ]
         },
@@ -5929,6 +5665,320 @@
           "grouped_ids": [
             "greenhouse:gleanwork:4701912005",
             "greenhouse:gleanwork:4702369005"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-06-04",
+      "counts": {
+        "active": 6,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 1
+      },
+      "postings": [
+        {
+          "id": "greenhouse:anthropic:5247640008",
+          "company": "Anthropic",
+          "tier": 1,
+          "ats": "greenhouse",
+          "title": "Product Manager, Claude Code Model Performance ",
+          "location_raw": "San Francisco, CA | New York City, NY",
+          "locations": [
+            "San Francisco, CA",
+            "New York City, NY"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-04T15:26:42-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5247640008",
+          "ads_score": 0,
+          "consumer_score": 1,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:anthropic:5247640008"
+          ]
+        },
+        {
+          "id": "greenhouse:instacart:7979354",
+          "company": "Instacart",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Agentic Foundations",
+          "location_raw": "United States - Remote",
+          "locations": [
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-04T13:36:37-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=7979354",
+          "ads_score": 2,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "lifecycle"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "remote"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "greenhouse:instacart:7979354",
+            "greenhouse:instacart:7979356"
+          ]
+        },
+        {
+          "id": "greenhouse:roku:7804012",
+          "company": "Roku",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Strategy & Operations Lead, Ad Performance",
+          "location_raw": "Boston, Massachusetts",
+          "locations": [
+            "Boston, Massachusetts"
+          ],
+          "metro": "other",
+          "mode": "hybrid_4_plus",
+          "office_days": 4,
+          "level": "unknown",
+          "salary_min_base": 130000,
+          "salary_max_base": 170000,
+          "posted_date": "2026-04-09T18:40:18-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7804012?gh_jid=7804012",
+          "ads_score": 4,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "ad tech",
+            "publisher",
+            "advertiser",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:roku:7804012"
+          ]
+        },
+        {
+          "id": "greenhouse:twilio:7980740",
+          "company": "Twilio",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager L3",
+          "location_raw": "Remote - Canada",
+          "locations": [
+            "Remote - Canada"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-04T13:46:37-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/7980740",
+          "ads_score": 1,
+          "consumer_score": 4,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "onboarding",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:twilio:7980740"
+          ]
+        },
+        {
+          "id": "ashby:perplexity:e7ab0be5-68ba-4a2c-abb1-ee33886d955d",
+          "company": "Perplexity",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Member of Technical Staff (Software Engineer, Computer Growth)",
+          "location_raw": "San Francisco | New York City",
+          "locations": [
+            "San Francisco",
+            "New York City"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "ai_company_role",
+          "salary_min_base": 220000,
+          "salary_max_base": 405000,
+          "posted_date": "2026-06-04T19:12:59.151+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/perplexity/e7ab0be5-68ba-4a2c-abb1-ee33886d955d/application",
+          "ads_score": 2,
+          "consumer_score": 5,
+          "ads_keywords": [
+            "monetization",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "retention",
+            "activation",
+            "onboarding",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 5,
+          "fit_score": 5,
+          "realism_score": 1,
+          "priority_score": 5,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:perplexity:e7ab0be5-68ba-4a2c-abb1-ee33886d955d"
+          ]
+        },
+        {
+          "id": "greenhouse:mixpanel:7974980",
+          "company": "Mixpanel",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Head of Product Marketing",
+          "location_raw": "San Francisco, US (Hybrid)",
+          "locations": [
+            "San Francisco, US (Hybrid)"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "vp_head",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-04T14:43:54-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/mixpanel/jobs/7974980",
+          "ads_score": 1,
+          "consumer_score": 4,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "retention",
+            "engagement",
+            "user"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 0.7,
+          "priority_score": 2.8,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:mixpanel:7974980"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "greenhouse:roku:7803818",
+          "company": "Roku",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Strategy & Operations Lead, Ad Performance",
+          "location_raw": "New York, New York",
+          "locations": [
+            "New York, New York"
+          ],
+          "metro": "nyc",
+          "mode": "hybrid_4_plus",
+          "office_days": 4,
+          "level": "unknown",
+          "salary_min_base": 130000,
+          "salary_max_base": 170000,
+          "posted_date": "2026-04-09T18:40:17-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7803818?gh_jid=7803818",
+          "ads_score": 4,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "ad tech",
+            "publisher",
+            "advertiser",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "ads",
+          "exclusion_reason": "Max base $170k below NYC floor of $180k",
+          "first_seen_date": "2026-06-04",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:roku:7803818"
           ]
         }
       ]
