@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T23:02:42.238Z",
+  "generated_at": "2026-06-17T23:02:48.906Z",
   "days": [
     {
       "date": "2026-05-18",
@@ -1702,15 +1702,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:7967235",
+          "id": "greenhouse:instacart:7967233",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director of Product, Agentic Commerce",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1718,8 +1718,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-05-29T13:13:14-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=7967235",
+          "posted_date": "2026-05-29T13:13:15-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=7967233",
           "ads_score": 2,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1743,8 +1743,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:7967235",
-            "greenhouse:instacart:7967233"
+            "greenhouse:instacart:7967233",
+            "greenhouse:instacart:7967235"
           ]
         },
         {
@@ -2065,7 +2065,7 @@
       "counts": {
         "active": 1,
         "closed_today": 0,
-        "closed": 2,
+        "closed": 0,
         "excluded": 0
       },
       "postings": [
@@ -2109,95 +2109,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:applovin:4686202006"
-          ]
-        },
-        {
-          "id": "greenhouse:stripe:7486955",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Local Payment Methods EMEA",
-          "location_raw": "Dublin",
-          "locations": [
-            "Dublin",
-            "London"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2025-12-19T10:16:58-05:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=7486955",
-          "ads_score": 2,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-02",
-          "status": "closed",
-          "closed_date": "2026-06-03",
-          "metros": [
-            "other"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:stripe:7486955",
-            "greenhouse:stripe:7651697"
-          ]
-        },
-        {
-          "id": "greenhouse:pubmatic:5221239008",
-          "company": "PubMatic",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Associate Director, Product Management, Buyer Solutions",
-          "location_raw": "Redwood City, US",
-          "locations": [
-            "Redwood City, US"
-          ],
-          "metro": "other",
-          "mode": "hybrid_2_3",
-          "office_days": 2,
-          "level": "director",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-05-14T15:34:54-04:00",
-          "apply_url": "https://pubmatic.com/job/?gh_jid=5221239008",
-          "ads_score": 5,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "programmatic",
-            "ad tech",
-            "publisher",
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-02",
-          "status": "closed",
-          "closed_date": "2026-06-03",
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:pubmatic:5221239008"
           ]
         }
       ],
@@ -2297,16 +2208,16 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:6013462004",
+          "id": "greenhouse:epicgames:6013335004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Product Management (Discovery)",
-          "location_raw": "Vancouver,British Columbia,Canada",
+          "location_raw": "BLANK,BLANK,Multiple Locations",
           "locations": [
-            "Vancouver,British Columbia,Canada",
+            "BLANK,BLANK,Multiple Locations",
             "Cary,North Carolina,United States",
-            "BLANK,BLANK,Multiple Locations"
+            "Vancouver,British Columbia,Canada"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -2314,8 +2225,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-06-03T16:24:55-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/6013462004?gh_jid=6013462004",
+          "posted_date": "2026-06-03T16:24:54-04:00",
+          "apply_url": "https://epicgames.com/careers/jobs/6013335004?gh_jid=6013335004",
           "ads_score": 2,
           "consumer_score": 3,
           "ads_keywords": [
@@ -2340,9 +2251,9 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:epicgames:6013462004",
+            "greenhouse:epicgames:6013335004",
             "greenhouse:epicgames:6013333004",
-            "greenhouse:epicgames:6013335004"
+            "greenhouse:epicgames:6013462004"
           ]
         },
         {
@@ -2525,15 +2436,15 @@
           ]
         },
         {
-          "id": "greenhouse:gleanwork:4702368005",
+          "id": "greenhouse:gleanwork:4702147005",
           "company": "Glean",
           "tier": 4,
           "ats": "greenhouse",
           "title": "Product Manager, Core Experience",
-          "location_raw": "Mountain View, CA",
+          "location_raw": "San Francisco, CA",
           "locations": [
-            "Mountain View, CA",
-            "San Francisco, CA"
+            "San Francisco, CA",
+            "Mountain View, CA"
           ],
           "metro": "sf",
           "mode": "hybrid_4_plus",
@@ -2541,8 +2452,8 @@
           "level": "mid_level",
           "salary_min_base": 200000,
           "salary_max_base": 300000,
-          "posted_date": "2026-06-03T11:34:22-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4702368005",
+          "posted_date": "2026-06-03T11:29:19-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4702147005",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -2570,20 +2481,20 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:gleanwork:4702368005",
-            "greenhouse:gleanwork:4702147005"
+            "greenhouse:gleanwork:4702147005",
+            "greenhouse:gleanwork:4702368005"
           ]
         },
         {
-          "id": "greenhouse:gleanwork:4702367005",
+          "id": "greenhouse:gleanwork:4702151005",
           "company": "Glean",
           "tier": 4,
           "ats": "greenhouse",
           "title": "Product Manager, Growth",
-          "location_raw": "Mountain View, CA",
+          "location_raw": "San Francisco, CA",
           "locations": [
-            "Mountain View, CA",
-            "San Francisco, CA"
+            "San Francisco, CA",
+            "Mountain View, CA"
           ],
           "metro": "sf",
           "mode": "hybrid_4_plus",
@@ -2591,8 +2502,8 @@
           "level": "mid_level",
           "salary_min_base": 175000,
           "salary_max_base": 280000,
-          "posted_date": "2026-06-03T11:30:22-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4702367005",
+          "posted_date": "2026-06-03T11:29:41-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4702151005",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -2621,8 +2532,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:gleanwork:4702367005",
-            "greenhouse:gleanwork:4702151005"
+            "greenhouse:gleanwork:4702151005",
+            "greenhouse:gleanwork:4702367005"
           ]
         }
       ],
@@ -3215,7 +3126,7 @@
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
-          "title": "Senior Product Security Engineer",
+          "title": "Sr. Staff Product Security Engineer",
           "location_raw": "United States",
           "locations": [
             "United States"
@@ -3223,7 +3134,7 @@
           "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
-          "level": "unknown",
+          "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2025-06-06T17:29:39-04:00",
@@ -4175,8 +4086,8 @@
       "date": "2026-06-11",
       "counts": {
         "active": 10,
-        "closed_today": 1,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 1,
         "excluded": 0
       },
       "postings": [
@@ -4382,24 +4293,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:7997738",
+          "id": "greenhouse:roku:7931527",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director of Product Management, Search",
-          "location_raw": "Santa Monica, California",
+          "location_raw": "San Jose, California",
           "locations": [
-            "Santa Monica, California",
-            "San Jose, California"
+            "San Jose, California",
+            "Santa Monica, California"
           ],
-          "metro": "la",
+          "metro": "other",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "director",
           "salary_min_base": 238300,
           "salary_max_base": 482500,
-          "posted_date": "2026-06-10T20:25:46-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7997738?gh_jid=7997738",
+          "posted_date": "2026-06-10T20:25:45-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7931527?gh_jid=7931527",
           "ads_score": 4,
           "consumer_score": 4,
           "ads_keywords": [
@@ -4428,8 +4339,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:7997738",
-            "greenhouse:roku:7931527"
+            "greenhouse:roku:7931527",
+            "greenhouse:roku:7997738"
           ]
         },
         {
@@ -4626,7 +4537,7 @@
           "priority_score": 2,
           "recommended_resume": "aipm",
           "first_seen_date": "2026-06-11",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-06-16",
           "grouped_count": 1,
           "grouped_ids": [
@@ -4894,15 +4805,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7622736003",
+          "id": "greenhouse:affirm:7622734003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Shopping Experiences",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4910,8 +4821,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-02-11T12:05:11-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7622736003",
+          "posted_date": "2026-02-11T12:05:10-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7622734003",
           "ads_score": 0,
           "consumer_score": 5,
           "ads_keywords": [],
@@ -4935,8 +4846,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7622736003",
-            "greenhouse:affirm:7622734003"
+            "greenhouse:affirm:7622734003",
+            "greenhouse:affirm:7622736003"
           ]
         },
         {
@@ -5396,15 +5307,15 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:6037825004",
+          "id": "greenhouse:epicgames:6013610004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Production",
-          "location_raw": "BLANK,BLANK,Multiple Locations",
+          "location_raw": "Cary,North Carolina,United States",
           "locations": [
-            "BLANK,BLANK,Multiple Locations",
-            "Cary,North Carolina,United States"
+            "Cary,North Carolina,United States",
+            "BLANK,BLANK,Multiple Locations"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -5413,7 +5324,7 @@
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2026-06-15T19:49:29-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/6037825004?gh_jid=6037825004",
+          "apply_url": "https://epicgames.com/careers/jobs/6013610004?gh_jid=6013610004",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -5436,8 +5347,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:epicgames:6037825004",
-            "greenhouse:epicgames:6013610004"
+            "greenhouse:epicgames:6013610004",
+            "greenhouse:epicgames:6037825004"
           ]
         },
         {
@@ -5698,6 +5609,184 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-17",
+      "counts": {
+        "active": 4,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:instacart:8014060",
+          "company": "Instacart",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Retailer Platform",
+          "location_raw": "United States - Remote",
+          "locations": [
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-17T17:21:53-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8014060",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-06-17",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "remote"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "greenhouse:instacart:8014060",
+            "greenhouse:instacart:8014062"
+          ]
+        },
+        {
+          "id": "greenhouse:roblox:7779120",
+          "company": "Roblox",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Counsel, Advertising ",
+          "location_raw": "San Mateo, CA, United States",
+          "locations": [
+            "San Mateo, CA, United States"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-04-04T21:47:47-04:00",
+          "apply_url": "https://careers.roblox.com/jobs/7779120?gh_jid=7779120",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "lifecycle"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-06-17",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:roblox:7779120"
+          ]
+        },
+        {
+          "id": "greenhouse:epicgames:6092188004",
+          "company": "Epic Games",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Director, Production",
+          "location_raw": "Montreal,Quebec,Canada",
+          "locations": [
+            "Montreal,Quebec,Canada"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "director",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-16T20:33:04-04:00",
+          "apply_url": "https://epicgames.com/careers/jobs/6092188004?gh_jid=6092188004",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "demand"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "engagement"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 0.7,
+          "priority_score": 1.4,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-06-17",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:epicgames:6092188004"
+          ]
+        },
+        {
+          "id": "ashby:snowflake:8e88251e-e77e-428e-bccf-dc1ccadc22ef",
+          "company": "Snowflake",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Senior Product Manager - AI Migrations",
+          "location_raw": "US-CA-Menlo Park",
+          "locations": [
+            "US-CA-Menlo Park"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": 200000,
+          "salary_max_base": 287500,
+          "posted_date": "2026-06-17T20:10:21.664+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef/application",
+          "ads_score": 1,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-06-17",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:snowflake:8e88251e-e77e-428e-bccf-dc1ccadc22ef"
+          ]
+        }
+      ],
+      "excluded": []
     }
   ]
 }
