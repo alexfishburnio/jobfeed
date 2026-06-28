@@ -1,111 +1,6 @@
 {
-  "generated_at": "2026-06-27T23:02:38.499Z",
+  "generated_at": "2026-06-28T23:02:36.412Z",
   "days": [
-    {
-      "date": "2026-05-28",
-      "counts": {
-        "active": 2,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:instacart:7963726",
-          "company": "Instacart",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, In-Store Tasks",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
-          "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-05-28T12:58:39-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=7963726",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "retention",
-            "onboarding"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-05-28",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:instacart:7963726",
-            "greenhouse:instacart:7963724"
-          ]
-        },
-        {
-          "id": "greenhouse:roku:7663977",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Platform / OS",
-          "location_raw": "Toronto, Canada",
-          "locations": [
-            "Toronto, Canada"
-          ],
-          "metro": "other",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-02-27T15:56:27-05:00",
-          "apply_url": "https://www.weareroku.com/jobs/7663977?gh_jid=7663977",
-          "ads_score": 4,
-          "consumer_score": 5,
-          "ads_keywords": [
-            "publisher",
-            "advertiser",
-            "monetization",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "retention",
-            "engagement",
-            "activation",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-05-28",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roku:7663977"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-05-29",
       "counts": {
@@ -2962,15 +2857,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7622736003",
+          "id": "greenhouse:affirm:7622734003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Shopping Experiences",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -2978,8 +2873,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-02-11T12:05:11-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7622736003",
+          "posted_date": "2026-02-11T12:05:10-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7622734003",
           "ads_score": 0,
           "consumer_score": 5,
           "ads_keywords": [],
@@ -3003,8 +2898,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7622736003",
-            "greenhouse:affirm:7622734003"
+            "greenhouse:affirm:7622734003",
+            "greenhouse:affirm:7622736003"
           ]
         },
         {
@@ -5910,6 +5805,56 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:perplexity:7972f80f-fb09-41b3-85e4-0335cabb595e"
+          ]
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-06-28",
+      "counts": {
+        "active": 1,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "ashby:openai:6db2af13-50b2-4fe0-a8df-874e2ba57f71",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Product Manager, ChatGPT Sites",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "mid_level",
+          "salary_min_base": 293000,
+          "salary_max_base": 385000,
+          "posted_date": "2026-06-28T22:32:26.808+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/6db2af13-50b2-4fe0-a8df-874e2ba57f71/application",
+          "ads_score": 0,
+          "consumer_score": 2,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "consumer",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-06-28",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:6db2af13-50b2-4fe0-a8df-874e2ba57f71"
           ]
         }
       ],
