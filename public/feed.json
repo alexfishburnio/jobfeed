@@ -1,60 +1,6 @@
 {
-  "generated_at": "2026-07-02T23:02:42.413Z",
+  "generated_at": "2026-07-03T23:02:41.336Z",
   "days": [
-    {
-      "date": "2026-06-02",
-      "counts": {
-        "active": 1,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:applovin:4686202006",
-          "company": "AppLovin",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Associate Product Manager",
-          "location_raw": "Palo Alto, CA",
-          "locations": [
-            "Palo Alto, CA"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-02T15:08:38-04:00",
-          "apply_url": "https://boards.greenhouse.io/applovin/jobs/4686202006?gh_jid=4686202006",
-          "ads_score": 2,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "engagement",
-            "mobile app"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-02",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:applovin:4686202006"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-06-03",
       "counts": {
@@ -377,15 +323,15 @@
           ]
         },
         {
-          "id": "greenhouse:gleanwork:4702368005",
+          "id": "greenhouse:gleanwork:4702147005",
           "company": "Glean",
           "tier": 4,
           "ats": "greenhouse",
           "title": "Product Manager, Core Experience",
-          "location_raw": "Mountain View, CA",
+          "location_raw": "San Francisco, CA",
           "locations": [
-            "Mountain View, CA",
-            "San Francisco, CA"
+            "San Francisco, CA",
+            "Mountain View, CA"
           ],
           "metro": "sf",
           "mode": "hybrid_4_plus",
@@ -393,8 +339,8 @@
           "level": "mid_level",
           "salary_min_base": 200000,
           "salary_max_base": 300000,
-          "posted_date": "2026-06-03T11:34:22-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4702368005",
+          "posted_date": "2026-06-03T11:29:19-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/gleanwork/jobs/4702147005",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -422,8 +368,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:gleanwork:4702368005",
-            "greenhouse:gleanwork:4702147005"
+            "greenhouse:gleanwork:4702147005",
+            "greenhouse:gleanwork:4702368005"
           ]
         },
         {
@@ -1940,24 +1886,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:7931527",
+          "id": "greenhouse:roku:7997738",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director of Product Management, Search",
-          "location_raw": "San Jose, California",
+          "location_raw": "Santa Monica, California",
           "locations": [
-            "San Jose, California",
-            "Santa Monica, California"
+            "Santa Monica, California",
+            "San Jose, California"
           ],
-          "metro": "other",
+          "metro": "la",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "director",
           "salary_min_base": 238300,
           "salary_max_base": 482500,
-          "posted_date": "2026-06-10T20:25:45-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7931527?gh_jid=7931527",
+          "posted_date": "2026-06-10T20:25:46-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7997738?gh_jid=7997738",
           "ads_score": 4,
           "consumer_score": 4,
           "ads_keywords": [
@@ -1986,8 +1932,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:7931527",
-            "greenhouse:roku:7997738"
+            "greenhouse:roku:7997738",
+            "greenhouse:roku:7931527"
           ]
         },
         {
@@ -3236,7 +3182,7 @@
       "counts": {
         "active": 7,
         "closed_today": 0,
-        "closed": 1,
+        "closed": 0,
         "excluded": 1
       },
       "postings": [
@@ -3546,54 +3492,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:roblox:8003825"
-          ]
-        },
-        {
-          "id": "greenhouse:discord:8599759002",
-          "company": "Discord",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Director, Product Risk and Compliance",
-          "location_raw": "Washington, DC",
-          "locations": [
-            "Washington, DC",
-            "San Francisco Bay Area",
-            "New York City"
-          ],
-          "metro": "dc",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "director",
-          "salary_min_base": 260000,
-          "salary_max_base": 325000,
-          "posted_date": "2026-06-18T16:39:07-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8599759002",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 0.7,
-          "priority_score": 0.7,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-18",
-          "status": "closed",
-          "closed_date": "2026-06-30",
-          "metros": [
-            "sf",
-            "nyc",
-            "dc"
-          ],
-          "grouped_count": 3,
-          "grouped_ids": [
-            "greenhouse:discord:8599759002",
-            "greenhouse:discord:8470798002",
-            "greenhouse:discord:8599766002"
           ]
         }
       ],
@@ -4940,12 +4838,12 @@
           ]
         },
         {
-          "id": "ashby:perplexity:91b941ae-0bd0-4322-8c0e-491abacdc33a",
+          "id": "ashby:perplexity:ac45b160-4ccc-417c-97f8-73d2d04cebfe",
           "company": "Perplexity",
           "tier": 3,
           "ats": "ashby",
-          "title": "Member of Technical Staff (AI Policy and Strategic Initiatives)",
-          "location_raw": "San Francisco | Washington D.C.",
+          "title": "Member of Technical Staff (AI Software Engineer, Agents)",
+          "location_raw": "San Francisco",
           "locations": [
             "San Francisco",
             "Washington D.C."
@@ -4956,14 +4854,16 @@
           "level": "ai_company_role",
           "salary_min_base": 200000,
           "salary_max_base": 405000,
-          "posted_date": "2026-06-25T23:28:55.573+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/perplexity/91b941ae-0bd0-4322-8c0e-491abacdc33a/application",
+          "posted_date": "2026-06-25T23:30:20.141+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/perplexity/ac45b160-4ccc-417c-97f8-73d2d04cebfe/application",
           "ads_score": 1,
-          "consumer_score": 0,
+          "consumer_score": 1,
           "ads_keywords": [
             "platform"
           ],
-          "consumer_keywords": [],
+          "consumer_keywords": [
+            "user"
+          ],
           "base_fit": 1,
           "fit_score": 1,
           "realism_score": 1,
@@ -4977,8 +4877,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "ashby:perplexity:91b941ae-0bd0-4322-8c0e-491abacdc33a",
-            "ashby:perplexity:ac45b160-4ccc-417c-97f8-73d2d04cebfe"
+            "ashby:perplexity:ac45b160-4ccc-417c-97f8-73d2d04cebfe",
+            "ashby:perplexity:91b941ae-0bd0-4322-8c0e-491abacdc33a"
           ]
         }
       ],
@@ -5271,15 +5171,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7773693003",
+          "id": "greenhouse:affirm:7773691003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Credit & Pricing",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -5287,8 +5187,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-06-29T16:51:03-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
+          "posted_date": "2026-06-29T16:51:01-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
           "ads_score": 0,
           "consumer_score": 2,
           "ads_keywords": [],
@@ -5309,8 +5209,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7773693003",
-            "greenhouse:affirm:7773691003"
+            "greenhouse:affirm:7773691003",
+            "greenhouse:affirm:7773693003"
           ]
         },
         {
@@ -5679,15 +5579,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7786007003",
+          "id": "greenhouse:affirm:7786009003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Capital",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -5695,8 +5595,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-07-01T13:48:58-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7786007003",
+          "posted_date": "2026-07-01T13:48:59-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7786009003",
           "ads_score": 1,
           "consumer_score": 4,
           "ads_keywords": [
@@ -5721,8 +5621,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7786007003",
-            "greenhouse:affirm:7786009003"
+            "greenhouse:affirm:7786009003",
+            "greenhouse:affirm:7786007003"
           ]
         },
         {
@@ -6153,6 +6053,97 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:patreon:7f9a2798-5013-4276-ac80-0878dd09637a"
+          ]
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-07-03",
+      "counts": {
+        "active": 2,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:doubleverify:8617749002",
+          "company": "DoubleVerify",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Team Lead, Product Operations - Classification",
+          "location_raw": "Costa Rica-Remote",
+          "locations": [
+            "Costa Rica-Remote"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-03T11:07:08-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/doubleverify/jobs/8617749002",
+          "ads_score": 2,
+          "consumer_score": 0,
+          "ads_keywords": [
+            "publisher",
+            "advertiser"
+          ],
+          "consumer_keywords": [],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-07-03",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:doubleverify:8617749002"
+          ]
+        },
+        {
+          "id": "greenhouse:tripadvisor:8038210",
+          "company": "Tripadvisor",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Associate Product Manager - B2B",
+          "location_raw": "Office ",
+          "locations": [
+            "Office"
+          ],
+          "metro": "other",
+          "mode": "hybrid_2_3",
+          "office_days": 2,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-03T05:27:36-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8038210",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-07-03",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:tripadvisor:8038210"
           ]
         }
       ],
