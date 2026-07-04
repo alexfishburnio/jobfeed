@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "postings": {
     "greenhouse:anthropic:5181852008": {
       "first_seen_date": "2026-05-22",
@@ -2058,7 +2058,7 @@
     },
     "ashby:perplexity:91b941ae-0bd0-4322-8c0e-491abacdc33a": {
       "first_seen_date": "2026-06-26",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-07-03"
     },
     "greenhouse:instacart:8024357": {
@@ -2070,11 +2070,6 @@
       "first_seen_date": "2026-06-24",
       "status": "closed",
       "closed_date": "2026-07-01"
-    },
-    "greenhouse:stripe:8018427": {
-      "first_seen_date": "2026-06-19",
-      "status": "closed",
-      "closed_date": "2026-06-24"
     },
     "greenhouse:gleanwork:4569206005": {
       "first_seen_date": "2026-06-26",
