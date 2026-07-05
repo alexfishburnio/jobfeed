@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-07-04T23:02:37.775Z",
+  "last_updated": "2026-07-05T23:02:43.134Z",
   "companies": {
     "Anthropic": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 388,
       "last_http_status": 200,
@@ -10,8 +10,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 388,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 388
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -76,25 +81,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 377
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 373
         }
       ]
     },
     "OpenAI": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 723,
+      "last_job_count": 722,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 723,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 722,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 722
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -159,16 +164,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 707
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 714
         }
       ]
     },
     "Reddit": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 190,
       "last_http_status": 200,
@@ -176,8 +176,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 190,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 190
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -242,16 +247,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 167
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 158
         }
       ]
     },
     "Pinterest": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 188,
       "last_http_status": 200,
@@ -259,8 +259,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 188,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 188
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -325,16 +330,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 184
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 183
         }
       ]
     },
     "Instacart": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 156,
       "last_http_status": 200,
@@ -342,8 +342,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 156,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 156
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -408,16 +413,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 160
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 163
         }
       ]
     },
     "Spotify": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 113,
       "last_http_status": 200,
@@ -425,8 +425,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 113,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 113
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -491,16 +496,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 134
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 136
         }
       ]
     },
     "Airbnb": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 221,
       "last_http_status": 200,
@@ -508,8 +508,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 221,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 221
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -574,16 +579,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 219
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 222
         }
       ]
     },
     "Lyft": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 156,
       "last_http_status": 200,
@@ -591,8 +591,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 156,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 156
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -657,25 +662,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 133
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 138
         }
       ]
     },
     "Stripe": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 490,
+      "last_job_count": 489,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 490,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 489,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 489
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -740,25 +745,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 497
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 512
         }
       ]
     },
     "Roku": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 228,
+      "last_job_count": 227,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 228,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 227,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 227
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -823,25 +828,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 245
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 247
         }
       ]
     },
     "Netflix": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -906,16 +911,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "LinkedIn": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 53,
       "last_http_status": 200,
@@ -923,8 +923,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 53,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 53
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -989,16 +994,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 53
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 53
         }
       ]
     },
     "Coinbase": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 129,
       "last_http_status": 200,
@@ -1006,8 +1006,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 129,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 129
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1072,16 +1077,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 108
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 102
         }
       ]
     },
     "Robinhood": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 132,
       "last_http_status": 200,
@@ -1089,8 +1089,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 132,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 132
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1155,16 +1160,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 140
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 141
         }
       ]
     },
     "Affirm": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 177,
       "last_http_status": 200,
@@ -1172,8 +1172,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 177,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 177
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1238,16 +1243,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 154
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 154
         }
       ]
     },
     "Twilio": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 153,
       "last_http_status": 200,
@@ -1255,8 +1255,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 153,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 153
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1321,25 +1326,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 167
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 165
         }
       ]
     },
     "HubSpot": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -1402,27 +1407,27 @@
         },
         {
           "date": "2026-06-22",
-          "status": "zero",
-          "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
           "status": "zero",
           "jobs": 0
         }
       ]
     },
     "Atlassian": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -1487,16 +1492,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Figma": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 171,
       "last_http_status": 200,
@@ -1504,8 +1504,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 171,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 171
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1570,16 +1575,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 164
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 164
         }
       ]
     },
     "Notion": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 146,
       "last_http_status": 200,
@@ -1587,8 +1587,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 146,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 146
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1653,16 +1658,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 148
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 147
         }
       ]
     },
     "Duolingo": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 66,
       "last_http_status": 200,
@@ -1670,8 +1670,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 66,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 66
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1736,16 +1741,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 61
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 60
         }
       ]
     },
     "Discord": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 59,
       "last_http_status": 200,
@@ -1753,8 +1753,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 59,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 59
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1819,16 +1824,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 63
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 64
         }
       ]
     },
     "Roblox": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 231,
       "last_http_status": 200,
@@ -1836,8 +1836,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 231,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 231
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1902,16 +1907,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 230
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 232
         }
       ]
     },
     "Epic Games": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 127,
       "last_http_status": 200,
@@ -1919,8 +1919,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 127,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 127
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -1985,25 +1990,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 140
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 145
         }
       ]
     },
     "The Trade Desk": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 198,
+      "last_job_count": 197,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 198,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 197,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 197
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2068,16 +2073,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 197
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 196
         }
       ]
     },
     "DoubleVerify": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 54,
       "last_http_status": 200,
@@ -2085,8 +2085,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 54,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 54
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2151,16 +2156,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 62
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 63
         }
       ]
     },
     "PubMatic": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 62,
       "last_http_status": 200,
@@ -2168,8 +2168,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 62,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 62
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2234,25 +2239,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 64
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 65
         }
       ]
     },
     "Taboola": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 75,
+      "last_job_count": 74,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 75,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 74,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 74
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2317,16 +2322,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 81
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 80
         }
       ]
     },
     "Innovid": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 15,
       "last_http_status": 200,
@@ -2334,8 +2334,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 15,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 15
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2400,16 +2405,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 15
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 17
         }
       ]
     },
     "Nexxen": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 31,
       "last_http_status": 200,
@@ -2417,8 +2417,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 31,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 31
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2483,16 +2488,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 29
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 32
         }
       ]
     },
     "Zeta Global": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 142,
       "last_http_status": 200,
@@ -2500,8 +2500,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 142,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 142
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2566,16 +2571,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 144
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 146
         }
       ]
     },
     "Kargo": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 11,
       "last_http_status": 200,
@@ -2583,8 +2583,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 11,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 11
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2649,16 +2654,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 9
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 9
         }
       ]
     },
     "GumGum": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 10,
       "last_http_status": 200,
@@ -2666,8 +2666,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 10,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 10
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2732,16 +2737,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 13
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 13
         }
       ]
     },
     "Yieldmo": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 2,
       "last_http_status": 200,
@@ -2749,8 +2749,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 2,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 2
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2815,16 +2820,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 4
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 3
         }
       ]
     },
     "Verve": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 71,
       "last_http_status": 200,
@@ -2832,8 +2832,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 71,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 71
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2898,16 +2903,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 56
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 54
         }
       ]
     },
     "LG Ads": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 26,
       "last_http_status": 200,
@@ -2915,8 +2915,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 26,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 26
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -2981,16 +2986,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 30
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 31
         }
       ]
     },
     "Twitch": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 64,
       "last_http_status": 200,
@@ -2998,8 +2998,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 64,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 64
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3064,16 +3069,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 49
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 51
         }
       ]
     },
     "StackAdapt": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 90,
       "last_http_status": 200,
@@ -3081,8 +3081,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 90,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 90
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3147,16 +3152,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 85
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 86
         }
       ]
     },
     "iSpot.tv": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 11,
       "last_http_status": 200,
@@ -3164,8 +3164,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 11,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 11
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3230,16 +3235,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 11
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 11
         }
       ]
     },
     "VideoAmp": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 4,
       "last_http_status": 200,
@@ -3247,8 +3247,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 4,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 4
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3313,16 +3318,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 6
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 5
         }
       ]
     },
     "Tripadvisor": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 88,
       "last_http_status": 200,
@@ -3330,8 +3330,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 88,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 88
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3396,16 +3401,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 80
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 79
         }
       ]
     },
     "Nextdoor": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 19,
       "last_http_status": 200,
@@ -3413,8 +3413,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 19,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 19
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3479,16 +3484,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 22
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 22
         }
       ]
     },
     "Raptive": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 14,
       "last_http_status": 200,
@@ -3496,8 +3496,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 14,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 14
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3562,16 +3567,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 12
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 11
         }
       ]
     },
     "Foursquare": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 3,
       "last_http_status": 200,
@@ -3579,8 +3579,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 3,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 3
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3643,27 +3648,27 @@
         },
         {
           "date": "2026-06-22",
-          "status": "ok",
-          "jobs": 2
-        },
-        {
-          "date": "2026-06-21",
           "status": "ok",
           "jobs": 2
         }
       ]
     },
     "Nielsen": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -3728,16 +3733,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Perplexity": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 78,
       "last_http_status": 200,
@@ -3745,8 +3745,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 78,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 78
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3811,16 +3816,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 75
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 74
         }
       ]
     },
     "Cohere": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 127,
       "last_http_status": 200,
@@ -3828,8 +3828,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 127,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 127
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3894,25 +3899,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 132
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 131
         }
       ]
     },
     "Mistral": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 176,
+      "last_job_count": 177,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 176,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 177,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 177
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -3977,16 +3982,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 172
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 170
         }
       ]
     },
     "Scale AI": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 179,
       "last_http_status": 200,
@@ -3994,8 +3994,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 179,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 179
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4060,25 +4065,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 173
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 176
         }
       ]
     },
     "Databricks": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 791,
+      "last_job_count": 792,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 791,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 792,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 792
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4143,16 +4148,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 759
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 757
         }
       ]
     },
     "Snowflake": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 413,
       "last_http_status": 200,
@@ -4160,8 +4160,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 413,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 413
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4226,16 +4231,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 412
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 412
         }
       ]
     },
     "Amplitude": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 48,
       "last_http_status": 200,
@@ -4243,8 +4243,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 48,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 48
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4309,16 +4314,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 53
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 52
         }
       ]
     },
     "Mixpanel": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 37,
       "last_http_status": 200,
@@ -4326,8 +4326,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 37,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 37
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4392,16 +4397,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 34
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 33
         }
       ]
     },
     "Branch": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 11,
       "last_http_status": 200,
@@ -4409,8 +4409,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 11,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 11
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4475,25 +4480,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 12
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 12
         }
       ]
     },
     "AppsFlyer": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 57,
+      "last_job_count": 59,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 57,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 59,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 59
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4558,16 +4563,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 61
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 60
         }
       ]
     },
     "Braze": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 229,
       "last_http_status": 200,
@@ -4575,8 +4575,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 229,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 229
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4641,16 +4646,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 224
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 224
         }
       ]
     },
     "Iterable": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 26,
       "last_http_status": 200,
@@ -4658,8 +4658,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 26,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 26
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4724,16 +4729,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 25
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 24
         }
       ]
     },
     "Customer.io": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 19,
       "last_http_status": 200,
@@ -4741,8 +4741,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 19,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 19
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4807,16 +4812,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 18
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 19
         }
       ]
     },
     "Hightouch": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 63,
       "last_http_status": 200,
@@ -4824,8 +4824,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 63,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 63
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4890,16 +4895,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 64
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 65
         }
       ]
     },
     "AppLovin": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 28,
       "last_http_status": 200,
@@ -4907,8 +4907,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 28,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 28
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -4973,25 +4978,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 26
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 27
         }
       ]
     },
     "Poshmark": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -5056,16 +5061,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Mercari": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 2,
       "last_http_status": 200,
@@ -5073,8 +5073,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 2,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 2
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5139,16 +5144,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 2
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 2
         }
       ]
     },
     "OfferUp": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 8,
       "last_http_status": 200,
@@ -5156,8 +5156,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 8,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 8
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5222,16 +5227,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 9
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 9
         }
       ]
     },
     "StockX": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 36,
       "last_http_status": 200,
@@ -5239,8 +5239,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 36,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 36
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5305,11 +5310,6 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 31
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 31
         }
       ]
     },
@@ -5319,11 +5319,16 @@
       "last_job_count": 211,
       "last_http_status": 404,
       "last_error": "HTTP 404 Not Found — Not Found",
-      "consecutive_failures": 39,
+      "consecutive_failures": 40,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 211,
       "last_nonzero_date": "2026-05-26",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "fail",
+          "jobs": null
+        },
         {
           "date": "2026-07-04",
           "status": "fail",
@@ -5388,16 +5393,11 @@
           "date": "2026-06-22",
           "status": "fail",
           "jobs": null
-        },
-        {
-          "date": "2026-06-21",
-          "status": "fail",
-          "jobs": null
         }
       ]
     },
     "Substack": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 12,
       "last_http_status": 200,
@@ -5405,8 +5405,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 12,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 12
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5471,16 +5476,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 12
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 11
         }
       ]
     },
     "Medium": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 1,
       "last_http_status": 200,
@@ -5488,8 +5488,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 1,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 1
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5554,16 +5559,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Patreon": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 19,
       "last_http_status": 200,
@@ -5571,8 +5571,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 19,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 19
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5637,16 +5642,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 19
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 19
         }
       ]
     },
     "Doximity": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 12,
       "last_http_status": 200,
@@ -5654,8 +5654,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 12,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 12
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5720,16 +5725,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 12
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 13
         }
       ]
     },
     "Zocdoc": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 50,
       "last_http_status": 200,
@@ -5737,8 +5737,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 50,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 50
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5803,16 +5808,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 44
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 45
         }
       ]
     },
     "Calm": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 1,
       "last_http_status": 200,
@@ -5820,8 +5820,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 1,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 1
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5886,16 +5891,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 1
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 2
         }
       ]
     },
     "Headspace": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 27,
       "last_http_status": 200,
@@ -5903,8 +5903,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 27,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 27
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -5969,16 +5974,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 33
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 33
         }
       ]
     },
     "Capsule": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 8,
       "last_http_status": 200,
@@ -5986,8 +5986,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 8,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 8
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6052,16 +6057,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 7
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 7
         }
       ]
     },
     "Collective Health": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 8,
       "last_http_status": 200,
@@ -6069,8 +6069,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 8,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 8
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6135,16 +6140,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 10
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 11
         }
       ]
     },
     "Screenverse": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 4,
       "last_http_status": 200,
@@ -6152,8 +6152,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 4,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 4
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6216,27 +6221,27 @@
         },
         {
           "date": "2026-06-22",
-          "status": "ok",
-          "jobs": 5
-        },
-        {
-          "date": "2026-06-21",
           "status": "ok",
           "jobs": 5
         }
       ]
     },
     "Place Exchange": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -6299,27 +6304,27 @@
         },
         {
           "date": "2026-06-22",
-          "status": "zero",
-          "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
           "status": "zero",
           "jobs": 0
         }
       ]
     },
     "Hivestack": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 59,
+      "consecutive_zero_days": 60,
       "last_nonzero_count": 1,
       "last_nonzero_date": "2026-05-06",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -6384,16 +6389,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Broadsign": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 7,
       "last_http_status": 200,
@@ -6401,8 +6401,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 7,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 7
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6467,16 +6472,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 7
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 6
         }
       ]
     },
     "Runway": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 4,
       "last_http_status": 200,
@@ -6484,8 +6484,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 4,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 4
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6550,25 +6555,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 4
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 4
         }
       ]
     },
     "ElevenLabs": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 144,
+      "last_job_count": 148,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 144,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 148,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 148
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6633,25 +6638,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 153
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 153
         }
       ]
     },
     "Contextual AI": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -6716,16 +6721,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Writer": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 49,
       "last_http_status": 200,
@@ -6733,8 +6733,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 49,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 49
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6799,16 +6804,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 50
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 51
         }
       ]
     },
     "Typeface": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 19,
       "last_http_status": 200,
@@ -6816,8 +6816,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 19,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 19
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6882,16 +6887,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 20
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 22
         }
       ]
     },
     "Glean": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 137,
       "last_http_status": 200,
@@ -6899,8 +6899,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 137,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 137
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -6965,11 +6970,6 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 157
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 161
         }
       ]
     },
@@ -6979,11 +6979,16 @@
       "last_job_count": 0,
       "last_http_status": 404,
       "last_error": "HTTP 404 Not Found — {\"status\":404,\"error\":\"Job not found\"}",
-      "consecutive_failures": 33,
+      "consecutive_failures": 34,
       "consecutive_zero_days": 15,
       "last_nonzero_count": 21,
       "last_nonzero_date": "2026-05-17",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "fail",
+          "jobs": null
+        },
         {
           "date": "2026-07-04",
           "status": "fail",
@@ -7046,11 +7051,6 @@
         },
         {
           "date": "2026-06-22",
-          "status": "fail",
-          "jobs": null
-        },
-        {
-          "date": "2026-06-21",
           "status": "fail",
           "jobs": null
         }
@@ -7062,11 +7062,16 @@
       "last_job_count": 0,
       "last_http_status": 404,
       "last_error": "HTTP 404 Not Found — {\"status\":404,\"error\":\"Job not found\"}",
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "consecutive_zero_days": 48,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "fail",
+          "jobs": null
+        },
         {
           "date": "2026-07-04",
           "status": "fail",
@@ -7131,16 +7136,11 @@
           "date": "2026-06-22",
           "status": "fail",
           "jobs": null
-        },
-        {
-          "date": "2026-06-21",
-          "status": "fail",
-          "jobs": null
         }
       ]
     },
     "Kabam": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 21,
       "last_http_status": 200,
@@ -7148,8 +7148,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 21,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 21
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -7214,25 +7219,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 13
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 13
         }
       ]
     },
     "Scopely": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
-      "last_job_count": 138,
+      "last_job_count": 136,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
-      "last_nonzero_count": 138,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_count": 136,
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 136
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -7297,25 +7302,25 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 169
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 173
         }
       ]
     },
     "Bumble": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "zero",
       "last_job_count": 0,
       "last_http_status": 200,
       "last_error": null,
       "consecutive_failures": 0,
-      "consecutive_zero_days": 68,
+      "consecutive_zero_days": 69,
       "last_nonzero_count": null,
       "last_nonzero_date": null,
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "zero",
+          "jobs": 0
+        },
         {
           "date": "2026-07-04",
           "status": "zero",
@@ -7380,16 +7385,11 @@
           "date": "2026-06-22",
           "status": "zero",
           "jobs": 0
-        },
-        {
-          "date": "2026-06-21",
-          "status": "zero",
-          "jobs": 0
         }
       ]
     },
     "Match Group": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 82,
       "last_http_status": 200,
@@ -7397,8 +7397,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 82,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 82
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -7463,16 +7468,11 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 77
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 76
         }
       ]
     },
     "Jane Street": {
-      "last_success": "2026-07-04",
+      "last_success": "2026-07-05",
       "last_status": "ok",
       "last_job_count": 202,
       "last_http_status": 200,
@@ -7480,8 +7480,13 @@
       "consecutive_failures": 0,
       "consecutive_zero_days": 0,
       "last_nonzero_count": 202,
-      "last_nonzero_date": "2026-07-04",
+      "last_nonzero_date": "2026-07-05",
       "history": [
+        {
+          "date": "2026-07-05",
+          "status": "ok",
+          "jobs": 202
+        },
         {
           "date": "2026-07-04",
           "status": "ok",
@@ -7546,11 +7551,6 @@
           "date": "2026-06-22",
           "status": "ok",
           "jobs": 207
-        },
-        {
-          "date": "2026-06-21",
-          "status": "ok",
-          "jobs": 209
         }
       ]
     }

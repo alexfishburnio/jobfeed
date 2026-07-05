@@ -1,275 +1,6 @@
 {
-  "generated_at": "2026-07-04T23:02:37.607Z",
+  "generated_at": "2026-07-05T23:02:42.991Z",
   "days": [
-    {
-      "date": "2026-06-04",
-      "counts": {
-        "active": 5,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 1
-      },
-      "postings": [
-        {
-          "id": "greenhouse:anthropic:5247640008",
-          "company": "Anthropic",
-          "tier": 1,
-          "ats": "greenhouse",
-          "title": "Product Manager, Claude Code Model Performance ",
-          "location_raw": "San Francisco, CA | Seattle, WA",
-          "locations": [
-            "San Francisco, CA",
-            "Seattle, WA"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-04T15:26:42-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5247640008",
-          "ads_score": 0,
-          "consumer_score": 1,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "user"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:anthropic:5247640008"
-          ]
-        },
-        {
-          "id": "greenhouse:roku:7804012",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Strategy & Operations Lead, Ad Performance",
-          "location_raw": "Boston, Massachusetts",
-          "locations": [
-            "Boston, Massachusetts"
-          ],
-          "metro": "other",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "unknown",
-          "salary_min_base": 130000,
-          "salary_max_base": 170000,
-          "posted_date": "2026-04-09T18:40:18-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7804012?gh_jid=7804012",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "ad tech",
-            "publisher",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roku:7804012"
-          ]
-        },
-        {
-          "id": "greenhouse:twilio:7980740",
-          "company": "Twilio",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager L3",
-          "location_raw": "Remote - Canada",
-          "locations": [
-            "Remote - Canada"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-04T13:46:37-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/7980740",
-          "ads_score": 1,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "onboarding",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:twilio:7980740"
-          ]
-        },
-        {
-          "id": "ashby:perplexity:e7ab0be5-68ba-4a2c-abb1-ee33886d955d",
-          "company": "Perplexity",
-          "tier": 3,
-          "ats": "ashby",
-          "title": "Member of Technical Staff (Software Engineer, Computer Growth)",
-          "location_raw": "San Francisco | New York City",
-          "locations": [
-            "San Francisco",
-            "New York City"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "ai_company_role",
-          "salary_min_base": 220000,
-          "salary_max_base": 405000,
-          "posted_date": "2026-06-04T19:12:59.151+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/perplexity/e7ab0be5-68ba-4a2c-abb1-ee33886d955d/application",
-          "ads_score": 2,
-          "consumer_score": 5,
-          "ads_keywords": [
-            "monetization",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "retention",
-            "activation",
-            "onboarding",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:perplexity:e7ab0be5-68ba-4a2c-abb1-ee33886d955d"
-          ]
-        },
-        {
-          "id": "greenhouse:mixpanel:7974980",
-          "company": "Mixpanel",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Head of Product Marketing",
-          "location_raw": "San Francisco, US (Hybrid)",
-          "locations": [
-            "San Francisco, US (Hybrid)"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "vp_head",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-04T14:43:54-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/mixpanel/jobs/7974980",
-          "ads_score": 1,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "retention",
-            "engagement",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 0.7,
-          "priority_score": 2.8,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:mixpanel:7974980"
-          ]
-        }
-      ],
-      "excluded": [
-        {
-          "id": "greenhouse:roku:7803818",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Strategy & Operations Lead, Ad Performance",
-          "location_raw": "New York, New York",
-          "locations": [
-            "New York, New York"
-          ],
-          "metro": "nyc",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "unknown",
-          "salary_min_base": 130000,
-          "salary_max_base": 170000,
-          "posted_date": "2026-04-09T18:40:17-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7803818?gh_jid=7803818",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "ad tech",
-            "publisher",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "exclusion_reason": "Max base $170k below NYC floor of $180k",
-          "first_seen_date": "2026-06-04",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roku:7803818"
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-06-05",
       "counts": {
@@ -1368,24 +1099,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:7997738",
+          "id": "greenhouse:roku:7931527",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director of Product Management, Search",
-          "location_raw": "Santa Monica, California",
+          "location_raw": "San Jose, California",
           "locations": [
-            "Santa Monica, California",
-            "San Jose, California"
+            "San Jose, California",
+            "Santa Monica, California"
           ],
-          "metro": "la",
+          "metro": "other",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "director",
           "salary_min_base": 238300,
           "salary_max_base": 482500,
-          "posted_date": "2026-06-10T20:25:46-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7997738?gh_jid=7997738",
+          "posted_date": "2026-06-10T20:25:45-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7931527?gh_jid=7931527",
           "ads_score": 4,
           "consumer_score": 4,
           "ads_keywords": [
@@ -1414,8 +1145,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:7997738",
-            "greenhouse:roku:7931527"
+            "greenhouse:roku:7931527",
+            "greenhouse:roku:7997738"
           ]
         },
         {
