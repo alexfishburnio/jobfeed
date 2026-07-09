@@ -1,101 +1,6 @@
 {
-  "generated_at": "2026-07-08T23:02:54.370Z",
+  "generated_at": "2026-07-09T23:02:39.463Z",
   "days": [
-    {
-      "date": "2026-06-08",
-      "counts": {
-        "active": 1,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 1
-      },
-      "postings": [
-        {
-          "id": "greenhouse:roblox:7816527",
-          "company": "Roblox",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, UI Ecosystems",
-          "location_raw": "San Mateo, CA, United States",
-          "locations": [
-            "San Mateo, CA, United States"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-04-16T14:26:37-04:00",
-          "apply_url": "https://careers.roblox.com/jobs/7816527?gh_jid=7816527",
-          "ads_score": 2,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-08",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roblox:7816527"
-          ]
-        }
-      ],
-      "excluded": [
-        {
-          "id": "greenhouse:discord:8581126002",
-          "company": "Discord",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Scaled Abuse",
-          "location_raw": "San Francisco Bay Area",
-          "locations": [
-            "San Francisco Bay Area"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": 196000,
-          "salary_max_base": 220500,
-          "posted_date": "2026-06-08T13:57:48-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8581126002",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "exclusion_reason": "Max base $221k below SF floor of $280k",
-          "first_seen_date": "2026-06-08",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:discord:8581126002"
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-06-09",
       "counts": {
@@ -1282,11 +1187,11 @@
           "location_raw": "San Francisco | Palo Alto | Seattle | New York City",
           "locations": [
             "San Francisco",
-            "Remote (United States)",
-            "Serbia",
-            "New York City",
             "Palo Alto",
-            "Seattle"
+            "Seattle",
+            "New York City",
+            "Remote (United States)",
+            "Serbia"
           ],
           "metro": "sf",
           "mode": "fully_onsite",
@@ -1317,8 +1222,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "ashby:perplexity:be0bab19-d24e-4233-ab9e-edb6f6a16620",
-            "ashby:perplexity:daafcaba-cc39-487a-b941-d7a407753788"
+            "ashby:perplexity:daafcaba-cc39-487a-b941-d7a407753788",
+            "ashby:perplexity:be0bab19-d24e-4233-ab9e-edb6f6a16620"
           ]
         },
         {
@@ -2048,24 +1953,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:8016032",
+          "id": "greenhouse:roku:8016030",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Ads Targeting & Audience Activation",
-          "location_raw": "Boston, Massachusetts",
+          "location_raw": "New York, New York",
           "locations": [
-            "Boston, Massachusetts",
-            "New York, New York"
+            "New York, New York",
+            "Boston, Massachusetts"
           ],
-          "metro": "other",
+          "metro": "nyc",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 260000,
           "salary_max_base": 310000,
-          "posted_date": "2026-06-18T11:10:26-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8016032?gh_jid=8016032",
+          "posted_date": "2026-06-18T11:08:16-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8016030?gh_jid=8016030",
           "ads_score": 5,
           "consumer_score": 3,
           "ads_keywords": [
@@ -2094,8 +1999,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:8016032",
-            "greenhouse:roku:8016030"
+            "greenhouse:roku:8016030",
+            "greenhouse:roku:8016032"
           ]
         },
         {
@@ -2770,7 +2675,7 @@
       "counts": {
         "active": 8,
         "closed_today": 0,
-        "closed": 1,
+        "closed": 0,
         "excluded": 0
       },
       "postings": [
@@ -3104,49 +3009,6 @@
           "grouped_ids": [
             "ashby:snowflake:5b04d532-df08-4d10-af9b-3028037e7d8b"
           ]
-        },
-        {
-          "id": "greenhouse:instacart:8024357",
-          "company": "Instacart",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Principal Product Manager, AI",
-          "location_raw": "United States - Remote",
-          "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-24T14:58:30-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8024357",
-          "ads_score": 2,
-          "consumer_score": 0,
-          "ads_keywords": [
-            "supply",
-            "demand"
-          ],
-          "consumer_keywords": [],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-24",
-          "status": "closed",
-          "closed_date": "2026-07-01",
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:instacart:8024357",
-            "greenhouse:instacart:8024359"
-          ]
         }
       ],
       "excluded": []
@@ -3253,26 +3115,26 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8609244002",
+          "id": "greenhouse:twitch:8609243002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Community",
-          "location_raw": "New York City",
+          "location_raw": "Seattle, WA",
           "locations": [
-            "New York City",
             "Seattle, WA",
+            "Irvine, CA",
             "San Francisco, CA",
-            "Irvine, CA"
+            "New York City"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-06-25T15:25:29-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8609244002",
+          "posted_date": "2026-06-25T15:25:28-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8609243002",
           "ads_score": 0,
           "consumer_score": 1,
           "ads_keywords": [],
@@ -3294,18 +3156,18 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8609244002",
             "greenhouse:twitch:8609243002",
+            "greenhouse:twitch:8609245002",
             "greenhouse:twitch:8606704002",
-            "greenhouse:twitch:8609245002"
+            "greenhouse:twitch:8609244002"
           ]
         },
         {
-          "id": "greenhouse:braze:8027701",
+          "id": "greenhouse:braze:8000775",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
-          "title": "Senior Technical Product Manager, Content Platforms ",
+          "title": "Senior Technical Product Manager, Content Platforms (AI Content Operations) ",
           "location_raw": "New York City",
           "locations": [
             "New York City"
@@ -3316,12 +3178,12 @@
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-06-25T17:36:34-04:00",
-          "apply_url": "https://boards.greenhouse.io/braze/jobs/8027701?gh_jid=8027701",
+          "posted_date": "2026-06-25T17:42:25-04:00",
+          "apply_url": "https://boards.greenhouse.io/braze/jobs/8000775?gh_jid=8000775",
           "ads_score": 2,
           "consumer_score": 3,
           "ads_keywords": [
-            "demand",
+            "supply",
             "platform"
           ],
           "consumer_keywords": [
@@ -3333,7 +3195,7 @@
           "fit_score": 3,
           "realism_score": 1,
           "priority_score": 3,
-          "recommended_resume": "general",
+          "recommended_resume": "aipm",
           "first_seen_date": "2026-06-25",
           "status": "active",
           "closed_date": null,
@@ -3342,8 +3204,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:braze:8027701",
-            "greenhouse:braze:8000775"
+            "greenhouse:braze:8000775",
+            "greenhouse:braze:8027701"
           ]
         }
       ],
@@ -3447,8 +3309,8 @@
           "title": "Director, Product Management (Shopping & Offers)",
           "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -3482,8 +3344,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7780492003",
-            "greenhouse:affirm:7780490003"
+            "greenhouse:affirm:7780490003",
+            "greenhouse:affirm:7780492003"
           ]
         },
         {
@@ -3814,8 +3676,8 @@
       "date": "2026-06-29",
       "counts": {
         "active": 2,
-        "closed_today": 1,
-        "closed": 1,
+        "closed_today": 0,
+        "closed": 2,
         "excluded": 1
       },
       "postings": [
@@ -3941,7 +3803,7 @@
           "priority_score": 5,
           "recommended_resume": "ads",
           "first_seen_date": "2026-06-29",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-07-08",
           "grouped_count": 1,
           "grouped_ids": [
@@ -4502,15 +4364,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8044197",
+          "id": "greenhouse:instacart:8044199",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Growth Marketing Platform",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4518,8 +4380,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-02T14:32:40-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8044197",
+          "posted_date": "2026-07-02T14:32:41-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8044199",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -4542,8 +4404,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8044197",
-            "greenhouse:instacart:8044199"
+            "greenhouse:instacart:8044199",
+            "greenhouse:instacart:8044197"
           ]
         },
         {
@@ -5455,9 +5317,9 @@
           "tier": 2,
           "ats": "greenhouse",
           "title": "Product Manager, Incubations",
-          "location_raw": "San Francisco, CA",
+          "location_raw": "San Francisco, CA, New York, NY",
           "locations": [
-            "San Francisco, CA"
+            "San Francisco, CA, New York, NY"
           ],
           "metro": "sf",
           "mode": "fully_onsite",
@@ -5625,6 +5487,214 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:roku:7871151"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-07-09",
+      "counts": {
+        "active": 4,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 1
+      },
+      "postings": [
+        {
+          "id": "greenhouse:stripe:7517535",
+          "company": "Stripe",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Staff Product Manager, ML Foundations and GenAI",
+          "location_raw": "Seattle, San Francisco, New York, US - Remote",
+          "locations": [
+            "Seattle, San Francisco, New York, US - Remote"
+          ],
+          "metro": "sf",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-01-21T13:00:49-05:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=7517535",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-09",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:stripe:7517535"
+          ]
+        },
+        {
+          "id": "ashby:perplexity:ea87532c-69a0-497d-9cf3-04cc2a6c6410",
+          "company": "Perplexity",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Member of Technical Staff (Software Engineer, Integrations)",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "ai_company_role",
+          "salary_min_base": 220000,
+          "salary_max_base": 405000,
+          "posted_date": "2026-07-09T22:28:24.241+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/perplexity/ea87532c-69a0-497d-9cf3-04cc2a6c6410/application",
+          "ads_score": 0,
+          "consumer_score": 2,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "retention",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-09",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:perplexity:ea87532c-69a0-497d-9cf3-04cc2a6c6410"
+          ]
+        },
+        {
+          "id": "greenhouse:scopely:5314088008",
+          "company": "Scopely",
+          "tier": 4,
+          "ats": "greenhouse",
+          "title": "Senior Product Analyst - Live Games Portfolio",
+          "location_raw": "US - United States",
+          "locations": [
+            "US - United States"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-09T09:39:54-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5314088008?gh_jid=5314088008",
+          "ads_score": 1,
+          "consumer_score": 0,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-09",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:scopely:5314088008"
+          ]
+        },
+        {
+          "id": "lever:matchgroup:759405d9-d142-40f6-a379-51f64366d812",
+          "company": "Match Group",
+          "tier": 4,
+          "ats": "lever",
+          "title": "VP of Product Management, Trust & Safety, Match Group",
+          "location_raw": "West Hollywood, California | San Francisco, California | Palo Alto, California",
+          "locations": [
+            "West Hollywood, California",
+            "San Francisco, California",
+            "Palo Alto, California"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "vp_head",
+          "salary_min_base": 300000,
+          "salary_max_base": 335000,
+          "posted_date": "2026-07-09T21:56:52.005Z",
+          "apply_url": "https://jobs.lever.co/matchgroup/759405d9-d142-40f6-a379-51f64366d812/apply",
+          "ads_score": 0,
+          "consumer_score": 1,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 0.9,
+          "priority_score": 0.9,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-09",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "lever:matchgroup:759405d9-d142-40f6-a379-51f64366d812"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "greenhouse:lyft:8626589002",
+          "company": "Lyft",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Manager, Revenue Systems & Product Operations",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "unknown",
+          "salary_min_base": 156000,
+          "salary_max_base": 195000,
+          "posted_date": "2026-07-09T17:41:58-04:00",
+          "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8626589002?gh_jid=8626589002",
+          "ads_score": 3,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "ad tech",
+            "monetization",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "ads",
+          "exclusion_reason": "Max base $195k below SF floor of $280k",
+          "first_seen_date": "2026-07-09",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:lyft:8626589002"
           ]
         }
       ]
