@@ -1,134 +1,6 @@
 {
-  "generated_at": "2026-07-12T23:02:35.669Z",
+  "generated_at": "2026-07-13T23:02:40.037Z",
   "days": [
-    {
-      "date": "2026-06-12",
-      "counts": {
-        "active": 3,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:stripe:7981330",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Link - Local Payment Methods",
-          "location_raw": "USA",
-          "locations": [
-            "USA"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-11T20:23:48-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=7981330",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-12",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stripe:7981330"
-          ]
-        },
-        {
-          "id": "greenhouse:coinbase:7701642",
-          "company": "Coinbase",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Group Product Manager, Compliance Automation",
-          "location_raw": "Remote - USA",
-          "locations": [
-            "Remote - USA"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "senior_director",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-12T17:08:36-04:00",
-          "apply_url": "https://www.coinbase.com/careers/positions/7701642?gh_jid=7701642",
-          "ads_score": 1,
-          "consumer_score": 0,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 0.3,
-          "priority_score": 0.3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-12",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:coinbase:7701642"
-          ]
-        },
-        {
-          "id": "greenhouse:coinbase:7789404",
-          "company": "Coinbase",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Group Product Manager, Financial Engineering ",
-          "location_raw": "Remote - USA",
-          "locations": [
-            "Remote - USA"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "senior_director",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-04-08T10:20:06-04:00",
-          "apply_url": "https://www.coinbase.com/careers/positions/7789404?gh_jid=7789404",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "onboarding"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 0.3,
-          "priority_score": 0.3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-12",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:coinbase:7789404"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-06-13",
       "counts": {
@@ -139,15 +11,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7622734003",
+          "id": "greenhouse:affirm:7622736003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Shopping Experiences",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -155,8 +27,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-02-11T12:05:10-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7622734003",
+          "posted_date": "2026-02-11T12:05:11-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7622736003",
           "ads_score": 0,
           "consumer_score": 5,
           "ads_keywords": [],
@@ -180,8 +52,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7622734003",
-            "greenhouse:affirm:7622736003"
+            "greenhouse:affirm:7622736003",
+            "greenhouse:affirm:7622734003"
           ]
         },
         {
@@ -600,15 +472,15 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:6037825004",
+          "id": "greenhouse:epicgames:6013610004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Production",
-          "location_raw": "BLANK,BLANK,Multiple Locations",
+          "location_raw": "Cary,North Carolina,United States",
           "locations": [
-            "BLANK,BLANK,Multiple Locations",
-            "Cary,North Carolina,United States"
+            "Cary,North Carolina,United States",
+            "BLANK,BLANK,Multiple Locations"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -617,7 +489,7 @@
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2026-06-15T19:49:29-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/6037825004?gh_jid=6037825004",
+          "apply_url": "https://epicgames.com/careers/jobs/6013610004?gh_jid=6013610004",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -640,8 +512,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:epicgames:6037825004",
-            "greenhouse:epicgames:6013610004"
+            "greenhouse:epicgames:6013610004",
+            "greenhouse:epicgames:6037825004"
           ]
         },
         {
@@ -913,15 +785,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8014062",
+          "id": "greenhouse:instacart:8014060",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Retailer Platform",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -930,7 +802,7 @@
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2026-06-17T17:21:53-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8014062",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8014060",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -953,8 +825,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8014062",
-            "greenhouse:instacart:8014060"
+            "greenhouse:instacart:8014060",
+            "greenhouse:instacart:8014062"
           ]
         },
         {
@@ -1051,15 +923,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8017073",
+          "id": "greenhouse:instacart:8017071",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Security Engineer II",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1068,7 +940,7 @@
           "salary_min_base": null,
           "salary_max_base": null,
           "posted_date": "2026-06-18T16:33:58-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8017073",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8017071",
           "ads_score": 0,
           "consumer_score": 3,
           "ads_keywords": [],
@@ -1090,8 +962,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8017073",
-            "greenhouse:instacart:8017071"
+            "greenhouse:instacart:8017071",
+            "greenhouse:instacart:8017073"
           ]
         },
         {
@@ -1864,15 +1736,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8024430",
+          "id": "greenhouse:instacart:8024428",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, AI",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1880,8 +1752,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-06-24T14:54:47-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8024430",
+          "posted_date": "2026-06-24T14:54:19-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8024428",
           "ads_score": 2,
           "consumer_score": 0,
           "ads_keywords": [
@@ -1902,8 +1774,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8024430",
-            "greenhouse:instacart:8024428"
+            "greenhouse:instacart:8024428",
+            "greenhouse:instacart:8024430"
           ]
         },
         {
@@ -2299,26 +2171,26 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8609244002",
+          "id": "greenhouse:twitch:8609245002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Community",
-          "location_raw": "New York City",
+          "location_raw": "Irvine, CA",
           "locations": [
-            "New York City",
-            "Seattle, WA",
             "Irvine, CA",
-            "San Francisco, CA"
+            "San Francisco, CA",
+            "Seattle, WA",
+            "New York City"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-06-25T15:25:29-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8609244002",
+          "posted_date": "2026-06-25T15:25:30-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8609245002",
           "ads_score": 0,
           "consumer_score": 1,
           "ads_keywords": [],
@@ -2340,10 +2212,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8609244002",
-            "greenhouse:twitch:8609243002",
             "greenhouse:twitch:8609245002",
-            "greenhouse:twitch:8606704002"
+            "greenhouse:twitch:8606704002",
+            "greenhouse:twitch:8609243002",
+            "greenhouse:twitch:8609244002"
           ]
         },
         {
@@ -2493,8 +2365,8 @@
           "title": "Director, Product Management (Shopping & Offers)",
           "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -2528,8 +2400,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7780492003",
-            "greenhouse:affirm:7780490003"
+            "greenhouse:affirm:7780490003",
+            "greenhouse:affirm:7780492003"
           ]
         },
         {
@@ -3496,15 +3368,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8044197",
+          "id": "greenhouse:instacart:8044199",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Growth Marketing Platform",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -3512,8 +3384,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-02T14:32:40-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8044197",
+          "posted_date": "2026-07-02T14:32:41-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8044199",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -3536,8 +3408,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8044197",
-            "greenhouse:instacart:8044199"
+            "greenhouse:instacart:8044199",
+            "greenhouse:instacart:8044197"
           ]
         },
         {
@@ -5266,6 +5138,183 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:anthropic:5096878008"
+          ]
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-07-13",
+      "counts": {
+        "active": 4,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "ashby:openai:97681dd5-65ad-4eb5-b692-e6d192871c38",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Product Manager, Codex Security Controls & Partner Interfaces",
+          "location_raw": "Remote - US",
+          "locations": [
+            "Remote - US"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 293000,
+          "salary_max_base": 385000,
+          "posted_date": "2026-07-13T17:50:07.909+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/97681dd5-65ad-4eb5-b692-e6d192871c38/application",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "engagement",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-07-13",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:97681dd5-65ad-4eb5-b692-e6d192871c38"
+          ]
+        },
+        {
+          "id": "ashby:openai:37d6637c-48aa-48c7-8665-ec5abfcf32d0",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Product Manager, Cyber Defense and Blue Team",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 293000,
+          "salary_max_base": 385000,
+          "posted_date": "2026-07-13T17:50:01.223+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/37d6637c-48aa-48c7-8665-ec5abfcf32d0/application",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "engagement",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-13",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:37d6637c-48aa-48c7-8665-ec5abfcf32d0"
+          ]
+        },
+        {
+          "id": "ashby:snowflake:775f7c0e-f4ca-4334-a3c5-100811daf192",
+          "company": "Snowflake",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Staff Product Manager - AI FDE",
+          "location_raw": "GB-London",
+          "locations": [
+            "GB-London"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-13T16:11:15.324+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/snowflake/775f7c0e-f4ca-4334-a3c5-100811daf192/application",
+          "ads_score": 1,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-13",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:snowflake:775f7c0e-f4ca-4334-a3c5-100811daf192"
+          ]
+        },
+        {
+          "id": "greenhouse:scopely:5323853008",
+          "company": "Scopely",
+          "tier": 4,
+          "ats": "greenhouse",
+          "title": "Director, Product Marketing - Unannounced Project",
+          "location_raw": "US - United States",
+          "locations": [
+            "US - United States"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "director",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-13T09:48:43-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5323853008?gh_jid=5323853008",
+          "ads_score": 1,
+          "consumer_score": 5,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "engagement",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 5,
+          "fit_score": 5,
+          "realism_score": 1,
+          "priority_score": 5,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-13",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:scopely:5323853008"
           ]
         }
       ],
