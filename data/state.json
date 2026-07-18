@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17",
+  "date": "2026-07-18",
   "postings": {
     "greenhouse:anthropic:5247640008": {
       "first_seen_date": "2026-06-04",
@@ -451,6 +451,11 @@
       "status": "active",
       "closed_date": null
     },
+    "greenhouse:stripe:7947422": {
+      "first_seen_date": "2026-05-20",
+      "status": "active",
+      "closed_date": null
+    },
     "greenhouse:stripe:7943244": {
       "first_seen_date": "2026-05-20",
       "status": "active",
@@ -458,11 +463,6 @@
     },
     "greenhouse:stripe:7984866": {
       "first_seen_date": "2026-06-11",
-      "status": "active",
-      "closed_date": null
-    },
-    "greenhouse:stripe:7947422": {
-      "first_seen_date": "2026-05-20",
       "status": "active",
       "closed_date": null
     },
@@ -1066,12 +1066,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8551040002": {
+    "greenhouse:twitch:8551041002": {
       "first_seen_date": "2026-05-15",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8551041002": {
+    "greenhouse:twitch:8551040002": {
       "first_seen_date": "2026-05-15",
       "status": "active",
       "closed_date": null
@@ -1081,12 +1081,7 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8609244002": {
-      "first_seen_date": "2026-06-25",
-      "status": "active",
-      "closed_date": null
-    },
-    "greenhouse:twitch:8609245002": {
+    "greenhouse:twitch:8609243002": {
       "first_seen_date": "2026-06-25",
       "status": "active",
       "closed_date": null
@@ -1096,7 +1091,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8609243002": {
+    "greenhouse:twitch:8609244002": {
+      "first_seen_date": "2026-06-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:twitch:8609245002": {
       "first_seen_date": "2026-06-25",
       "status": "active",
       "closed_date": null
