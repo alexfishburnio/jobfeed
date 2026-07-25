@@ -1,264 +1,6 @@
 {
-  "generated_at": "2026-07-24T23:02:51.571Z",
+  "generated_at": "2026-07-25T23:02:36.694Z",
   "days": [
-    {
-      "date": "2026-06-24",
-      "counts": {
-        "active": 6,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:instacart:8024428",
-          "company": "Instacart",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, AI",
-          "location_raw": "United States - Remote",
-          "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-24T14:54:19-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8024428",
-          "ads_score": 2,
-          "consumer_score": 0,
-          "ads_keywords": [
-            "supply",
-            "demand"
-          ],
-          "consumer_keywords": [],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-24",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:instacart:8024428",
-            "greenhouse:instacart:8024430"
-          ]
-        },
-        {
-          "id": "greenhouse:stripe:8027435",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Lead, EMEA Payments",
-          "location_raw": "London",
-          "locations": [
-            "London"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "unknown",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-24T17:48:22-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8027435",
-          "ads_score": 1,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-24",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stripe:8027435"
-          ]
-        },
-        {
-          "id": "greenhouse:pubmatic:5279400008",
-          "company": "PubMatic",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Associate Director, Product Management — Marketplace",
-          "location_raw": "Redwood City, US",
-          "locations": [
-            "Redwood City, US"
-          ],
-          "metro": "other",
-          "mode": "hybrid_2_3",
-          "office_days": 2,
-          "level": "director",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-24T16:07:06-04:00",
-          "apply_url": "https://pubmatic.com/job/?gh_jid=5279400008",
-          "ads_score": 5,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "SSP",
-            "ad tech",
-            "publisher",
-            "monetization",
-            "bid",
-            "supply",
-            "demand",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "mobile app"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-24",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:pubmatic:5279400008"
-          ]
-        },
-        {
-          "id": "greenhouse:scaleai:4611776005",
-          "company": "Scale AI",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Senior AI Product Manager, Finance Agents",
-          "location_raw": "San Francisco, CA; New York, NY",
-          "locations": [
-            "San Francisco, CA",
-            "New York, NY"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2025-09-23T14:07:24-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4611776005",
-          "ads_score": 0,
-          "consumer_score": 0,
-          "ads_keywords": [],
-          "consumer_keywords": [],
-          "base_fit": 0,
-          "fit_score": 0,
-          "realism_score": 1,
-          "priority_score": 0,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-24",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:scaleai:4611776005"
-          ]
-        },
-        {
-          "id": "greenhouse:scaleai:4709281005",
-          "company": "Scale AI",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Senior AI Product Manager, Healthcare Agents",
-          "location_raw": "San Francisco, CA; New York, NY",
-          "locations": [
-            "San Francisco, CA",
-            "New York, NY"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-24T17:10:49-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4709281005",
-          "ads_score": 0,
-          "consumer_score": 0,
-          "ads_keywords": [],
-          "consumer_keywords": [],
-          "base_fit": 0,
-          "fit_score": 0,
-          "realism_score": 1,
-          "priority_score": 0,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-24",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:scaleai:4709281005"
-          ]
-        },
-        {
-          "id": "ashby:snowflake:5b04d532-df08-4d10-af9b-3028037e7d8b",
-          "company": "Snowflake",
-          "tier": 3,
-          "ats": "ashby",
-          "title": "Senior Product Manager - Applied AI",
-          "location_raw": "US-CA-Menlo Park",
-          "locations": [
-            "US-CA-Menlo Park"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": 200000,
-          "salary_max_base": 287500,
-          "posted_date": "2026-06-18T02:21:47.460+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/snowflake/5b04d532-df08-4d10-af9b-3028037e7d8b/application",
-          "ads_score": 1,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-24",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:snowflake:5b04d532-df08-4d10-af9b-3028037e7d8b"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-06-25",
       "counts": {
@@ -548,24 +290,23 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7780492003",
+          "id": "greenhouse:affirm:7780490003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Product Management (Shopping & Offers)",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
             "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
           "office_days": null,
           "level": "director",
-          "salary_min_base": 238000,
+          "salary_min_base": 300000,
           "salary_max_base": 360000,
-          "posted_date": "2026-06-25T20:48:46-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7780492003",
+          "posted_date": "2026-06-25T20:48:37-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7780490003",
           "ads_score": 2,
           "consumer_score": 4,
           "ads_keywords": [
@@ -586,12 +327,8 @@
           "first_seen_date": "2026-06-26",
           "status": "active",
           "closed_date": null,
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
+          "grouped_count": 1,
           "grouped_ids": [
-            "greenhouse:affirm:7780492003",
             "greenhouse:affirm:7780490003"
           ]
         },
@@ -750,15 +487,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7773693003",
+          "id": "greenhouse:affirm:7773691003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Credit & Pricing",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -766,8 +503,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-06-29T16:51:03-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
+          "posted_date": "2026-06-29T16:51:01-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
           "ads_score": 0,
           "consumer_score": 2,
           "ads_keywords": [],
@@ -788,8 +525,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7773693003",
-            "greenhouse:affirm:7773691003"
+            "greenhouse:affirm:7773691003",
+            "greenhouse:affirm:7773693003"
           ]
         },
         {
@@ -2310,8 +2047,8 @@
       "counts": {
         "active": 6,
         "closed_today": 0,
-        "closed": 1,
-        "excluded": 2
+        "closed": 0,
+        "excluded": 1
       },
       "postings": [
         {
@@ -2568,48 +2305,6 @@
           "grouped_ids": [
             "greenhouse:databricks:7823561002"
           ]
-        },
-        {
-          "id": "ashby:openai:3a345731-3f47-4f0a-b693-9fca8ac53f76",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Hardware Product Manager, Consumer Commerce",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 347000,
-          "salary_max_base": 385000,
-          "posted_date": "2026-07-10T21:44:46.986+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/3a345731-3f47-4f0a-b693-9fca8ac53f76/application",
-          "ads_score": 1,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "engagement",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-10",
-          "status": "closed",
-          "closed_date": "2026-07-22",
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:3a345731-3f47-4f0a-b693-9fca8ac53f76"
-          ]
         }
       ],
       "excluded": [
@@ -2650,47 +2345,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:taboola:8054776"
-          ]
-        },
-        {
-          "id": "greenhouse:discord:8529800002",
-          "company": "Discord",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Platform Analytics",
-          "location_raw": "San Francisco Bay Area ",
-          "locations": [
-            "San Francisco Bay Area"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": 196000,
-          "salary_max_base": 220500,
-          "posted_date": "2026-04-30T10:43:30-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/discord/jobs/8529800002",
-          "ads_score": 2,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "publisher",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "exclusion_reason": "Max base $221k below SF floor of $280k",
-          "first_seen_date": "2026-07-10",
-          "status": "closed",
-          "closed_date": "2026-07-16",
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:discord:8529800002"
           ]
         }
       ]
@@ -6160,6 +5814,57 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-25",
+      "counts": {
+        "active": 1,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:reddit:7762079",
+          "company": "Reddit",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, GTM Automation",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-03-30T12:01:10-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/7762079",
+          "ads_score": 0,
+          "consumer_score": 3,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "growth",
+            "retention",
+            "lifecycle"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-25",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:reddit:7762079"
+          ]
+        }
+      ],
+      "excluded": []
     }
   ]
 }
