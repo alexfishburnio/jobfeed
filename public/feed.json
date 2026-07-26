@@ -1,246 +1,6 @@
 {
-  "generated_at": "2026-07-25T23:02:36.694Z",
+  "generated_at": "2026-07-26T23:02:35.360Z",
   "days": [
-    {
-      "date": "2026-06-25",
-      "counts": {
-        "active": 4,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 1
-      },
-      "postings": [
-        {
-          "id": "greenhouse:stripe:7561053",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Treasury for Platforms",
-          "location_raw": "NYC, SF, SEA",
-          "locations": [
-            "NYC, SF, SEA"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-01-28T10:40:22-05:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=7561053",
-          "ads_score": 3,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "demand",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-25",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stripe:7561053"
-          ]
-        },
-        {
-          "id": "greenhouse:thetradedesk:5173669007",
-          "company": "The Trade Desk",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Staff Product Manager, Reporting Experiences ",
-          "location_raw": "Bellevue; Boston; Chicago; London; New York",
-          "locations": [
-            "Bellevue",
-            "Boston",
-            "Chicago",
-            "London",
-            "New York"
-          ],
-          "metro": "nyc",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-25T09:04:41-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5173669007",
-          "ads_score": 5,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "programmatic",
-            "SSP",
-            "DSP",
-            "ad tech",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "mobile app",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-25",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:thetradedesk:5173669007"
-          ]
-        },
-        {
-          "id": "greenhouse:twitch:8609245002",
-          "company": "Twitch",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Community",
-          "location_raw": "Irvine, CA",
-          "locations": [
-            "Irvine, CA",
-            "Seattle, WA",
-            "San Francisco, CA",
-            "New York City"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-25T15:25:30-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8609245002",
-          "ads_score": 0,
-          "consumer_score": 1,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "consumer"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-25",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "sf",
-            "nyc",
-            "other"
-          ],
-          "grouped_count": 4,
-          "grouped_ids": [
-            "greenhouse:twitch:8609245002",
-            "greenhouse:twitch:8609243002",
-            "greenhouse:twitch:8606704002",
-            "greenhouse:twitch:8609244002"
-          ]
-        },
-        {
-          "id": "greenhouse:braze:8000775",
-          "company": "Braze",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Senior Technical Product Manager, Content Platforms (AI Content Operations) ",
-          "location_raw": "New York City",
-          "locations": [
-            "New York City"
-          ],
-          "metro": "nyc",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-25T17:42:25-04:00",
-          "apply_url": "https://boards.greenhouse.io/braze/jobs/8000775?gh_jid=8000775",
-          "ads_score": 2,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "supply",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "engagement"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-25",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "nyc"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:braze:8000775",
-            "greenhouse:braze:8027701"
-          ]
-        }
-      ],
-      "excluded": [
-        {
-          "id": "greenhouse:doximity:8024284",
-          "company": "Doximity",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Product Manager, Hospital Solutions",
-          "location_raw": "San Francisco, CA",
-          "locations": [
-            "San Francisco, CA"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 120000,
-          "salary_max_base": 172000,
-          "posted_date": "2026-06-24T21:42:24-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/doximity/jobs/8024284",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "exclusion_reason": "Max base $172k below SF floor of $280k",
-          "first_seen_date": "2026-06-25",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:doximity:8024284"
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-06-26",
       "counts": {
@@ -487,15 +247,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7773691003",
+          "id": "greenhouse:affirm:7773693003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Credit & Pricing",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -503,8 +263,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-06-29T16:51:01-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
+          "posted_date": "2026-06-29T16:51:03-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773693003",
           "ads_score": 0,
           "consumer_score": 2,
           "ads_keywords": [],
@@ -525,8 +285,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7773691003",
-            "greenhouse:affirm:7773693003"
+            "greenhouse:affirm:7773693003",
+            "greenhouse:affirm:7773691003"
           ]
         },
         {
