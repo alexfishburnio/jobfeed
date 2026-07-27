@@ -1,192 +1,6 @@
 {
-  "generated_at": "2026-07-26T23:02:35.360Z",
+  "generated_at": "2026-07-27T23:02:43.827Z",
   "days": [
-    {
-      "date": "2026-06-26",
-      "counts": {
-        "active": 3,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 1
-      },
-      "postings": [
-        {
-          "id": "greenhouse:anthropic:5281348008",
-          "company": "Anthropic",
-          "tier": 1,
-          "ats": "greenhouse",
-          "title": "Web Product Manager",
-          "location_raw": "San Francisco, CA | New York City, NY",
-          "locations": [
-            "San Francisco, CA",
-            "New York City, NY"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-25T23:14:52-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5281348008",
-          "ads_score": 0,
-          "consumer_score": 2,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "consumer",
-            "growth"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-06-26",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:anthropic:5281348008"
-          ]
-        },
-        {
-          "id": "greenhouse:affirm:7780490003",
-          "company": "Affirm",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Director, Product Management (Shopping & Offers)",
-          "location_raw": "Remote US",
-          "locations": [
-            "Remote US"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "director",
-          "salary_min_base": 300000,
-          "salary_max_base": 360000,
-          "posted_date": "2026-06-25T20:48:37-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7780490003",
-          "ads_score": 2,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "retention",
-            "engagement",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 0.7,
-          "priority_score": 2.8,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-26",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:affirm:7780490003"
-          ]
-        },
-        {
-          "id": "greenhouse:stackadapt:4299186009",
-          "company": "StackAdapt",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager (Creatives)",
-          "location_raw": "Canada; United States",
-          "locations": [
-            "Canada",
-            "United States"
-          ],
-          "metro": "other",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-25T19:47:41-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/stackadapt/jobs/4299186009",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "DSP",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "engagement",
-            "onboarding"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-26",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "other"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:stackadapt:4299186009",
-            "greenhouse:stackadapt:4299171009"
-          ]
-        }
-      ],
-      "excluded": [
-        {
-          "id": "greenhouse:lyft:8525086002",
-          "company": "Lyft",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Driver Experience",
-          "location_raw": "New York, NY",
-          "locations": [
-            "New York, NY"
-          ],
-          "metro": "nyc",
-          "mode": "hybrid_2_3",
-          "office_days": 3,
-          "level": "mid_level",
-          "salary_min_base": 128000,
-          "salary_max_base": 160000,
-          "posted_date": "2026-04-28T11:04:48-04:00",
-          "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8525086002?gh_jid=8525086002",
-          "ads_score": 2,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "general",
-          "exclusion_reason": "Max base $160k below NYC floor of $180k",
-          "first_seen_date": "2026-06-26",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:lyft:8525086002"
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-06-28",
       "counts": {
@@ -2947,13 +2761,13 @@
           "tier": 3,
           "ats": "ashby",
           "title": "Member of Technical Staff (Software Engineer, Inference & Training Platform)",
-          "location_raw": "San Francisco | Remote (United States) | London | New York City | Ireland",
+          "location_raw": "San Francisco | Remote (United States) | London | Seattle | New York City",
           "locations": [
             "San Francisco",
             "Remote (United States)",
             "London",
-            "New York City",
-            "Ireland"
+            "Seattle",
+            "New York City"
           ],
           "metro": "sf",
           "mode": "remote_friendly",
@@ -3556,51 +3370,12 @@
     {
       "date": "2026-07-20",
       "counts": {
-        "active": 6,
-        "closed_today": 0,
+        "active": 5,
+        "closed_today": 1,
         "closed": 1,
         "excluded": 0
       },
       "postings": [
-        {
-          "id": "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b",
-          "company": "Spotify",
-          "tier": 2,
-          "ats": "lever",
-          "title": "Principal Product Manager, Habit Formation",
-          "location_raw": "New York, NY",
-          "locations": [
-            "New York, NY"
-          ],
-          "metro": "nyc",
-          "mode": "remote_friendly",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-20T16:29:56.847Z",
-          "apply_url": "https://jobs.lever.co/spotify/a88002db-cb15-49f4-a0e7-efc5c79c347b/apply",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "demand"
-          ],
-          "consumer_keywords": [
-            "consumer"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-20",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b"
-          ]
-        },
         {
           "id": "greenhouse:airbnb:8055637",
           "company": "Airbnb",
@@ -3809,6 +3584,45 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:pubmatic:5364678008"
+          ]
+        },
+        {
+          "id": "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b",
+          "company": "Spotify",
+          "tier": 2,
+          "ats": "lever",
+          "title": "Principal Product Manager, Habit Formation",
+          "location_raw": "New York, NY",
+          "locations": [
+            "New York, NY"
+          ],
+          "metro": "nyc",
+          "mode": "remote_friendly",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-20T16:29:56.847Z",
+          "apply_url": "https://jobs.lever.co/spotify/a88002db-cb15-49f4-a0e7-efc5c79c347b/apply",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "demand"
+          ],
+          "consumer_keywords": [
+            "consumer"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-20",
+          "status": "closed_today",
+          "closed_date": "2026-07-27",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b"
           ]
         },
         {
@@ -5625,6 +5439,139 @@
         }
       ],
       "excluded": []
+    },
+    {
+      "date": "2026-07-27",
+      "counts": {
+        "active": 2,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 1
+      },
+      "postings": [
+        {
+          "id": "greenhouse:tripadvisor:7950350",
+          "company": "Tripadvisor",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Principal Product Analyst",
+          "location_raw": "London",
+          "locations": [
+            "London"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-21T10:51:40-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7950350",
+          "ads_score": 1,
+          "consumer_score": 0,
+          "ads_keywords": [
+            "marketplace"
+          ],
+          "consumer_keywords": [],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-27",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:tripadvisor:7950350"
+          ]
+        },
+        {
+          "id": "ashby:snowflake:61d48d79-aeb8-45fb-806a-5b6e9f625de7",
+          "company": "Snowflake",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Senior Product Manager - Openflow",
+          "location_raw": "US-CA-Menlo Park | US-WA-Bellevue",
+          "locations": [
+            "US-CA-Menlo Park",
+            "US-WA-Bellevue"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": 200000,
+          "salary_max_base": 287500,
+          "posted_date": "2026-07-27T22:54:13.621+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/snowflake/61d48d79-aeb8-45fb-806a-5b6e9f625de7/application",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "lifecycle"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-27",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:snowflake:61d48d79-aeb8-45fb-806a-5b6e9f625de7"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "ashby:snowflake:ab43c4b4-49d0-4f15-b970-ecfc561ee145",
+          "company": "Snowflake",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Senior Product Marketing Engineer",
+          "location_raw": "US-CA-Menlo Park | US-WA-Bellevue | US-CA-Dublin",
+          "locations": [
+            "US-CA-Menlo Park",
+            "US-WA-Bellevue",
+            "US-CA-Dublin"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": 165000,
+          "salary_max_base": 216300,
+          "posted_date": "2026-07-27T18:14:22.925+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/snowflake/ab43c4b4-49d0-4f15-b970-ecfc561ee145/application",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "exclusion_reason": "Max base $216k below SF floor of $280k",
+          "first_seen_date": "2026-07-27",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:snowflake:ab43c4b4-49d0-4f15-b970-ecfc561ee145"
+          ]
+        }
+      ]
     }
   ]
 }
