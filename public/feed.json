@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T23:02:43.827Z",
+  "generated_at": "2026-07-28T23:02:45.501Z",
   "days": [
     {
       "date": "2026-06-28",
@@ -473,15 +473,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8044199",
+          "id": "greenhouse:instacart:8044197",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Growth Marketing Platform",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -489,8 +489,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-02T14:32:41-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8044199",
+          "posted_date": "2026-07-02T14:32:40-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8044197",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -513,8 +513,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8044199",
-            "greenhouse:instacart:8044197"
+            "greenhouse:instacart:8044197",
+            "greenhouse:instacart:8044199"
           ]
         },
         {
@@ -1449,7 +1449,7 @@
         "active": 3,
         "closed_today": 0,
         "closed": 0,
-        "excluded": 1
+        "excluded": 0
       },
       "postings": [
         {
@@ -1571,50 +1571,7 @@
           ]
         }
       ],
-      "excluded": [
-        {
-          "id": "greenhouse:lyft:8626589002",
-          "company": "Lyft",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Manager, Revenue Systems & Product Operations",
-          "location_raw": "San Francisco, CA",
-          "locations": [
-            "San Francisco, CA"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": 3,
-          "level": "unknown",
-          "salary_min_base": 156000,
-          "salary_max_base": 195000,
-          "posted_date": "2026-07-09T17:41:58-04:00",
-          "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8626589002?gh_jid=8626589002",
-          "ads_score": 3,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "ad tech",
-            "monetization",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "ads",
-          "exclusion_reason": "Max base $195k below SF floor of $280k",
-          "first_seen_date": "2026-07-09",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:lyft:8626589002"
-          ]
-        }
-      ]
+      "excluded": []
     },
     {
       "date": "2026-07-10",
@@ -1974,7 +1931,7 @@
     {
       "date": "2026-07-13",
       "counts": {
-        "active": 4,
+        "active": 3,
         "closed_today": 0,
         "closed": 0,
         "excluded": 0
@@ -2100,49 +2057,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:snowflake:775f7c0e-f4ca-4334-a3c5-100811daf192"
-          ]
-        },
-        {
-          "id": "greenhouse:scopely:5323853008",
-          "company": "Scopely",
-          "tier": 4,
-          "ats": "greenhouse",
-          "title": "Director, Product Marketing - Unannounced Project",
-          "location_raw": "US - United States",
-          "locations": [
-            "US - United States"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "director",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-13T09:48:43-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5323853008?gh_jid=5323853008",
-          "ads_score": 1,
-          "consumer_score": 5,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "engagement",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 5,
-          "fit_score": 5,
-          "realism_score": 1,
-          "priority_score": 5,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-13",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:scopely:5323853008"
           ]
         }
       ],
@@ -2617,8 +2531,8 @@
     {
       "date": "2026-07-16",
       "counts": {
-        "active": 8,
-        "closed_today": 0,
+        "active": 7,
+        "closed_today": 1,
         "closed": 0,
         "excluded": 2
       },
@@ -2753,49 +2667,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:stackadapt:4297673009"
-          ]
-        },
-        {
-          "id": "ashby:perplexity:4b8347e9-615e-4176-bfb8-3be9025f9f27",
-          "company": "Perplexity",
-          "tier": 3,
-          "ats": "ashby",
-          "title": "Member of Technical Staff (Software Engineer, Inference & Training Platform)",
-          "location_raw": "San Francisco | Remote (United States) | London | Seattle | New York City",
-          "locations": [
-            "San Francisco",
-            "Remote (United States)",
-            "London",
-            "Seattle",
-            "New York City"
-          ],
-          "metro": "sf",
-          "mode": "remote_friendly",
-          "office_days": null,
-          "level": "ai_company_role",
-          "salary_min_base": 250000,
-          "salary_max_base": 485000,
-          "posted_date": "2026-07-16T19:29:48.635+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/perplexity/4b8347e9-615e-4176-bfb8-3be9025f9f27/application",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "lifecycle"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-16",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:perplexity:4b8347e9-615e-4176-bfb8-3be9025f9f27"
           ]
         },
         {
@@ -2948,6 +2819,49 @@
           "grouped_count": 1,
           "grouped_ids": [
             "lever:matchgroup:1b9394b5-cfea-4d10-961a-b3b7ab01f951"
+          ]
+        },
+        {
+          "id": "ashby:perplexity:4b8347e9-615e-4176-bfb8-3be9025f9f27",
+          "company": "Perplexity",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Member of Technical Staff (Software Engineer, Inference & Training Platform)",
+          "location_raw": "San Francisco | Remote (United States) | London | Seattle | New York City",
+          "locations": [
+            "San Francisco",
+            "Remote (United States)",
+            "London",
+            "Seattle",
+            "New York City"
+          ],
+          "metro": "sf",
+          "mode": "remote_friendly",
+          "office_days": null,
+          "level": "ai_company_role",
+          "salary_min_base": 250000,
+          "salary_max_base": 485000,
+          "posted_date": "2026-07-16T19:29:48.635+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/perplexity/4b8347e9-615e-4176-bfb8-3be9025f9f27/application",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "lifecycle"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-16",
+          "status": "closed_today",
+          "closed_date": "2026-07-28",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:perplexity:4b8347e9-615e-4176-bfb8-3be9025f9f27"
           ]
         }
       ],
@@ -3371,8 +3285,8 @@
       "date": "2026-07-20",
       "counts": {
         "active": 5,
-        "closed_today": 1,
-        "closed": 1,
+        "closed_today": 0,
+        "closed": 2,
         "excluded": 0
       },
       "postings": [
@@ -3618,7 +3532,7 @@
           "priority_score": 1,
           "recommended_resume": "general",
           "first_seen_date": "2026-07-20",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-07-27",
           "grouped_count": 1,
           "grouped_ids": [
@@ -3847,15 +3761,15 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:5993562004",
+          "id": "greenhouse:epicgames:6120118004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Product Management (Social & Player Identity Platform)",
-          "location_raw": "Cary,North Carolina,United States",
+          "location_raw": "BLANK,BLANK,Multiple Locations",
           "locations": [
-            "Cary,North Carolina,United States",
-            "BLANK,BLANK,Multiple Locations"
+            "BLANK,BLANK,Multiple Locations",
+            "Cary,North Carolina,United States"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -3863,8 +3777,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-20T20:44:36-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/5993562004?gh_jid=5993562004",
+          "posted_date": "2026-07-20T20:44:37-04:00",
+          "apply_url": "https://epicgames.com/careers/jobs/6120118004?gh_jid=6120118004",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -3891,8 +3805,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:epicgames:5993562004",
-            "greenhouse:epicgames:6120118004"
+            "greenhouse:epicgames:6120118004",
+            "greenhouse:epicgames:5993562004"
           ]
         },
         {
@@ -5212,26 +5126,26 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8647255002",
+          "id": "greenhouse:twitch:8648174002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Platform Core Engineering",
-          "location_raw": "San Francisco, CA",
+          "location_raw": "Irvine, CA",
           "locations": [
-            "San Francisco, CA",
             "Irvine, CA",
-            "New York City",
-            "Seattle, WA"
+            "San Francisco, CA",
+            "Seattle, WA",
+            "New York City"
           ],
-          "metro": "sf",
+          "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-23T19:57:41-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8647255002",
+          "posted_date": "2026-07-23T19:57:42-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8648174002",
           "ads_score": 1,
           "consumer_score": 0,
           "ads_keywords": [
@@ -5253,10 +5167,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8647255002",
             "greenhouse:twitch:8648174002",
-            "greenhouse:twitch:8648175002",
-            "greenhouse:twitch:8648165002"
+            "greenhouse:twitch:8647255002",
+            "greenhouse:twitch:8648165002",
+            "greenhouse:twitch:8648175002"
           ]
         },
         {
@@ -5572,6 +5486,230 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-28",
+      "counts": {
+        "active": 5,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "ashby:openai:5c4fec38-39d8-4f03-b67e-891893ce2550",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Product Manager, AI Enablement, People Innovation Labs",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 230000,
+          "salary_max_base": 385000,
+          "posted_date": "2026-07-27T23:10:24.836+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/5c4fec38-39d8-4f03-b67e-891893ce2550/application",
+          "ads_score": 0,
+          "consumer_score": 1,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-28",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:5c4fec38-39d8-4f03-b67e-891893ce2550"
+          ]
+        },
+        {
+          "id": "greenhouse:roku:8089613",
+          "company": "Roku",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Recommendations",
+          "location_raw": "New York, New York",
+          "locations": [
+            "New York, New York",
+            "Santa Monica, California",
+            "San Jose, California"
+          ],
+          "metro": "nyc",
+          "mode": "hybrid_4_plus",
+          "office_days": 4,
+          "level": "principal_senior",
+          "salary_min_base": 195000,
+          "salary_max_base": 303000,
+          "posted_date": "2026-07-28T14:53:56-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8089613?gh_jid=8089613",
+          "ads_score": 4,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "publisher",
+            "advertiser",
+            "monetization",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "engagement",
+            "user"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-07-28",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "nyc",
+            "la",
+            "other"
+          ],
+          "grouped_count": 3,
+          "grouped_ids": [
+            "greenhouse:roku:8089613",
+            "greenhouse:roku:8089620",
+            "greenhouse:roku:8089550"
+          ]
+        },
+        {
+          "id": "greenhouse:robinhood:8089302",
+          "company": "Robinhood",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Operations Manager, Crypto",
+          "location_raw": "New York, NY",
+          "locations": [
+            "New York, NY"
+          ],
+          "metro": "nyc",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-27T21:31:01-04:00",
+          "apply_url": "https://boards.greenhouse.io/robinhood/jobs/8089302?t=gh_src=&gh_jid=8089302",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "demand"
+          ],
+          "consumer_keywords": [
+            "lifecycle"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-28",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:robinhood:8089302"
+          ]
+        },
+        {
+          "id": "greenhouse:pubmatic:5371484008",
+          "company": "PubMatic",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, New Demand Channels ",
+          "location_raw": "New York, US; Redwood City, US",
+          "locations": [
+            "New York, US",
+            "Redwood City, US"
+          ],
+          "metro": "nyc",
+          "mode": "hybrid_2_3",
+          "office_days": 2,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-28T10:33:28-04:00",
+          "apply_url": "https://pubmatic.com/job/?gh_jid=5371484008",
+          "ads_score": 5,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "programmatic",
+            "ad tech",
+            "publisher",
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "activation"
+          ],
+          "base_fit": 5,
+          "fit_score": 5,
+          "realism_score": 1,
+          "priority_score": 5,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-07-28",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:pubmatic:5371484008"
+          ]
+        },
+        {
+          "id": "greenhouse:scaleai:4718559005",
+          "company": "Scale AI",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Director of Product Strategy, Physical AI ",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "director",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-27T20:20:03-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/scaleai/jobs/4718559005",
+          "ads_score": 0,
+          "consumer_score": 1,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "growth"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-28",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:scaleai:4718559005"
+          ]
+        }
+      ],
+      "excluded": []
     }
   ]
 }
