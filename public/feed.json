@@ -1,103 +1,6 @@
 {
-  "generated_at": "2026-07-29T23:03:06.082Z",
+  "generated_at": "2026-07-30T23:02:45.379Z",
   "days": [
-    {
-      "date": "2026-06-29",
-      "counts": {
-        "active": 2,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:affirm:7773691003",
-          "company": "Affirm",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Credit & Pricing",
-          "location_raw": "Remote US",
-          "locations": [
-            "Remote US",
-            "Remote Canada"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": 153000,
-          "salary_max_base": 255000,
-          "posted_date": "2026-06-29T16:51:01-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7773691003",
-          "ads_score": 0,
-          "consumer_score": 2,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-06-29",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:affirm:7773691003",
-            "greenhouse:affirm:7773693003"
-          ]
-        },
-        {
-          "id": "ashby:perplexity:4615ca06-bea7-47e3-9e57-f5cee52b75e6",
-          "company": "Perplexity",
-          "tier": 3,
-          "ats": "ashby",
-          "title": "Member of Technical Staff (Data Scientist, Evals)",
-          "location_raw": "San Francisco | San Francisco",
-          "locations": [
-            "San Francisco",
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "ai_company_role",
-          "salary_min_base": 200000,
-          "salary_max_base": 300000,
-          "posted_date": "2026-06-29T13:45:56.976+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/perplexity/4615ca06-bea7-47e3-9e57-f5cee52b75e6/application",
-          "ads_score": 2,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-06-29",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:perplexity:4615ca06-bea7-47e3-9e57-f5cee52b75e6"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-06-30",
       "counts": {
@@ -416,57 +319,12 @@
     {
       "date": "2026-07-02",
       "counts": {
-        "active": 5,
+        "active": 4,
         "closed_today": 0,
         "closed": 0,
         "excluded": 0
       },
       "postings": [
-        {
-          "id": "greenhouse:instacart:8044199",
-          "company": "Instacart",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Growth Marketing Platform",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
-          "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-02T14:32:41-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8044199",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "lifecycle"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-02",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "remote"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:instacart:8044199",
-            "greenhouse:instacart:8044197"
-          ]
-        },
         {
           "id": "greenhouse:stripe:8040052",
           "company": "Stripe",
@@ -641,7 +499,7 @@
     {
       "date": "2026-07-03",
       "counts": {
-        "active": 2,
+        "active": 1,
         "closed_today": 0,
         "closed": 0,
         "excluded": 0
@@ -683,47 +541,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:doubleverify:8617749002"
-          ]
-        },
-        {
-          "id": "greenhouse:tripadvisor:8038210",
-          "company": "Tripadvisor",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Associate Product Manager - B2B",
-          "location_raw": "Office ",
-          "locations": [
-            "Office"
-          ],
-          "metro": "other",
-          "mode": "hybrid_2_3",
-          "office_days": 2,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-03T05:27:36-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8038210",
-          "ads_score": 2,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-03",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:tripadvisor:8038210"
           ]
         }
       ],
@@ -3711,15 +3528,15 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:5993562004",
+          "id": "greenhouse:epicgames:6120118004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Product Management (Social & Player Identity Platform)",
-          "location_raw": "Cary,North Carolina,United States",
+          "location_raw": "BLANK,BLANK,Multiple Locations",
           "locations": [
-            "Cary,North Carolina,United States",
-            "BLANK,BLANK,Multiple Locations"
+            "BLANK,BLANK,Multiple Locations",
+            "Cary,North Carolina,United States"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -3727,8 +3544,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-20T20:44:36-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/5993562004?gh_jid=5993562004",
+          "posted_date": "2026-07-20T20:44:37-04:00",
+          "apply_url": "https://epicgames.com/careers/jobs/6120118004?gh_jid=6120118004",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -3755,8 +3572,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:epicgames:5993562004",
-            "greenhouse:epicgames:6120118004"
+            "greenhouse:epicgames:6120118004",
+            "greenhouse:epicgames:5993562004"
           ]
         },
         {
@@ -4210,15 +4027,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:8077510",
+          "id": "greenhouse:instacart:8077512",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Ads Quality",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4226,8 +4043,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-23T00:29:47-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8077510",
+          "posted_date": "2026-07-23T00:29:48-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8077512",
           "ads_score": 5,
           "consumer_score": 1,
           "ads_keywords": [
@@ -4255,8 +4072,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8077510",
-            "greenhouse:instacart:8077512"
+            "greenhouse:instacart:8077512",
+            "greenhouse:instacart:8077510"
           ]
         },
         {
@@ -5076,26 +4893,26 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8648175002",
+          "id": "greenhouse:twitch:8648174002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Platform Core Engineering",
-          "location_raw": "New York City",
+          "location_raw": "Irvine, CA",
           "locations": [
-            "New York City",
             "Irvine, CA",
-            "Seattle, WA",
-            "San Francisco, CA"
+            "San Francisco, CA",
+            "New York City",
+            "Seattle, WA"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-23T19:57:43-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8648175002",
+          "posted_date": "2026-07-23T19:57:42-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8648174002",
           "ads_score": 1,
           "consumer_score": 0,
           "ads_keywords": [
@@ -5117,10 +4934,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8648175002",
             "greenhouse:twitch:8648174002",
-            "greenhouse:twitch:8648165002",
-            "greenhouse:twitch:8647255002"
+            "greenhouse:twitch:8647255002",
+            "greenhouse:twitch:8648175002",
+            "greenhouse:twitch:8648165002"
           ]
         },
         {
@@ -5440,69 +5257,32 @@
     {
       "date": "2026-07-28",
       "counts": {
-        "active": 5,
-        "closed_today": 0,
+        "active": 4,
+        "closed_today": 1,
         "closed": 0,
         "excluded": 0
       },
       "postings": [
         {
-          "id": "ashby:openai:5c4fec38-39d8-4f03-b67e-891893ce2550",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Product Manager, AI Enablement, People Innovation Labs",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 230000,
-          "salary_max_base": 385000,
-          "posted_date": "2026-07-27T23:10:24.836+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/5c4fec38-39d8-4f03-b67e-891893ce2550/application",
-          "ads_score": 0,
-          "consumer_score": 1,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "user"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-28",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:5c4fec38-39d8-4f03-b67e-891893ce2550"
-          ]
-        },
-        {
-          "id": "greenhouse:roku:8089613",
+          "id": "greenhouse:roku:8089550",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Recommendations",
-          "location_raw": "New York, New York",
+          "location_raw": "San Jose, California",
           "locations": [
-            "New York, New York",
             "San Jose, California",
-            "Santa Monica, California"
+            "Santa Monica, California",
+            "New York, New York"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 195000,
           "salary_max_base": 303000,
-          "posted_date": "2026-07-28T14:53:56-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8089613?gh_jid=8089613",
+          "posted_date": "2026-07-28T14:53:55-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8089550?gh_jid=8089550",
           "ads_score": 4,
           "consumer_score": 3,
           "ads_keywords": [
@@ -5531,9 +5311,9 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:roku:8089613",
             "greenhouse:roku:8089550",
-            "greenhouse:roku:8089620"
+            "greenhouse:roku:8089620",
+            "greenhouse:roku:8089613"
           ]
         },
         {
@@ -5657,6 +5437,43 @@
           "grouped_ids": [
             "greenhouse:scaleai:4718559005"
           ]
+        },
+        {
+          "id": "ashby:openai:5c4fec38-39d8-4f03-b67e-891893ce2550",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Product Manager, AI Enablement, People Innovation Labs",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 230000,
+          "salary_max_base": 385000,
+          "posted_date": "2026-07-27T23:10:24.836+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/5c4fec38-39d8-4f03-b67e-891893ce2550/application",
+          "ads_score": 0,
+          "consumer_score": 1,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-28",
+          "status": "closed_today",
+          "closed_date": "2026-07-30",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:5c4fec38-39d8-4f03-b67e-891893ce2550"
+          ]
         }
       ],
       "excluded": []
@@ -5714,6 +5531,138 @@
         }
       ],
       "excluded": []
+    },
+    {
+      "date": "2026-07-30",
+      "counts": {
+        "active": 2,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 1
+      },
+      "postings": [
+        {
+          "id": "greenhouse:robinhood:8082718",
+          "company": "Robinhood",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Crypto Wallet",
+          "location_raw": "Menlo Park, CA; New York, NY",
+          "locations": [
+            "Menlo Park, CA",
+            "New York, NY"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-30T18:22:21-04:00",
+          "apply_url": "https://boards.greenhouse.io/robinhood/jobs/8082718?t=gh_src=&gh_jid=8082718",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "demand"
+          ],
+          "consumer_keywords": [
+            "consumer"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-30",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:robinhood:8082718"
+          ]
+        },
+        {
+          "id": "ashby:perplexity:2c6ae16b-d03e-4e33-9d32-362c5388e956",
+          "company": "Perplexity",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Member of Technical Staff (Model Behavior)",
+          "location_raw": "San Francisco | Palo Alto",
+          "locations": [
+            "San Francisco",
+            "Palo Alto"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "ai_company_role",
+          "salary_min_base": 200000,
+          "salary_max_base": 330000,
+          "posted_date": "2026-07-30T18:12:04.348+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/perplexity/2c6ae16b-d03e-4e33-9d32-362c5388e956/application",
+          "ads_score": 0,
+          "consumer_score": 1,
+          "ads_keywords": [],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-30",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:perplexity:2c6ae16b-d03e-4e33-9d32-362c5388e956"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "ashby:snowflake:e39a441a-07e4-4ea3-a687-b483007deb94",
+          "company": "Snowflake",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Product Manager - Traffic & Networking",
+          "location_raw": "US-CA-Menlo Park | US-WA-Bellevue",
+          "locations": [
+            "US-CA-Menlo Park",
+            "US-WA-Bellevue"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": 160000,
+          "salary_max_base": 230000,
+          "posted_date": "2026-07-30T21:18:27.338+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/snowflake/e39a441a-07e4-4ea3-a687-b483007deb94/application",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "exclusion_reason": "Max base $230k below SF floor of $280k",
+          "first_seen_date": "2026-07-30",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:snowflake:e39a441a-07e4-4ea3-a687-b483007deb94"
+          ]
+        }
+      ]
     }
   ]
 }
