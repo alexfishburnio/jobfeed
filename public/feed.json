@@ -1,56 +1,6 @@
 {
-  "generated_at": "2026-08-02T23:02:43.388Z",
+  "generated_at": "2026-08-03T23:02:43.058Z",
   "days": [
-    {
-      "date": "2026-07-03",
-      "counts": {
-        "active": 1,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:doubleverify:8617749002",
-          "company": "DoubleVerify",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Team Lead, Product Operations - Classification",
-          "location_raw": "Costa Rica-Remote",
-          "locations": [
-            "Costa Rica-Remote"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "unknown",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-03T11:07:08-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/doubleverify/jobs/8617749002",
-          "ads_score": 2,
-          "consumer_score": 0,
-          "ads_keywords": [
-            "publisher",
-            "advertiser"
-          ],
-          "consumer_keywords": [],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-03",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:doubleverify:8617749002"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-07-06",
       "counts": {
@@ -578,24 +528,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:7822355",
+          "id": "greenhouse:roku:7871135",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager – Data Collaboration & Measurement",
-          "location_raw": "New York, New York",
+          "location_raw": "San Jose, California",
           "locations": [
-            "New York, New York",
-            "San Jose, California"
+            "San Jose, California",
+            "New York, New York"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 125375,
           "salary_max_base": 261600,
-          "posted_date": "2026-04-30T11:29:59-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7822355?gh_jid=7822355",
+          "posted_date": "2026-04-30T11:30:00-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/7871135?gh_jid=7871135",
           "ads_score": 4,
           "consumer_score": 2,
           "ads_keywords": [
@@ -622,8 +572,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:7822355",
-            "greenhouse:roku:7871135"
+            "greenhouse:roku:7871135",
+            "greenhouse:roku:7822355"
           ]
         },
         {
@@ -2906,15 +2856,15 @@
           ]
         },
         {
-          "id": "greenhouse:epicgames:5993562004",
+          "id": "greenhouse:epicgames:6120118004",
           "company": "Epic Games",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director, Product Management (Social & Player Identity Platform)",
-          "location_raw": "Cary,North Carolina,United States",
+          "location_raw": "BLANK,BLANK,Multiple Locations",
           "locations": [
-            "Cary,North Carolina,United States",
-            "BLANK,BLANK,Multiple Locations"
+            "BLANK,BLANK,Multiple Locations",
+            "Cary,North Carolina,United States"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -2922,8 +2872,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-20T20:44:36-04:00",
-          "apply_url": "https://epicgames.com/careers/jobs/5993562004?gh_jid=5993562004",
+          "posted_date": "2026-07-20T20:44:37-04:00",
+          "apply_url": "https://epicgames.com/careers/jobs/6120118004?gh_jid=6120118004",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -2950,8 +2900,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:epicgames:5993562004",
-            "greenhouse:epicgames:6120118004"
+            "greenhouse:epicgames:6120118004",
+            "greenhouse:epicgames:5993562004"
           ]
         },
         {
@@ -3172,12 +3122,52 @@
     {
       "date": "2026-07-22",
       "counts": {
-        "active": 3,
+        "active": 4,
         "closed_today": 0,
         "closed": 0,
-        "excluded": 1
+        "excluded": 0
       },
       "postings": [
+        {
+          "id": "ashby:openai:c3783e22-c6b6-41d6-b0d4-2b648912268f",
+          "company": "OpenAI",
+          "tier": 1,
+          "ats": "ashby",
+          "title": "Product Manager, IT",
+          "location_raw": "San Francisco",
+          "locations": [
+            "San Francisco"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": 3,
+          "level": "mid_level",
+          "salary_min_base": 293000,
+          "salary_max_base": 325000,
+          "posted_date": "2026-07-22T20:58:41.363+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/openai/c3783e22-c6b6-41d6-b0d4-2b648912268f/application",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "onboarding",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-07-22",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:openai:c3783e22-c6b6-41d6-b0d4-2b648912268f"
+          ]
+        },
         {
           "id": "greenhouse:reddit:8070669",
           "company": "Reddit",
@@ -3306,49 +3296,7 @@
           ]
         }
       ],
-      "excluded": [
-        {
-          "id": "ashby:openai:c3783e22-c6b6-41d6-b0d4-2b648912268f",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Product Manager, IT",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": 3,
-          "level": "mid_level",
-          "salary_min_base": 226000,
-          "salary_max_base": 264000,
-          "posted_date": "2026-07-22T20:58:41.363+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/c3783e22-c6b6-41d6-b0d4-2b648912268f/application",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "onboarding",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "aipm",
-          "exclusion_reason": "Max base $264k below SF floor of $280k",
-          "first_seen_date": "2026-07-22",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:c3783e22-c6b6-41d6-b0d4-2b648912268f"
-          ]
-        }
-      ]
+      "excluded": []
     },
     {
       "date": "2026-07-23",
@@ -4642,25 +4590,25 @@
       },
       "postings": [
         {
-          "id": "greenhouse:roku:8089620",
+          "id": "greenhouse:roku:8089613",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Recommendations",
-          "location_raw": "Santa Monica, California",
+          "location_raw": "New York, New York",
           "locations": [
-            "Santa Monica, California",
             "New York, New York",
+            "Santa Monica, California",
             "San Jose, California"
           ],
-          "metro": "la",
+          "metro": "nyc",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 195000,
           "salary_max_base": 303000,
-          "posted_date": "2026-07-28T14:53:57-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8089620?gh_jid=8089620",
+          "posted_date": "2026-07-28T14:53:56-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8089613?gh_jid=8089613",
           "ads_score": 4,
           "consumer_score": 3,
           "ads_keywords": [
@@ -4689,8 +4637,8 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:roku:8089620",
             "greenhouse:roku:8089613",
+            "greenhouse:roku:8089620",
             "greenhouse:roku:8089550"
           ]
         },
@@ -5361,6 +5309,233 @@
         }
       ],
       "excluded": []
+    },
+    {
+      "date": "2026-08-03",
+      "counts": {
+        "active": 4,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 1
+      },
+      "postings": [
+        {
+          "id": "greenhouse:anthropic:5251866008",
+          "company": "Anthropic",
+          "tier": 1,
+          "ats": "greenhouse",
+          "title": "Product Manager, Claude Code",
+          "location_raw": "San Francisco, CA | New York City, NY",
+          "locations": [
+            "San Francisco, CA",
+            "New York City, NY"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-03T18:01:44-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5251866008",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "onboarding"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-08-03",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:anthropic:5251866008"
+          ]
+        },
+        {
+          "id": "greenhouse:instacart:8100150",
+          "company": "Instacart",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Caper Recommendations & Personalization",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "locations": [
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-03T14:27:35-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8100150",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "engagement"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-03",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "remote"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "greenhouse:instacart:8100150",
+            "greenhouse:instacart:8100148"
+          ]
+        },
+        {
+          "id": "greenhouse:doubleverify:8658368002",
+          "company": "DoubleVerify",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Product Operations Manager, Tooling & Automation",
+          "location_raw": "NYC Global HQ",
+          "locations": [
+            "NYC Global HQ"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": 94000,
+          "salary_max_base": 160000,
+          "posted_date": "2026-08-03T07:43:48-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/doubleverify/jobs/8658368002",
+          "ads_score": 4,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "ad tech",
+            "publisher",
+            "advertiser",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "lifecycle"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-03",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:doubleverify:8658368002"
+          ]
+        },
+        {
+          "id": "greenhouse:zetaglobal:6133813004",
+          "company": "Zeta Global",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Application Security",
+          "location_raw": "Remote - United States",
+          "locations": [
+            "Remote - United States"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": 170000,
+          "salary_max_base": 190000,
+          "posted_date": "2026-08-03T18:01:05-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6133813004",
+          "ads_score": 2,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "supply",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "activation",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-08-03",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:zetaglobal:6133813004"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "greenhouse:zetaglobal:6129736004",
+          "company": "Zeta Global",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, Application Security",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": 170000,
+          "salary_max_base": 190000,
+          "posted_date": "2026-08-03T18:01:03-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6129736004",
+          "ads_score": 2,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "supply",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "activation",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "exclusion_reason": "Max base $190k below SF floor of $280k",
+          "first_seen_date": "2026-08-03",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:zetaglobal:6129736004"
+          ]
+        }
+      ]
     }
   ]
 }
