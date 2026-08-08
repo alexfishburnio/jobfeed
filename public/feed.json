@@ -1,195 +1,6 @@
 {
-  "generated_at": "2026-08-07T23:02:40.108Z",
+  "generated_at": "2026-08-08T23:02:35.796Z",
   "days": [
-    {
-      "date": "2026-07-08",
-      "counts": {
-        "active": 3,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 1
-      },
-      "postings": [
-        {
-          "id": "greenhouse:airbnb:8044715",
-          "company": "Airbnb",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Incubations",
-          "location_raw": "San Francisco, CA, New York, NY",
-          "locations": [
-            "San Francisco, CA, New York, NY"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-08T12:06:15-04:00",
-          "apply_url": "https://careers.airbnb.com/positions/8044715?gh_jid=8044715",
-          "ads_score": 3,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "demand",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "engagement"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-08",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:airbnb:8044715"
-          ]
-        },
-        {
-          "id": "greenhouse:roku:7871135",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager – Data Collaboration & Measurement",
-          "location_raw": "San Jose, California",
-          "locations": [
-            "San Jose, California",
-            "New York, New York"
-          ],
-          "metro": "other",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "principal_senior",
-          "salary_min_base": 125375,
-          "salary_max_base": 261600,
-          "posted_date": "2026-04-30T11:30:00-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7871135?gh_jid=7871135",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "publisher",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-08",
-          "status": "active",
-          "closed_date": null,
-          "metros": [
-            "nyc",
-            "other"
-          ],
-          "grouped_count": 2,
-          "grouped_ids": [
-            "greenhouse:roku:7871135",
-            "greenhouse:roku:7822355"
-          ]
-        },
-        {
-          "id": "ashby:snowflake:9a88d51a-09ef-4960-9c4d-be211affcc1b",
-          "company": "Snowflake",
-          "tier": 3,
-          "ats": "ashby",
-          "title": "Director, Product Marketing — Platform",
-          "location_raw": "US-CA-Menlo Park | US-WA-Bellevue | US-CA-Dublin",
-          "locations": [
-            "US-CA-Menlo Park",
-            "US-WA-Bellevue",
-            "US-CA-Dublin"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "director",
-          "salary_min_base": 228000,
-          "salary_max_base": 299200,
-          "posted_date": "2026-07-08T14:16:57.014+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/snowflake/9a88d51a-09ef-4960-9c4d-be211affcc1b/application",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-08",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:snowflake:9a88d51a-09ef-4960-9c4d-be211affcc1b"
-          ]
-        }
-      ],
-      "excluded": [
-        {
-          "id": "greenhouse:roku:7871151",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager – Data Collaboration & Measurement",
-          "location_raw": "Santa Monica, California",
-          "locations": [
-            "Santa Monica, California"
-          ],
-          "metro": "la",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "principal_senior",
-          "salary_min_base": 125375,
-          "salary_max_base": 261600,
-          "posted_date": "2026-04-30T11:30:03-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/7871151?gh_jid=7871151",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "publisher",
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "exclusion_reason": "Max base $262k below LA floor of $280k",
-          "first_seen_date": "2026-07-08",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roku:7871151"
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-07-09",
       "counts": {
@@ -5181,8 +4992,8 @@
       "date": "2026-08-06",
       "counts": {
         "active": 9,
-        "closed_today": 1,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 1,
         "excluded": 0
       },
       "postings": [
@@ -5611,7 +5422,7 @@
           "priority_score": 2,
           "recommended_resume": "ads",
           "first_seen_date": "2026-08-06",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-08-07",
           "grouped_count": 1,
           "grouped_ids": [
