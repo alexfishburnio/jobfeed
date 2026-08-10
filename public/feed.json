@@ -1,266 +1,6 @@
 {
-  "generated_at": "2026-08-09T23:02:36.913Z",
+  "generated_at": "2026-08-10T23:02:56.635Z",
   "days": [
-    {
-      "date": "2026-07-10",
-      "counts": {
-        "active": 5,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 1
-      },
-      "postings": [
-        {
-          "id": "greenhouse:reddit:7997020",
-          "company": "Reddit",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Lead Product Adoption Strategist, Mid-Market",
-          "location_raw": "Remote - United States",
-          "locations": [
-            "Remote - United States"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-10T12:29:31-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/7997020",
-          "ads_score": 2,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "retention",
-            "engagement",
-            "activation"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-10",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:reddit:7997020"
-          ]
-        },
-        {
-          "id": "greenhouse:stripe:8043083",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Staff Product Manager, Issuing",
-          "location_raw": "London",
-          "locations": [
-            "London"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-10T11:42:29-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8043083",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "programmatic",
-            "demand",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-10",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stripe:8043083"
-          ]
-        },
-        {
-          "id": "greenhouse:figma:6100482004",
-          "company": "Figma",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Developer Platform",
-          "location_raw": "San Francisco, CA • New York, NY • United States",
-          "locations": [
-            "San Francisco, CA • New York, NY • United States"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-10T17:48:31-04:00",
-          "apply_url": "https://boards.greenhouse.io/figma/jobs/6100482004?gh_jid=6100482004",
-          "ads_score": 2,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "onboarding"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-10",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:figma:6100482004"
-          ]
-        },
-        {
-          "id": "ashby:perplexity:2c5fdd71-472a-4c62-bc53-deafb66e7941",
-          "company": "Perplexity",
-          "tier": 3,
-          "ats": "ashby",
-          "title": "Member of Technical Staff (Software Engineer, Enterprise Adoption)",
-          "location_raw": "San Francisco | Seattle | New York City",
-          "locations": [
-            "San Francisco",
-            "Seattle",
-            "New York City"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "ai_company_role",
-          "salary_min_base": 220000,
-          "salary_max_base": 405000,
-          "posted_date": "2026-07-09T23:24:48.580+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/perplexity/2c5fdd71-472a-4c62-bc53-deafb66e7941/application",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "user"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-10",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:perplexity:2c5fdd71-472a-4c62-bc53-deafb66e7941"
-          ]
-        },
-        {
-          "id": "greenhouse:databricks:7823561002",
-          "company": "Databricks",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Sr. Staff Production Engineer - Data Platform",
-          "location_raw": "Mountain View, California; San Francisco, California",
-          "locations": [
-            "Mountain View, California",
-            "San Francisco, California"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2025-10-09T20:35:42-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=7823561002",
-          "ads_score": 2,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-10",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:databricks:7823561002"
-          ]
-        }
-      ],
-      "excluded": [
-        {
-          "id": "greenhouse:taboola:8054776",
-          "company": "Taboola",
-          "tier": 2.5,
-          "ats": "greenhouse",
-          "title": "Senior Product Analyst",
-          "location_raw": "Los Angeles, California, United States",
-          "locations": [
-            "Los Angeles, California, United States"
-          ],
-          "metro": "la",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "unknown",
-          "salary_min_base": 101712,
-          "salary_max_base": 156475,
-          "posted_date": "2026-07-10T09:20:46-04:00",
-          "apply_url": "https://www.taboola.com/careers/job/8054776?gh_jid=8054776",
-          "ads_score": 0,
-          "consumer_score": 2,
-          "ads_keywords": [],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "exclusion_reason": "Max base $156k below LA floor of $280k",
-          "first_seen_date": "2026-07-10",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:taboola:8054776"
-          ]
-        }
-      ]
-    },
     {
       "date": "2026-07-11",
       "counts": {
@@ -3237,49 +2977,12 @@
     {
       "date": "2026-07-27",
       "counts": {
-        "active": 2,
-        "closed_today": 0,
+        "active": 1,
+        "closed_today": 1,
         "closed": 0,
         "excluded": 1
       },
       "postings": [
-        {
-          "id": "greenhouse:tripadvisor:7950350",
-          "company": "Tripadvisor",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Principal Product Analyst",
-          "location_raw": "London",
-          "locations": [
-            "London"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-05-21T10:51:40-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7950350",
-          "ads_score": 1,
-          "consumer_score": 0,
-          "ads_keywords": [
-            "marketplace"
-          ],
-          "consumer_keywords": [],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-27",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:tripadvisor:7950350"
-          ]
-        },
         {
           "id": "ashby:snowflake:61d48d79-aeb8-45fb-806a-5b6e9f625de7",
           "company": "Snowflake",
@@ -3319,6 +3022,43 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:snowflake:61d48d79-aeb8-45fb-806a-5b6e9f625de7"
+          ]
+        },
+        {
+          "id": "greenhouse:tripadvisor:7950350",
+          "company": "Tripadvisor",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Principal Product Analyst",
+          "location_raw": "London",
+          "locations": [
+            "London"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-21T10:51:40-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/7950350",
+          "ads_score": 1,
+          "consumer_score": 0,
+          "ads_keywords": [
+            "marketplace"
+          ],
+          "consumer_keywords": [],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-07-27",
+          "status": "closed_today",
+          "closed_date": "2026-08-10",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:tripadvisor:7950350"
           ]
         }
       ],
@@ -3377,25 +3117,25 @@
       },
       "postings": [
         {
-          "id": "greenhouse:roku:8089620",
+          "id": "greenhouse:roku:8089613",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Recommendations",
-          "location_raw": "Santa Monica, California",
+          "location_raw": "New York, New York",
           "locations": [
-            "Santa Monica, California",
+            "New York, New York",
             "San Jose, California",
-            "New York, New York"
+            "Santa Monica, California"
           ],
-          "metro": "la",
+          "metro": "nyc",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 195000,
           "salary_max_base": 303000,
-          "posted_date": "2026-07-28T14:53:57-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8089620?gh_jid=8089620",
+          "posted_date": "2026-07-28T14:53:56-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8089613?gh_jid=8089613",
           "ads_score": 4,
           "consumer_score": 3,
           "ads_keywords": [
@@ -3424,9 +3164,9 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:roku:8089620",
+            "greenhouse:roku:8089613",
             "greenhouse:roku:8089550",
-            "greenhouse:roku:8089613"
+            "greenhouse:roku:8089620"
           ]
         },
         {
@@ -4626,25 +4366,25 @@
           ]
         },
         {
-          "id": "greenhouse:braze:8053845",
+          "id": "greenhouse:braze:8053850",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Senior Technical Product Manager, Content Platforms (AI Content Operations) ",
-          "location_raw": "Austin",
+          "location_raw": "San Francisco",
           "locations": [
+            "San Francisco",
             "Austin",
-            "Chicago",
-            "San Francisco"
+            "Chicago"
           ],
-          "metro": "other",
+          "metro": "sf",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-04T10:54:38-04:00",
-          "apply_url": "https://boards.greenhouse.io/braze/jobs/8053845?gh_jid=8053845",
+          "posted_date": "2026-08-04T11:07:08-04:00",
+          "apply_url": "https://boards.greenhouse.io/braze/jobs/8053850?gh_jid=8053850",
           "ads_score": 2,
           "consumer_score": 3,
           "ads_keywords": [
@@ -4670,11 +4410,11 @@
           ],
           "grouped_count": 6,
           "grouped_ids": [
+            "greenhouse:braze:8053850",
             "greenhouse:braze:8053845",
             "greenhouse:braze:8053849",
-            "greenhouse:braze:8053850",
-            "greenhouse:braze:8053791",
             "greenhouse:braze:8053787",
+            "greenhouse:braze:8053791",
             "greenhouse:braze:8053789"
           ]
         }
@@ -5560,6 +5300,271 @@
         }
       ],
       "excluded": []
+    },
+    {
+      "date": "2026-08-10",
+      "counts": {
+        "active": 5,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 1
+      },
+      "postings": [
+        {
+          "id": "greenhouse:affirm:7818068003",
+          "company": "Affirm",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager, 1: Many Merchant Growth",
+          "location_raw": "Remote US",
+          "locations": [
+            "Remote US",
+            "Remote Canada"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": 153000,
+          "salary_max_base": 255000,
+          "posted_date": "2026-08-10T01:00:32-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818068003",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-08-10",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "remote"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "greenhouse:affirm:7818068003",
+            "greenhouse:affirm:7818070003"
+          ]
+        },
+        {
+          "id": "greenhouse:thetradedesk:5207768007",
+          "company": "The Trade Desk",
+          "tier": 2.5,
+          "ats": "greenhouse",
+          "title": "Senior Staff Product Manager",
+          "location_raw": "Los Angeles",
+          "locations": [
+            "Los Angeles"
+          ],
+          "metro": "la",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-10T03:06:54-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5207768007",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "advertiser",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "mobile app",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-10",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:thetradedesk:5207768007"
+          ]
+        },
+        {
+          "id": "greenhouse:appsflyer:8458281002",
+          "company": "AppsFlyer",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager - Analytics",
+          "location_raw": "Herzliya",
+          "locations": [
+            "Herzliya"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-03-11T05:55:02-04:00",
+          "apply_url": "https://careers.appsflyer.com/jobs/position/8458281002?gh_jid=8458281002",
+          "ads_score": 3,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "advertiser",
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "retention"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-10",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:appsflyer:8458281002"
+          ]
+        },
+        {
+          "id": "greenhouse:appsflyer:8636377002",
+          "company": "AppsFlyer",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager - Attribution",
+          "location_raw": "Herzliya",
+          "locations": [
+            "Herzliya"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-07-16T06:03:04-04:00",
+          "apply_url": "https://careers.appsflyer.com/jobs/position/8636377002?gh_jid=8636377002",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "lifecycle"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-08-10",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:appsflyer:8636377002"
+          ]
+        },
+        {
+          "id": "greenhouse:scopely:5384536008",
+          "company": "Scopely",
+          "tier": 4,
+          "ats": "greenhouse",
+          "title": "Senior Product Analyst - Stumble Guys!",
+          "location_raw": "GB - Dundee, United Kingdom",
+          "locations": [
+            "GB - Dundee, United Kingdom"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-10T11:36:43-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5384536008?gh_jid=5384536008",
+          "ads_score": 2,
+          "consumer_score": 4,
+          "ads_keywords": [
+            "monetization",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "retention",
+            "engagement",
+            "mobile app"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-08-10",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:scopely:5384536008"
+          ]
+        }
+      ],
+      "excluded": [
+        {
+          "id": "greenhouse:amplitude:8694085002",
+          "company": "Amplitude",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Senior Product Engineer (Statsig)",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": 165000,
+          "salary_max_base": 247000,
+          "posted_date": "2026-08-10T14:50:47-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/amplitude/jobs/8694085002",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "aipm",
+          "exclusion_reason": "Max base $247k below SF floor of $280k",
+          "first_seen_date": "2026-08-10",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:amplitude:8694085002"
+          ]
+        }
+      ]
     }
   ]
 }
