@@ -1,174 +1,6 @@
 {
-  "generated_at": "2026-08-14T23:02:38.439Z",
+  "generated_at": "2026-08-15T23:02:36.508Z",
   "days": [
-    {
-      "date": "2026-07-15",
-      "counts": {
-        "active": 4,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:anthropic:5253339008",
-          "company": "Anthropic",
-          "tier": 1,
-          "ats": "greenhouse",
-          "title": "Product Manager, Enterprise",
-          "location_raw": "San Francisco, CA | New York City, NY",
-          "locations": [
-            "San Francisco, CA",
-            "New York City, NY"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-11T11:37:53-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5253339008",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "retention",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-15",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:anthropic:5253339008"
-          ]
-        },
-        {
-          "id": "greenhouse:anthropic:5097490008",
-          "company": "Anthropic",
-          "tier": 1,
-          "ats": "greenhouse",
-          "title": "Product Manager, Safeguards (Verticals)",
-          "location_raw": "San Francisco, CA",
-          "locations": [
-            "San Francisco, CA"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-02-03T16:43:45-05:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5097490008",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "user"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-07-15",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:anthropic:5097490008"
-          ]
-        },
-        {
-          "id": "greenhouse:stripe:8041655",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, E-Invoicing",
-          "location_raw": "Dublin, Ireland",
-          "locations": [
-            "Dublin, Ireland"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-15T07:01:45-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8041655",
-          "ads_score": 1,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "activation",
-            "onboarding",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-15",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stripe:8041655"
-          ]
-        },
-        {
-          "id": "lever:kabam:3602208c-c2ac-4678-8db0-d251d9a215da",
-          "company": "Kabam",
-          "tier": 4,
-          "ats": "lever",
-          "title": "Director of Production",
-          "location_raw": "Vancouver",
-          "locations": [
-            "Vancouver"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": 5,
-          "level": "director",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-15T01:10:38.486Z",
-          "apply_url": "https://jobs.lever.co/kabam/3602208c-c2ac-4678-8db0-d251d9a215da/apply",
-          "ads_score": 0,
-          "consumer_score": 0,
-          "ads_keywords": [],
-          "consumer_keywords": [],
-          "base_fit": 0,
-          "fit_score": 0,
-          "realism_score": 1,
-          "priority_score": 0,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-15",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "lever:kabam:3602208c-c2ac-4678-8db0-d251d9a215da"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-07-16",
       "counts": {
@@ -2341,25 +2173,25 @@
       },
       "postings": [
         {
-          "id": "greenhouse:roku:8089550",
+          "id": "greenhouse:roku:8089620",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Recommendations",
-          "location_raw": "San Jose, California",
+          "location_raw": "Santa Monica, California",
           "locations": [
-            "San Jose, California",
             "Santa Monica, California",
+            "San Jose, California",
             "New York, New York"
           ],
-          "metro": "other",
+          "metro": "la",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 195000,
           "salary_max_base": 303000,
-          "posted_date": "2026-07-28T14:53:55-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8089550?gh_jid=8089550",
+          "posted_date": "2026-07-28T14:53:57-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8089620?gh_jid=8089620",
           "ads_score": 4,
           "consumer_score": 3,
           "ads_keywords": [
@@ -2388,8 +2220,8 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:roku:8089550",
             "greenhouse:roku:8089620",
+            "greenhouse:roku:8089550",
             "greenhouse:roku:8089613"
           ]
         },
@@ -4758,8 +4590,8 @@
       "date": "2026-08-11",
       "counts": {
         "active": 4,
-        "closed_today": 1,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 1,
         "excluded": 1
       },
       "postings": [
@@ -4769,13 +4601,11 @@
           "tier": 1,
           "ats": "greenhouse",
           "title": "Product Manager, New Markets and Monetization",
-          "location_raw": "New York City, NY; San Francisco, CA; Seattle, WA",
+          "location_raw": "San Francisco, CA",
           "locations": [
-            "New York City, NY",
-            "San Francisco, CA",
-            "Seattle, WA"
+            "San Francisco, CA"
           ],
-          "metro": "nyc",
+          "metro": "sf",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "mid_level",
@@ -4966,7 +4796,7 @@
           "priority_score": 1,
           "recommended_resume": "general",
           "first_seen_date": "2026-08-11",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-08-14",
           "grouped_count": 1,
           "grouped_ids": [
@@ -5025,8 +4855,8 @@
       "date": "2026-08-12",
       "counts": {
         "active": 4,
-        "closed_today": 1,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 1,
         "excluded": 0
       },
       "postings": [
@@ -5219,7 +5049,7 @@
           "priority_score": 2,
           "recommended_resume": "general",
           "first_seen_date": "2026-08-12",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-08-14",
           "grouped_count": 1,
           "grouped_ids": [
@@ -5789,6 +5619,62 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-15",
+      "counts": {
+        "active": 1,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:airbnb:8112204",
+          "company": "Airbnb",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager, People to Meet",
+          "location_raw": "San Francisco, CA, Seattle, WA, New York, NY",
+          "locations": [
+            "San Francisco, CA, Seattle, WA, New York, NY"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-14T19:57:01-04:00",
+          "apply_url": "https://careers.airbnb.com/positions/8112204?gh_jid=8112204",
+          "ads_score": 4,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "supply",
+            "demand",
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "engagement"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-15",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:airbnb:8112204"
+          ]
+        }
+      ],
+      "excluded": []
     }
   ]
 }
