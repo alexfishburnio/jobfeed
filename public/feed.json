@@ -1,145 +1,6 @@
 {
-  "generated_at": "2026-08-16T23:02:46.545Z",
+  "generated_at": "2026-08-17T23:03:30.955Z",
   "days": [
-    {
-      "date": "2026-07-17",
-      "counts": {
-        "active": 3,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:pinterest:7901910",
-          "company": "Pinterest",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager II, Content Compliance",
-          "location_raw": "San Francisco, CA, US; Seattle, WA, US; Remote, CA, US",
-          "locations": [
-            "San Francisco, CA, US",
-            "Seattle, WA, US",
-            "Remote, CA, US"
-          ],
-          "metro": "sf",
-          "mode": "remote_friendly",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-05-22T13:48:41-04:00",
-          "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7901910",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-17",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:pinterest:7901910"
-          ]
-        },
-        {
-          "id": "greenhouse:roku:8008410",
-          "company": "Roku",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager, Content Discovery Innovation",
-          "location_raw": "San Jose, California",
-          "locations": [
-            "San Jose, California"
-          ],
-          "metro": "other",
-          "mode": "hybrid_4_plus",
-          "office_days": 4,
-          "level": "principal_senior",
-          "salary_min_base": 220000,
-          "salary_max_base": 250000,
-          "posted_date": "2026-07-17T11:23:01-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8008410?gh_jid=8008410",
-          "ads_score": 4,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "publisher",
-            "advertiser",
-            "monetization",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-17",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roku:8008410"
-          ]
-        },
-        {
-          "id": "greenhouse:tripadvisor:8059755",
-          "company": "Tripadvisor",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Principal Product Engineer",
-          "location_raw": "London",
-          "locations": [
-            "London"
-          ],
-          "metro": "other",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-17T11:14:23-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/tripadvisor/jobs/8059755",
-          "ads_score": 3,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "ad tech",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "mobile app"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-07-17",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:tripadvisor:8059755"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-07-20",
       "counts": {
@@ -849,15 +710,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:instacart:8077512",
+          "id": "greenhouse:instacart:8077510",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Ads Quality",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -865,8 +726,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-23T00:29:48-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8077512",
+          "posted_date": "2026-07-23T00:29:47-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8077510",
           "ads_score": 5,
           "consumer_score": 1,
           "ads_keywords": [
@@ -894,8 +755,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8077512",
-            "greenhouse:instacart:8077510"
+            "greenhouse:instacart:8077510",
+            "greenhouse:instacart:8077512"
           ]
         },
         {
@@ -1630,17 +1491,17 @@
           ]
         },
         {
-          "id": "greenhouse:twitch:8648174002",
+          "id": "greenhouse:twitch:8648165002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Platform Core Engineering",
-          "location_raw": "Irvine, CA",
+          "location_raw": "Seattle, WA",
           "locations": [
+            "Seattle, WA",
             "Irvine, CA",
-            "San Francisco, CA",
             "New York City",
-            "Seattle, WA"
+            "San Francisco, CA"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -1648,8 +1509,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-07-23T19:57:42-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8648174002",
+          "posted_date": "2026-07-23T19:57:41-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8648165002",
           "ads_score": 1,
           "consumer_score": 0,
           "ads_keywords": [
@@ -1671,10 +1532,10 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
+            "greenhouse:twitch:8648165002",
             "greenhouse:twitch:8648174002",
-            "greenhouse:twitch:8647255002",
             "greenhouse:twitch:8648175002",
-            "greenhouse:twitch:8648165002"
+            "greenhouse:twitch:8647255002"
           ]
         },
         {
@@ -1964,25 +1825,25 @@
       },
       "postings": [
         {
-          "id": "greenhouse:roku:8089620",
+          "id": "greenhouse:roku:8089613",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Recommendations",
-          "location_raw": "Santa Monica, California",
+          "location_raw": "New York, New York",
           "locations": [
-            "Santa Monica, California",
+            "New York, New York",
             "San Jose, California",
-            "New York, New York"
+            "Santa Monica, California"
           ],
-          "metro": "la",
+          "metro": "nyc",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 195000,
           "salary_max_base": 303000,
-          "posted_date": "2026-07-28T14:53:57-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8089620?gh_jid=8089620",
+          "posted_date": "2026-07-28T14:53:56-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8089613?gh_jid=8089613",
           "ads_score": 4,
           "consumer_score": 3,
           "ads_keywords": [
@@ -2011,9 +1872,9 @@
           ],
           "grouped_count": 3,
           "grouped_ids": [
-            "greenhouse:roku:8089620",
+            "greenhouse:roku:8089613",
             "greenhouse:roku:8089550",
-            "greenhouse:roku:8089613"
+            "greenhouse:roku:8089620"
           ]
         },
         {
@@ -2697,15 +2558,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:8100148",
+          "id": "greenhouse:instacart:8100150",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Caper Recommendations & Personalization",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -2713,8 +2574,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-03T14:27:33-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8100148",
+          "posted_date": "2026-08-03T14:27:35-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8100150",
           "ads_score": 2,
           "consumer_score": 2,
           "ads_keywords": [
@@ -2738,8 +2599,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8100148",
-            "greenhouse:instacart:8100150"
+            "greenhouse:instacart:8100150",
+            "greenhouse:instacart:8100148"
           ]
         },
         {
@@ -3177,25 +3038,25 @@
           ]
         },
         {
-          "id": "greenhouse:braze:8053850",
+          "id": "greenhouse:braze:8053849",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Senior Technical Product Manager, Content Platforms (AI Content Operations) ",
-          "location_raw": "San Francisco",
+          "location_raw": "Chicago",
           "locations": [
+            "Chicago",
             "San Francisco",
-            "Austin",
-            "Chicago"
+            "Austin"
           ],
-          "metro": "sf",
+          "metro": "other",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-04T11:07:08-04:00",
-          "apply_url": "https://boards.greenhouse.io/braze/jobs/8053850?gh_jid=8053850",
+          "posted_date": "2026-08-04T10:55:43-04:00",
+          "apply_url": "https://boards.greenhouse.io/braze/jobs/8053849?gh_jid=8053849",
           "ads_score": 2,
           "consumer_score": 3,
           "ads_keywords": [
@@ -3221,12 +3082,12 @@
           ],
           "grouped_count": 6,
           "grouped_ids": [
+            "greenhouse:braze:8053849",
             "greenhouse:braze:8053850",
             "greenhouse:braze:8053845",
-            "greenhouse:braze:8053849",
-            "greenhouse:braze:8053789",
             "greenhouse:braze:8053791",
-            "greenhouse:braze:8053787"
+            "greenhouse:braze:8053787",
+            "greenhouse:braze:8053789"
           ]
         }
       ],
@@ -3235,51 +3096,12 @@
     {
       "date": "2026-08-05",
       "counts": {
-        "active": 4,
-        "closed_today": 0,
+        "active": 2,
+        "closed_today": 2,
         "closed": 0,
         "excluded": 0
       },
       "postings": [
-        {
-          "id": "lever:spotify:a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd",
-          "company": "Spotify",
-          "tier": 2,
-          "ats": "lever",
-          "title": "Principal Product Manager, Agentic Surfaces",
-          "location_raw": "New York, NY",
-          "locations": [
-            "New York, NY"
-          ],
-          "metro": "nyc",
-          "mode": "remote_friendly",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-06-17T15:26:43.009Z",
-          "apply_url": "https://jobs.lever.co/spotify/a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd/apply",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "demand"
-          ],
-          "consumer_keywords": [
-            "consumer"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-08-05",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "lever:spotify:a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd"
-          ]
-        },
         {
           "id": "greenhouse:airbnb:8104444",
           "company": "Airbnb",
@@ -3365,6 +3187,45 @@
           ]
         },
         {
+          "id": "lever:spotify:a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd",
+          "company": "Spotify",
+          "tier": 2,
+          "ats": "lever",
+          "title": "Principal Product Manager, Agentic Surfaces",
+          "location_raw": "New York, NY",
+          "locations": [
+            "New York, NY"
+          ],
+          "metro": "nyc",
+          "mode": "remote_friendly",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-06-17T15:26:43.009Z",
+          "apply_url": "https://jobs.lever.co/spotify/a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd/apply",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "demand"
+          ],
+          "consumer_keywords": [
+            "consumer"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-08-05",
+          "status": "closed_today",
+          "closed_date": "2026-08-17",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "lever:spotify:a025cf69-f8c6-4873-9a8b-7ca6b1fbe9fd"
+          ]
+        },
+        {
           "id": "ashby:perplexity:886f4ab3-e691-45ed-b2db-069edf6f5413",
           "company": "Perplexity",
           "tier": 3,
@@ -3399,8 +3260,8 @@
           "priority_score": 1,
           "recommended_resume": "aipm",
           "first_seen_date": "2026-08-05",
-          "status": "active",
-          "closed_date": null,
+          "status": "closed_today",
+          "closed_date": "2026-08-17",
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:perplexity:886f4ab3-e691-45ed-b2db-069edf6f5413"
@@ -4122,15 +3983,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7818068003",
+          "id": "greenhouse:affirm:7818070003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, 1: Many Merchant Growth",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4138,8 +3999,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-08-10T01:00:32-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818068003",
+          "posted_date": "2026-08-10T01:00:34-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818070003",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -4162,8 +4023,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7818068003",
-            "greenhouse:affirm:7818070003"
+            "greenhouse:affirm:7818070003",
+            "greenhouse:affirm:7818068003"
           ]
         },
         {
@@ -5462,6 +5323,181 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:airbnb:8112204"
+          ]
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-08-17",
+      "counts": {
+        "active": 4,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:pinterest:7890197",
+          "company": "Pinterest",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Lead Product Analyst, Lifecycle Marketing",
+          "location_raw": "New York, NY, US; Remote, US",
+          "locations": [
+            "New York, NY, US",
+            "Remote, US"
+          ],
+          "metro": "nyc",
+          "mode": "remote_friendly",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-05-13T15:06:48-04:00",
+          "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=7890197",
+          "ads_score": 1,
+          "consumer_score": 5,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "retention",
+            "engagement",
+            "user",
+            "lifecycle"
+          ],
+          "base_fit": 5,
+          "fit_score": 5,
+          "realism_score": 1,
+          "priority_score": 5,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-08-17",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:pinterest:7890197"
+          ]
+        },
+        {
+          "id": "lever:spotify:17a75d93-835d-40ce-b31e-0c381b49f40a",
+          "company": "Spotify",
+          "tier": 2,
+          "ats": "lever",
+          "title": "Senior Product Quality Analyst - AI Voice",
+          "location_raw": "New York, NY | Los Angeles, CA",
+          "locations": [
+            "New York, NY",
+            "Los Angeles, CA",
+            "London"
+          ],
+          "metro": "nyc",
+          "mode": "remote_friendly",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-17T17:23:54.944Z",
+          "apply_url": "https://jobs.lever.co/spotify/17a75d93-835d-40ce-b31e-0c381b49f40a/apply",
+          "ads_score": 0,
+          "consumer_score": 0,
+          "ads_keywords": [],
+          "consumer_keywords": [],
+          "base_fit": 0,
+          "fit_score": 0,
+          "realism_score": 1,
+          "priority_score": 0,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-08-17",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "nyc",
+            "other"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "lever:spotify:17a75d93-835d-40ce-b31e-0c381b49f40a",
+            "lever:spotify:c3f6ea23-97d0-4a9a-a9ad-04f1e745d916"
+          ]
+        },
+        {
+          "id": "greenhouse:twilio:8136763",
+          "company": "Twilio",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager",
+          "location_raw": "Remote - Estonia",
+          "locations": [
+            "Remote - Estonia"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-17T16:30:59-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8136763",
+          "ads_score": 2,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "supply",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-17",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:twilio:8136763"
+          ]
+        },
+        {
+          "id": "ashby:cohere:dc523c5b-9477-46c4-a122-4f3b2b8f4b67",
+          "company": "Cohere",
+          "tier": 3,
+          "ats": "ashby",
+          "title": "Member of Technical Staff - RL Environments ",
+          "location_raw": "London",
+          "locations": [
+            "London"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "ai_company_role",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-17T16:14:51.538+00:00",
+          "apply_url": "https://jobs.ashbyhq.com/cohere/dc523c5b-9477-46c4-a122-4f3b2b8f4b67/application",
+          "ads_score": 0,
+          "consumer_score": 0,
+          "ads_keywords": [],
+          "consumer_keywords": [],
+          "base_fit": 0,
+          "fit_score": 0,
+          "realism_score": 1,
+          "priority_score": 0,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-08-17",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "ashby:cohere:dc523c5b-9477-46c4-a122-4f3b2b8f4b67"
           ]
         }
       ],
