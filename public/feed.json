@@ -1,145 +1,6 @@
 {
-  "generated_at": "2026-08-21T23:02:56.450Z",
+  "generated_at": "2026-08-22T23:02:48.138Z",
   "days": [
-    {
-      "date": "2026-07-22",
-      "counts": {
-        "active": 3,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:reddit:8070669",
-          "company": "Reddit",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Staff Product Manager, Ads Safety (Ads Review)",
-          "location_raw": "Remote - United States",
-          "locations": [
-            "Remote - United States"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-21T19:31:07-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/8070669",
-          "ads_score": 2,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "advertiser",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "retention",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-22",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:reddit:8070669"
-          ]
-        },
-        {
-          "id": "greenhouse:twilio:8076800",
-          "company": "Twilio",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Staff, Data Product Manager",
-          "location_raw": "Remote - US",
-          "locations": [
-            "Remote - US"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 155520,
-          "salary_max_base": 194400,
-          "posted_date": "2026-07-22T12:55:35-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8076800",
-          "ads_score": 1,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "engagement",
-            "user",
-            "lifecycle"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-22",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:twilio:8076800"
-          ]
-        },
-        {
-          "id": "greenhouse:figma:6119781004",
-          "company": "Figma",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Acquisition",
-          "location_raw": "San Francisco, CA • New York, NY • United States",
-          "locations": [
-            "San Francisco, CA • New York, NY • United States"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-22T12:38:28-04:00",
-          "apply_url": "https://boards.greenhouse.io/figma/jobs/6119781004?gh_jid=6119781004",
-          "ads_score": 2,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "onboarding",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-22",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:figma:6119781004"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-07-23",
       "counts": {
@@ -1955,15 +1816,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:8100148",
+          "id": "greenhouse:instacart:8100150",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Caper Recommendations & Personalization",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1971,8 +1832,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-03T14:27:33-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8100148",
+          "posted_date": "2026-08-03T14:27:35-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8100150",
           "ads_score": 2,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1996,8 +1857,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8100148",
-            "greenhouse:instacart:8100150"
+            "greenhouse:instacart:8100150",
+            "greenhouse:instacart:8100148"
           ]
         },
         {
@@ -4829,15 +4690,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:7737526",
+          "id": "greenhouse:stripe:8142649",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Local Payment Methods Growth",
-          "location_raw": "Dublin",
+          "location_raw": "London",
           "locations": [
-            "Dublin",
-            "London"
+            "London",
+            "Dublin"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -4845,8 +4706,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-19T15:50:48-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=7737526",
+          "posted_date": "2026-08-19T15:50:49-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8142649",
           "ads_score": 2,
           "consumer_score": 2,
           "ads_keywords": [
@@ -4870,8 +4731,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:7737526",
-            "greenhouse:stripe:8142649"
+            "greenhouse:stripe:8142649",
+            "greenhouse:stripe:7737526"
           ]
         },
         {
@@ -5338,27 +5199,27 @@
       },
       "postings": [
         {
-          "id": "greenhouse:anthropic:5397741008",
+          "id": "greenhouse:anthropic:5397737008",
           "company": "Anthropic",
           "tier": 1,
           "ats": "greenhouse",
           "title": "Product Manager, Business Technology",
-          "location_raw": "London, UK",
+          "location_raw": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
           "locations": [
-            "London, UK",
             "Remote-Friendly (Travel-Required)",
             "San Francisco, CA",
             "Seattle, WA",
-            "New York City, NY"
+            "New York City, NY",
+            "London, UK"
           ],
-          "metro": "other",
-          "mode": "hybrid_2_3",
+          "metro": "sf",
+          "mode": "remote_friendly",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-21T14:27:33-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5397741008",
+          "posted_date": "2026-08-21T14:25:05-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5397737008",
           "ads_score": 0,
           "consumer_score": 0,
           "ads_keywords": [],
@@ -5377,8 +5238,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:anthropic:5397741008",
-            "greenhouse:anthropic:5397737008"
+            "greenhouse:anthropic:5397737008",
+            "greenhouse:anthropic:5397741008"
           ]
         },
         {
@@ -5623,6 +5484,99 @@
           "grouped_count": 1,
           "grouped_ids": [
             "ashby:snowflake:82f841ea-c0f8-4f5a-b170-212cc9da8c72"
+          ]
+        }
+      ],
+      "excluded": []
+    },
+    {
+      "date": "2026-08-22",
+      "counts": {
+        "active": 2,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:scopely:5398779008",
+          "company": "Scopely",
+          "tier": 4,
+          "ats": "greenhouse",
+          "title": "Product Manager - WWE Champions",
+          "location_raw": "CA - Canada",
+          "locations": [
+            "CA - Canada"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-21T19:13:29-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5398779008?gh_jid=5398779008",
+          "ads_score": 1,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "engagement",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-08-22",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:scopely:5398779008"
+          ]
+        },
+        {
+          "id": "greenhouse:scopely:5398792008",
+          "company": "Scopely",
+          "tier": 4,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager - WWE Champions",
+          "location_raw": "CA - Canada",
+          "locations": [
+            "CA - Canada"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-21T19:29:45-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/scopely/jobs/5398792008?gh_jid=5398792008",
+          "ads_score": 2,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "monetization",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-22",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:scopely:5398792008"
           ]
         }
       ],
