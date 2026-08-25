@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "postings": {
     "greenhouse:anthropic:5397737008": {
       "first_seen_date": "2026-08-21",
@@ -146,6 +146,11 @@
       "status": "active",
       "closed_date": null
     },
+    "ashby:openai:5953fed7-1466-4e90-94c9-43716a55e032": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
     "greenhouse:reddit:8075185": {
       "first_seen_date": "2026-08-06",
       "status": "active",
@@ -266,18 +271,13 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:instacart:8100148": {
-      "first_seen_date": "2026-08-03",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:instacart:8100150": {
       "first_seen_date": "2026-08-03",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:instacart:8120471": {
-      "first_seen_date": "2026-08-14",
+    "greenhouse:instacart:8100148": {
+      "first_seen_date": "2026-08-03",
       "status": "active",
       "closed_date": null
     },
@@ -286,12 +286,17 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:instacart:8143270": {
-      "first_seen_date": "2026-08-20",
+    "greenhouse:instacart:8120471": {
+      "first_seen_date": "2026-08-14",
       "status": "active",
       "closed_date": null
     },
     "greenhouse:instacart:8143272": {
+      "first_seen_date": "2026-08-20",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:instacart:8143270": {
       "first_seen_date": "2026-08-20",
       "status": "active",
       "closed_date": null
@@ -306,12 +311,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:instacart:8014060": {
+    "greenhouse:instacart:8014062": {
       "first_seen_date": "2026-06-17",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:instacart:8014062": {
+    "greenhouse:instacart:8014060": {
       "first_seen_date": "2026-06-17",
       "status": "active",
       "closed_date": null
@@ -323,11 +328,6 @@
     },
     "greenhouse:instacart:8017071": {
       "first_seen_date": "2026-06-18",
-      "status": "active",
-      "closed_date": null
-    },
-    "lever:spotify:a88002db-cb15-49f4-a0e7-efc5c79c347b": {
-      "first_seen_date": "2026-07-31",
       "status": "active",
       "closed_date": null
     },
@@ -386,11 +386,6 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:airbnb:8082854": {
-      "first_seen_date": "2026-07-24",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:airbnb:8094462": {
       "first_seen_date": "2026-07-29",
       "status": "active",
@@ -441,13 +436,13 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:7768979": {
-      "first_seen_date": "2026-04-29",
+    "greenhouse:stripe:8027435": {
+      "first_seen_date": "2026-06-24",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:stripe:8027435": {
-      "first_seen_date": "2026-06-24",
+    "greenhouse:stripe:7768979": {
+      "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
@@ -458,6 +453,11 @@
     },
     "greenhouse:stripe:8064900": {
       "first_seen_date": "2026-07-14",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:stripe:8148025": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -508,6 +508,11 @@
     },
     "greenhouse:stripe:8007692": {
       "first_seen_date": "2026-08-20",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:stripe:7913698": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -596,12 +601,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7997738": {
+    "greenhouse:roku:7931527": {
       "first_seen_date": "2026-06-11",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7931527": {
+    "greenhouse:roku:7997738": {
       "first_seen_date": "2026-06-11",
       "status": "active",
       "closed_date": null
@@ -616,13 +621,13 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7993057": {
-      "first_seen_date": "2026-06-09",
+    "greenhouse:roku:8016032": {
+      "first_seen_date": "2026-06-18",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:8016032": {
-      "first_seen_date": "2026-06-18",
+    "greenhouse:roku:7993057": {
+      "first_seen_date": "2026-06-09",
       "status": "active",
       "closed_date": null
     },
@@ -631,12 +636,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:8146077": {
+    "greenhouse:roku:8145007": {
       "first_seen_date": "2026-08-20",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:8145007": {
+    "greenhouse:roku:8146077": {
       "first_seen_date": "2026-08-20",
       "status": "active",
       "closed_date": null
@@ -651,12 +656,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7822355": {
+    "greenhouse:roku:7871135": {
       "first_seen_date": "2026-07-08",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:7871135": {
+    "greenhouse:roku:7822355": {
       "first_seen_date": "2026-07-08",
       "status": "active",
       "closed_date": null
@@ -666,12 +671,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:8089613": {
+    "greenhouse:roku:8089550": {
       "first_seen_date": "2026-07-28",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:roku:8089550": {
+    "greenhouse:roku:8089613": {
       "first_seen_date": "2026-07-28",
       "status": "active",
       "closed_date": null
@@ -713,6 +718,11 @@
     },
     "greenhouse:coinbase:8148171": {
       "first_seen_date": "2026-08-21",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:coinbase:8154856": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -786,12 +796,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:affirm:7818070003": {
+    "greenhouse:affirm:7818068003": {
       "first_seen_date": "2026-08-10",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:affirm:7818068003": {
+    "greenhouse:affirm:7818070003": {
       "first_seen_date": "2026-08-10",
       "status": "active",
       "closed_date": null
@@ -801,12 +811,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:affirm:7773693003": {
+    "greenhouse:affirm:7773691003": {
       "first_seen_date": "2026-06-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:affirm:7773691003": {
+    "greenhouse:affirm:7773693003": {
       "first_seen_date": "2026-06-29",
       "status": "active",
       "closed_date": null
@@ -901,8 +911,38 @@
       "status": "active",
       "closed_date": null
     },
+    "greenhouse:duolingo:8747275002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:duolingo:8747171002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
     "greenhouse:duolingo:8474673002": {
       "first_seen_date": "2026-07-06",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:duolingo:8747099002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:duolingo:8747131002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:duolingo:8747077002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:duolingo:8747060002": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -928,6 +968,11 @@
     },
     "greenhouse:roblox:7994532": {
       "first_seen_date": "2026-06-11",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:roblox:8127058": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -1016,11 +1061,6 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:thetradedesk:4833571007": {
-      "first_seen_date": "2026-04-29",
-      "status": "active",
-      "closed_date": null
-    },
     "greenhouse:thetradedesk:5173669007": {
       "first_seen_date": "2026-06-25",
       "status": "active",
@@ -1053,6 +1093,16 @@
     },
     "greenhouse:pubmatic:5247168008": {
       "first_seen_date": "2026-06-03",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:pubmatic:5372808008": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:pubmatic:5230809008": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -1116,12 +1166,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8609244002": {
+    "greenhouse:twitch:8609245002": {
       "first_seen_date": "2026-06-25",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8609245002": {
+    "greenhouse:twitch:8609244002": {
       "first_seen_date": "2026-06-25",
       "status": "active",
       "closed_date": null
@@ -1131,7 +1181,7 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8648165002": {
+    "greenhouse:twitch:8648174002": {
       "first_seen_date": "2026-07-24",
       "status": "active",
       "closed_date": null
@@ -1141,7 +1191,7 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:twitch:8648174002": {
+    "greenhouse:twitch:8648165002": {
       "first_seen_date": "2026-07-24",
       "status": "active",
       "closed_date": null
@@ -1151,17 +1201,17 @@
       "status": "active",
       "closed_date": null
     },
+    "greenhouse:twitch:8686811002": {
+      "first_seen_date": "2026-08-06",
+      "status": "active",
+      "closed_date": null
+    },
     "greenhouse:twitch:8686812002": {
       "first_seen_date": "2026-08-06",
       "status": "active",
       "closed_date": null
     },
     "greenhouse:twitch:8686796002": {
-      "first_seen_date": "2026-08-06",
-      "status": "active",
-      "closed_date": null
-    },
-    "greenhouse:twitch:8686811002": {
       "first_seen_date": "2026-08-06",
       "status": "active",
       "closed_date": null
@@ -1386,13 +1436,18 @@
       "status": "active",
       "closed_date": null
     },
-    "ashby:perplexity:886f4ab3-e691-45ed-b2db-069edf6f5413": {
-      "first_seen_date": "2026-08-24",
+    "ashby:perplexity:19d8bcfd-e493-4b3a-b8fd-11a2a6502da2": {
+      "first_seen_date": "2026-08-13",
       "status": "active",
       "closed_date": null
     },
-    "ashby:perplexity:19d8bcfd-e493-4b3a-b8fd-11a2a6502da2": {
-      "first_seen_date": "2026-08-13",
+    "ashby:perplexity:7dedcdea-42be-4bb0-b603-791146ff73f0": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "ashby:perplexity:0a74edd7-830a-4825-946c-28801a057127": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -1476,12 +1531,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:scaleai:4673051005": {
+    "greenhouse:scaleai:4644742005": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:scaleai:4644742005": {
+    "greenhouse:scaleai:4673051005": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1571,12 +1626,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8326570002": {
+    "greenhouse:databricks:8326513002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8326513002": {
+    "greenhouse:databricks:8326570002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1616,12 +1671,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8524422002": {
+    "greenhouse:databricks:8524420002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8524420002": {
+    "greenhouse:databricks:8524422002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1636,12 +1691,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8420609002": {
+    "greenhouse:databricks:8427940002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8427940002": {
+    "greenhouse:databricks:8420609002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1661,12 +1716,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8420607002": {
+    "greenhouse:databricks:8427954002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:databricks:8427954002": {
+    "greenhouse:databricks:8420607002": {
       "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
@@ -1706,11 +1761,6 @@
       "status": "active",
       "closed_date": null
     },
-    "ashby:snowflake:5b04d532-df08-4d10-af9b-3028037e7d8b": {
-      "first_seen_date": "2026-06-24",
-      "status": "active",
-      "closed_date": null
-    },
     "ashby:snowflake:9a88d51a-09ef-4960-9c4d-be211affcc1b": {
       "first_seen_date": "2026-07-08",
       "status": "active",
@@ -1746,6 +1796,16 @@
       "status": "active",
       "closed_date": null
     },
+    "greenhouse:amplitude:8746352002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:appsflyer:8458281002": {
+      "first_seen_date": "2026-08-25",
+      "status": "active",
+      "closed_date": null
+    },
     "greenhouse:braze:8053849": {
       "first_seen_date": "2026-08-04",
       "status": "active",
@@ -1766,12 +1826,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:braze:8053789": {
+    "greenhouse:braze:8053787": {
       "first_seen_date": "2026-08-04",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:braze:8053787": {
+    "greenhouse:braze:8053791": {
       "first_seen_date": "2026-08-04",
       "status": "active",
       "closed_date": null
@@ -1781,7 +1841,7 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:braze:8053791": {
+    "greenhouse:braze:8053789": {
       "first_seen_date": "2026-08-04",
       "status": "active",
       "closed_date": null
@@ -1793,6 +1853,11 @@
     },
     "greenhouse:hightouch:5834919004": {
       "first_seen_date": "2026-04-29",
+      "status": "active",
+      "closed_date": null
+    },
+    "greenhouse:hightouch:6162104004": {
+      "first_seen_date": "2026-08-25",
       "status": "active",
       "closed_date": null
     },
@@ -1831,12 +1896,12 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:gleanwork:4702367005": {
+    "greenhouse:gleanwork:4702151005": {
       "first_seen_date": "2026-06-03",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:gleanwork:4702151005": {
+    "greenhouse:gleanwork:4702367005": {
       "first_seen_date": "2026-06-03",
       "status": "active",
       "closed_date": null
@@ -1856,13 +1921,13 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:scopely:5039429008": {
-      "first_seen_date": "2026-06-09",
+    "greenhouse:scopely:5390687008": {
+      "first_seen_date": "2026-08-14",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:scopely:5390687008": {
-      "first_seen_date": "2026-08-14",
+    "greenhouse:scopely:5039429008": {
+      "first_seen_date": "2026-06-09",
       "status": "active",
       "closed_date": null
     },
@@ -1901,13 +1966,13 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:scopely:5398792008": {
-      "first_seen_date": "2026-08-22",
+    "greenhouse:scopely:5210078008": {
+      "first_seen_date": "2026-05-05",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:scopely:5210078008": {
-      "first_seen_date": "2026-05-05",
+    "greenhouse:scopely:5398792008": {
+      "first_seen_date": "2026-08-22",
       "status": "active",
       "closed_date": null
     },
@@ -2061,13 +2126,13 @@
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:gleanwork:4525518005": {
-      "first_seen_date": "2026-04-29",
+    "greenhouse:gleanwork:4694764005": {
+      "first_seen_date": "2026-05-12",
       "status": "active",
       "closed_date": null
     },
-    "greenhouse:gleanwork:4694764005": {
-      "first_seen_date": "2026-05-12",
+    "greenhouse:gleanwork:4525518005": {
+      "first_seen_date": "2026-04-29",
       "status": "active",
       "closed_date": null
     },
@@ -2086,20 +2151,15 @@
       "status": "active",
       "closed_date": null
     },
+    "ashby:perplexity:886f4ab3-e691-45ed-b2db-069edf6f5413": {
+      "first_seen_date": "2026-08-24",
+      "status": "closed_today",
+      "closed_date": "2026-08-25"
+    },
     "greenhouse:pinterest:7890197": {
       "first_seen_date": "2026-08-17",
-      "status": "closed_today",
+      "status": "closed",
       "closed_date": "2026-08-24"
-    },
-    "greenhouse:appsflyer:8458281002": {
-      "first_seen_date": "2026-08-10",
-      "status": "closed",
-      "closed_date": "2026-08-20"
-    },
-    "greenhouse:appsflyer:8636377002": {
-      "first_seen_date": "2026-08-10",
-      "status": "closed",
-      "closed_date": "2026-08-20"
     },
     "ashby:snowflake:fea5b5d1-b7fc-4a6f-8e06-05fb5241a308": {
       "first_seen_date": "2026-08-13",
