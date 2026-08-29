@@ -1,60 +1,6 @@
 {
-  "generated_at": "2026-08-28T23:03:53.702Z",
+  "generated_at": "2026-08-29T23:02:37.768Z",
   "days": [
-    {
-      "date": "2026-07-29",
-      "counts": {
-        "active": 1,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "greenhouse:airbnb:8094462",
-          "company": "Airbnb",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Senior Product Program Manager, Roadmap Planning & Program Management ",
-          "location_raw": "San Francisco, United States ",
-          "locations": [
-            "San Francisco, United States"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "unknown",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-07-29T16:22:14-04:00",
-          "apply_url": "https://careers.airbnb.com/positions/8094462?gh_jid=8094462",
-          "ads_score": 2,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "supply",
-            "demand"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "engagement"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-07-29",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:airbnb:8094462"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-07-30",
       "counts": {
@@ -1648,15 +1594,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7818068003",
+          "id": "greenhouse:affirm:7818070003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, 1: Many Merchant Growth",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1664,8 +1610,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-08-10T01:00:32-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818068003",
+          "posted_date": "2026-08-10T01:00:34-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818070003",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1688,8 +1634,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7818068003",
-            "greenhouse:affirm:7818070003"
+            "greenhouse:affirm:7818070003",
+            "greenhouse:affirm:7818068003"
           ]
         },
         {
@@ -3150,15 +3096,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:8142649",
+          "id": "greenhouse:stripe:7737526",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Local Payment Methods Growth",
-          "location_raw": "London",
+          "location_raw": "Dublin",
           "locations": [
-            "London",
-            "Dublin"
+            "Dublin",
+            "London"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -3166,8 +3112,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-19T15:50:49-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8142649",
+          "posted_date": "2026-08-19T15:50:48-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=7737526",
           "ads_score": 2,
           "consumer_score": 2,
           "ads_keywords": [
@@ -3191,8 +3137,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:8142649",
-            "greenhouse:stripe:7737526"
+            "greenhouse:stripe:7737526",
+            "greenhouse:stripe:8142649"
           ]
         },
         {
@@ -3659,27 +3605,27 @@
       },
       "postings": [
         {
-          "id": "greenhouse:anthropic:5397737008",
+          "id": "greenhouse:anthropic:5397741008",
           "company": "Anthropic",
           "tier": 1,
           "ats": "greenhouse",
           "title": "Product Manager, Business Technology",
-          "location_raw": "Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY",
+          "location_raw": "London, UK",
           "locations": [
+            "London, UK",
             "Remote-Friendly (Travel-Required)",
             "San Francisco, CA",
             "Seattle, WA",
-            "New York City, NY",
-            "London, UK"
+            "New York City, NY"
           ],
-          "metro": "sf",
-          "mode": "remote_friendly",
+          "metro": "other",
+          "mode": "hybrid_2_3",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-21T14:25:05-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5397737008",
+          "posted_date": "2026-08-21T14:27:33-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5397741008",
           "ads_score": 0,
           "consumer_score": 0,
           "ads_keywords": [],
@@ -3698,8 +3644,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:anthropic:5397737008",
-            "greenhouse:anthropic:5397741008"
+            "greenhouse:anthropic:5397741008",
+            "greenhouse:anthropic:5397737008"
           ]
         },
         {
@@ -4759,15 +4705,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7929523003",
+          "id": "greenhouse:affirm:7929525003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Checkout",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4775,8 +4721,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-08-26T12:07:27-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7929523003",
+          "posted_date": "2026-08-26T12:21:38-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7929525003",
           "ads_score": 0,
           "consumer_score": 2,
           "ads_keywords": [],
@@ -4797,8 +4743,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7929523003",
-            "greenhouse:affirm:7929525003"
+            "greenhouse:affirm:7929525003",
+            "greenhouse:affirm:7929523003"
           ]
         },
         {
