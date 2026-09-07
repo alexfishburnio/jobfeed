@@ -1,222 +1,6 @@
 {
-  "generated_at": "2026-09-06T23:02:37.435Z",
+  "generated_at": "2026-09-07T23:02:39.632Z",
   "days": [
-    {
-      "date": "2026-08-07",
-      "counts": {
-        "active": 5,
-        "closed_today": 0,
-        "closed": 0,
-        "excluded": 0
-      },
-      "postings": [
-        {
-          "id": "ashby:openai:df8a1d73-58b9-4571-86f5-da9a12155fbb",
-          "company": "OpenAI",
-          "tier": 1,
-          "ats": "ashby",
-          "title": "Product Manager, Shopping",
-          "location_raw": "San Francisco",
-          "locations": [
-            "San Francisco"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": 347000,
-          "salary_max_base": 385000,
-          "posted_date": "2026-08-07T00:11:14.224+00:00",
-          "apply_url": "https://jobs.ashbyhq.com/openai/df8a1d73-58b9-4571-86f5-da9a12155fbb/application",
-          "ads_score": 1,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "engagement",
-            "user"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-08-07",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "ashby:openai:df8a1d73-58b9-4571-86f5-da9a12155fbb"
-          ]
-        },
-        {
-          "id": "greenhouse:pinterest:8042279",
-          "company": "Pinterest",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager II, Search Experience",
-          "location_raw": "San Francisco, CA, US; Remote, US",
-          "locations": [
-            "San Francisco, CA, US",
-            "Remote, US"
-          ],
-          "metro": "sf",
-          "mode": "remote_friendly",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-08-07T12:45:21-04:00",
-          "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8042279",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-08-07",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:pinterest:8042279"
-          ]
-        },
-        {
-          "id": "greenhouse:pinterest:8015494",
-          "company": "Pinterest",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Sr. Product Manager, Search Personalization",
-          "location_raw": "San Francisco, CA, US; Remote, US",
-          "locations": [
-            "San Francisco, CA, US",
-            "Remote, US"
-          ],
-          "metro": "sf",
-          "mode": "remote_friendly",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-08-07T12:44:54-04:00",
-          "apply_url": "https://www.pinterestcareers.com/jobs/?gh_jid=8015494",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-08-07",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:pinterest:8015494"
-          ]
-        },
-        {
-          "id": "greenhouse:twilio:8108776",
-          "company": "Twilio",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Sr. Principal Product Manager",
-          "location_raw": "Remote - US",
-          "locations": [
-            "Remote - US"
-          ],
-          "metro": "remote",
-          "mode": "fully_remote",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": 233100,
-          "salary_max_base": 259000,
-          "posted_date": "2026-08-07T14:00:14-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twilio/jobs/8108776",
-          "ads_score": 1,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "engagement",
-            "user"
-          ],
-          "base_fit": 2,
-          "fit_score": 2,
-          "realism_score": 1,
-          "priority_score": 2,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-08-07",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:twilio:8108776"
-          ]
-        },
-        {
-          "id": "greenhouse:databricks:8679974002",
-          "company": "Databricks",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Staff Product Manager, SAP",
-          "location_raw": "Mountain View, California; San Francisco, California",
-          "locations": [
-            "Mountain View, California",
-            "San Francisco, California"
-          ],
-          "metro": "sf",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-08-07T14:50:24-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8679974002",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "user"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-08-07",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:databricks:8679974002"
-          ]
-        }
-      ],
-      "excluded": []
-    },
     {
       "date": "2026-08-10",
       "counts": {
@@ -227,15 +11,15 @@
       },
       "postings": [
         {
-          "id": "greenhouse:affirm:7818070003",
+          "id": "greenhouse:affirm:7818068003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, 1: Many Merchant Growth",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -243,8 +27,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-08-10T01:00:34-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818070003",
+          "posted_date": "2026-08-10T01:00:32-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7818068003",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -267,8 +51,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7818070003",
-            "greenhouse:affirm:7818068003"
+            "greenhouse:affirm:7818068003",
+            "greenhouse:affirm:7818070003"
           ]
         },
         {
@@ -1639,15 +1423,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:7737526",
+          "id": "greenhouse:stripe:8142649",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Local Payment Methods Growth",
-          "location_raw": "Dublin",
+          "location_raw": "London",
           "locations": [
-            "Dublin",
-            "London"
+            "London",
+            "Dublin"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -1655,8 +1439,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-08-19T15:50:48-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=7737526",
+          "posted_date": "2026-08-19T15:50:49-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8142649",
           "ads_score": 2,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1680,8 +1464,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:7737526",
-            "greenhouse:stripe:8142649"
+            "greenhouse:stripe:8142649",
+            "greenhouse:stripe:7737526"
           ]
         },
         {
@@ -2537,8 +2321,8 @@
     {
       "date": "2026-08-25",
       "counts": {
-        "active": 11,
-        "closed_today": 0,
+        "active": 10,
+        "closed_today": 1,
         "closed": 2,
         "excluded": 0
       },
@@ -2946,48 +2730,6 @@
           ]
         },
         {
-          "id": "greenhouse:appsflyer:8458281002",
-          "company": "AppsFlyer",
-          "tier": 3,
-          "ats": "greenhouse",
-          "title": "Senior Product Manager - Analytics",
-          "location_raw": "Herzliya",
-          "locations": [
-            "Herzliya"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-03-11T05:55:02-04:00",
-          "apply_url": "https://careers.appsflyer.com/jobs/position/8458281002?gh_jid=8458281002",
-          "ads_score": 3,
-          "consumer_score": 2,
-          "ads_keywords": [
-            "advertiser",
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "growth",
-            "retention"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "ads",
-          "first_seen_date": "2026-08-25",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:appsflyer:8458281002"
-          ]
-        },
-        {
           "id": "greenhouse:hightouch:6162104004",
           "company": "Hightouch",
           "tier": 3,
@@ -3022,6 +2764,48 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:hightouch:6162104004"
+          ]
+        },
+        {
+          "id": "greenhouse:appsflyer:8458281002",
+          "company": "AppsFlyer",
+          "tier": 3,
+          "ats": "greenhouse",
+          "title": "Senior Product Manager - Analytics",
+          "location_raw": "Herzliya",
+          "locations": [
+            "Herzliya"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-03-11T05:55:02-04:00",
+          "apply_url": "https://careers.appsflyer.com/jobs/position/8458281002?gh_jid=8458281002",
+          "ads_score": 3,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "advertiser",
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "retention"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-08-25",
+          "status": "closed_today",
+          "closed_date": "2026-09-07",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:appsflyer:8458281002"
           ]
         },
         {
@@ -3157,15 +2941,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:7929525003",
+          "id": "greenhouse:affirm:7929523003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Checkout",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -3173,8 +2957,8 @@
           "level": "principal_senior",
           "salary_min_base": 153000,
           "salary_max_base": 255000,
-          "posted_date": "2026-08-26T12:21:38-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7929525003",
+          "posted_date": "2026-08-26T12:07:27-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/7929523003",
           "ads_score": 0,
           "consumer_score": 2,
           "ads_keywords": [],
@@ -3195,8 +2979,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:7929525003",
-            "greenhouse:affirm:7929523003"
+            "greenhouse:affirm:7929523003",
+            "greenhouse:affirm:7929525003"
           ]
         },
         {
@@ -3563,24 +3347,24 @@
           ]
         },
         {
-          "id": "greenhouse:zetaglobal:6166995004",
+          "id": "greenhouse:zetaglobal:6151402004",
           "company": "Zeta Global",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Principal Product Manager",
-          "location_raw": "Atlanta, GA",
+          "location_raw": "New York, NY",
           "locations": [
-            "Atlanta, GA",
-            "New York, NY"
+            "New York, NY",
+            "Atlanta, GA"
           ],
-          "metro": "other",
+          "metro": "nyc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": 185000,
           "salary_max_base": 205000,
-          "posted_date": "2026-08-27T11:28:02-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6166995004",
+          "posted_date": "2026-08-27T11:28:00-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/zetaglobal/jobs/6151402004",
           "ads_score": 1,
           "consumer_score": 3,
           "ads_keywords": [
@@ -3605,8 +3389,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:zetaglobal:6166995004",
-            "greenhouse:zetaglobal:6151402004"
+            "greenhouse:zetaglobal:6151402004",
+            "greenhouse:zetaglobal:6166995004"
           ]
         },
         {
