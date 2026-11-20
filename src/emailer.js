@@ -1,5 +1,6 @@
-// Builds the daily email (subject + HTML body) and sends it via Resend.
-// Supports a dry-run mode that writes the HTML to disk for preview instead.
+// Email primitives — HTML row rendering, sorting, top-pick selection.
+// Used by the weekly digest (src/weekly.js). The daily job (src/daily.js)
+// does not send email; it only writes snapshots and feed.json.
 
 const fs = require('node:fs');
 const path = require('node:path');
@@ -8,7 +9,6 @@ const { Resend } = require('resend');
 const TIER_LABELS = ['1', '2', '2.5', '3', '4'];
 
 // Mode rank for sort tiebreaking — higher means "more remote-leaning".
-// Used in sortPostings(); fit_score itself is content-only (Phase 1.2).
 const MODE_RANK = {
   fully_remote: 4,
   remote_friendly: 3,
@@ -62,9 +62,6 @@ function tierBreakdownText(postings) {
 }
 
 function formatLongDate(dateStr) {
-  // dateStr is "YYYY-MM-DD" in ET. Build a UTC midnight Date for that
-  // calendar day so the en-US formatter renders the correct weekday
-  // regardless of the runtime's local timezone.
   const [y, m, d] = String(dateStr).split('-').map(Number);
   if (!y || !m || !d) return dateStr;
   const dt = new Date(Date.UTC(y, m - 1, d));
@@ -74,16 +71,21 @@ function formatLongDate(dateStr) {
   }).format(dt);
 }
 
+function formatShortDate(dateStr) {
+  const [y, m, d] = String(dateStr).split('-').map(Number);
+  if (!y || !m || !d) return dateStr;
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  return new Intl.DateTimeFormat('en-US', {
+    month: 'short', day: 'numeric',
+    timeZone: 'UTC',
+  }).format(dt);
+}
+
 function formatFit(fit) {
   const f = Number.isFinite(fit) ? fit : 0;
-  // Round to nearest half so 4.6 → 4.5, 4.9 → 5. Drop trailing ".0".
   const rounded = Math.round(f * 2) / 2;
   const text = Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
   return `${text}/5`;
-}
-
-function pickTopCompanyNames(newKept, n) {
-  return pickTopByCompany(sortPostings(newKept), n).map(p => p.company);
 }
 
 // Iterates through a pre-sorted list and picks the highest-fit role per
@@ -101,12 +103,12 @@ function pickTopByCompany(sorted, n) {
   return out;
 }
 
-// Sort order (Phase 1.3):
-//   1. priority_score desc (fit × realism — surfaces realistic, high-content roles)
+// Sort order:
+//   1. priority_score desc (fit × realism)
 //   2. mode rank desc
-//   3. tier asc (Tier 1 first)
-//   4. salary_max_base desc (null treated as 0)
-//   5. company asc (deterministic tiebreak)
+//   3. tier asc
+//   4. salary_max_base desc
+//   5. company asc
 function sortPostings(arr) {
   return [...arr].sort((a, b) => {
     const ap = a.priority_score ?? 0;
@@ -124,19 +126,11 @@ function sortPostings(arr) {
   });
 }
 
-function buildSubject(newKept) {
-  const n = newKept.length;
-  if (n === 0) return '0 new roles today';
-  const top = pickTopCompanyNames(newKept, 3);
-  return `${n} new roles — top: ${top.join(', ')}`;
-}
-
 // --- HTML builders ----------------------------------------------------------
 
 function modeChip(mode) {
   const label = MODE_LABEL[mode];
   if (!label) return '';
-  // Color groups: green = remote-leaning, yellow = hybrid, gray = onsite/unknown.
   let bg, fg;
   if (mode === 'fully_remote' || mode === 'remote_friendly') { bg = '#e6f4ea'; fg = '#137333'; }
   else if (mode === 'hybrid_2_3' || mode === 'hybrid_4_plus')  { bg = '#fef7e0'; fg = '#b06000'; }
@@ -148,8 +142,6 @@ function tierChip(tier) {
   return `<span style="background:#eef;color:#33a;padding:2px 8px;border-radius:10px;font-size:11px;margin-right:6px;">Tier ${escapeHtml(String(tier))}</span>`;
 }
 
-// Tier breakdown pills for the email header. Same blue/gray hue family with
-// Tier 1 slightly darker to indicate priority — scannable, not decorative.
 const TIER_PILL_STYLE = {
   '1':   'background:#d4dbe7;color:#1f3a5f;',
   '2':   'background:#e2e8f1;color:#1f3a5f;',
@@ -189,11 +181,6 @@ function resumeChip(tag) {
 }
 
 function metroDisplay(p) {
-  // Deduped groups carry `metros` (array). Singletons carry `metro` (single).
-  // Render alphabetical, with "Remote" forced to the end. Named US/CA metros
-  // are uppercased; international ("other") metros fall back to raw location
-  // strings. When the posting has no parsed location at all, returns null —
-  // the caller renders "Location not listed".
   const arr = (p.metros && p.metros.length) ? p.metros : (p.metro ? [p.metro] : []);
   const named = arr.filter(m => m && m !== 'other');
 
@@ -208,17 +195,12 @@ function metroDisplay(p) {
     return labels.join(', ');
   }
 
-  // No US/CA metros — use raw location strings (e.g. "London, UK").
   if (p.locations && p.locations.length) {
     return [...new Set(p.locations)].join(', ');
   }
-  return null;  // signal "no location info"
+  return null;
 }
 
-// Inline mode blurb for the meta line:
-//   - office_days >= 1 → "{N} days in office"
-//   - hybrid_2_3 / hybrid_4_plus without explicit day count → "Hybrid"
-//   - otherwise → '' (the mode pill above already conveys the category)
 function modeBlurb(p) {
   if (Number.isFinite(p.office_days) && p.office_days >= 1) {
     return `${p.office_days} day${p.office_days === 1 ? '' : 's'} in office`;
@@ -237,14 +219,13 @@ function buildMetaSegments(p) {
   return [metroLabel, blurb || null, salary].filter(Boolean).join(' · ');
 }
 
-function postingRow(p) {
+function postingRow(p, { muted = false } = {}) {
   const meta = buildMetaSegments(p);
-  const isStretch = Number.isFinite(p.realism_score) && p.realism_score < 0.5;
-  const stretchHint = isStretch
-    ? ` <span style="color:#9aa0a6;font-size:12px;">· stretch</span>`
-    : '';
+  const style = muted
+    ? 'border-bottom:1px solid #f4f4f4;padding:8px 0;opacity:0.5;'
+    : 'border-bottom:1px solid #eee;padding:10px 0;';
   return `
-    <div style="border-bottom:1px solid #eee;padding:10px 0;">
+    <div style="${style}">
       <div style="margin-bottom:4px;">
         ${fitChip(p.fit_score)}${tierChip(p.tier)}${modeChip(p.mode)}
       </div>
@@ -252,20 +233,13 @@ function postingRow(p) {
         <strong>${escapeHtml(p.company)}</strong> — <a href="${escapeHtml(p.apply_url)}" style="color:#1a73e8;text-decoration:none;">${escapeHtml(p.title)}</a>
       </div>
       <div style="color:#5f6368;font-size:12px;margin-top:2px;">
-        ${escapeHtml(meta)}${meta ? ' · ' : ''}${resumeChip(p.recommended_resume)}${stretchHint}
+        ${escapeHtml(meta)}${meta ? ' · ' : ''}${resumeChip(p.recommended_resume)}
       </div>
     </div>`;
 }
 
-// Top-5 picks render with company on its own line, linked title below — more
-// visual room for the headline picks. The "All new roles" body still uses
-// the dense single-line postingRow above.
 function postingRowTopFive(p) {
   const meta = buildMetaSegments(p);
-  const isStretch = Number.isFinite(p.realism_score) && p.realism_score < 0.5;
-  const stretchHint = isStretch
-    ? ` <span style="color:#9aa0a6;font-size:12px;">· stretch</span>`
-    : '';
   return `
     <div style="border-bottom:1px solid #eee;padding:12px 0;">
       <div style="margin-bottom:6px;">
@@ -276,32 +250,20 @@ function postingRowTopFive(p) {
         <a href="${escapeHtml(p.apply_url)}" style="color:#1a73e8;text-decoration:none;">${escapeHtml(p.title)}</a>
       </div>
       <div style="color:#5f6368;font-size:12px;margin-top:4px;">
-        ${escapeHtml(meta)}${meta ? ' · ' : ''}${resumeChip(p.recommended_resume)}${stretchHint}
+        ${escapeHtml(meta)}${meta ? ' · ' : ''}${resumeChip(p.recommended_resume)}
       </div>
     </div>`;
 }
 
-function excludedRow(p) {
-  return `
-    <div style="border-bottom:1px solid #f4f4f4;padding:6px 0;color:#5f6368;font-size:12px;">
-      ${tierChip(p.tier)}<strong>${escapeHtml(p.company)}</strong> — ${escapeHtml(p.title)}
-      <div style="margin-top:2px;">${escapeHtml(p.exclusion_reason || '')}</div>
-    </div>`;
-}
-
-function closedRow(p) {
-  return `
-    <div style="padding:4px 0;color:#5f6368;font-size:12px;">
-      ${tierChip(p.tier)}<strong>${escapeHtml(p.company)}</strong> — ${escapeHtml(p.title)}
-    </div>`;
-}
-
-// Phase 1.6: top picks for the email body. Two passes — first preferring
-// unique companies, second relaxing the unique constraint so we don't pad
-// with low-fit roles when fewer than max_count companies have eligible
-// (>= min_fit_score) roles. Empty slots are fine; padding is not.
+// Top picks for the email body. Two passes — first preferring unique
+// companies, second relaxing the unique constraint so we don't pad with
+// low-fit roles when fewer than max_count companies have eligible
+// (>= min_fit_score) roles. Also drops stretch roles (realism < 0.5).
 function pickTopForBody(sorted, max, minFitScore = 0) {
-  const eligible = sorted.filter(p => (p.fit_score || 0) >= minFitScore);
+  const eligible = sorted.filter(p =>
+    (p.fit_score || 0) >= minFitScore
+    && !(Number.isFinite(p.realism_score) && p.realism_score < 0.5)
+  );
   const seen = new Set();
   const firstPass = [];
   const dupes = [];
@@ -320,151 +282,30 @@ function pickTopForBody(sorted, max, minFitScore = 0) {
   return out;
 }
 
-function buildHtml({ date, newKept, closedToday, excluded, feedUrl, maxRolesInBody, topPicks }) {
-  const sortedNew = sortPostings(newKept);
-  const max = (topPicks && Number.isFinite(topPicks.max_count)) ? topPicks.max_count : 5;
-  const minFit = (topPicks && Number.isFinite(topPicks.min_fit_score)) ? topPicks.min_fit_score : 0;
-  // Top picks honour fit_score floor; below-floor roles still appear in the
-  // "All new roles" section but never in top picks regardless of priority.
-  const top5 = pickTopForBody(sortedNew, max, minFit);
-  const tierHtml = tierBreakdownHtml(sortedNew);
-  const excludedNew = excluded.filter(p => p.status === 'new');
-  const cap = Number.isFinite(maxRolesInBody) ? maxRolesInBody : sortedNew.length;
-  const visibleNew = sortedNew.slice(0, cap);
-  const overflow = Math.max(0, sortedNew.length - cap);
-
-  const topSection = top5.length
-    ? `<h2 style="font-size:16px;margin:24px 0 8px;color:#202124;">Top ${top5.length} ${top5.length === 1 ? 'pick' : 'picks'}</h2>${top5.map(postingRowTopFive).join('')}`
-    : '';
-
-  const overflowNote = overflow > 0
-    ? `<div style="color:#5f6368;font-size:12px;margin-top:8px;">…and ${overflow} more — <a href="${escapeHtml(feedUrl)}" style="color:#1a73e8;">see full feed</a></div>`
-    : '';
-
-  const allSection = sortedNew.length
-    ? `<h2 style="font-size:16px;margin:24px 0 8px;color:#202124;">All new roles${overflow ? ` <span style="color:#5f6368;font-size:13px;font-weight:normal;">(top ${cap} of ${sortedNew.length})</span>` : ''}</h2>${visibleNew.map(postingRow).join('')}${overflowNote}`
-    : `<p style="color:#5f6368;">No new roles today.</p>`;
-
-  const closedSection = closedToday.length
-    ? `<h2 style="font-size:16px;margin:24px 0 8px;color:#202124;">Closed today (${closedToday.length})</h2>${closedToday.map(closedRow).join('')}`
-    : '';
-
-  const excludedFooter = `
-    <div style="margin-top:32px;padding-top:16px;border-top:1px solid #ddd;color:#5f6368;font-size:12px;">
-      ${excludedNew.length} new role${excludedNew.length === 1 ? '' : 's'} excluded today (salary below floor) ·
-      <a href="${escapeHtml(feedUrl)}" style="color:#1a73e8;">see full feed</a>
-    </div>`;
-
-  return `<!doctype html>
-<html><body style="margin:0;padding:0;background:#fafafa;">
-<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:24px;background:#fff;color:#202124;">
-  <div style="color:#5f6368;font-size:12px;margin-bottom:4px;">${escapeHtml(formatLongDate(date))}</div>
-  <h1 style="font-size:22px;margin:0 0 4px;">${sortedNew.length} new role${sortedNew.length === 1 ? '' : 's'} today</h1>
-  ${tierHtml}
-  ${topSection}
-  ${allSection}
-  ${closedSection}
-  ${excludedFooter}
-</div></body></html>`;
-}
-
-// --- Send -------------------------------------------------------------------
-
-async function sendOrPreview({ html, subject, dryRun, previewPath }) {
+async function sendOrPreview({ html, subject, dryRun, previewPath, subjectPrefix }) {
+  const finalSubject = subjectPrefix ? `${subjectPrefix}${subject}` : subject;
   if (dryRun) {
     fs.mkdirSync(path.dirname(previewPath), { recursive: true });
     fs.writeFileSync(previewPath, html);
-    return { dryRun: true, previewPath, subject };
+    return { dryRun: true, previewPath, subject: finalSubject };
   }
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) throw new Error('RESEND_API_KEY env var not set');
   const from = process.env.RESEND_FROM || 'onboarding@resend.dev';
   const to = process.env.RESEND_TO || 'alexfishburn@gmail.com';
   const resend = new Resend(apiKey);
-  const r = await resend.emails.send({ from, to: [to], subject, html });
-  return { dryRun: false, from, to, subject, id: r.data && r.data.id, error: r.error };
-}
-
-// --- Health-alert email -----------------------------------------------------
-
-function buildHealthSubject(alerts) {
-  const n = (alerts.hard_failure.length || 0)
-          + (alerts.suspicious_zero.length || 0)
-          + (alerts.sustained_zero.length || 0)
-          + (alerts.recovery.length || 0);
-  if (n === 0) return null;
-  return `Jobfeed health: ${n} company alert${n === 1 ? '' : 's'}`;
-}
-
-function buildHealthHtml(alerts, date, healthJsonUrl) {
-  const longDate = formatLongDate(date);
-
-  const li = (s) => `<li style="margin-bottom:6px;">${s}</li>`;
-  const section = (title, items, render) => {
-    if (!items.length) return '';
-    return `<h3 style="font-size:14px;margin:18px 0 6px;color:#202124;letter-spacing:0.04em;">${escapeHtml(title)} (${items.length})</h3><ul style="margin:0 0 0 20px;padding:0;font-size:13px;line-height:1.5;color:#202124;">${items.map(render).join('')}</ul>`;
-  };
-
-  const renderHardFailure = ({ company, entry }) => {
-    const code = entry.last_http_status ? `HTTP ${entry.last_http_status}` : 'fetch failed';
-    const last = (entry.last_nonzero_count != null && entry.last_nonzero_date)
-      ? `Last successful fetch: ${escapeHtml(entry.last_nonzero_date)} (${entry.last_nonzero_count} jobs).`
-      : `No successful fetch on record.`;
-    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — ${escapeHtml(code)}, slug may be invalid. ${last}`);
-  };
-  const renderSuspiciousZero = ({ company, entry }) => {
-    const had = (entry.last_nonzero_count != null && entry.last_nonzero_date)
-      ? `had ${entry.last_nonzero_count} on ${escapeHtml(entry.last_nonzero_date)}`
-      : `no nonzero history on record`;
-    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — 0 jobs today, ${had}. Possible slug or ATS change.`);
-  };
-  const renderSustainedZero = ({ company, entry }) => {
-    const last = (entry.last_nonzero_date)
-      ? `Last had jobs ${escapeHtml(entry.last_nonzero_date)} (${entry.last_nonzero_count} jobs).`
-      : ``;
-    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — 0 jobs for ${entry.consecutive_zero_days} consecutive days. ${last}`);
-  };
-  const renderRecovery = ({ company, entry, fail_streak }) => {
-    return li(`<strong>${escapeHtml(company.name)}</strong> (${escapeHtml(company.ats)}: <code>${escapeHtml(company.slug)}</code>) — back online today with ${entry.last_job_count} jobs after ${fail_streak} day${fail_streak === 1 ? '' : 's'} of failure.`);
-  };
-
-  const sections = [
-    section('HARD FAILURE',    alerts.hard_failure,    renderHardFailure),
-    section('SUSPICIOUS ZERO', alerts.suspicious_zero, renderSuspiciousZero),
-    section('SUSTAINED ZERO',  alerts.sustained_zero,  renderSustainedZero),
-    section('RECOVERY',        alerts.recovery,        renderRecovery),
-  ].filter(Boolean).join('');
-
-  return `<!doctype html>
-<html><body style="margin:0;padding:0;background:#fafafa;">
-<div style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;padding:24px;background:#fff;color:#202124;">
-  <div style="color:#5f6368;font-size:12px;margin-bottom:4px;">${escapeHtml(longDate)}</div>
-  <h1 style="font-size:20px;margin:0 0 4px;">Jobfeed health check</h1>
-  ${sections}
-  <div style="margin-top:24px;padding-top:14px;border-top:1px solid #ddd;color:#5f6368;font-size:12px;">
-    Investigate via: <a href="${escapeHtml(healthJsonUrl)}" style="color:#1a73e8;">data/health.json</a>
-  </div>
-</div></body></html>`;
-}
-
-async function sendHealthAlertOrPreview({ html, subject, dryRun, previewPath, recipient }) {
-  if (dryRun) {
-    fs.mkdirSync(path.dirname(previewPath), { recursive: true });
-    fs.writeFileSync(previewPath, html);
-    return { dryRun: true, previewPath, subject };
-  }
-  const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) throw new Error('RESEND_API_KEY env var not set');
-  const from = process.env.RESEND_FROM || 'onboarding@resend.dev';
-  const to = recipient || process.env.RESEND_TO || 'alexfishburn@gmail.com';
-  const resend = new Resend(apiKey);
-  const r = await resend.emails.send({ from, to: [to], subject, html });
-  return { dryRun: false, from, to, subject, id: r.data && r.data.id, error: r.error };
+  const r = await resend.emails.send({ from, to: [to], subject: finalSubject, html });
+  return { dryRun: false, from, to, subject: finalSubject, id: r.data && r.data.id, error: r.error };
 }
 
 module.exports = {
-  buildSubject, buildHtml, sendOrPreview,
-  buildHealthSubject, buildHealthHtml, sendHealthAlertOrPreview,
-  sortPostings, pickTopCompanyNames, pickTopByCompany, pickTopForBody,
-  formatFit, formatLongDate, MODE_RANK,
+  buildHtml: null,  // explicit — daily buildHtml is retired; weekly owns its own
+  sendOrPreview,
+  sortPostings, pickTopByCompany, pickTopForBody,
+  formatFit, formatLongDate, formatShortDate,
+  tierBreakdownHtml, tierBreakdownText, tierChip, tierPillHtml,
+  modeChip, fitChip, resumeChip,
+  postingRow, postingRowTopFive,
+  escapeHtml, buildMetaSegments,
+  MODE_RANK, TIER_LABELS,
 };

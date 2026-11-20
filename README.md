@@ -1,73 +1,65 @@
-# Job Feed Aggregator — Phase 0 Audit
+# Jobfeed — PM-role aggregator
 
-Probes target companies against Greenhouse, Lever, and Ashby public ATS APIs to determine which are addressable before committing to the full build.
+Fetches PM postings from 91 target companies (Greenhouse / Lever / Ashby),
+scores them, and emails Alex a **single weekly digest** every Monday 09:00 ET.
 
-## Run
+## Architecture
 
-    npm run audit
-    # or: node audit.js
+- `src/fetcher.js` — ATS API probes (Greenhouse / Lever / Ashby)
+- `src/parser.js` — normalizes raw postings, detects level / mode / salary
+- `src/scorer.js` — fit, realism, priority; filters (PM gate, location, salary floor)
+- `src/differ.js` — compares against `data/state.json` → active / closed_today / closed
+- `src/dedupe.js` — collapses (company, normalized title) pairs for display
+- `src/exporter.js` — builds `public/feed.json` (page consumes this)
+- `src/health.js` — per-company slug-health tracking → `data/health.json`
+- `src/emailer.js` — HTML primitives, Resend send
+- `src/daily.js` — daily orchestrator: fetch → parse → score → diff → snapshot. **No email.**
+- `src/weekly.js` — Monday digest: reads last 7 snapshots, builds the one email.
 
-Reads `companies.json`. Sequential, 1.5s delay between requests. ~190 companies → expect ~10–25 minutes depending on how many fall through to Ashby.
+## Data model
 
-`audit-report.csv` is written incrementally — re-running resumes from where it stopped. Delete the CSV to start fresh.
+- `data/YYYY-MM-DD.json` — per-day snapshot (all currently-tracked postings).
+- `data/state.json` — diff state; posting ID → first_seen_date, status, closed_date.
+- `data/health.json` — per-company fetch history (14-day rolling).
+- `data/archive/YYYY-MM.tar.gz` — monthly archives of snapshots older than 60 days.
+- `public/feed.json` — last 30 days, deduped, grouped by first_seen_date (page consumes).
 
-## Outputs
+## Cron (VPS: 157.230.237.104)
 
-- `audit-report.csv` — `name, tier, ats_detected, slug_used, job_count, status, notes`. UTF-8 with BOM (Excel/Numbers-friendly).
-- `audit-summary.md` — counts by ATS / tier × status, top 10 by openings, list of companies needing manual investigation, flags.
+```
+# Daily fetch — silent — target 06:00 America/New_York.
+# Cron fires 10, 11, 12 UTC to span EST→EDT; wrapper guards ET hour and runs once per day.
+0 10 * * * /root/jobfeed/scripts/daily-run.sh >> /var/log/jobfeed-daily.log 2>&1
+0 11 * * * /root/jobfeed/scripts/daily-run.sh >> /var/log/jobfeed-daily.log 2>&1
+0 12 * * * /root/jobfeed/scripts/daily-run.sh >> /var/log/jobfeed-daily.log 2>&1
 
-## Probe order
+# Weekly digest — ONE email per week — target Monday 09:00 America/New_York.
+0 13 * * 1 /root/jobfeed/scripts/weekly-run.sh >> /var/log/jobfeed-weekly.log 2>&1
+0 14 * * 1 /root/jobfeed/scripts/weekly-run.sh >> /var/log/jobfeed-weekly.log 2>&1
+0 15 * * 1 /root/jobfeed/scripts/weekly-run.sh >> /var/log/jobfeed-weekly.log 2>&1
+```
 
-1. Greenhouse — `https://boards-api.greenhouse.io/v1/boards/{slug}/jobs`
-2. Lever — `https://api.lever.co/v0/postings/{slug}?mode=json`
-3. Ashby — `https://api.ashbyhq.com/posting-api/job-board/{slug}?includeCompensation=true`
+Only the weekly job sends email. The daily job is silent — any failures surface
+in the next weekly digest's Infrastructure section.
 
-Each ATS is tried with up to four slug variants (deduped):
+If the weekly job itself crashes, one failure alert is sent via Resend with
+subject `WEEKLY DIGEST FAILED {date}`. This is the only exception to the
+one-email-per-week rule.
 
-1. `slug_hint` from `companies.json` if provided
-2. lowercase, non-alphanumeric stripped (`The Trade Desk` → `thetradedesk`)
-3. lowercase, hyphenated (`The Trade Desk` → `the-trade-desk`)
-4. lowercase, articles dropped, concatenated (`The Trade Desk` → `tradedesk`)
+## Running manually
 
-On 429, back off 30s and retry once. On any other non-200, fall through to the next variant / ATS. After all variants × all ATSes fail, the company is recorded as `unknown`.
+```
+node --env-file=.env src/daily.js              # fetch + snapshot, no email
+node --env-file=.env src/weekly.js --dry-run   # build preview → public/weekly-preview.html
+node --env-file=.env src/weekly.js --test      # send a TEST-labeled weekly digest
+node --env-file=.env src/weekly.js             # send real weekly digest
+```
 
-## Requirements
-
-Node 18+ (uses built-in `fetch`). No npm dependencies.
-
-## Operations — daily run
-
-The daily feed pipeline runs on a VPS (`157.230.237.104`) via Linux cron, not GitHub Actions. GitHub Actions scheduled runs were unreliable (4–7 hour delays); Linux cron fires within seconds of schedule.
-
-### Schedule
-
-    0 23 * * * /root/jobfeed/run-daily.sh >> /var/log/jobfeed.log 2>&1
-
-`23:00 UTC` = 19:00 EDT during DST (March–November). When DST ends, change to `0 0 * * *` (00:00 UTC = 19:00 EST).
-
-### Pipeline
-
-`/root/jobfeed/run-daily.sh` does:
-
-1. `git pull --rebase origin main`
-2. `node --env-file=.env src/index.js` (fetches → parses → scores → diffs → emails → writes data/state.json + public/feed.json)
-3. `git add data/ public/feed.json && git commit -m "feed: $(date -u +%Y-%m-%d) (vps)" && git push origin main` (only if there are changes)
-
-The VPS authenticates to GitHub via a deploy key (`/root/.ssh/id_jobfeed`) registered as a write-enabled deploy key on the repo. Commits are authored by `Jobfeed VPS <vps@alexfishburn.io>`.
-
-### GitHub Actions state
-
-- `daily.yml` and `daily-fallback.yml` are **disabled** (not deleted) — VPS replaces them. To revert, `gh workflow enable daily.yml`.
-- `canary.yml` remains **enabled** — runs at 00:30 UTC daily, alerts via Resend if no `feed: …` commit landed within 30 hours. Works with both legacy and `(vps)`-suffix commit messages (matches `^feed:`).
-
-### Monitoring
-
-- VPS-side: `/root/jobfeed-monitor.sh` runs at 02:00 UTC daily. Checks `/var/log/jobfeed.log` for today's run; sends a Resend alert if missed.
-- GitHub-side: `canary.yml` (above) — independent backup alert.
-
-### Debugging
+## Debugging
 
     ssh root@157.230.237.104
-    tail -200 /var/log/jobfeed.log     # see recent runs
-    crontab -l                          # confirm cron is scheduled
-    /root/jobfeed/run-daily.sh          # manual run
+    crontab -l                                 # confirm schedule
+    tail -200 /var/log/jobfeed-daily.log       # daily runs
+    tail -200 /var/log/jobfeed-weekly.log      # weekly sends
+    ls /var/lib/jobfeed/                       # per-day lock files
+    /root/jobfeed/scripts/daily-run.sh         # force a daily run (ignores ET-hour guard only if hour matches)
