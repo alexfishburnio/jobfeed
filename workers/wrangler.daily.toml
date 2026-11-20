@@ -1,0 +1,30 @@
+name = "jobfeed-daily"
+main = "src/daily.worker.js"
+compatibility_date = "2026-11-20"
+compatibility_flags = ["nodejs_compat"]
+
+# Cron fires three times (10/11/12 UTC) so the ET-hour guard in the handler
+# always has a 06:00 ET opportunity regardless of DST state. The guard
+# silently skips invocations whose current ET hour != TARGET_ET_HOUR.
+[triggers]
+crons = ["0 10 * * *", "0 11 * * *", "0 12 * * *"]
+
+[vars]
+TARGET_ET_HOUR = "6"
+
+# KV namespace — bind as `KV`. Create with:
+#   wrangler kv namespace create jobfeed_kv
+# Then paste the returned id into `id = ...`.
+[[kv_namespaces]]
+binding = "KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+# R2 bucket — bind as `R2`. Create with:
+#   wrangler r2 bucket create jobfeed
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "jobfeed"
+
+# Observability — standard Workers logs; viewable via `wrangler tail`.
+[observability.logs]
+enabled = true

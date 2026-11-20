@@ -1,0 +1,17 @@
+{
+  "name": "jobfeed-workers",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers for jobfeed — daily fetch + weekly digest.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev:daily":    "wrangler dev --config wrangler.daily.toml",
+    "dev:weekly":   "wrangler dev --config wrangler.weekly.toml",
+    "deploy:daily":  "wrangler deploy --config wrangler.daily.toml",
+    "deploy:weekly": "wrangler deploy --config wrangler.weekly.toml",
+    "test:local":   "node --test test/local.test.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.166.0"
+  }
+}

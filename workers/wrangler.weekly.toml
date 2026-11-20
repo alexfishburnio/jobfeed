@@ -1,0 +1,24 @@
+name = "jobfeed-weekly"
+main = "src/weekly.worker.js"
+compatibility_date = "2026-11-20"
+compatibility_flags = ["nodejs_compat"]
+
+# Monday-only crons spanning EST→EDT; handler guards on ET dow==1 && hour==9.
+[triggers]
+crons = ["0 13 * * 1", "0 14 * * 1", "0 15 * * 1"]
+
+[vars]
+TARGET_ET_HOUR = "9"
+TARGET_ET_DOW  = "1"
+
+# Binds the same KV + R2 as the daily worker.
+[[kv_namespaces]]
+binding = "KV"
+id = "REPLACE_WITH_KV_NAMESPACE_ID"
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "jobfeed"
+
+[observability.logs]
+enabled = true
