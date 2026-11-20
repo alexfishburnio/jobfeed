@@ -7,6 +7,7 @@ const path = require('node:path');
 
 const { dedupePostings } = require('./dedupe');
 const { evaluateAlerts } = require('./health');
+const { freshnessCheck } = require('./freshness');
 const {
   sortPostings, pickTopForBody,
   tierBreakdownHtml, tierPillHtml,
@@ -161,11 +162,14 @@ function countsByTier(postings) {
   return counts;
 }
 
-function buildInfrastructureHtml({ coverage, slugIssues, config }) {
+function buildInfrastructureHtml({ coverage, slugIssues, recoveries, persistent, freshnessFetchFailures, config }) {
   const total = coverage.success.length + coverage.missing.length + coverage.failed.length;
   const allClean = coverage.missing.length === 0
                    && coverage.failed.length === 0
-                   && slugIssues.count === 0;
+                   && slugIssues.count === 0
+                   && (!recoveries || recoveries.length === 0)
+                   && (!persistent || persistent.length === 0)
+                   && (!freshnessFetchFailures || freshnessFetchFailures.length === 0);
 
   const header = `<h2 style="font-size:14px;margin:32px 0 8px;color:#5f6368;letter-spacing:0.04em;text-transform:uppercase;">Infrastructure</h2>`;
 
@@ -184,9 +188,21 @@ function buildInfrastructureHtml({ coverage, slugIssues, config }) {
     const li = coverage.failed.map(f => `<li>${escapeHtml(formatShortDate(f.date))} — ${escapeHtml(f.reason)}</li>`).join('');
     bits.push(`<div style="font-size:13px;color:#202124;margin-top:8px;">Failed days:</div><ul style="font-size:13px;color:#5f6368;margin:4px 0 0 20px;padding:0;">${li}</ul>`);
   }
+  if (recoveries && recoveries.length) {
+    const li = recoveries.map(r => `<li><strong>${escapeHtml(r.company)}</strong>: slug <code>${escapeHtml(r.old_ats)}:${escapeHtml(r.old_slug)}</code> → <code>${escapeHtml(r.new_ats)}:${escapeHtml(r.new_slug)}</code> (recovered ${escapeHtml(formatShortDate(r.date))})</li>`).join('');
+    bits.push(`<div style="font-size:13px;color:#202124;margin-top:8px;">${recoveries.length} auto-recover${recoveries.length === 1 ? 'y' : 'ies'} this week:</div><ul style="font-size:13px;color:#5f6368;margin:4px 0 0 20px;padding:0;">${li}</ul>`);
+  }
+  if (persistent && persistent.length) {
+    const li = persistent.map(p => `<li><strong>${escapeHtml(p.name)}</strong> (${escapeHtml(p.ats)}:${escapeHtml(p.slug)}) — ${escapeHtml(p.reason)}</li>`).join('');
+    bits.push(`<div style="font-size:13px;color:#202124;margin-top:8px;">${persistent.length} compan${persistent.length === 1 ? 'y' : 'ies'} with persistent failure, no auto-recovery found — manual investigation needed:</div><ul style="font-size:13px;color:#5f6368;margin:4px 0 0 20px;padding:0;">${li}</ul>`);
+  }
   if (slugIssues.count) {
     const li = slugIssues.companies.map(c => `<li><strong>${escapeHtml(c.name)}</strong> — ${escapeHtml(c.reason)}</li>`).join('');
     bits.push(`<div style="font-size:13px;color:#202124;margin-top:8px;">${slugIssues.count} compan${slugIssues.count === 1 ? 'y' : 'ies'} with slug issues:</div><ul style="font-size:13px;color:#5f6368;margin:4px 0 0 20px;padding:0;">${li}</ul>`);
+  }
+  if (freshnessFetchFailures && freshnessFetchFailures.length) {
+    const li = freshnessFetchFailures.map(f => `<li><strong>${escapeHtml(f.company.name)}</strong> (${escapeHtml(f.company.ats)}:${escapeHtml(f.company.slug)}) — freshness fetch failed (${escapeHtml(f.error)}); assumed roles still live</li>`).join('');
+    bits.push(`<div style="font-size:13px;color:#202124;margin-top:8px;">${freshnessFetchFailures.length} freshness-check fetch failure${freshnessFetchFailures.length === 1 ? '' : 's'}:</div><ul style="font-size:13px;color:#5f6368;margin:4px 0 0 20px;padding:0;">${li}</ul>`);
   }
 
   return header + bits.join('');
@@ -198,7 +214,15 @@ function buildSubject({ newKept, isTest }) {
   return isTest ? `TEST — weekly digest preview — ${base}` : base;
 }
 
-function buildHtml({ windowStart, windowEnd, newKept, coverage, slugIssues, config, feedUrl, isTest }) {
+function closedRow(p) {
+  const seen = p.first_seen_date ? formatShortDate(p.first_seen_date) : '';
+  return `
+    <div style="padding:6px 0;border-bottom:1px solid #f4f4f4;font-size:13px;color:#5f6368;">
+      <strong>${escapeHtml(p.company)}</strong> — ${escapeHtml(p.title)}${seen ? ` <span style="color:#9aa0a6;">· first seen ${escapeHtml(seen)}</span>` : ''}
+    </div>`;
+}
+
+function buildHtml({ windowStart, windowEnd, newKept, closedRoles, coverage, slugIssues, recoveries, persistent, freshnessFetchFailures, config, feedUrl, isTest }) {
   const sortedNew = sortPostings(newKept);
   const tpCfg = config.top_picks || {};
   const topMax = Number.isFinite(tpCfg.max_count) ? tpCfg.max_count : 5;
@@ -229,7 +253,11 @@ function buildHtml({ windowStart, windowEnd, newKept, coverage, slugIssues, conf
     ? `<h2 style="font-size:14px;margin:24px 0 8px;color:#5f6368;letter-spacing:0.04em;text-transform:uppercase;">Applied (${appliedRoles.length})</h2>${appliedRoles.map(p => postingRow(p, { muted: true })).join('')}`
     : '';
 
-  const infraSection = buildInfrastructureHtml({ coverage, slugIssues, config });
+  const closedSection = (closedRoles && closedRoles.length)
+    ? `<h2 style="font-size:14px;margin:24px 0 8px;color:#5f6368;letter-spacing:0.04em;text-transform:uppercase;">Closed this week (${closedRoles.length})</h2>${closedRoles.map(closedRow).join('')}`
+    : '';
+
+  const infraSection = buildInfrastructureHtml({ coverage, slugIssues, recoveries, persistent, freshnessFetchFailures, config });
 
   const testBanner = isTest
     ? `<div style="background:#fff3cd;color:#664d03;padding:12px 16px;border-radius:6px;margin-bottom:16px;font-size:13px;">TEST SEND — this is a preview of the weekly digest. Real weekly digests arrive every Monday 09:00 ET.</div>`
@@ -245,6 +273,7 @@ function buildHtml({ windowStart, windowEnd, newKept, coverage, slugIssues, conf
   ${topSection}
   ${allSection}
   ${appliedSection}
+  ${closedSection}
   ${infraSection}
   <div style="margin-top:24px;padding-top:14px;border-top:1px solid #ddd;color:#5f6368;font-size:12px;">
     <a href="${escapeHtml(feedUrl)}" style="color:#1a73e8;">Full feed</a>
@@ -252,7 +281,33 @@ function buildHtml({ windowStart, windowEnd, newKept, coverage, slugIssues, conf
 </div></body></html>`;
 }
 
-async function runWeekly({ dryRun = false, isTest = false } = {}) {
+// Extract this week's slug recoveries and persistent-failure entries from
+// data/health.json. The daily job writes { recovery, persistent } into each
+// company's entry when auto-recovery fires or exhausts.
+function collectWeekRecoveriesAndFailures(health, windowDates) {
+  const recoveries = [];
+  const persistent = [];
+  if (!health || !health.companies) return { recoveries, persistent };
+  const windowSet = new Set(windowDates);
+  for (const [name, entry] of Object.entries(health.companies)) {
+    // Recoveries: array of { date, old_ats, old_slug, new_ats, new_slug }.
+    for (const r of (entry.recoveries || [])) {
+      if (windowSet.has(r.date)) recoveries.push({ company: name, ...r });
+    }
+    // Persistent failures: companies currently failing with recovery already attempted.
+    if (entry.persistent_failure && windowSet.has(entry.persistent_failure.since)) {
+      persistent.push({
+        name,
+        ats: entry.persistent_failure.ats,
+        slug: entry.persistent_failure.slug,
+        reason: entry.persistent_failure.reason || `${entry.persistent_failure.http_status || 'fetch failure'} since ${entry.persistent_failure.since}; no auto-recovery variant found`,
+      });
+    }
+  }
+  return { recoveries, persistent };
+}
+
+async function runWeekly({ dryRun = false, isTest = false, skipFreshness = false } = {}) {
   const config = JSON.parse(fs.readFileSync(CONFIG_PATH, 'utf8'));
   const companies = JSON.parse(fs.readFileSync(COMPANIES_PATH, 'utf8'));
   const health = readJsonOrNull(HEALTH_PATH);
@@ -267,25 +322,48 @@ async function runWeekly({ dryRun = false, isTest = false } = {}) {
   const deduped = dedupePostings(aggregated);
   log(`deduped to ${deduped.length} rows`);
 
+  // Freshness: fetch each candidate company fresh; drop roles that are no
+  // longer live. Fetch failures fall back to "assumed alive".
+  let alive = deduped;
+  let closedRoles = [];
+  let freshnessFetchFailures = [];
+  if (!skipFreshness && deduped.length) {
+    try {
+      const f = await freshnessCheck(deduped, companies, { log });
+      alive = f.alive;
+      closedRoles = f.closed;
+      freshnessFetchFailures = f.fetchFailures;
+    } catch (err) {
+      log(`freshness check error: ${err.stack || err.message} — falling through with full pool`);
+    }
+  } else if (skipFreshness) {
+    log('freshness check skipped (--skip-freshness)');
+  }
+
   const coverage = daysCovered(DATA_DIR, windowDates);
   log(`coverage — success=${coverage.success.length} missing=${coverage.missing.length} failed=${coverage.failed.length}`);
 
   const slugIssues = slugHealthIssues(health, companies, windowDates, config);
-  log(`slug issues — ${slugIssues.count}`);
+  const { recoveries, persistent } = collectWeekRecoveriesAndFailures(health, windowDates);
+  log(`slug issues=${slugIssues.count} recoveries=${recoveries.length} persistent_failures=${persistent.length}`);
 
-  const subject = buildSubject({ newKept: deduped, isTest });
+  const subject = buildSubject({ newKept: alive, isTest });
   const html = buildHtml({
     windowStart: start,
     windowEnd: end,
-    newKept: deduped,
+    newKept: alive,
+    closedRoles,
     coverage,
     slugIssues,
+    recoveries,
+    persistent,
+    freshnessFetchFailures,
     config,
     feedUrl: config.feed_page_url,
     isTest,
   });
 
-  log(`preflight: new=${deduped.length} dry_run=${dryRun} test=${isTest}`);
+  log(`preflight: alive=${alive.length} closed=${closedRoles.length} dry_run=${dryRun} test=${isTest}`);
   log(`subject: ${subject}`);
 
   const result = await sendOrPreview({
@@ -301,7 +379,19 @@ async function runWeekly({ dryRun = false, isTest = false } = {}) {
     log(`sent — id=${result.id} from=${result.from} to=${result.to}`);
     log(`Subject: ${subject}`);
   }
-  return { subject, id: result.id, counts: { new: deduped.length, coverage, slugIssues: slugIssues.count } };
+  return {
+    subject,
+    id: result.id,
+    counts: {
+      alive: alive.length,
+      closed: closedRoles.length,
+      recoveries: recoveries.length,
+      persistent_failures: persistent.length,
+      freshness_fetch_failures: freshnessFetchFailures.length,
+      coverage,
+      slugIssues: slugIssues.count,
+    },
+  };
 }
 
 // Failure alert (the only "exception to one-email-per-week" allowed).
@@ -331,12 +421,13 @@ function parseArgs(argv) {
   return {
     dryRun: argv.includes('--dry-run'),
     test:   argv.includes('--test'),
+    skipFreshness: argv.includes('--skip-freshness'),
   };
 }
 
 if (require.main === module) {
   const args = parseArgs(process.argv);
-  runWeekly({ dryRun: args.dryRun, isTest: args.test })
+  runWeekly({ dryRun: args.dryRun, isTest: args.test, skipFreshness: args.skipFreshness })
     .then(r => {
       process.stdout.write(JSON.stringify({ ok: true, ...r }, null, 2) + '\n');
     })

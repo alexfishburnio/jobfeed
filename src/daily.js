@@ -11,6 +11,10 @@ const { scoreAll } = require('./scorer');
 const { diff, writeSnapshot, writeState } = require('./differ');
 const { buildFeed, writeFeed } = require('./exporter');
 const { loadHealth, update: updateHealth, writeHealth } = require('./health');
+const {
+  selectRecoveryCandidates, recoverCompany, updateCompaniesJson,
+  recordRecoveryOutcome, clearPersistentFailureOnSuccess,
+} = require('./slug-recovery');
 
 const ROOT = path.join(__dirname, '..');
 const CONFIG_PATH    = path.join(ROOT, 'config.json');
@@ -136,15 +140,65 @@ async function main() {
   writeFeed(PUBLIC_DIR, feed);
   log(`wrote public/feed.json (${feed.days.length} day(s))`);
 
-  // Slug-health tracking — appended per-day to data/health.json. The weekly
-  // digest's infrastructure section reads this file to surface issues.
+  // Slug-health tracking + auto-recovery. Order matters:
+  //   1. Snapshot the pre-run health so we can decide who's on a 2+ fail streak.
+  //   2. Update health with today's runResults — this increments
+  //      consecutive_failures counters.
+  //   3. From the (pre-run) state, select companies that just hit 2 consecutive
+  //      fails and don't already have a persistent_failure flag.
+  //   4. For each, try slug variants × ATS. On success, update companies.json.
+  //   5. Record recovery/persistent outcomes into the health entry.
+  //   6. Clear persistent_failure flags for any company that succeeded today.
+  //   7. Write health.json.
+  //
+  // Recovery changes to companies.json take effect on the NEXT daily run —
+  // today's data was already fetched with the old slug.
+  let recoveries = [];
   try {
-    const existing = loadHealth(HEALTH_PATH);
-    const updatedHealth = updateHealth(existing, runResults, date);
+    const preRunHealth = loadHealth(HEALTH_PATH);
+    const updatedHealth = updateHealth(preRunHealth, runResults, date);
+
+    const companiesByName = new Map(companies.map(c => [c.name, c]));
+    const candidates = selectRecoveryCandidates(runResults, companiesByName, preRunHealth);
+    if (candidates.length) {
+      log(`slug-recovery: ${candidates.length} candidate(s)`);
+      for (const company of candidates) {
+        try {
+          const outcome = await recoverCompany(company, { log });
+          outcome.old_ats = company.ats;
+          outcome.old_slug = company.slug;
+          outcome.last_http_status = (runResults.find(r => r.name === company.name) || {}).http_status || null;
+          if (outcome.recovered) {
+            updateCompaniesJson(COMPANIES_PATH, company.name, outcome.new_ats, outcome.new_slug);
+            log(`  slug updated in companies.json: ${company.name}: ${company.ats}:${company.slug} → ${outcome.new_ats}:${outcome.new_slug}`);
+            recoveries.push({
+              company: company.name,
+              old_ats: company.ats, old_slug: company.slug,
+              new_ats: outcome.new_ats, new_slug: outcome.new_slug,
+              jobs_found: outcome.jobs,
+            });
+          }
+          recordRecoveryOutcome(updatedHealth, company.name, outcome, date);
+        } catch (err) {
+          log(`  recovery error for ${company.name}: ${err.stack || err.message}`);
+        }
+      }
+    }
+
+    // Clear persistent-failure flags for any company that succeeded today.
+    for (const r of runResults) {
+      if (r.status === 'ok' || r.status === 'zero') {
+        clearPersistentFailureOnSuccess(updatedHealth, r.name);
+      }
+    }
+
     writeHealth(HEALTH_PATH, updatedHealth);
     log(`wrote ${path.relative(ROOT, HEALTH_PATH)}`);
+    if (recoveries.length) {
+      log(`slug-recovery: ${recoveries.length} companies auto-recovered this run`);
+    }
   } catch (err) {
-    log(`slug-health error: ${err.stack || err.message}`);
+    log(`slug-health/recovery error: ${err.stack || err.message}`);
   }
 
   process.stdout.write(JSON.stringify({
@@ -155,6 +209,7 @@ async function main() {
     closed: snapshot.counts.closed,
     excluded_new: snapshot.counts.excluded_new,
     fetch_failures: failures.length,
+    slug_recoveries: recoveries,
   }, null, 2) + '\n');
 }
 
