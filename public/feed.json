@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-20T18:09:47.846Z",
+  "generated_at": "2026-11-21T11:02:49.171Z",
   "days": [
     {
       "date": "2026-11-20",
       "counts": {
-        "active": 190,
-        "closed_today": 0,
+        "active": 188,
+        "closed_today": 2,
         "closed": 0,
         "excluded": 11
       },
@@ -1488,15 +1488,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:8198282",
+          "id": "greenhouse:instacart:8198284",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director of Product, Logistics",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1504,8 +1504,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-09-16T12:35:17-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8198282",
+          "posted_date": "2026-09-16T12:35:19-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8198284",
           "ads_score": 3,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1530,8 +1530,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8198282",
-            "greenhouse:instacart:8198284"
+            "greenhouse:instacart:8198284",
+            "greenhouse:instacart:8198282"
           ]
         },
         {
@@ -1583,15 +1583,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:8281407",
+          "id": "greenhouse:instacart:8281405",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Product Manager, Ad Formats",
-          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
+          "location_raw": "United States - Remote",
           "locations": [
-            "Canada - Remote (ON, AB, BC, or NS Only)",
-            "United States - Remote"
+            "United States - Remote",
+            "Canada - Remote (ON, AB, BC, or NS Only)"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1599,8 +1599,8 @@
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-10-14T10:18:57-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8281407",
+          "posted_date": "2026-10-14T10:18:55-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8281405",
           "ads_score": 3,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1625,8 +1625,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8281407",
-            "greenhouse:instacart:8281405"
+            "greenhouse:instacart:8281405",
+            "greenhouse:instacart:8281407"
           ]
         },
         {
@@ -1932,24 +1932,24 @@
           ]
         },
         {
-          "id": "greenhouse:lyft:8922068002",
+          "id": "greenhouse:lyft:8927146002",
           "company": "Lyft",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager I, Base Pricing",
-          "location_raw": "New York, NY",
+          "location_raw": "Toronto, Canada",
           "locations": [
-            "New York, NY",
-            "Toronto, Canada"
+            "Toronto, Canada",
+            "New York, NY"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "hybrid_2_3",
           "office_days": 3,
           "level": "principal_senior",
           "salary_min_base": 176000,
           "salary_max_base": 220000,
-          "posted_date": "2026-10-28T12:00:54-04:00",
-          "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8922068002?gh_jid=8922068002",
+          "posted_date": "2026-11-03T12:55:36-05:00",
+          "apply_url": "https://app.careerpuck.com/job-board/lyft/job/8927146002?gh_jid=8927146002",
           "ads_score": 3,
           "consumer_score": 1,
           "ads_keywords": [
@@ -1974,8 +1974,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:lyft:8922068002",
-            "greenhouse:lyft:8927146002"
+            "greenhouse:lyft:8927146002",
+            "greenhouse:lyft:8922068002"
           ]
         },
         {
@@ -2558,45 +2558,6 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:8327254",
-          "company": "Stripe",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Product Manager, Terminal Payments",
-          "location_raw": "Toronto, Canada",
-          "locations": [
-            "Toronto, Canada"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-10-30T16:12:57-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8327254",
-          "ads_score": 1,
-          "consumer_score": 1,
-          "ads_keywords": [
-            "platform"
-          ],
-          "consumer_keywords": [
-            "user"
-          ],
-          "base_fit": 1,
-          "fit_score": 1,
-          "realism_score": 1,
-          "priority_score": 1,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-11-20",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:stripe:8327254"
-          ]
-        },
-        {
           "id": "greenhouse:stripe:8315943",
           "company": "Stripe",
           "tier": 2,
@@ -2637,15 +2598,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:8273741",
+          "id": "greenhouse:stripe:8264005",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Staff Product Manager, Risk",
-          "location_raw": "London",
+          "location_raw": "Dublin",
           "locations": [
-            "London",
-            "Dublin"
+            "Dublin",
+            "London"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -2653,8 +2614,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-10-12T07:48:19-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8273741",
+          "posted_date": "2026-10-12T07:43:09-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8264005",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -2677,8 +2638,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:8273741",
-            "greenhouse:stripe:8264005"
+            "greenhouse:stripe:8264005",
+            "greenhouse:stripe:8273741"
           ]
         },
         {
@@ -4354,15 +4315,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:8041930003",
+          "id": "greenhouse:affirm:8041932003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Group Product Manager - Zero to One Labs",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4370,8 +4331,8 @@
           "level": "senior_director",
           "salary_min_base": 209000,
           "salary_max_base": 325000,
-          "posted_date": "2026-10-23T15:31:01-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8041930003",
+          "posted_date": "2026-10-23T15:31:18-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8041932003",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -4397,8 +4358,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:8041930003",
-            "greenhouse:affirm:8041932003"
+            "greenhouse:affirm:8041932003",
+            "greenhouse:affirm:8041930003"
           ]
         },
         {
@@ -5192,50 +5153,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:roblox:8364312"
-          ]
-        },
-        {
-          "id": "greenhouse:roblox:8219433",
-          "company": "Roblox",
-          "tier": 2,
-          "ats": "greenhouse",
-          "title": "Principal Product Manager, Subscriptions and Revenue Growth",
-          "location_raw": "San Mateo, CA, United States",
-          "locations": [
-            "San Mateo, CA, United States"
-          ],
-          "metro": "other",
-          "mode": "fully_onsite",
-          "office_days": null,
-          "level": "principal_senior",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-09-23T17:27:51-04:00",
-          "apply_url": "https://careers.roblox.com/jobs/8219433?gh_jid=8219433",
-          "ads_score": 3,
-          "consumer_score": 4,
-          "ads_keywords": [
-            "demand",
-            "platform",
-            "marketplace"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "retention",
-            "lifecycle"
-          ],
-          "base_fit": 4,
-          "fit_score": 4,
-          "realism_score": 1,
-          "priority_score": 4,
-          "recommended_resume": "general",
-          "first_seen_date": "2026-11-20",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:roblox:8219433"
           ]
         },
         {
@@ -7310,27 +7227,27 @@
           ]
         },
         {
-          "id": "greenhouse:braze:8194300",
+          "id": "greenhouse:braze:8209242",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Lead Product Manager, Banners & Content Cards",
-          "location_raw": "Toronto",
+          "location_raw": "San Francisco",
           "locations": [
-            "Toronto",
             "San Francisco",
-            "Chicago",
+            "New York City",
+            "Toronto",
             "Austin",
-            "New York City"
+            "Chicago"
           ],
-          "metro": "other",
+          "metro": "sf",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-09-16T15:38:23-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8194300",
+          "posted_date": "2026-09-16T15:38:28-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8209242",
           "ads_score": 1,
           "consumer_score": 4,
           "ads_keywords": [
@@ -7357,11 +7274,11 @@
           ],
           "grouped_count": 5,
           "grouped_ids": [
-            "greenhouse:braze:8194300",
             "greenhouse:braze:8209242",
-            "greenhouse:braze:8209240",
+            "greenhouse:braze:8193400",
+            "greenhouse:braze:8194300",
             "greenhouse:braze:8209238",
-            "greenhouse:braze:8193400"
+            "greenhouse:braze:8209240"
           ]
         },
         {
@@ -8123,6 +8040,89 @@
           "grouped_ids": [
             "greenhouse:janestreet:8577205002"
           ]
+        },
+        {
+          "id": "greenhouse:stripe:8327254",
+          "company": "Stripe",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager, Terminal Payments",
+          "location_raw": "Toronto, Canada",
+          "locations": [
+            "Toronto, Canada"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-10-30T16:12:57-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8327254",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-11-20",
+          "status": "closed_today",
+          "closed_date": "2026-11-21",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:stripe:8327254"
+          ]
+        },
+        {
+          "id": "greenhouse:roblox:8219433",
+          "company": "Roblox",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Principal Product Manager, Subscriptions and Revenue Growth",
+          "location_raw": "San Mateo, CA, United States",
+          "locations": [
+            "San Mateo, CA, United States"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-09-23T17:27:51-04:00",
+          "apply_url": "https://careers.roblox.com/jobs/8219433?gh_jid=8219433",
+          "ads_score": 3,
+          "consumer_score": 4,
+          "ads_keywords": [
+            "demand",
+            "platform",
+            "marketplace"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "retention",
+            "lifecycle"
+          ],
+          "base_fit": 4,
+          "fit_score": 4,
+          "realism_score": 1,
+          "priority_score": 4,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-11-20",
+          "status": "closed_today",
+          "closed_date": "2026-11-21",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:roblox:8219433"
+          ]
         }
       ],
       "excluded": [
@@ -8585,6 +8585,193 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-21",
+      "counts": {
+        "active": 4,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:anthropic:5389305008",
+          "company": "Anthropic",
+          "tier": 1,
+          "ats": "greenhouse",
+          "title": "Senior Product Engineer, Education",
+          "location_raw": "San Francisco, CA",
+          "locations": [
+            "San Francisco, CA"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-08-13T13:54:58-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5389305008",
+          "ads_score": 1,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "retention",
+            "activation",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-11-21",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:anthropic:5389305008"
+          ]
+        },
+        {
+          "id": "greenhouse:reddit:8407162",
+          "company": "Reddit",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Staff Product Manager, Agentic Ads Buying",
+          "location_raw": "Remote - United States",
+          "locations": [
+            "Remote - United States"
+          ],
+          "metro": "remote",
+          "mode": "fully_remote",
+          "office_days": null,
+          "level": "principal_senior",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-11-20T15:48:08-05:00",
+          "apply_url": "https://job-boards.greenhouse.io/reddit/jobs/8407162",
+          "ads_score": 2,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "advertiser",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "retention",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-11-21",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "remote"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "greenhouse:reddit:8407162",
+            "greenhouse:reddit:8400056"
+          ]
+        },
+        {
+          "id": "greenhouse:stripe:8406995",
+          "company": "Stripe",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager, Payment Methods, EMEA",
+          "location_raw": "Dublin",
+          "locations": [
+            "Dublin",
+            "London"
+          ],
+          "metro": "other",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-11-20T14:53:56-05:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8406995",
+          "ads_score": 1,
+          "consumer_score": 2,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "user"
+          ],
+          "base_fit": 2,
+          "fit_score": 2,
+          "realism_score": 1,
+          "priority_score": 2,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-11-21",
+          "status": "active",
+          "closed_date": null,
+          "metros": [
+            "other"
+          ],
+          "grouped_count": 2,
+          "grouped_ids": [
+            "greenhouse:stripe:8406995",
+            "greenhouse:stripe:8384780"
+          ]
+        },
+        {
+          "id": "greenhouse:figma:6266479004",
+          "company": "Figma",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Manager, Billing",
+          "location_raw": "San Francisco, CA • New York, NY • United States",
+          "locations": [
+            "San Francisco, CA • New York, NY • United States"
+          ],
+          "metro": "sf",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-11-20T17:57:55-05:00",
+          "apply_url": "https://boards.greenhouse.io/figma/jobs/6266479004?gh_jid=6266479004",
+          "ads_score": 3,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "monetization",
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "growth",
+            "onboarding",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "ads",
+          "first_seen_date": "2026-11-21",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:figma:6266479004"
+          ]
+        }
+      ],
+      "excluded": []
     }
   ]
 }
