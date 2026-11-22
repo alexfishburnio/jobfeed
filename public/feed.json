@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-21T11:02:49.171Z",
+  "generated_at": "2026-11-22T11:02:39.054Z",
   "days": [
     {
       "date": "2026-11-20",
       "counts": {
         "active": 188,
-        "closed_today": 2,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 2,
         "excluded": 11
       },
       "postings": [
@@ -6610,24 +6610,24 @@
           ]
         },
         {
-          "id": "greenhouse:databricks:8811265002",
+          "id": "greenhouse:databricks:8876675002",
           "company": "Databricks",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, Lakebase/Lakehouse",
-          "location_raw": "San Francisco, California",
+          "location_raw": "Seattle, Washington",
           "locations": [
-            "San Francisco, California",
-            "Seattle, Washington"
+            "Seattle, Washington",
+            "San Francisco, California"
           ],
-          "metro": "sf",
+          "metro": "dc",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-10-07T15:09:26-04:00",
-          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8811265002",
+          "posted_date": "2026-10-07T15:09:28-04:00",
+          "apply_url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8876675002",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -6651,8 +6651,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:databricks:8811265002",
-            "greenhouse:databricks:8876675002"
+            "greenhouse:databricks:8876675002",
+            "greenhouse:databricks:8811265002"
           ]
         },
         {
@@ -8073,7 +8073,7 @@
           "priority_score": 1,
           "recommended_resume": "general",
           "first_seen_date": "2026-11-20",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-11-21",
           "grouped_count": 1,
           "grouped_ids": [
@@ -8117,7 +8117,7 @@
           "priority_score": 4,
           "recommended_resume": "general",
           "first_seen_date": "2026-11-20",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-11-21",
           "grouped_count": 1,
           "grouped_ids": [
@@ -8683,15 +8683,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:8406995",
+          "id": "greenhouse:stripe:8384780",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Product Manager, Payment Methods, EMEA",
-          "location_raw": "Dublin",
+          "location_raw": "London",
           "locations": [
-            "Dublin",
-            "London"
+            "London",
+            "Dublin"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -8699,8 +8699,8 @@
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-11-20T14:53:56-05:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8406995",
+          "posted_date": "2026-11-20T14:52:23-05:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8384780",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -8723,8 +8723,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:8406995",
-            "greenhouse:stripe:8384780"
+            "greenhouse:stripe:8384780",
+            "greenhouse:stripe:8406995"
           ]
         },
         {
