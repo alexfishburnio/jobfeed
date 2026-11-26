@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-25T11:02:49.924Z",
+  "generated_at": "2026-11-26T11:03:09.058Z",
   "days": [
     {
       "date": "2026-11-20",
       "counts": {
-        "active": 182,
-        "closed_today": 2,
-        "closed": 6,
+        "active": 181,
+        "closed_today": 1,
+        "closed": 8,
         "excluded": 11
       },
       "postings": [
@@ -208,49 +208,6 @@
           "grouped_count": 1,
           "grouped_ids": [
             "greenhouse:anthropic:5477601008"
-          ]
-        },
-        {
-          "id": "greenhouse:anthropic:5415822008",
-          "company": "Anthropic",
-          "tier": 1,
-          "ats": "greenhouse",
-          "title": "Product Manager (Technical), Product Support Experience",
-          "location_raw": "San Francisco, CA | New York City, NY",
-          "locations": [
-            "San Francisco, CA",
-            "New York City, NY"
-          ],
-          "metro": "sf",
-          "mode": "hybrid_2_3",
-          "office_days": null,
-          "level": "mid_level",
-          "salary_min_base": null,
-          "salary_max_base": null,
-          "posted_date": "2026-10-21T19:16:00-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5415822008",
-          "ads_score": 2,
-          "consumer_score": 3,
-          "ads_keywords": [
-            "demand",
-            "platform"
-          ],
-          "consumer_keywords": [
-            "consumer",
-            "growth",
-            "user"
-          ],
-          "base_fit": 3,
-          "fit_score": 3,
-          "realism_score": 1,
-          "priority_score": 3,
-          "recommended_resume": "aipm",
-          "first_seen_date": "2026-11-20",
-          "status": "active",
-          "closed_date": null,
-          "grouped_count": 1,
-          "grouped_ids": [
-            "greenhouse:anthropic:5415822008"
           ]
         },
         {
@@ -1400,15 +1357,15 @@
           ]
         },
         {
-          "id": "greenhouse:instacart:8198282",
+          "id": "greenhouse:instacart:8198284",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Director of Product, Logistics",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1416,8 +1373,8 @@
           "level": "director",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-09-16T12:35:17-04:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8198282",
+          "posted_date": "2026-09-16T12:35:19-04:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8198284",
           "ads_score": 3,
           "consumer_score": 2,
           "ads_keywords": [
@@ -1442,20 +1399,20 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8198282",
-            "greenhouse:instacart:8198284"
+            "greenhouse:instacart:8198284",
+            "greenhouse:instacart:8198282"
           ]
         },
         {
-          "id": "greenhouse:instacart:8356128",
+          "id": "greenhouse:instacart:8356130",
           "company": "Instacart",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Principal Product Manager, Ads Quality",
-          "location_raw": "United States - Remote",
+          "location_raw": "Canada - Remote (ON, AB, BC, or NS Only)",
           "locations": [
-            "United States - Remote",
-            "Canada - Remote (ON, AB, BC, or NS Only)"
+            "Canada - Remote (ON, AB, BC, or NS Only)",
+            "United States - Remote"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -1463,8 +1420,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-11-05T13:59:08-05:00",
-          "apply_url": "https://instacart.careers/job/?gh_jid=8356128",
+          "posted_date": "2026-11-05T13:59:09-05:00",
+          "apply_url": "https://instacart.careers/job/?gh_jid=8356130",
           "ads_score": 3,
           "consumer_score": 3,
           "ads_keywords": [
@@ -1490,8 +1447,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:instacart:8356128",
-            "greenhouse:instacart:8356130"
+            "greenhouse:instacart:8356130",
+            "greenhouse:instacart:8356128"
           ]
         },
         {
@@ -3014,16 +2971,16 @@
           ]
         },
         {
-          "id": "greenhouse:roku:8329310",
+          "id": "greenhouse:roku:8328674",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Brand Outcomes, Video and Native Advertising",
-          "location_raw": "Boston, Massachusetts",
+          "location_raw": "San Jose, California",
           "locations": [
+            "San Jose, California",
             "Boston, Massachusetts",
             "New York, New York",
-            "San Jose, California",
             "Santa Monica, California"
           ],
           "metro": "other",
@@ -3032,8 +2989,8 @@
           "level": "principal_senior",
           "salary_min_base": 119100,
           "salary_max_base": 307600,
-          "posted_date": "2026-10-28T12:54:36-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8329310?gh_jid=8329310",
+          "posted_date": "2026-10-28T12:54:33-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8328674?gh_jid=8328674",
           "ads_score": 5,
           "consumer_score": 2,
           "ads_keywords": [
@@ -3063,9 +3020,9 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
+            "greenhouse:roku:8328674",
             "greenhouse:roku:8329310",
             "greenhouse:roku:8329327",
-            "greenhouse:roku:8328674",
             "greenhouse:roku:8329342"
           ]
         },
@@ -3120,24 +3077,24 @@
           ]
         },
         {
-          "id": "greenhouse:roku:8325014",
+          "id": "greenhouse:roku:8263080",
           "company": "Roku",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Creative and Generative AI",
-          "location_raw": "San Jose, California",
+          "location_raw": "New York, New York",
           "locations": [
-            "San Jose, California",
-            "New York, New York"
+            "New York, New York",
+            "San Jose, California"
           ],
-          "metro": "other",
+          "metro": "nyc",
           "mode": "hybrid_4_plus",
           "office_days": 4,
           "level": "principal_senior",
           "salary_min_base": 119100,
           "salary_max_base": 307600,
-          "posted_date": "2026-10-26T16:24:07-04:00",
-          "apply_url": "https://www.weareroku.com/jobs/8325014?gh_jid=8325014",
+          "posted_date": "2026-10-07T17:13:54-04:00",
+          "apply_url": "https://www.weareroku.com/jobs/8263080?gh_jid=8263080",
           "ads_score": 3,
           "consumer_score": 3,
           "ads_keywords": [
@@ -3164,8 +3121,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:roku:8325014",
-            "greenhouse:roku:8263080"
+            "greenhouse:roku:8263080",
+            "greenhouse:roku:8325014"
           ]
         },
         {
@@ -4190,15 +4147,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:8041932003",
+          "id": "greenhouse:affirm:8041930003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Group Product Manager - Zero to One Labs",
-          "location_raw": "Remote Canada",
+          "location_raw": "Remote US",
           "locations": [
-            "Remote Canada",
-            "Remote US"
+            "Remote US",
+            "Remote Canada"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4206,8 +4163,8 @@
           "level": "senior_director",
           "salary_min_base": 209000,
           "salary_max_base": 325000,
-          "posted_date": "2026-10-23T15:31:18-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8041932003",
+          "posted_date": "2026-10-23T15:31:01-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8041930003",
           "ads_score": 1,
           "consumer_score": 5,
           "ads_keywords": [
@@ -4233,8 +4190,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:8041932003",
-            "greenhouse:affirm:8041930003"
+            "greenhouse:affirm:8041930003",
+            "greenhouse:affirm:8041932003"
           ]
         },
         {
@@ -4410,15 +4367,15 @@
           ]
         },
         {
-          "id": "greenhouse:affirm:8011038003",
+          "id": "greenhouse:affirm:8011040003",
           "company": "Affirm",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Staff Product Manager, Consumer Growth Loyalty",
-          "location_raw": "Remote US",
+          "location_raw": "Remote Canada",
           "locations": [
-            "Remote US",
-            "Remote Canada"
+            "Remote Canada",
+            "Remote US"
           ],
           "metro": "remote",
           "mode": "fully_remote",
@@ -4426,8 +4383,8 @@
           "level": "principal_senior",
           "salary_min_base": 181000,
           "salary_max_base": 290000,
-          "posted_date": "2026-10-05T19:24:29-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8011038003",
+          "posted_date": "2026-10-13T21:24:21-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/affirm/jobs/8011040003",
           "ads_score": 0,
           "consumer_score": 5,
           "ads_keywords": [],
@@ -4453,8 +4410,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:affirm:8011038003",
-            "greenhouse:affirm:8011040003"
+            "greenhouse:affirm:8011040003",
+            "greenhouse:affirm:8011038003"
           ]
         },
         {
@@ -5717,8 +5674,8 @@
           "location_raw": "San Francisco, CA",
           "locations": [
             "San Francisco, CA",
-            "Seattle, WA",
-            "Irvine, CA"
+            "Irvine, CA",
+            "Seattle, WA"
           ],
           "metro": "sf",
           "mode": "fully_onsite",
@@ -5758,20 +5715,20 @@
           "grouped_count": 3,
           "grouped_ids": [
             "greenhouse:twitch:8845526002",
-            "greenhouse:twitch:8846375002",
-            "greenhouse:twitch:8846380002"
+            "greenhouse:twitch:8846380002",
+            "greenhouse:twitch:8846375002"
           ]
         },
         {
-          "id": "greenhouse:twitch:8843933002",
+          "id": "greenhouse:twitch:8843932002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Senior Product Manager, Commerce",
-          "location_raw": "Irvine, CA",
+          "location_raw": "Seattle, WA",
           "locations": [
-            "Irvine, CA",
-            "Seattle, WA"
+            "Seattle, WA",
+            "Irvine, CA"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -5779,8 +5736,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-09-25T11:30:43-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8843933002",
+          "posted_date": "2026-09-25T11:30:42-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8843932002",
           "ads_score": 2,
           "consumer_score": 5,
           "ads_keywords": [
@@ -5807,31 +5764,31 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:twitch:8843933002",
-            "greenhouse:twitch:8843932002"
+            "greenhouse:twitch:8843932002",
+            "greenhouse:twitch:8843933002"
           ]
         },
         {
-          "id": "greenhouse:twitch:8903142002",
+          "id": "greenhouse:twitch:8903136002",
           "company": "Twitch",
           "tier": 2.5,
           "ats": "greenhouse",
           "title": "Sr. Product Manager, Premium Content Experience",
-          "location_raw": "New York City",
+          "location_raw": "Seattle, WA",
           "locations": [
-            "New York City",
             "Seattle, WA",
             "Los Angeles, CA",
+            "New York City",
             "San Francisco, CA"
           ],
-          "metro": "nyc",
+          "metro": "other",
           "mode": "fully_onsite",
           "office_days": null,
           "level": "mid_level",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-10-20T13:16:27-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8903142002",
+          "posted_date": "2026-10-20T13:16:25-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/twitch/jobs/8903136002",
           "ads_score": 2,
           "consumer_score": 0,
           "ads_keywords": [
@@ -5855,9 +5812,9 @@
           ],
           "grouped_count": 4,
           "grouped_ids": [
-            "greenhouse:twitch:8903142002",
             "greenhouse:twitch:8903136002",
             "greenhouse:twitch:8903135002",
+            "greenhouse:twitch:8903142002",
             "greenhouse:twitch:8903099002"
           ]
         },
@@ -7016,27 +6973,27 @@
           ]
         },
         {
-          "id": "greenhouse:braze:8209242",
+          "id": "greenhouse:braze:8209238",
           "company": "Braze",
           "tier": 3,
           "ats": "greenhouse",
           "title": "Lead Product Manager, Banners & Content Cards",
-          "location_raw": "San Francisco",
+          "location_raw": "Austin",
           "locations": [
-            "San Francisco",
-            "Chicago",
             "Austin",
-            "Toronto",
-            "New York City"
+            "Chicago",
+            "San Francisco",
+            "New York City",
+            "Toronto"
           ],
-          "metro": "sf",
+          "metro": "other",
           "mode": "hybrid_2_3",
           "office_days": null,
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-09-16T15:38:28-04:00",
-          "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8209242",
+          "posted_date": "2026-09-16T15:38:24-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/braze/jobs/8209238",
           "ads_score": 1,
           "consumer_score": 4,
           "ads_keywords": [
@@ -7063,11 +7020,11 @@
           ],
           "grouped_count": 5,
           "grouped_ids": [
-            "greenhouse:braze:8209242",
-            "greenhouse:braze:8209240",
             "greenhouse:braze:8209238",
-            "greenhouse:braze:8194300",
-            "greenhouse:braze:8193400"
+            "greenhouse:braze:8209240",
+            "greenhouse:braze:8209242",
+            "greenhouse:braze:8193400",
+            "greenhouse:braze:8194300"
           ]
         },
         {
@@ -7784,6 +7741,49 @@
           ]
         },
         {
+          "id": "greenhouse:anthropic:5415822008",
+          "company": "Anthropic",
+          "tier": 1,
+          "ats": "greenhouse",
+          "title": "Product Manager (Technical), Product Support Experience",
+          "location_raw": "San Francisco, CA | New York City, NY",
+          "locations": [
+            "San Francisco, CA",
+            "New York City, NY"
+          ],
+          "metro": "sf",
+          "mode": "hybrid_2_3",
+          "office_days": null,
+          "level": "mid_level",
+          "salary_min_base": null,
+          "salary_max_base": null,
+          "posted_date": "2026-10-21T19:16:00-04:00",
+          "apply_url": "https://job-boards.greenhouse.io/anthropic/jobs/5415822008",
+          "ads_score": 2,
+          "consumer_score": 3,
+          "ads_keywords": [
+            "demand",
+            "platform"
+          ],
+          "consumer_keywords": [
+            "consumer",
+            "growth",
+            "user"
+          ],
+          "base_fit": 3,
+          "fit_score": 3,
+          "realism_score": 1,
+          "priority_score": 3,
+          "recommended_resume": "aipm",
+          "first_seen_date": "2026-11-20",
+          "status": "closed_today",
+          "closed_date": "2026-11-26",
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:anthropic:5415822008"
+          ]
+        },
+        {
           "id": "greenhouse:stripe:8190038",
           "company": "Stripe",
           "tier": 2,
@@ -7816,7 +7816,7 @@
           "priority_score": 2,
           "recommended_resume": "general",
           "first_seen_date": "2026-11-20",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-11-25",
           "grouped_count": 1,
           "grouped_ids": [
@@ -7856,7 +7856,7 @@
           "priority_score": 2,
           "recommended_resume": "general",
           "first_seen_date": "2026-11-20",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-11-25",
           "grouped_count": 1,
           "grouped_ids": [
@@ -8780,8 +8780,8 @@
       "date": "2026-11-24",
       "counts": {
         "active": 7,
-        "closed_today": 1,
-        "closed": 0,
+        "closed_today": 0,
+        "closed": 1,
         "excluded": 0
       },
       "postings": [
@@ -9114,7 +9114,7 @@
           "priority_score": 2,
           "recommended_resume": "aipm",
           "first_seen_date": "2026-11-24",
-          "status": "closed_today",
+          "status": "closed",
           "closed_date": "2026-11-25",
           "grouped_count": 1,
           "grouped_ids": [
@@ -9178,7 +9178,7 @@
           "company": "Coinbase",
           "tier": 2,
           "ats": "greenhouse",
-          "title": "Product Manager II",
+          "title": "Product Manager II, Prime Onchain",
           "location_raw": "Remote - USA",
           "locations": [
             "Remote - USA"
@@ -9215,7 +9215,7 @@
           "company": "Coinbase",
           "tier": 2,
           "ats": "greenhouse",
-          "title": "Senior Product Manager",
+          "title": "Senior Product Manager, Workforce Management ",
           "location_raw": "Remote - USA",
           "locations": [
             "Remote - USA"
