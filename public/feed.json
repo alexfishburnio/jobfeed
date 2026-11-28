@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T11:02:41.178Z",
+  "generated_at": "2026-11-28T11:02:42.917Z",
   "days": [
     {
       "date": "2026-11-20",
@@ -2467,15 +2467,15 @@
           ]
         },
         {
-          "id": "greenhouse:stripe:8264005",
+          "id": "greenhouse:stripe:8273741",
           "company": "Stripe",
           "tier": 2,
           "ats": "greenhouse",
           "title": "Senior Staff Product Manager, Risk",
-          "location_raw": "Dublin",
+          "location_raw": "London",
           "locations": [
-            "Dublin",
-            "London"
+            "London",
+            "Dublin"
           ],
           "metro": "other",
           "mode": "fully_onsite",
@@ -2483,8 +2483,8 @@
           "level": "principal_senior",
           "salary_min_base": null,
           "salary_max_base": null,
-          "posted_date": "2026-10-12T07:43:09-04:00",
-          "apply_url": "https://stripe.com/jobs/search?gh_jid=8264005",
+          "posted_date": "2026-10-12T07:48:19-04:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8273741",
           "ads_score": 1,
           "consumer_score": 2,
           "ads_keywords": [
@@ -2507,8 +2507,8 @@
           ],
           "grouped_count": 2,
           "grouped_ids": [
-            "greenhouse:stripe:8264005",
-            "greenhouse:stripe:8273741"
+            "greenhouse:stripe:8273741",
+            "greenhouse:stripe:8264005"
           ]
         },
         {
@@ -6981,10 +6981,10 @@
           "location_raw": "Chicago",
           "locations": [
             "Chicago",
-            "San Francisco",
-            "Austin",
             "Toronto",
-            "New York City"
+            "San Francisco",
+            "New York City",
+            "Austin"
           ],
           "metro": "other",
           "mode": "hybrid_2_3",
@@ -7021,10 +7021,10 @@
           "grouped_count": 5,
           "grouped_ids": [
             "greenhouse:braze:8209240",
-            "greenhouse:braze:8209242",
-            "greenhouse:braze:8209238",
             "greenhouse:braze:8194300",
-            "greenhouse:braze:8193400"
+            "greenhouse:braze:8209242",
+            "greenhouse:braze:8193400",
+            "greenhouse:braze:8209238"
           ]
         },
         {
@@ -9289,6 +9289,57 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-11-28",
+      "counts": {
+        "active": 1,
+        "closed_today": 0,
+        "closed": 0,
+        "excluded": 0
+      },
+      "postings": [
+        {
+          "id": "greenhouse:stripe:8421263",
+          "company": "Stripe",
+          "tier": 2,
+          "ats": "greenhouse",
+          "title": "Product Strategy & Operations, Crypto S&O",
+          "location_raw": "New York, NY",
+          "locations": [
+            "New York, NY"
+          ],
+          "metro": "nyc",
+          "mode": "fully_onsite",
+          "office_days": null,
+          "level": "unknown",
+          "salary_min_base": 161637,
+          "salary_max_base": 238700,
+          "posted_date": "2026-11-27T13:26:45-05:00",
+          "apply_url": "https://stripe.com/jobs/search?gh_jid=8421263",
+          "ads_score": 1,
+          "consumer_score": 1,
+          "ads_keywords": [
+            "platform"
+          ],
+          "consumer_keywords": [
+            "user"
+          ],
+          "base_fit": 1,
+          "fit_score": 1,
+          "realism_score": 1,
+          "priority_score": 1,
+          "recommended_resume": "general",
+          "first_seen_date": "2026-11-28",
+          "status": "active",
+          "closed_date": null,
+          "grouped_count": 1,
+          "grouped_ids": [
+            "greenhouse:stripe:8421263"
+          ]
+        }
+      ],
+      "excluded": []
     }
   ]
 }
